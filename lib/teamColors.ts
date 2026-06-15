@@ -69,3 +69,42 @@ export function resolveMatchColors(homeName: string, awayName: string): { home: 
 export function teamPrimary(name: string): string {
   return colorOf(name).primary[0];
 }
+
+const KO: Record<string, string> = {
+  France: "프랑스",
+  Senegal: "세네갈",
+  Uruguay: "우루과이",
+  Denmark: "덴마크",
+  Spain: "스페인",
+  Paraguay: "파라과이",
+  "South Africa": "남아프리카공화국",
+  Slovenia: "슬로베니아",
+  Brazil: "브라질",
+  Turkey: "터키",
+  China: "중국",
+  "Costa Rica": "코스타리카",
+  "South Korea": "대한민국",
+  "United States": "미국",
+  Portugal: "포르투갈",
+  Poland: "폴란드",
+  Germany: "독일",
+  "Republic of Ireland": "아일랜드",
+  Cameroon: "카메룬",
+  "Saudi Arabia": "사우디아라비아",
+  Argentina: "아르헨티나",
+  England: "잉글랜드",
+  Sweden: "스웨덴",
+  Nigeria: "나이지리아",
+  Italy: "이탈리아",
+  Mexico: "멕시코",
+  Croatia: "크로아티아",
+  Ecuador: "에콰도르",
+  Japan: "일본",
+  Belgium: "벨기에",
+  Russia: "러시아",
+  Tunisia: "튀니지",
+};
+
+export function teamKo(name: string): string | undefined {
+  return KO[name];
+}

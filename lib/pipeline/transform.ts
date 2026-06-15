@@ -1,5 +1,6 @@
 import type { Appearance, GroupStanding, Result, Standing, TeamRef } from '../types'
 import { koName, koTeam } from './koname'
+import { teamKo } from '../teamColors'
 
 type Row = Record<string, string>
 
@@ -20,7 +21,7 @@ export function toResult(homeWin: string, awayWin: string, draw: string): Result
 }
 
 export function teamRef(id: string, name: string, code: string, teamMap: Record<string, string>): TeamRef {
-  return { id, name, code, nameKo: koTeam(id, name, teamMap) }
+  return { id, name, code, nameKo: teamKo(name) ?? koTeam(id, name, teamMap) }
 }
 
 export function buildAppearances(rows: Row[], playerMap: Record<string, string>): Appearance[] {

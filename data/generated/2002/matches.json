@@ -13,13 +13,13 @@
       "id": "T-30",
       "name": "France",
       "code": "FRA",
-      "nameKo": "France"
+      "nameKo": "프랑스"
     },
     "away": {
       "id": "T-65",
       "name": "Senegal",
       "code": "SEN",
-      "nameKo": "Senegal"
+      "nameKo": "세네갈"
     },
     "homeScore": 0,
     "awayScore": 1,
@@ -349,13 +349,13 @@
       "id": "T-60",
       "name": "Republic of Ireland",
       "code": "IRL",
-      "nameKo": "Republic of Ireland"
+      "nameKo": "아일랜드"
     },
     "away": {
       "id": "T-11",
       "name": "Cameroon",
       "code": "CMR",
-      "nameKo": "Cameroon"
+      "nameKo": "카메룬"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -724,13 +724,13 @@
       "id": "T-84",
       "name": "Uruguay",
       "code": "URY",
-      "nameKo": "Uruguay"
+      "nameKo": "우루과이"
     },
     "away": {
       "id": "T-22",
       "name": "Denmark",
       "code": "DNK",
-      "nameKo": "Denmark"
+      "nameKo": "덴마크"
     },
     "homeScore": 1,
     "awayScore": 2,
@@ -1151,13 +1151,13 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-63",
       "name": "Saudi Arabia",
       "code": "SAU",
-      "nameKo": "Saudi Arabia"
+      "nameKo": "사우디아라비아"
     },
     "homeScore": 8,
     "awayScore": 0,
@@ -1618,13 +1618,13 @@
       "id": "T-03",
       "name": "Argentina",
       "code": "ARG",
-      "nameKo": "Argentina"
+      "nameKo": "아르헨티나"
     },
     "away": {
       "id": "T-50",
       "name": "Nigeria",
       "code": "NGA",
-      "nameKo": "Nigeria"
+      "nameKo": "나이지리아"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -2012,13 +2012,13 @@
       "id": "T-55",
       "name": "Paraguay",
       "code": "PRY",
-      "nameKo": "Paraguay"
+      "nameKo": "파라과이"
     },
     "away": {
       "id": "T-70",
       "name": "South Africa",
       "code": "ZAF",
-      "nameKo": "South Africa"
+      "nameKo": "남아프리카공화국"
     },
     "homeScore": 2,
     "awayScore": 2,
@@ -2465,13 +2465,13 @@
       "id": "T-28",
       "name": "England",
       "code": "ENG",
-      "nameKo": "England"
+      "nameKo": "잉글랜드"
     },
     "away": {
       "id": "T-74",
       "name": "Sweden",
       "code": "SWE",
-      "nameKo": "Sweden"
+      "nameKo": "스웨덴"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -2850,13 +2850,13 @@
       "id": "T-73",
       "name": "Spain",
       "code": "ESP",
-      "nameKo": "Spain"
+      "nameKo": "스페인"
     },
     "away": {
       "id": "T-69",
       "name": "Slovenia",
       "code": "SVN",
-      "nameKo": "Slovenia"
+      "nameKo": "슬로베니아"
     },
     "homeScore": 3,
     "awayScore": 1,
@@ -3285,13 +3285,13 @@
       "id": "T-18",
       "name": "Croatia",
       "code": "HRV",
-      "nameKo": "Croatia"
+      "nameKo": "크로아티아"
     },
     "away": {
       "id": "T-46",
       "name": "Mexico",
       "code": "MEX",
-      "nameKo": "Mexico"
+      "nameKo": "멕시코"
     },
     "homeScore": 0,
     "awayScore": 1,
@@ -3665,13 +3665,13 @@
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "away": {
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 2,
     "awayScore": 1,
@@ -4099,13 +4099,13 @@
       "id": "T-41",
       "name": "Italy",
       "code": "ITA",
-      "nameKo": "Italy"
+      "nameKo": "이탈리아"
     },
     "away": {
       "id": "T-25",
       "name": "Ecuador",
       "code": "ECU",
-      "nameKo": "Ecuador"
+      "nameKo": "에콰도르"
     },
     "homeScore": 2,
     "awayScore": 0,
@@ -4525,13 +4525,13 @@
       "id": "T-14",
       "name": "China",
       "code": "CHN",
-      "nameKo": "China"
+      "nameKo": "중국"
     },
     "away": {
       "id": "T-17",
       "name": "Costa Rica",
       "code": "CRI",
-      "nameKo": "Costa Rica"
+      "nameKo": "코스타리카"
     },
     "homeScore": 0,
     "awayScore": 2,
@@ -4972,13 +4972,13 @@
       "id": "T-44",
       "name": "Japan",
       "code": "JPN",
-      "nameKo": "Japan"
+      "nameKo": "일본"
     },
     "away": {
       "id": "T-06",
       "name": "Belgium",
       "code": "BEL",
-      "nameKo": "Belgium"
+      "nameKo": "벨기에"
     },
     "homeScore": 2,
     "awayScore": 2,
@@ -5837,13 +5837,13 @@
       "id": "T-62",
       "name": "Russia",
       "code": "RUS",
-      "nameKo": "Russia"
+      "nameKo": "러시아"
     },
     "away": {
       "id": "T-79",
       "name": "Tunisia",
       "code": "TUN",
-      "nameKo": "Tunisia"
+      "nameKo": "튀니지"
     },
     "homeScore": 2,
     "awayScore": 0,
@@ -6706,13 +6706,13 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-60",
       "name": "Republic of Ireland",
       "code": "IRL",
-      "nameKo": "Republic of Ireland"
+      "nameKo": "아일랜드"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -7103,13 +7103,13 @@
       "id": "T-22",
       "name": "Denmark",
       "code": "DNK",
-      "nameKo": "Denmark"
+      "nameKo": "덴마크"
     },
     "away": {
       "id": "T-65",
       "name": "Senegal",
       "code": "SEN",
-      "nameKo": "Senegal"
+      "nameKo": "세네갈"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -7543,13 +7543,13 @@
       "id": "T-11",
       "name": "Cameroon",
       "code": "CMR",
-      "nameKo": "Cameroon"
+      "nameKo": "카메룬"
     },
     "away": {
       "id": "T-63",
       "name": "Saudi Arabia",
       "code": "SAU",
-      "nameKo": "Saudi Arabia"
+      "nameKo": "사우디아라비아"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -7947,13 +7947,13 @@
       "id": "T-30",
       "name": "France",
       "code": "FRA",
-      "nameKo": "France"
+      "nameKo": "프랑스"
     },
     "away": {
       "id": "T-84",
       "name": "Uruguay",
       "code": "URY",
-      "nameKo": "Uruguay"
+      "nameKo": "우루과이"
     },
     "homeScore": 0,
     "awayScore": 0,
@@ -8370,13 +8370,13 @@
       "id": "T-74",
       "name": "Sweden",
       "code": "SWE",
-      "nameKo": "Sweden"
+      "nameKo": "스웨덴"
     },
     "away": {
       "id": "T-50",
       "name": "Nigeria",
       "code": "NGA",
-      "nameKo": "Nigeria"
+      "nameKo": "나이지리아"
     },
     "homeScore": 2,
     "awayScore": 1,
@@ -8763,13 +8763,13 @@
       "id": "T-73",
       "name": "Spain",
       "code": "ESP",
-      "nameKo": "Spain"
+      "nameKo": "스페인"
     },
     "away": {
       "id": "T-55",
       "name": "Paraguay",
       "code": "PRY",
-      "nameKo": "Paraguay"
+      "nameKo": "파라과이"
     },
     "homeScore": 3,
     "awayScore": 1,
@@ -9188,13 +9188,13 @@
       "id": "T-03",
       "name": "Argentina",
       "code": "ARG",
-      "nameKo": "Argentina"
+      "nameKo": "아르헨티나"
     },
     "away": {
       "id": "T-28",
       "name": "England",
       "code": "ENG",
-      "nameKo": "England"
+      "nameKo": "잉글랜드"
     },
     "homeScore": 0,
     "awayScore": 1,
@@ -9599,13 +9599,13 @@
       "id": "T-70",
       "name": "South Africa",
       "code": "ZAF",
-      "nameKo": "South Africa"
+      "nameKo": "남아프리카공화국"
     },
     "away": {
       "id": "T-69",
       "name": "Slovenia",
       "code": "SVN",
-      "nameKo": "Slovenia"
+      "nameKo": "슬로베니아"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -10031,13 +10031,13 @@
       "id": "T-41",
       "name": "Italy",
       "code": "ITA",
-      "nameKo": "Italy"
+      "nameKo": "이탈리아"
     },
     "away": {
       "id": "T-18",
       "name": "Croatia",
       "code": "HRV",
-      "nameKo": "Croatia"
+      "nameKo": "크로아티아"
     },
     "homeScore": 1,
     "awayScore": 2,
@@ -10434,13 +10434,13 @@
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "away": {
       "id": "T-14",
       "name": "China",
       "code": "CHN",
-      "nameKo": "China"
+      "nameKo": "중국"
     },
     "homeScore": 4,
     "awayScore": 0,
@@ -10862,13 +10862,13 @@
       "id": "T-46",
       "name": "Mexico",
       "code": "MEX",
-      "nameKo": "Mexico"
+      "nameKo": "멕시코"
     },
     "away": {
       "id": "T-25",
       "name": "Ecuador",
       "code": "ECU",
-      "nameKo": "Ecuador"
+      "nameKo": "에콰도르"
     },
     "homeScore": 2,
     "awayScore": 1,
@@ -11310,13 +11310,13 @@
       "id": "T-17",
       "name": "Costa Rica",
       "code": "CRI",
-      "nameKo": "Costa Rica"
+      "nameKo": "코스타리카"
     },
     "away": {
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -11743,13 +11743,13 @@
       "id": "T-44",
       "name": "Japan",
       "code": "JPN",
-      "nameKo": "Japan"
+      "nameKo": "일본"
     },
     "away": {
       "id": "T-62",
       "name": "Russia",
       "code": "RUS",
-      "nameKo": "Russia"
+      "nameKo": "러시아"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -12577,13 +12577,13 @@
       "id": "T-79",
       "name": "Tunisia",
       "code": "TUN",
-      "nameKo": "Tunisia"
+      "nameKo": "튀니지"
     },
     "away": {
       "id": "T-06",
       "name": "Belgium",
       "code": "BEL",
-      "nameKo": "Belgium"
+      "nameKo": "벨기에"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -13459,13 +13459,13 @@
       "id": "T-22",
       "name": "Denmark",
       "code": "DNK",
-      "nameKo": "Denmark"
+      "nameKo": "덴마크"
     },
     "away": {
       "id": "T-30",
       "name": "France",
       "code": "FRA",
-      "nameKo": "France"
+      "nameKo": "프랑스"
     },
     "homeScore": 2,
     "awayScore": 0,
@@ -13878,13 +13878,13 @@
       "id": "T-65",
       "name": "Senegal",
       "code": "SEN",
-      "nameKo": "Senegal"
+      "nameKo": "세네갈"
     },
     "away": {
       "id": "T-84",
       "name": "Uruguay",
       "code": "URY",
-      "nameKo": "Uruguay"
+      "nameKo": "우루과이"
     },
     "homeScore": 3,
     "awayScore": 3,
@@ -14392,13 +14392,13 @@
       "id": "T-11",
       "name": "Cameroon",
       "code": "CMR",
-      "nameKo": "Cameroon"
+      "nameKo": "카메룬"
     },
     "away": {
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "homeScore": 0,
     "awayScore": 2,
@@ -14888,13 +14888,13 @@
       "id": "T-63",
       "name": "Saudi Arabia",
       "code": "SAU",
-      "nameKo": "Saudi Arabia"
+      "nameKo": "사우디아라비아"
     },
     "away": {
       "id": "T-60",
       "name": "Republic of Ireland",
       "code": "IRL",
-      "nameKo": "Republic of Ireland"
+      "nameKo": "아일랜드"
     },
     "homeScore": 0,
     "awayScore": 3,
@@ -15308,13 +15308,13 @@
       "id": "T-50",
       "name": "Nigeria",
       "code": "NGA",
-      "nameKo": "Nigeria"
+      "nameKo": "나이지리아"
     },
     "away": {
       "id": "T-28",
       "name": "England",
       "code": "ENG",
-      "nameKo": "England"
+      "nameKo": "잉글랜드"
     },
     "homeScore": 0,
     "awayScore": 0,
@@ -15654,13 +15654,13 @@
       "id": "T-74",
       "name": "Sweden",
       "code": "SWE",
-      "nameKo": "Sweden"
+      "nameKo": "스웨덴"
     },
     "away": {
       "id": "T-03",
       "name": "Argentina",
       "code": "ARG",
-      "nameKo": "Argentina"
+      "nameKo": "아르헨티나"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -16094,13 +16094,13 @@
       "id": "T-69",
       "name": "Slovenia",
       "code": "SVN",
-      "nameKo": "Slovenia"
+      "nameKo": "슬로베니아"
     },
     "away": {
       "id": "T-55",
       "name": "Paraguay",
       "code": "PRY",
-      "nameKo": "Paraguay"
+      "nameKo": "파라과이"
     },
     "homeScore": 1,
     "awayScore": 3,
@@ -16550,13 +16550,13 @@
       "id": "T-70",
       "name": "South Africa",
       "code": "ZAF",
-      "nameKo": "South Africa"
+      "nameKo": "남아프리카공화국"
     },
     "away": {
       "id": "T-73",
       "name": "Spain",
       "code": "ESP",
-      "nameKo": "Spain"
+      "nameKo": "스페인"
     },
     "homeScore": 2,
     "awayScore": 3,
@@ -17000,13 +17000,13 @@
       "id": "T-17",
       "name": "Costa Rica",
       "code": "CRI",
-      "nameKo": "Costa Rica"
+      "nameKo": "코스타리카"
     },
     "away": {
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "homeScore": 2,
     "awayScore": 5,
@@ -17445,13 +17445,13 @@
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "away": {
       "id": "T-14",
       "name": "China",
       "code": "CHN",
-      "nameKo": "China"
+      "nameKo": "중국"
     },
     "homeScore": 3,
     "awayScore": 0,
@@ -17893,13 +17893,13 @@
       "id": "T-25",
       "name": "Ecuador",
       "code": "ECU",
-      "nameKo": "Ecuador"
+      "nameKo": "에콰도르"
     },
     "away": {
       "id": "T-18",
       "name": "Croatia",
       "code": "HRV",
-      "nameKo": "Croatia"
+      "nameKo": "크로아티아"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -18287,13 +18287,13 @@
       "id": "T-46",
       "name": "Mexico",
       "code": "MEX",
-      "nameKo": "Mexico"
+      "nameKo": "멕시코"
     },
     "away": {
       "id": "T-41",
       "name": "Italy",
       "code": "ITA",
-      "nameKo": "Italy"
+      "nameKo": "이탈리아"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -18734,13 +18734,13 @@
       "id": "T-06",
       "name": "Belgium",
       "code": "BEL",
-      "nameKo": "Belgium"
+      "nameKo": "벨기에"
     },
     "away": {
       "id": "T-62",
       "name": "Russia",
       "code": "RUS",
-      "nameKo": "Russia"
+      "nameKo": "러시아"
     },
     "homeScore": 3,
     "awayScore": 2,
@@ -19191,13 +19191,13 @@
       "id": "T-79",
       "name": "Tunisia",
       "code": "TUN",
-      "nameKo": "Tunisia"
+      "nameKo": "튀니지"
     },
     "away": {
       "id": "T-44",
       "name": "Japan",
       "code": "JPN",
-      "nameKo": "Japan"
+      "nameKo": "일본"
     },
     "homeScore": 0,
     "awayScore": 2,
@@ -20457,13 +20457,13 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-55",
       "name": "Paraguay",
       "code": "PRY",
-      "nameKo": "Paraguay"
+      "nameKo": "파라과이"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -20882,13 +20882,13 @@
       "id": "T-22",
       "name": "Denmark",
       "code": "DNK",
-      "nameKo": "Denmark"
+      "nameKo": "덴마크"
     },
     "away": {
       "id": "T-28",
       "name": "England",
       "code": "ENG",
-      "nameKo": "England"
+      "nameKo": "잉글랜드"
     },
     "homeScore": 0,
     "awayScore": 3,
@@ -21285,13 +21285,13 @@
       "id": "T-74",
       "name": "Sweden",
       "code": "SWE",
-      "nameKo": "Sweden"
+      "nameKo": "스웨덴"
     },
     "away": {
       "id": "T-65",
       "name": "Senegal",
       "code": "SEN",
-      "nameKo": "Senegal"
+      "nameKo": "세네갈"
     },
     "homeScore": 1,
     "awayScore": 2,
@@ -21671,13 +21671,13 @@
       "id": "T-73",
       "name": "Spain",
       "code": "ESP",
-      "nameKo": "Spain"
+      "nameKo": "스페인"
     },
     "away": {
       "id": "T-60",
       "name": "Republic of Ireland",
       "code": "IRL",
-      "nameKo": "Republic of Ireland"
+      "nameKo": "아일랜드"
     },
     "homeScore": 1,
     "awayScore": 1,
@@ -22090,7 +22090,7 @@
       "id": "T-46",
       "name": "Mexico",
       "code": "MEX",
-      "nameKo": "Mexico"
+      "nameKo": "멕시코"
     },
     "away": {
       "id": "T-83",
@@ -22565,13 +22565,13 @@
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "away": {
       "id": "T-06",
       "name": "Belgium",
       "code": "BEL",
-      "nameKo": "Belgium"
+      "nameKo": "벨기에"
     },
     "homeScore": 2,
     "awayScore": 0,
@@ -22943,13 +22943,13 @@
       "id": "T-44",
       "name": "Japan",
       "code": "JPN",
-      "nameKo": "Japan"
+      "nameKo": "일본"
     },
     "away": {
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 0,
     "awayScore": 1,
@@ -23367,7 +23367,7 @@
       "id": "T-41",
       "name": "Italy",
       "code": "ITA",
-      "nameKo": "Italy"
+      "nameKo": "이탈리아"
     },
     "homeScore": 2,
     "awayScore": 1,
@@ -23806,13 +23806,13 @@
       "id": "T-28",
       "name": "England",
       "code": "ENG",
-      "nameKo": "England"
+      "nameKo": "잉글랜드"
     },
     "away": {
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "homeScore": 1,
     "awayScore": 2,
@@ -24199,7 +24199,7 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-83",
@@ -24638,7 +24638,7 @@
       "id": "T-73",
       "name": "Spain",
       "code": "ESP",
-      "nameKo": "Spain"
+      "nameKo": "스페인"
     },
     "away": {
       "id": "T-71",
@@ -25040,13 +25040,13 @@
       "id": "T-65",
       "name": "Senegal",
       "code": "SEN",
-      "nameKo": "Senegal"
+      "nameKo": "세네갈"
     },
     "away": {
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 0,
     "awayScore": 1,
@@ -25390,7 +25390,7 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-71",
@@ -25801,13 +25801,13 @@
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "away": {
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 1,
     "awayScore": 0,
@@ -26218,7 +26218,7 @@
       "id": "T-80",
       "name": "Turkey",
       "code": "TUR",
-      "nameKo": "Turkey"
+      "nameKo": "터키"
     },
     "homeScore": 2,
     "awayScore": 3,
@@ -26655,13 +26655,13 @@
       "id": "T-31",
       "name": "Germany",
       "code": "DEU",
-      "nameKo": "Germany"
+      "nameKo": "독일"
     },
     "away": {
       "id": "T-09",
       "name": "Brazil",
       "code": "BRA",
-      "nameKo": "Brazil"
+      "nameKo": "브라질"
     },
     "homeScore": 0,
     "awayScore": 2,
