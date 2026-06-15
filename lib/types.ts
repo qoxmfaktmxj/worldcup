@@ -43,6 +43,15 @@ export interface Substitution {
   teamId: string
 }
 
+export interface PenaltyKick {
+  order: number
+  teamId: string
+  playerId: string
+  nameKo: string
+  shirtNumber: number
+  converted: boolean
+}
+
 export interface Match {
   id: string
   slug: string
@@ -65,6 +74,7 @@ export interface Match {
   goals: Goal[]
   bookings: Booking[]
   subs: Substitution[]
+  shootout: PenaltyKick[]
 }
 
 export interface Standing {

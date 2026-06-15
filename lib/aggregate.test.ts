@@ -40,6 +40,7 @@ const m: Match = {
   goals: [{ minute: 26, playerId: "P-1", nameKo: "Ji-sung Park", teamId: "T-71", ownGoal: false, penalty: false }],
   bookings: [],
   subs: [],
+  shootout: [],
 };
 
 describe("slugs", () => {

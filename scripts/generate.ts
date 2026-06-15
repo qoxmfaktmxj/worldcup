@@ -56,6 +56,7 @@ async function main() {
   const goalRows = await csv('goals.csv')
   const bookingRows = await csv('bookings.csv')
   const subRows = await csv('substitutions.csv')
+  const pkRows = await csv('penalty_kicks.csv')
   const standingRows = await csv('group_standings.csv')
 
   const appsByMatchTeam = new Map<string, Row[]>()
@@ -70,6 +71,7 @@ async function main() {
   const goalsByMatch = groupBy(goalRows, 'match_id')
   const bookingsByMatch = groupBy(bookingRows, 'match_id')
   const subsByMatch = groupBy(subRows, 'match_id')
+  const pksByMatch = groupBy(pkRows, 'match_id')
 
   const ko = (r: Row) => playerMap[r.player_id] ?? fullName(r.given_name, r.family_name)
 
@@ -121,6 +123,14 @@ async function main() {
       goals: goals.sort((a, b) => a.minute - b.minute),
       bookings: bookings.sort((a, b) => a.minute - b.minute),
       subs,
+      shootout: (pksByMatch.get(m.match_id) ?? []).map((p, i) => ({
+        order: i,
+        teamId: p.team_id,
+        playerId: p.player_id,
+        nameKo: ko(p),
+        shirtNumber: Number(p.shirt_number),
+        converted: p.converted === '1',
+      })),
     }
   })
 

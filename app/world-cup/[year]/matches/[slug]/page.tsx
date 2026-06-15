@@ -40,6 +40,35 @@ export default async function MatchPage({
         </div>
       )}
 
+      {m.penaltyShootout && m.shootout.length > 0 && (
+        <section className="mt-5 rounded-lg border border-line bg-panel/40 p-4">
+          <h3 className="font-display text-lg mb-3" style={{ transform: "skewX(-6deg)" }}>
+            승부차기 {m.homePenalties} - {m.awayPenalties}
+          </h3>
+          <div className="grid grid-cols-2 gap-6">
+            {[m.home, m.away].map((team) => (
+              <div key={team.id}>
+                <h4 className="text-muted text-sm mb-2">{team.nameKo}</h4>
+                <div className="flex flex-col gap-1.5">
+                  {m.shootout
+                    .filter((k) => k.teamId === team.id)
+                    .map((k, i) => (
+                      <div key={i} className="flex items-center gap-2 text-sm">
+                        <span className={`text-base leading-none ${k.converted ? "text-[#3ddc84]" : "text-[#ff5a5a]"}`} aria-hidden>
+                          {k.converted ? "●" : "✕"}
+                        </span>
+                        <span className="w-5 text-xs text-muted-dim tabular-nums">{k.shirtNumber}</span>
+                        <span className={k.converted ? "" : "text-muted-dim line-through"}>{k.nameKo}</span>
+                        <span className="ml-auto text-xs text-muted">{k.converted ? "성공" : "실패"}</span>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
         <div className="flex flex-col">
           <h2 className="font-display text-xl mb-2">

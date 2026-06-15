@@ -41,18 +41,22 @@ export function PlayerModal({ card, onClose }: { card: PlayerCardData; onClose: 
           aria-label="닫기"
           className="absolute right-3 top-3 z-10 text-muted hover:text-white"
         >
-          <i className="ti ti-x text-xl" aria-hidden="true" />
+          <span aria-hidden className="text-xl leading-none">✕</span>
         </button>
         <div className="grid grid-cols-[150px_1fr]">
           <div
             className="relative flex min-h-[210px] items-end justify-center"
             style={{ background: "linear-gradient(160deg,#e4002b,#5c0014)" }}
           >
-            <div className="font-display absolute left-3 top-2 text-[40px] text-white/35">{card.shirtNumber}</div>
             {m?.image?.url ? (
-              <Image src={m.image.url} alt={card.nameKo} width={150} height={210} unoptimized className="h-[210px] w-[150px] object-cover" />
+              <>
+                <div className="font-display absolute left-3 top-2 text-[40px] text-white/35">{card.shirtNumber}</div>
+                <Image src={m.image.url} alt={card.nameKo} width={150} height={210} unoptimized className="h-[210px] w-[150px] object-cover" />
+              </>
             ) : (
-              <i className="ti ti-user mb-2 text-[96px] text-white/90" aria-hidden="true" />
+              <span className="font-display flex h-full w-full items-center justify-center text-[88px] text-white/90">
+                {card.shirtNumber}
+              </span>
             )}
           </div>
           <div className="p-[18px]">

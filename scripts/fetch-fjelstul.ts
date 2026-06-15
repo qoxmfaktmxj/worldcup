@@ -12,6 +12,7 @@ const FILES = [
   'substitutions.csv',
   'squads.csv',
   'players.csv',
+  'penalty_kicks.csv',
 ]
 const UA = 'WorldCupArchive/1.0 (+https://worldcup.minseok91.cloud)'
 
