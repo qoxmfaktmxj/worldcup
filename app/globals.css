@@ -5,8 +5,8 @@
   --color-panel: #171a22;
   --color-line: #23262f;
   --color-korea: #e4002b;
-  --color-muted: #8a92a3;
-  --color-muted-dim: #5a6070;
+  --color-muted: #a8aebb;
+  --color-muted-dim: #868d9c;
 }
 
 @theme inline {

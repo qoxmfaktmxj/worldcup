@@ -157,3 +157,42 @@ export interface SearchDoc {
   subtitle: string
   href: string
 }
+
+export interface PlayerImage {
+  url: string
+  author: string
+  license: string
+  licenseUrl: string
+  sourceUrl: string
+}
+
+export interface PlayerClub {
+  name: string
+  start?: string
+  end?: string
+}
+
+export interface PlayerMeta {
+  nameKo?: string
+  nameEn?: string
+  birthDate?: string
+  height?: number
+  birthPlace?: string
+  position?: string
+  clubs?: PlayerClub[]
+  bio?: string
+  wikiUrl?: string
+  image?: PlayerImage
+}
+
+export interface PlayerCardData {
+  id: string
+  slug: string
+  nameKo: string
+  nameEn: string
+  shirtNumber: number
+  position: string
+  teamNameKo: string
+  stats: { matches: number; starts: number; subs: number; goals: number }
+  meta: PlayerMeta | null
+}
