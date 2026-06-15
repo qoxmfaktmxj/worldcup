@@ -16,12 +16,12 @@ function band(code: string): string {
 export function MatchPitch({
   players,
   side,
-  accent,
+  color,
   cards,
 }: {
   players: Appearance[];
   side: "home" | "away";
-  accent: "red" | "blue";
+  color: string;
   cards: Record<string, PlayerCardData>;
 }) {
   const starters = players.filter((p) => p.starter);
@@ -38,7 +38,7 @@ export function MatchPitch({
             {r.list.map((p) => {
               const card = cards[p.playerId];
               const label = card?.nameKo ?? p.nameKo;
-              const badge = <FallbackAvatar name={label} shirt={p.shirtNumber} size={36} accent={accent} />;
+              const badge = <FallbackAvatar name={label} shirt={p.shirtNumber} size={36} color={color} />;
               return (
                 <div key={p.playerId} className="flex w-14 flex-col items-center">
                   {card ? (

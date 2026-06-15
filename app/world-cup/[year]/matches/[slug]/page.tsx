@@ -3,6 +3,7 @@ import { KineticHero } from "@/components/kinetic/KineticHero";
 import { MatchPitch } from "@/components/kinetic/MatchPitch";
 import { PlayerChip } from "@/components/kinetic/PlayerChip";
 import { getMatch, getMatches, getPlayerCards } from "@/lib/data";
+import { resolveMatchColors } from "@/lib/teamColors";
 
 export async function generateStaticParams() {
   const matches = await getMatches(2002);
@@ -19,6 +20,7 @@ export default async function MatchPage({
   if (!m) notFound();
 
   const cards = await getPlayerCards(Number(year));
+  const colors = resolveMatchColors(m.home.name, m.away.name);
 
   return (
     <main className="mx-auto max-w-4xl p-6">
@@ -41,11 +43,11 @@ export default async function MatchPage({
       <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
         <div className="flex flex-col">
           <h2 className="font-display text-xl mb-2">{m.home.nameKo}</h2>
-          <MatchPitch players={m.lineups.home} side="home" accent="red" cards={cards} />
+          <MatchPitch players={m.lineups.home} side="home" color={colors.home} cards={cards} />
         </div>
         <div className="flex flex-col">
           <h2 className="font-display text-xl mb-2">{m.away.nameKo}</h2>
-          <MatchPitch players={m.lineups.away} side="away" accent="blue" cards={cards} />
+          <MatchPitch players={m.lineups.away} side="away" color={colors.away} cards={cards} />
         </div>
       </div>
 
@@ -54,9 +56,9 @@ export default async function MatchPage({
       </h3>
       <div className="grid gap-6 sm:grid-cols-2">
         {[
-          { team: m.home, accent: "red" as const },
-          { team: m.away, accent: "blue" as const },
-        ].map(({ team, accent }) => {
+          { team: m.home, color: colors.home },
+          { team: m.away, color: colors.away },
+        ].map(({ team, color }) => {
           const subs = m.subs.filter((s) => s.teamId === team.id).sort((a, b) => a.minute - b.minute);
           return (
             <div key={team.id}>
@@ -70,7 +72,7 @@ export default async function MatchPage({
                     const half = s.minute <= 45 ? "전반" : "후반";
                     return (
                       <div key={i}>
-                        <PlayerChip card={on} accent={accent} />
+                        <PlayerChip card={on} color={color} />
                         <div className="mt-0.5 pl-1 text-[11px] text-muted">
                           {s.minute}&#39; {half}
                           {off ? ` · ${off.nameKo} 아웃` : ""}
