@@ -57,6 +57,9 @@ export interface Match {
   away: TeamRef
   homeScore: number
   awayScore: number
+  penaltyShootout: boolean
+  homePenalties: number
+  awayPenalties: number
   result: Result
   lineups: { home: Appearance[]; away: Appearance[] }
   goals: Goal[]

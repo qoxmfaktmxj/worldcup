@@ -23,6 +23,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -359,6 +362,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -734,6 +740,9 @@
     },
     "homeScore": 1,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -1161,6 +1170,9 @@
     },
     "homeScore": 8,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -1628,6 +1640,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -2022,6 +2037,9 @@
     },
     "homeScore": 2,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -2475,6 +2493,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -2860,6 +2881,9 @@
     },
     "homeScore": 3,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -3295,6 +3319,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -3675,6 +3702,9 @@
     },
     "homeScore": 2,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -4109,6 +4139,9 @@
     },
     "homeScore": 2,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -4535,6 +4568,9 @@
     },
     "homeScore": 0,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -4982,6 +5018,9 @@
     },
     "homeScore": 2,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -5414,6 +5453,9 @@
     },
     "homeScore": 2,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -5847,6 +5889,9 @@
     },
     "homeScore": 2,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -6273,6 +6318,9 @@
     },
     "homeScore": 3,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -6716,6 +6764,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -7113,6 +7164,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -7553,6 +7607,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -7957,6 +8014,9 @@
     },
     "homeScore": 0,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -8380,6 +8440,9 @@
     },
     "homeScore": 2,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -8773,6 +8836,9 @@
     },
     "homeScore": 3,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -9198,6 +9264,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -9609,6 +9678,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -10041,6 +10113,9 @@
     },
     "homeScore": 1,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -10444,6 +10519,9 @@
     },
     "homeScore": 4,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -10872,6 +10950,9 @@
     },
     "homeScore": 2,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -11320,6 +11401,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -11753,6 +11837,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -12185,6 +12272,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -12587,6 +12677,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -13020,6 +13113,9 @@
     },
     "homeScore": 4,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -13469,6 +13565,9 @@
     },
     "homeScore": 2,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -13888,6 +13987,9 @@
     },
     "homeScore": 3,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -14402,6 +14504,9 @@
     },
     "homeScore": 0,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -14898,6 +15003,9 @@
     },
     "homeScore": 0,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -15318,6 +15426,9 @@
     },
     "homeScore": 0,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -15664,6 +15775,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -16104,6 +16218,9 @@
     },
     "homeScore": 1,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -16560,6 +16677,9 @@
     },
     "homeScore": 2,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -17010,6 +17130,9 @@
     },
     "homeScore": 2,
     "awayScore": 5,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -17455,6 +17578,9 @@
     },
     "homeScore": 3,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -17903,6 +18029,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -18297,6 +18426,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "draw",
     "lineups": {
       "home": [
@@ -18744,6 +18876,9 @@
     },
     "homeScore": 3,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -19201,6 +19336,9 @@
     },
     "homeScore": 0,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -19613,6 +19751,9 @@
     },
     "homeScore": 3,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -20062,6 +20203,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -20467,6 +20611,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -20892,6 +21039,9 @@
     },
     "homeScore": 0,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -21295,6 +21445,9 @@
     },
     "homeScore": 1,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -21681,6 +21834,9 @@
     },
     "homeScore": 1,
     "awayScore": 1,
+    "penaltyShootout": true,
+    "homePenalties": 3,
+    "awayPenalties": 2,
     "result": "win",
     "lineups": {
       "home": [
@@ -22100,6 +22256,9 @@
     },
     "homeScore": 0,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -22575,6 +22734,9 @@
     },
     "homeScore": 2,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -22953,6 +23115,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -23371,6 +23536,9 @@
     },
     "homeScore": 2,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -23816,6 +23984,9 @@
     },
     "homeScore": 1,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -24209,6 +24380,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -24648,6 +24822,9 @@
     },
     "homeScore": 0,
     "awayScore": 0,
+    "penaltyShootout": true,
+    "homePenalties": 3,
+    "awayPenalties": 5,
     "result": "loss",
     "lineups": {
       "home": [
@@ -25050,6 +25227,9 @@
     },
     "homeScore": 0,
     "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -25400,6 +25580,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -25811,6 +25994,9 @@
     },
     "homeScore": 1,
     "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "win",
     "lineups": {
       "home": [
@@ -26222,6 +26408,9 @@
     },
     "homeScore": 2,
     "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [
@@ -26665,6 +26854,9 @@
     },
     "homeScore": 0,
     "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
     "result": "loss",
     "lineups": {
       "home": [

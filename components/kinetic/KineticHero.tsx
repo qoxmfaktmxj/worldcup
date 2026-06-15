@@ -23,6 +23,7 @@ export function KineticHero({ m }: { m: Match }) {
           style={{ transform: "skewX(-6deg)", animationDelay: ".1s" }}
         >
           {m.date} · {m.stadium}
+          {m.penaltyShootout ? " · 승부차기" : ""}
         </div>
       </div>
     </div>

@@ -29,6 +29,9 @@ const m: Match = {
   away: team("T-57", "Poland", "POL"),
   homeScore: 2,
   awayScore: 0,
+  penaltyShootout: false,
+  homePenalties: 0,
+  awayPenalties: 0,
   result: "win",
   lineups: {
     home: [appe("P-1", "Ji-sung", "Park", true)],

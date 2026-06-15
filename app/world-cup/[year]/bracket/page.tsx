@@ -62,7 +62,11 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
               {matches.map((m, matchIdx) => {
                 const homeWin = m.result === "win";
                 const awayWin = m.result === "loss";
-                const pens = m.homeScore === m.awayScore;
+                const penNote = m.penaltyShootout
+                  ? ` · 승부차기 ${m.result === "win" ? m.homePenalties : m.awayPenalties}-${
+                      m.result === "win" ? m.awayPenalties : m.homePenalties
+                    }`
+                  : "";
                 return (
                   <Link
                     key={m.slug}
@@ -75,7 +79,7 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
                     <TeamRow team={m.away} score={m.awayScore} win={awayWin} />
                     <p className="text-muted-dim text-xs mt-2">
                       {m.date}
-                      {pens ? " · 승부차기" : ""}
+                      {penNote}
                     </p>
                   </Link>
                 );

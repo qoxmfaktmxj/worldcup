@@ -110,6 +110,9 @@ async function main() {
       away,
       homeScore: Number(m.home_team_score),
       awayScore: Number(m.away_team_score),
+      penaltyShootout: m.penalty_shootout === '1',
+      homePenalties: Number(m.home_team_score_penalties || 0),
+      awayPenalties: Number(m.away_team_score_penalties || 0),
       result: toResult(m.home_team_win, m.away_team_win, m.draw),
       lineups: {
         home: buildAppearances(apps(m.match_id, home.id), playerMap),
