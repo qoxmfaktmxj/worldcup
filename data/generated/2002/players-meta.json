@@ -1,0 +1,5553 @@
+{
+  "P-77199": {
+    "nameEn": "Hussein Sulaimani",
+    "birthDate": "1977.01.21",
+    "nameKo": "후세인 술라이마니",
+    "height": 174,
+    "birthPlace": "지다",
+    "clubs": [
+      {
+        "name": "알아흘리",
+        "start": "1995.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1996.01.01"
+      },
+      {
+        "name": "뇌샤텔 그자막스",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "알나스르",
+        "start": "2009.01.01",
+        "end": "2017"
+      },
+      {
+        "name": "F.C. Vereya",
+        "start": "2017"
+      }
+    ],
+    "bio": "후세인 압둘가니 술라이마니(아랍어: حسين عبد الغني, Hussein Abdulghani Sulaimani, 1977년 1월 21일 ~ )는 사우디아라비아의 전 축구 선수로서 포지션은 레프트 백이었다.",
+    "image": {
+      "url": "/players/P-77199.jpg",
+      "author": "خذآني الشوق24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BPpt3orCAAEWqDv.jpg"
+    }
+  },
+  "P-64372": {
+    "nameEn": "Sebastián Abreu",
+    "birthDate": "1976.10.17",
+    "nameKo": "세바스티안 아브레우",
+    "height": 193,
+    "birthPlace": "미나스",
+    "clubs": [
+      {
+        "name": "보스턴 리버"
+      },
+      {
+        "name": "데펜소르 스포르팅 클럽",
+        "start": "1995.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "CA 산로렌소",
+        "start": "1996.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "우루과이 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "데포르티보 라코루냐",
+        "start": "1997.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "그레미우",
+        "start": "1998.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "데포르티보 라코루냐",
+        "start": "1998.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "에스투디안테스 테코스",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "CA 산로렌소",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "클럽 나시오날",
+        "start": "2001.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "CDSC 크루스 아술",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "클럽 아메리카",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "에스투디안테스 테코스",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "클럽 나시오날",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "도라도 데 시날로아",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "CF 몬테레이",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "산루이스 FC",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "티그레스 데 라 UANL",
+        "start": "2007.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "베이타르 예루살렘 FC",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "레알 소시에다드",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "아리스 FC",
+        "start": "2009.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "보타포구 FR",
+        "start": "2010.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "피게이렌시 FC",
+        "start": "2012.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "로사리오 센트랄",
+        "start": "2013.01.01",
+        "end": "2014.01.01"
+      },
+      {
+        "name": "클럽 나시오날",
+        "start": "2013.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "클럽 나시오날",
+        "start": "2015.01.01",
+        "end": "2015.01.01"
+      },
+      {
+        "name": "SD 아우카스",
+        "start": "2015.01.01",
+        "end": "2015.01.01"
+      },
+      {
+        "name": "Santa Tecla F.C.",
+        "start": "2016"
+      },
+      {
+        "name": "클루브 솔 데 아메리카",
+        "start": "2016.01.01"
+      },
+      {
+        "name": "방구 AC",
+        "start": "2017"
+      },
+      {
+        "name": "Central Español",
+        "start": "2017"
+      },
+      {
+        "name": "Deportes Puerto Montt",
+        "start": "2017",
+        "end": "2018"
+      },
+      {
+        "name": "아우다스 이탈리아노",
+        "start": "2018"
+      }
+    ],
+    "bio": "와싱톤 세바스티안 아브레우 가요(스페인어: Washington Sebastián Abreu Gallo, 1976년 10월 17일 ~)은 우루과이의 전 축구 선수로, 현재는 축구 감독이다. 현역 시절 포지션은 스트라이커였다.",
+    "image": {
+      "url": "/players/P-64372.jpg",
+      "author": "Agencia de Noticias ANDES",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SEBASTIAN_ABREU_(16821761936)_(cropped).jpg"
+    }
+  },
+  "P-44943": {
+    "nameEn": "Milenko Aćimović",
+    "birthDate": "1977.02.15",
+    "nameKo": "밀렌코 아치모비치",
+    "height": 186,
+    "birthPlace": "류블랴나",
+    "clubs": [
+      {
+        "name": "NK Ljubljana",
+        "start": "1995.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "NK Olimpija Ljubljana",
+        "start": "1996.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "NK 올림피야 류블랴나",
+        "start": "1996.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "FC Ljubljana",
+        "start": "1996.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "FK 츠르베나 즈베즈다",
+        "start": "1998.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "슬로베니아 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "토트넘 홋스퍼 FC",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "릴 OSC",
+        "start": "2003.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "FK 아우스트리아 빈",
+        "start": "2007.01.01",
+        "end": "2010.01.01"
+      }
+    ],
+    "bio": "밀렌코 아치모비치(슬로베니아어: Milenko Ačimovič, 1977년 2월 15일, 유고슬라비아 류블랴나 ~ )는 슬로베니아의 은퇴한 축구 선수로, 선수 시절 포지션은 공격형 미드필더다.",
+    "image": {
+      "url": "/players/P-44943.jpg",
+      "author": "Steindy 13:40, 24. Apr. 2009 (CEST).",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milenko_Acimovic_-_FK_Austria_Wien.jpg"
+    }
+  },
+  "P-17884": {
+    "nameEn": "Roberto Acuña",
+    "birthDate": "1972.03.25",
+    "nameKo": "로베르토 아쿠냐",
+    "height": 175,
+    "birthPlace": "아베야네다",
+    "clubs": [
+      {
+        "name": "클루브 나시오날",
+        "start": "1989.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "아르헨티노스 주니어스",
+        "start": "1993.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "파라과이 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "보카 주니어스",
+        "start": "1994.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "인데펜디엔테",
+        "start": "1995.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "레알 사라고사",
+        "start": "1997.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "데포르티보 라코루냐",
+        "start": "2002.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "엘체 CF",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "알아인 FC",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "알아인 FC",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "클루브 올림피아",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "로사리오 센트랄",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "Club Rubio Ñu",
+        "start": "2009.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "도세 데 옥투브레 FC",
+        "start": "2013.01.01",
+        "end": "2014.01.01"
+      },
+      {
+        "name": "Deportivo Recoleta",
+        "start": "2015.01.01",
+        "end": "2015.01.01"
+      },
+      {
+        "name": "Club Rubio Ñu",
+        "start": "2016.01.01"
+      }
+    ],
+    "bio": "로베르토 미겔 아쿠냐 카베요(스페인어: Roberto Miguel Acuña Cabello, 1972년 3월 25일 ~ )는 파라과이의 전 축구 선수이다.",
+    "image": {
+      "url": "/players/P-17884.jpg",
+      "author": "Agencia de Noticias ANDES",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ROBERTO_ACU%C3%91A_(17008374197,_cropped).jpg"
+    }
+  },
+  "P-74228": {
+    "nameEn": "Julius Aghahowa",
+    "birthDate": "1982.02.12",
+    "nameKo": "줄리어스 아가호와",
+    "height": 179,
+    "birthPlace": "베닌시티",
+    "clubs": [
+      {
+        "name": "Bendel Insurance F.C.",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "에스페랑스 스포르티브 드 튀니스",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "Nigeria national under-20 football team",
+        "start": "1999.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "FC 샤흐타르 도네츠크",
+        "start": "2000.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "나이지리아 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "위건 애슬레틱 FC",
+        "start": "2007.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "카이세리스포르",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "FC 샤흐타르 도네츠크",
+        "start": "2009.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "FC 세바스토폴",
+        "start": "2010.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "줄리어스 아가호와(영어: Julius Aghahowa, 1982년 2월 12일, 나이지리아 베닌 시티 ~ )는 나이지리아의 전 축구 선수로, 포지션은 스트라이커다. 그는 특유의 공중제비 골 세리머니를 하는 것으로 유명하다.",
+    "image": {
+      "url": "/players/P-74228.jpg",
+      "author": "Александр Худотеплый",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julius_Aghahowa.jpeg"
+    }
+  },
+  "P-72797": {
+    "nameEn": "Jeff Agoos",
+    "birthDate": "1968.05.02",
+    "nameKo": "제프 어구스",
+    "height": 178,
+    "birthPlace": "제네바",
+    "clubs": [
+      {
+        "name": "미국 축구 국가대표팀",
+        "start": "1988.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "Maryland Bays",
+        "start": "1991.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "Dallas Sidekicks",
+        "start": "1991.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "United States national futsal team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "Los Angeles Salsa",
+        "start": "1994.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "SV 베헨 비스바덴",
+        "start": "1994.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "D.C. 유나이티드",
+        "start": "1996.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "웨스트브로미치 앨비언 FC",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "샌호제이 어스퀘이크스",
+        "start": "2001.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "뉴욕 레드불스",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      }
+    ],
+    "bio": "제프리 앨런 어구스(영어: Jeffrey Alan Agoos, 1968년 5월 2일 ~ )는 수비수로 뛰었던 전 미국의 프로 축구 선수이다. 그는 미국 국가대표팀의 역대 경기 지도자들 중 한 명이다. 어구스는 뉴욕 레드불스의 스포츠 감독을 역임했고, 현재 메이저 리그 사커 대회의 부회장이다.",
+    "image": {
+      "url": "/players/P-72797.jpg",
+      "author": "Diego Valenzuela's Photos from Buenos Aires, Argentina",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Agoos_NYRB.jpg"
+    }
+  },
+  "P-23101": {
+    "nameEn": "Álex Aguinaga",
+    "birthDate": "1968.07.09",
+    "nameKo": "알렉스 아기나가",
+    "height": 172,
+    "birthPlace": "이바라",
+    "clubs": [
+      {
+        "name": "데포르티보 키토",
+        "start": "1984.01.01",
+        "end": "1989.01.01"
+      },
+      {
+        "name": "에콰도르 축구 국가대표팀",
+        "start": "1987.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "클럽 네카사",
+        "start": "1989.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "CDSC 크루스 아술",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "리가 데포르티바 우니베르시타리아 데 키토",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      }
+    ],
+    "bio": "알렉스 아기나가(스페인어: Álex Dario Aguinaga Garzón, 1968년 7월 9일 ~ )는 에콰도르의 은퇴한 축구 선수이자, 현 축구 지도자다. 포지션은 공격형 미드필더였으며 2002년 FIFA 월드컵에서 에콰도르 대표팀의 주장으로 출전했었다.",
+    "image": {
+      "url": "/players/P-23101.jpg",
+      "author": "Agencia de Noticias ANDES",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alex_Aguinaga_2015_09_20.jpg"
+    }
+  },
+  "P-26616": {
+    "nameEn": "Ahn Jung-hwan",
+    "birthDate": "1976.01.27",
+    "nameKo": "안정환",
+    "height": 178,
+    "birthPlace": "파주시",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "부산 아이파크 FC",
+        "start": "1998.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "AC 페루자 칼초",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "시미즈 에스펄스",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "요코하마 F. 마리노스",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FC 메스",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "MSV 뒤스부르크",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "부산 아이파크 FC",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "다롄 스더",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "안정환(安貞桓, 1976년 1월 27일~)은 대한민국의 은퇴한 축구 선수이자 MBC 축구 해설위원, 방송인이다. 현역 당시 팀에서의 포지션은 세컨드 스트라이커였다.",
+    "image": {
+      "url": "/players/P-26616.jpg",
+      "author": "안정환 19",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahn_Jung-hwan_in_November_2021.png"
+    }
+  },
+  "P-25906": {
+    "nameEn": "Pablo Aimar",
+    "birthDate": "1979.11.03",
+    "nameKo": "파블로 아이마르",
+    "height": 170,
+    "birthPlace": "리오쿠아르토",
+    "clubs": [
+      {
+        "name": "AA 에스투디안테스",
+        "start": "1985",
+        "end": "1993"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "1993",
+        "end": "1997"
+      },
+      {
+        "name": "아르헨티나 U-17 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "1996.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "아르헨티나 U-20 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "아르헨티나 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "발렌시아 CF",
+        "start": "2001.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "레알 사라고사",
+        "start": "2006.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "SL 벤피카",
+        "start": "2008.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "조호르 다룰 탁짐 FC",
+        "start": "2013.01.01",
+        "end": "2014.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "2015.01.01",
+        "end": "2015.01.01"
+      }
+    ],
+    "bio": "파블로 세사르 아이마르 히오르다노(스페인어: Pablo César Aimar Giordano, 1979년 11월 3일 ~ )는 아르헨티나의 전 축구 선수이다. 스페인 국적도 가지고 있다.",
+    "image": {
+      "url": "/players/P-25906.jpg",
+      "author": "Кирилл Венедиктов",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Match_legends_2017_CC_(4).jpg"
+    }
+  },
+  "P-48288": {
+    "nameEn": "Benedict Akwuegbu",
+    "birthDate": "1974.11.03",
+    "height": 190,
+    "birthPlace": "라고스",
+    "clubs": [
+      {
+        "name": "Nigeria national under-20 football team"
+      },
+      {
+        "name": "RC 랑스",
+        "start": "1991.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "SC Eendracht Aalst",
+        "start": "1992.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "K.R.C. Zuid-West-Vlaanderen",
+        "start": "1994.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "K.S.V. Waregem",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "SV 쥘터 바레험",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "K.V.K. Tienen",
+        "start": "1997.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "그라츠 AK",
+        "start": "1998.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "나이지리아 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "광저우 시티 FC",
+        "start": "2002.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "그라츠 AK",
+        "start": "2002.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC 장크트갈렌",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FC Kärnten",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC Wacker Innsbruck",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "FC 바커 인스브루크",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "판세라이코스 FC",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "톈진 진먼후",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "Sportfreunde Siegen",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "칭다오 중넝",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "베이징 홍덩 FC",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "Basingstoke Town F.C.",
+        "start": "2009.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "SVL Flavia Solva",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      }
+    ],
+    "bio": "Benedict Akwuegbu is a Nigerian former professional footballer who played as a forward. He played for the Nigeria national team and was a 2002 FIFA World Cup participant."
+  },
+  "P-79130": {
+    "nameEn": "Fatih Akyel",
+    "birthDate": "1977.12.26",
+    "nameKo": "파티흐 아켈",
+    "height": 180,
+    "birthPlace": "이스탄불",
+    "clubs": [
+      {
+        "name": "갈라타사라이 SK",
+        "start": "1995.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "Bakırköyspor",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "Turkey national under-21 football team",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "갈라타사라이 SK",
+        "start": "1997.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "튀르키예 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "RCD 마요르카",
+        "start": "2001.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "페네르바흐체 SK",
+        "start": "2001.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "VfL 보훔",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "PAOK FC",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "트라브존스포르",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "겐칠레르빌리이 SK",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "앙카라귀쥐",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "카슴파샤 SK",
+        "start": "2007.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "코자엘리스포르",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "Tepecik B.S.",
+        "start": "2010.01.01",
+        "end": "2010.01.01"
+      }
+    ],
+    "bio": "파티흐 아켈(튀르키예어: Fatih Akyel, 1977년 12월 26일 ~ )은 튀르키예의 축구 감독이자 전직 축구 선수이다. 그는 현역 시절 수비수로 활동하며 갈라타사라이와 페네르바흐체 등 여러 클럽에서 활약했다. 15년간의 선수 생활 동안 1997년부터 2004년까지 튀르키예 국가대표팀에서 64경기에 출전했으며, 1997년 지중해 게임에서 올림픽 국가대표팀 소속으로 은메달을 획득했다.",
+    "image": {
+      "url": "/players/P-79130.jpg",
+      "author": "Ultraslansi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fatih_akyel.jpg"
+    }
+  },
+  "P-12996": {
+    "nameEn": "Mohamed Al-Deayea",
+    "birthDate": "1972.08.02",
+    "nameKo": "모하메드 알데아예아",
+    "height": 191,
+    "birthPlace": "하일",
+    "clubs": [
+      {
+        "name": "알타이 FC",
+        "start": "1989.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "1999.01.01",
+        "end": "2010.01.01"
+      }
+    ],
+    "bio": "모하메드 압둘라지즈 알데아예아(아랍어: محمد عبد العزيز الدعيع, Mohamed Abdullaziz Al-Deayea, 1972년 8월 2일 ~ )는 사우디아라비아의 은퇴한 축구 선수로, 선수 시절 포지션은 골키퍼이다.",
+    "image": {
+      "url": "/players/P-12996.jpg",
+      "author": "Rami Al-Khowaiter",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Al-Deayea_2010.jpg"
+    }
+  },
+  "P-53448": {
+    "nameEn": "Ahmed Dokhi",
+    "birthDate": "1976.10.25",
+    "height": 175,
+    "birthPlace": "리야드",
+    "clubs": [
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "1995.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2005.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "카타르 스포츠 클럽",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "알나스르",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "Ahmad Al-Dokhi Al-Dossary is a former Saudi Arabian footballer who last played as a defender for Al-Nassr.",
+    "image": {
+      "url": "/players/P-53448.jpg",
+      "author": "omar al-wazzan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahmad_Al-Dokhi.jpg"
+    }
+  },
+  "P-17941": {
+    "nameEn": "Khamis Al-Dosari",
+    "birthDate": "1973.09.08",
+    "height": 178,
+    "birthPlace": "리야드",
+    "clubs": [
+      {
+        "name": "알힐랄",
+        "start": "1987",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1994",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2001.01.01",
+        "end": "2007.01.01"
+      }
+    ],
+    "bio": "Khamis Al-Owairan Al-Dossari was a Saudi Arabian footballer. He played most of his career for Al-Hilal and Al Ittihad."
+  },
+  "P-85019": {
+    "nameEn": "Obeid Al-Dosari",
+    "birthDate": "1975.10.02",
+    "birthPlace": "사우디아라비아",
+    "clubs": [
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "알웨흐다",
+        "start": "1996.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2000.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "다마크 FC",
+        "start": "2005.01.01",
+        "end": "2007.01.01"
+      }
+    ],
+    "bio": "Obeid Al-Dosari is a Saudi Arabian former football player who played most of his career for Al Wehda and Al-Ahli."
+  },
+  "P-88041": {
+    "nameEn": "Sami Al-Jaber",
+    "birthDate": "1972.12.11",
+    "nameKo": "사미 알자베르",
+    "height": 176,
+    "birthPlace": "리야드",
+    "clubs": [
+      {
+        "name": "알힐랄",
+        "start": "1990",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1992.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "울버햄프턴 원더러스 FC",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "알아인 FC",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      }
+    ],
+    "bio": "사미 압둘라 알자베르(아랍어: سامي الجابر, 1972년 12월 11일, 리야드 ~ )는 사우디아라비아의 전 축구 선수로, 스트라이커로 활약했다. 알힐랄에서만 뛴 원 클럽맨이다.",
+    "image": {
+      "url": "/players/P-88041.jpg",
+      "author": "Al riyadah",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sami09.JPG"
+    }
+  },
+  "P-55518": {
+    "nameEn": "Mohammed Al-Jahani",
+    "birthDate": "1974.09.28",
+    "height": 175,
+    "birthPlace": "사우디아라비아",
+    "clubs": [
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "1997.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "Mohammed Sheliah Al-Jahani is a retired Saudi Arabian footballer."
+  },
+  "P-26868": {
+    "nameEn": "Abdullah Jumaan Al-Dosari",
+    "birthDate": "1977.11.10",
+    "birthPlace": "사우디아라비아",
+    "clubs": [
+      {
+        "name": "알힐랄",
+        "start": "1998.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      }
+    ],
+    "bio": "Abdullah Mohamed Al-Jumaan Al-Dosari is a Saudi Arabian footballer."
+  },
+  "P-76946": {
+    "nameEn": "Abdulaziz Khathran",
+    "birthDate": "1973.07.31",
+    "height": 169,
+    "birthPlace": "메카",
+    "clubs": [
+      {
+        "name": "알샤바브 (리야드)",
+        "start": "1994.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "2002.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "2003.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "알웨흐다",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "Al Kawkab FC",
+        "start": "2011.01.01",
+        "end": "2013.01.01"
+      }
+    ],
+    "bio": "Abdulaziz Mohammed Al-Khathran is a Saudi Arabian former footballer who played as a midfielder. He is also known as Altermilan from the Pro evolution soccer games."
+  },
+  "P-92151": {
+    "nameEn": "Ibrahim Al-Shahrani",
+    "birthDate": "1974.07.21",
+    "height": 172,
+    "birthPlace": "아브하",
+    "clubs": [
+      {
+        "name": "아브하 클럽",
+        "end": "1996"
+      },
+      {
+        "name": "알나스르",
+        "start": "1996",
+        "end": "1998"
+      },
+      {
+        "name": "알아흘리",
+        "start": "1997.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2004.01.01",
+        "end": "2009.01.01"
+      }
+    ],
+    "bio": "Ibrahim Suwayed Mahboub Al-Shahrani is a Saudi Arabian former football player who played most of his career for Al-Ahli. He played for the Saudi Arabia national football team and was a member of the national squad at the 1998 and at the 2002 FIFA World Cups."
+  },
+  "P-11262": {
+    "nameEn": "Mohammad Al-Shalhoub",
+    "birthDate": "1980.12.08",
+    "nameKo": "모하메드 알샬후브",
+    "height": 163,
+    "birthPlace": "메카",
+    "clubs": [
+      {
+        "name": "알힐랄",
+        "start": "1998.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "2000.01.01"
+      }
+    ],
+    "bio": "모함메드 반다르 알샬후브(아랍어: محمد بندر الشلهوب, 1980년 12월 8일 ~)은 사우디아라비아의 전 축구 선수이다.",
+    "image": {
+      "url": "/players/P-11262.jpg",
+      "author": "Amosh x at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al-Shalhoub.jpg"
+    }
+  },
+  "P-48349": {
+    "nameEn": "Fouzi Al-Shehri",
+    "birthDate": "1980.05.15",
+    "height": 173,
+    "birthPlace": "지다",
+    "clubs": [
+      {
+        "name": "알카디시야",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2000.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2001.01.01"
+      }
+    ],
+    "bio": "Fouzi Al-Shehri is a Saudi Arabian former football player."
+  },
+  "P-20886": {
+    "nameEn": "Nawaf Al-Temyat",
+    "birthDate": "1976.06.28",
+    "nameKo": "나와프 알테미아트",
+    "height": 176,
+    "birthPlace": "리야드",
+    "clubs": [
+      {
+        "name": "알힐랄",
+        "start": "1993.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "나와프 알테미아트(아랍어: نواف التمياط, 1976년 6월 28일 ~ )는 사우디아라비아의 전직 축구 선수로 과거 포지션은 미드필더였다.",
+    "image": {
+      "url": "/players/P-20886.jpg",
+      "author": "Mo's",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nawaf_Al-Temyat_in_celebration_2.jpg"
+    }
+  },
+  "P-75813": {
+    "nameEn": "Abdullah Al-Waked",
+    "birthDate": "1975.09.29",
+    "height": 182,
+    "birthPlace": "사우디아라비아",
+    "clubs": [
+      {
+        "name": "알샤바브 (리야드)",
+        "start": "1994.01.01",
+        "end": "2003"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "알이티하드",
+        "start": "2003.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "알나스르",
+        "start": "2007.01.01",
+        "end": "2009"
+      }
+    ],
+    "bio": "Abdullah Al-Waked Al-Shahrani is a Saudi Arabian football player."
+  },
+  "P-00683": {
+    "nameEn": "Al Hasan Al-Yami",
+    "birthDate": "1972.08.21",
+    "height": 173,
+    "birthPlace": "사우디아라비아",
+    "clubs": [
+      {
+        "name": "알이티하드",
+        "start": "1996.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "사우디아라비아 축구 국가대표팀",
+        "start": "2002.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "나즈란 SC",
+        "start": "2005.01.01",
+        "end": "2012.01.01"
+      }
+    ],
+    "bio": "Al-Hasan Ali Al-Yami is a Saudi Arabian professional footballer who played as a striker for Najran SC and Al Ittihad."
+  },
+  "P-21683": {
+    "nameEn": "David Albelda",
+    "birthDate": "1977.09.01",
+    "nameKo": "다비드 알벨다",
+    "height": 183,
+    "birthPlace": "La Pobla Llarga",
+    "clubs": [
+      {
+        "name": "발렌시아 CF 메스타야",
+        "start": "1995.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "비야레알 CF",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "발렌시아 CF",
+        "start": "1996.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "스페인 U-18 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "스페인 U-20 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "비야레알 CF",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "스페인 U-21 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "스페인 U-23 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "스페인 축구 국가대표팀",
+        "start": "2001.01.01",
+        "end": "2008.01.01"
+      }
+    ],
+    "bio": "다비드 알벨다 알리케스(스페인어: David Albelda Aliqués, 1977년 9월 1일, 스페인 라포블라야르가 ~ )는 현역시절 수비형 미드필더였던 은퇴한 스페인의 축구 선수다.",
+    "image": {
+      "url": "/players/P-21683.jpg",
+      "author": "CarlosRM",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Albelda_Val%C3%A8nciaCF.jpg"
+    }
+  },
+  "P-51792": {
+    "nameEn": "Dmitri Alenichev",
+    "birthDate": "1972.10.20",
+    "nameKo": "드미트리 알레니체프",
+    "height": 170,
+    "birthPlace": "Melioratorov",
+    "clubs": [
+      {
+        "name": "FC Luki-SKIF Velikiye Luki",
+        "start": "1989.01.01",
+        "end": "1989.01.01"
+      },
+      {
+        "name": "FC Mashinostroitel Pskov",
+        "start": "1990.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "FC 로코모티프 모스크바",
+        "start": "1991.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "FC 스파르타크 모스크바",
+        "start": "1994.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "러시아 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "AS 로마",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "AC 페루자 칼초",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "FC 포르투",
+        "start": "2000.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC 스파르타크 모스크바",
+        "start": "2004.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "Russia national under-18 football team",
+        "start": "2010",
+        "end": "2012"
+      },
+      {
+        "name": "FC 아르세날 툴라",
+        "start": "2011",
+        "end": "2015"
+      },
+      {
+        "name": "FC 스파르타크 모스크바",
+        "start": "2015",
+        "end": "2016"
+      },
+      {
+        "name": "FC 예니세이 크라스노야르스크",
+        "start": "2017"
+      }
+    ],
+    "bio": "드미트리 아나톨례비치 알레니체프(러시아어: Дми́трий Анато́льевич Але́ничев, 1972년 10월 20일 ~, 러시아 SFSR 멜리오라토로브)는 러시아의 전직 축구 선수이자 축구 감독이다.",
+    "image": {
+      "url": "/players/P-51792.jpg",
+      "author": "Артем Гусев",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dmitry_Alenichev.jpg"
+    }
+  },
+  "P-42808": {
+    "nameEn": "Niclas Alexandersson",
+    "birthDate": "1971.12.29",
+    "nameKo": "니클라스 알렉산데르손",
+    "height": 181,
+    "birthPlace": "할름스타드",
+    "clubs": [
+      {
+        "name": "Vessigebro BK"
+      },
+      {
+        "name": "할름스타드 BK",
+        "start": "1989.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "Sweden national under-23 football team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "스웨덴 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "IFK 예테보리",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "셰필드 웬즈데이 FC",
+        "start": "1997.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "에버턴 FC",
+        "start": "2000.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "웨스트햄 유나이티드 FC",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "IFK 예테보리",
+        "start": "2004.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "IFK 예테보리",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      }
+    ],
+    "bio": "옌스 니클라스 알렉산데르손(스웨덴어: Niclas Alexandersson, 1971년 12월 29일 ~ )는 스웨덴의 전직 축구 선수로서, 선수 시절 포지션은 미드필더이다.",
+    "image": {
+      "url": "/players/P-42808.jpg",
+      "author": "Ricardo Alvarez",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niclas_Alexandersson_2006.jpg"
+    }
+  },
+  "P-45212": {
+    "nameEn": "Marcus Allbäck",
+    "birthDate": "1973.07.05",
+    "nameKo": "마르쿠스 알베크",
+    "height": 180,
+    "birthPlace": "예테보리",
+    "clubs": [
+      {
+        "name": "Örgryte IS Fotboll",
+        "start": "1992.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "륑뷔 BK",
+        "start": "1997.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "AS 바리",
+        "start": "1997.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "Örgryte IS Fotboll",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "스웨덴 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "SC 헤이렌베인",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "아스톤 빌라 FC",
+        "start": "2002.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC 한자 로스토크",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FC 쾨벤하운",
+        "start": "2005.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "Örgryte IS Fotboll",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "Örgryte IS Fotboll",
+        "start": "2011.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "마르쿠스 크리스티안 알베크(스웨덴어: Marcus Christian Allbäck, 1973년 7월 5일 ~ )는 스웨덴의 전직 축구 선수 및 현직 축구 코치이다. 선수 시절 포지션은 공격수였다.",
+    "image": {
+      "url": "/players/P-45212.jpg",
+      "author": "Frankie Fouganthin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marcus_Allb%C3%A4ck_p%C3%A5_Idrottsgalan_2013.jpg"
+    }
+  },
+  "P-88203": {
+    "nameEn": "Matías Almeyda",
+    "birthDate": "1973.12.21",
+    "nameKo": "마티아스 알메이다",
+    "height": 173,
+    "birthPlace": "부에노스아이레스",
+    "clubs": [
+      {
+        "name": "리버 플레이트",
+        "start": "1991.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "세비야 FC",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "아르헨티나 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "SS 라치오",
+        "start": "1997.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "파르마 FC",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "FC 인테르나치오날레 밀라노",
+        "start": "2002.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "브레시아 칼초",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "킬메스 AC",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FK 륀",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "Club Atlético Fénix",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "마티아스 알메이다(Matias Almeyda, 1973년 12월 21일 ~ )는 은퇴한 아르헨티나의 축구 선수이다. 포지션은 미드필더이다. 현재는 AEK 아테네의 감독이다."
+  },
+  "P-87796": {
+    "nameEn": "Guido Alvarenga",
+    "birthDate": "1970.08.24",
+    "nameKo": "기도 알바렝가",
+    "height": 170,
+    "birthPlace": "아순시온",
+    "clubs": [
+      {
+        "name": "Club Sport Colombia",
+        "start": "1989.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "세로 포르테뇨",
+        "start": "1989.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "Deportivo Mandiyú",
+        "start": "1991.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "Deportivo Mandiyú",
+        "start": "1991.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "Paraguay Olympic football team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "CA 반필드",
+        "start": "1995.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "파라과이 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "클럽 우니베르시타리오 데포르테스",
+        "start": "1997.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "세로 포르테뇨",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "가와사키 프론탈레",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "세로 포르테뇨",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "클럽 레온",
+        "start": "2001.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "클루브 리베르타드",
+        "start": "2002.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "클루브 올림피아",
+        "start": "2003.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "클루브 리베르타드",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "세로 포르테뇨",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      }
+    ],
+    "bio": "기도 알바렝가 는 파라과이의 전 축구 선수이다."
+  },
+  "P-71531": {
+    "nameEn": "Andreas Andersson",
+    "birthDate": "1974.04.10",
+    "nameKo": "안드레아스 안데르손",
+    "height": 186,
+    "birthPlace": "스톡홀름",
+    "clubs": [
+      {
+        "name": "데게르포르스 IF",
+        "start": "1994.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "Tidaholms",
+        "start": "1994.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "스웨덴 U-21 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "IFK 예테보리",
+        "start": "1996.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "스웨덴 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "AC 밀란",
+        "start": "1997.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "뉴캐슬 유나이티드 FC",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "AIK 솔나",
+        "start": "1999.01.01",
+        "end": "2005.01.01"
+      }
+    ],
+    "bio": "안드레아스 클라스 안데르손(스웨덴어: Andreas Claes Andersson, 1974년 4월 10일 ~ )은 스웨덴의 전직 프로 축구 선수로, 공격수로 활약했다. 그는 1996년 알스벤스칸 우승 당시 IFK 예테보리에서 알스벤스칸 최다 득점자였으며, 이후 AC 밀란, 뉴캐슬 유나이티드, AIK를 대표하여 활약하다가 2005년 은퇴했다. 1996년부터 2003년까지 풀 국가대표로 활약한 그는 스웨덴 국가대표팀에서 43경기에 출전해 8골을 넣었으며, 2002년 FIFA 월드컵에서 자국을 대표했다.",
+    "image": {
+      "url": "/players/P-71531.jpg",
+      "author": "Anders Henrikson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andreas_Andersson_during_an_interview,_2012,_cropped.jpg"
+    }
+  },
+  "P-82191": {
+    "nameEn": "Jorge Andrade",
+    "birthDate": "1978.04.09",
+    "nameKo": "조르즈 안드라드",
+    "height": 184,
+    "birthPlace": "리스본",
+    "clubs": [
+      {
+        "name": "CF 에스트렐라 다 아마도라",
+        "start": "1997.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "포르투갈 U-21 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "FC 포르투",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "포르투갈 U-21 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "포르투갈 축구 국가대표팀",
+        "start": "2001.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "데포르티보 라코루냐",
+        "start": "2002.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "유벤투스 FC",
+        "start": "2007.01.01",
+        "end": "2009.01.01"
+      }
+    ],
+    "bio": "조르즈 마누엘 알메이다 고메스 드안드라드(포르투갈어: Jorge Manuel Almeida Gomes de Andrade, 1978년 4월 9일, 포르투갈 리스본 ~ )는 보통 조르즈 안드라드라는 약칭으로 불리는 포르투갈의 축구 선수로, 현재는 소속팀이 없다. 2002 FIFA 월드컵과 유로 2004에 포르투갈 대표로 출전한 바 있다. 2006년 FIFA 월드컵에는 대회 직전, 무릎인대 부상으로 출전하지 못하였다.",
+    "image": {
+      "url": "/players/P-82191.jpg",
+      "author": "Darz Mol",
+      "license": "CC BY-SA 2.5 es",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jorge_Andrade_31mar2007.jpg"
+    }
+  },
+  "P-76678": {
+    "nameEn": "Francisco Arce",
+    "birthDate": "1971.04.02",
+    "nameKo": "프란시스코 아르세",
+    "height": 178,
+    "birthPlace": "파라과리",
+    "clubs": [
+      {
+        "name": "세로 포르테뇨",
+        "start": "1989.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "Paraguay Olympic football team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "그레미우",
+        "start": "1994.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "파라과이 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "SE 파우메이라스",
+        "start": "1998.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "감바 오사카",
+        "start": "2003.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "클루브 리베르타드",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "도세 데 옥투브레 FC",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "프란시스코 하비에르 \"치키\" 아르세 롤론(스페인어: Francisco Javier \"Chiqui\" Arce Rolón, 1971년 4월 2일, 아순시온 ~ )은 파라과이의 전 축구 선수이자 세로 포르테뇨의 감독이다. 선수 시절에는 오른쪽 풀백으로 활동했으며, 1995년부터 2002년까지 파라과이 축구 국가대표팀에서 총 61경기를 뛰었다.",
+    "image": {
+      "url": "/players/P-76678.jpg",
+      "author": "Julian Morinigo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiqui_Arce.jpg"
+    }
+  },
+  "P-92547": {
+    "nameEn": "Jesús Arellano",
+    "birthDate": "1973.05.08",
+    "nameKo": "헤수스 아레야노",
+    "height": 175,
+    "birthPlace": "몬테레이",
+    "clubs": [
+      {
+        "name": "CF 몬테레이",
+        "end": "2015"
+      },
+      {
+        "name": "CF 몬테레이",
+        "start": "1992",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "멕시코 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "CD 과달라하라",
+        "start": "1997.01.01",
+        "end": "1999.01.01"
+      }
+    ],
+    "bio": "호세 데 헤수스 아레야노 알코세르(스페인어: José de Jesús Arellano Alcocer, 1973년 5월 8일 ~ )는 멕시코의 전직 프로 축구 선수로, 포지션은 윙어였으며 현재 수배 중인 인물이다.",
+    "image": {
+      "url": "/players/P-92547.jpg",
+      "author": "Jarrett Campbell from Cary, NC, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jes%C3%BAs_Arellano.jpg"
+    }
+  },
+  "P-57595": {
+    "nameEn": "Andre Arendse",
+    "birthDate": "1967.06.27",
+    "height": 191,
+    "birthPlace": "케이프타운",
+    "clubs": [
+      {
+        "name": "아약스 케이프타운 FC",
+        "start": "1991.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "Santos F.C.",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "남아프리카 공화국 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "풀럼 FC",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "옥스퍼드 유나이티드 FC",
+        "start": "1999.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "옥스퍼드 유나이티드 FC",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "Santos F.C.",
+        "start": "2000.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "마멜로디 선다운즈 FC",
+        "start": "2003.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "슈퍼스포트 유나이티드 FC",
+        "start": "2005.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "Bidvest Wits F.C.",
+        "start": "2013.01.01",
+        "end": "2013.01.01"
+      }
+    ],
+    "bio": "Andre Leander Arendse is a South African former soccer player who played as a goalkeeper."
+  },
+  "P-25543": {
+    "nameEn": "Gerald Asamoah",
+    "birthDate": "1978.10.03",
+    "nameKo": "게랄트 아자모아",
+    "height": 180,
+    "birthPlace": "Mampong",
+    "clubs": [
+      {
+        "name": "하노버 96",
+        "start": "1996.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "FC 샬케 04",
+        "start": "1999.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "독일 축구 국가대표팀",
+        "start": "2001.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "Germany national football Α2 team",
+        "start": "2001.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "FC 장크트파울리",
+        "start": "2010.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "SpVgg 그로이터 퓌르트",
+        "start": "2012.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "FC Schalke 04 II",
+        "start": "2013.01.01",
+        "end": "2015.01.01"
+      },
+      {
+        "name": "FC 샬케 04",
+        "start": "2013.01.01",
+        "end": "2015.01.01"
+      }
+    ],
+    "bio": "게랄트 아자모아(독일어: Gerald Asamoah, 1978년 10월 3일 ~ )는 가나계 독일인 전 축구 선수이다.",
+    "image": {
+      "url": "/players/P-25543.jpg",
+      "author": "Frank Schwichtenberg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gerald_Asamoah_%E2%80%93_Tag_der_Legenden_2016_02.jpg"
+    }
+  },
+  "P-74323": {
+    "nameEn": "Nicolás Asencio",
+    "birthDate": "1975.04.26",
+    "height": 170,
+    "birthPlace": "마찰라",
+    "clubs": [
+      {
+        "name": "바르셀로나 SC",
+        "start": "1993.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "Club 9 de Octubre",
+        "start": "1994.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "SD 아우카스",
+        "start": "1995.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "에콰도르 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "바르셀로나 SC",
+        "start": "1996.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "에스투디안테스 테코스",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "페로 카릴 오에스테",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "바르셀로나 SC",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "미요나리오스 FC",
+        "start": "2001.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "바르셀로나 SC",
+        "start": "2001.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "CD 엘 나시오날",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "데포르티보 쿠엥카",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "코브렐로아",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "바르셀로나 SC",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "클루브 호르헤 윌스테르만",
+        "start": "2007.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "Club Social y Deportivo Macará",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "Club Deportivo Atlético Audaz",
+        "start": "2009.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "데포르티보 키토",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "Club Deportivo ESPOLI",
+        "start": "2011.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "Club Social, Cultural y Deportivo Grecia",
+        "start": "2012.01.01",
+        "end": "2012.01.01"
+      }
+    ],
+    "bio": "Nicolás Geovanny Asencio Espinoza is an Ecuadorian former professional footballer who played as a striker.",
+    "image": {
+      "url": "/players/P-74323.jpg",
+      "author": "César Muñoz/Andes",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_SC_-_2016_-_Entrenamiento_con_Nicol%C3%A1s_Asencio_(25123633516).jpg"
+    }
+  },
+  "P-52032": {
+    "nameEn": "Emre Aşık",
+    "birthDate": "1973.12.13",
+    "nameKo": "엠레 아시으크",
+    "height": 183,
+    "birthPlace": "부르사",
+    "clubs": [
+      {
+        "name": "발리케시르스포르",
+        "start": "1992.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "Turkey national under-21 football team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "Turkey national under-18 football team",
+        "start": "1992.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "페네르바흐체 SK",
+        "start": "1993.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "튀르키예 축구 국가대표팀",
+        "start": "1994.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "이스탄불스포르",
+        "start": "1996.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "갈라타사라이 SK",
+        "start": "2000.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "베식타시 JK",
+        "start": "2003.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "갈라타사라이 SK",
+        "start": "2006.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "앙카라스포르",
+        "start": "2007.01.01",
+        "end": "2008.01.01"
+      }
+    ],
+    "bio": "엠레 아시으크(튀르키예어: Emre Aşık, 1973년 12월 13일, 부르사 주 부르사 ~)는 튀르키예의 전직 국가대표 축구 선수이다. 그는 튀르키예의 다수 쉬페르리그 구단에서 중앙 수비수로 활약했는데, 갈라타사라이에서 활약한 것으로 가장 잘 알려져 있다. 아시으크는 TFF 3. 리그의 필라멘트스포르에서 축구를 시작했고, 이후 발리케시르스포르, 페네르바흐체, 이스탄불스포르, 그리고 베식타시에서도 활약했다. 그는 갈라타사라이와 베식타시에서 모두 활약한 경력이 있는 13명밖에 안되는 선수 명단에 이름을 올렸다.",
+    "image": {
+      "url": "/players/P-52032.jpg",
+      "author": "Ultraslansi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emre_A%C5%9F%C4%B1k.jpg"
+    }
+  },
+  "P-34957": {
+    "nameEn": "Celso Ayala",
+    "birthDate": "1970.08.20",
+    "height": 182,
+    "birthPlace": "아순시온",
+    "clubs": [
+      {
+        "name": "클루브 올림피아",
+        "start": "1990.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "Paraguay Olympic football team",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "파라과이 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "로사리오 센트랄",
+        "start": "1994.01.01",
+        "end": "1994.01.01"
+      },
+      {
+        "name": "로사리오 센트랄",
+        "start": "1994.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "1995.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "레알 베티스",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "아틀레티코 마드리드",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "상파울루 FC",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "리버 플레이트",
+        "start": "2001.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "콜로-콜로",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "Celso Rafael Ayala Gavilán is a Paraguayan football manager and former player who played as a centre-back. He is the current manager of Peruvian club Cajamarca."
+  },
+  "P-90857": {
+    "nameEn": "Marlon Ayoví",
+    "birthDate": "1971.09.27",
+    "height": 177,
+    "birthPlace": "과야킬",
+    "clubs": [
+      {
+        "name": "Club Deportivo Filanbanco",
+        "start": "1990.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "데포르티보 키토",
+        "start": "1993.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "에콰도르 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "우니베르시다드 카톨리카 델 에콰도르",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "데포르티보 키토",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "CD 우니베르시다드 카톨리카",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "바르셀로나 SC",
+        "start": "2007.01.01",
+        "end": "2008.01.01"
+      }
+    ],
+    "bio": "Marlon Riter Ayoví Mosquera is a retired Ecuadorian footballer. A midfielder, he played 76 times for Ecuador between 1998 and 2007."
+  },
+  "P-91148": {
+    "nameEn": "Celestine Babayaro",
+    "birthDate": "1978.08.29",
+    "nameKo": "셀레스틴 바바야로",
+    "height": 175,
+    "birthPlace": "카두나",
+    "clubs": [
+      {
+        "name": "Plateau United F.C.",
+        "start": "1994",
+        "end": "1994"
+      },
+      {
+        "name": "RSC 안데를레흐트",
+        "start": "1994.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "나이지리아 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "첼시 FC",
+        "start": "1997.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "뉴캐슬 유나이티드 FC",
+        "start": "2005.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "로스앤젤레스 갤럭시",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      }
+    ],
+    "bio": "셀레스틴 히치스 바바야로(영어: Celestine Hycieth Babayaro, 1978년 8월 29일 ~ )는 나이지리아의 전 축구 선수이다.",
+    "image": {
+      "url": "/players/P-91148.jpg",
+      "author": "@cfcunofficial (Chelsea Debs) London from London, UK",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celestine_Babayaro_(cropped).jpg"
+    }
+  },
+  "P-10094": {
+    "nameEn": "Khaled Badra",
+    "birthDate": "1973.04.08",
+    "nameKo": "칼레드 바드라",
+    "height": 185,
+    "birthPlace": "카이르완",
+    "clubs": [
+      {
+        "name": "JS Kairouan",
+        "start": "1994.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "에스페랑스 스포르티브 드 튀니스",
+        "start": "1995.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "튀니지 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "데니즐리스포르",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "제노아 CFC",
+        "start": "2001.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "에스페랑스 스포르티브 드 튀니스",
+        "start": "2002.01.01",
+        "end": "2006"
+      },
+      {
+        "name": "알아흘리",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "에스페랑스 스포르티브 드 튀니스",
+        "start": "2007.01.01",
+        "end": "2009.01.01"
+      }
+    ],
+    "bio": "칼레드 바드라(아랍어: خالد بدرة, Khaled Badra, 1973년 4월 8일 ~)는 튀니지의 은퇴한 축구 선수로, 포지션은 센터백이었다. 지난 2002년 FIFA 월드컵에서 튀니지 대표팀의 주장으로 참가하기도 했다."
+  },
+  "P-16675": {
+    "nameEn": "Vítor Baía",
+    "birthDate": "1969.10.15"
+  },
+  "P-90321": {
+    "nameEn": "Arkadiusz Bąk",
+    "birthDate": "1974.10.06"
+  },
+  "P-46873": {
+    "nameEn": "Jacek Bąk",
+    "birthDate": "1973.03.24"
+  },
+  "P-84003": {
+    "nameEn": "Michael Ballack",
+    "birthDate": "1976.09.26"
+  },
+  "P-23800": {
+    "nameEn": "Rubén Baraja",
+    "birthDate": "1975.07.11"
+  },
+  "P-55991": {
+    "nameEn": "Fabien Barthez",
+    "birthDate": "1971.06.28"
+  },
+  "P-21108": {
+    "nameEn": "Yıldıray Baştürk",
+    "birthDate": "1978.12.24"
+  },
+  "P-84542": {
+    "nameEn": "Gabriel Batistuta",
+    "birthDate": "1969.02.01"
+  },
+  "P-73157": {
+    "nameEn": "Frank Baumann",
+    "birthDate": "1975.10.29"
+  },
+  "P-22242": {
+    "nameEn": "Zoubeir Baya",
+    "birthDate": "1971.05.15"
+  },
+  "P-91976": {
+    "nameEn": "DaMarcus Beasley",
+    "birthDate": "1982.05.24"
+  },
+  "P-81049": {
+    "nameEn": "David Beckham",
+    "birthDate": "1975.05.02"
+  },
+  "P-93236": {
+    "nameEn": "Juliano Belletti",
+    "birthDate": "1976.06.20"
+  },
+  "P-46497": {
+    "nameEn": "Emre Belözoğlu",
+    "birthDate": "1980.09.07"
+  },
+  "P-99847": {
+    "nameEn": "Selim Benachour",
+    "birthDate": "1981.09.08"
+  },
+  "P-91925": {
+    "nameEn": "Paulo Bento",
+    "birthDate": "1969.06.20"
+  },
+  "P-09888": {
+    "nameEn": "Gregg Berhalter",
+    "birthDate": "1973.08.01"
+  },
+  "P-76498": {
+    "nameEn": "Vladimir Beschastnykh",
+    "birthDate": "1974.04.01"
+  },
+  "P-37140": {
+    "nameEn": "Beto",
+    "birthDate": "1976.05.03"
+  },
+  "P-35489": {
+    "nameEn": "Habib Beye",
+    "birthDate": "1977.10.19"
+  },
+  "P-84534": {
+    "nameEn": "Oliver Bierhoff",
+    "birthDate": "1968.05.01"
+  },
+  "P-88428": {
+    "nameEn": "Cuauhtémoc Blanco",
+    "birthDate": "1973.01.17"
+  },
+  "P-03026": {
+    "nameEn": "Marco Bode",
+    "birthDate": "1969.07.23"
+  },
+  "P-05337": {
+    "nameEn": "Kasper Bøgelund",
+    "birthDate": "1980.10.08"
+  },
+  "P-50470": {
+    "nameEn": "Alen Bokšić",
+    "birthDate": "1970.01.21"
+  },
+  "P-22302": {
+    "nameEn": "Carlos Bonet",
+    "birthDate": "1977.10.02"
+  },
+  "P-81643": {
+    "nameEn": "Jared Borgetti",
+    "birthDate": "1973.08.14"
+  },
+  "P-89154": {
+    "nameEn": "Riadh Bouazizi",
+    "birthDate": "1973.04.08"
+  },
+  "P-41783": {
+    "nameEn": "Alioum Boukar",
+    "birthDate": "1972.01.03"
+  },
+  "P-52641": {
+    "nameEn": "Ali Boumnijel",
+    "birthDate": "1966.04.13"
+  },
+  "P-87702": {
+    "nameEn": "Raouf Bouzaiene",
+    "birthDate": "1970.08.16"
+  },
+  "P-22209": {
+    "nameEn": "Gary Breen",
+    "birthDate": "1973.12.12"
+  },
+  "P-91486": {
+    "nameEn": "Wayne Bridge",
+    "birthDate": "1980.08.05"
+  },
+  "P-14189": {
+    "nameEn": "Steven Bryce",
+    "birthDate": "1977.08.16"
+  },
+  "P-37844": {
+    "nameEn": "Delron Buckley",
+    "birthDate": "1977.12.07"
+  },
+  "P-11392": {
+    "nameEn": "Gianluigi Buffon",
+    "birthDate": "1978.01.28"
+  },
+  "P-54102": {
+    "nameEn": "Spasoje Bulajič",
+    "birthDate": "1975.11.24"
+  },
+  "P-31907": {
+    "nameEn": "Okan Buruk",
+    "birthDate": "1973.10.19"
+  },
+  "P-03723": {
+    "nameEn": "Nicky Butt",
+    "birthDate": "1975.01.21"
+  },
+  "P-76755": {
+    "nameEn": "Gabriel Caballero",
+    "birthDate": "1971.02.05"
+  },
+  "P-50109": {
+    "nameEn": "Julio César Cáceres",
+    "birthDate": "1979.10.05"
+  },
+  "P-91718": {
+    "nameEn": "Cafu",
+    "birthDate": "1970.06.07"
+  },
+  "P-01462": {
+    "nameEn": "Henri Camara",
+    "birthDate": "1977.05.10"
+  },
+  "P-05029": {
+    "nameEn": "Souleymane Camara",
+    "birthDate": "1982.12.22"
+  },
+  "P-97840": {
+    "nameEn": "Sol Campbell",
+    "birthDate": "1974.09.18"
+  },
+  "P-78557": {
+    "nameEn": "Jorge Luis Campos",
+    "birthDate": "1970.08.11"
+  },
+  "P-22876": {
+    "nameEn": "Vincent Candela",
+    "birthDate": "1973.10.24"
+  },
+  "P-82458": {
+    "nameEn": "Denis Caniza",
+    "birthDate": "1974.08.29"
+  },
+  "P-88863": {
+    "nameEn": "Fabio Cannavaro",
+    "birthDate": "1973.09.13"
+  },
+  "P-07559": {
+    "nameEn": "Capucho",
+    "birthDate": "1972.02.21"
+  },
+  "P-98051": {
+    "nameEn": "José Cardozo",
+    "birthDate": "1971.03.19"
+  },
+  "P-91888": {
+    "nameEn": "Fabián Carini",
+    "birthDate": "1979.12.26"
+  },
+  "P-85176": {
+    "nameEn": "Roberto Carlos",
+    "birthDate": "1973.04.10"
+  },
+  "P-32594": {
+    "nameEn": "Salvador Carmona",
+    "birthDate": "1975.08.22"
+  },
+  "P-14062": {
+    "nameEn": "Bradley Carnell",
+    "birthDate": "1977.01.21"
+  },
+  "P-57284": {
+    "nameEn": "Lee Carsley",
+    "birthDate": "1974.02.28"
+  },
+  "P-61793": {
+    "nameEn": "Iker Casillas",
+    "birthDate": "1981.05.20"
+  },
+  "P-73169": {
+    "nameEn": "Carlos Castro",
+    "birthDate": "1978.09.10"
+  },
+  "P-49485": {
+    "nameEn": "Ömer Çatkıç",
+    "birthDate": "1974.10.15"
+  },
+  "P-60052": {
+    "nameEn": "Pablo Cavallero",
+    "birthDate": "1974.04.13"
+  },
+  "P-22187": {
+    "nameEn": "Aleš Čeh",
+    "birthDate": "1968.04.07"
+  },
+  "P-74981": {
+    "nameEn": "Nastja Čeh",
+    "birthDate": "1978.01.26"
+  },
+  "P-68890": {
+    "nameEn": "Walter Centeno",
+    "birthDate": "1974.10.06"
+  },
+  "P-11930": {
+    "nameEn": "José Francisco Cevallos",
+    "birthDate": "1971.04.17"
+  },
+  "P-39884": {
+    "nameEn": "Cha Du-ri",
+    "birthDate": "1980.07.25",
+    "nameKo": "차두리",
+    "height": 181,
+    "birthPlace": "프랑크푸르트",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2001.01.01",
+        "end": "2015.01.01"
+      },
+      {
+        "name": "아르미니아 빌레펠트",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "바이어 04 레버쿠젠",
+        "start": "2002.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "아인트라흐트 프랑크푸르트",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "아인트라흐트 프랑크푸르트",
+        "start": "2004.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "1. FSV 마인츠 05",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "TuS 코블렌츠",
+        "start": "2007.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "SC 프라이부르크",
+        "start": "2009.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "셀틱 FC",
+        "start": "2010.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "포르투나 뒤셀도르프",
+        "start": "2012.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2013.01.01",
+        "end": "2015.01.01"
+      }
+    ],
+    "bio": "차두리(車杜里, 1980년 7월 25일 ~ )는 대한민국의 전 축구 선수 출신 축구 지도자이다. 현역 시절 포지션은 공격수, 오른쪽 풀백이었으며 현재 K리그2의 화성 FC 감독을 맡고 있다. 과거 축구 선수, 축구 감독, 축구 해설위원으로 활동했던 차범근의 아들이다.",
+    "image": {
+      "url": "/players/P-39884.jpg",
+      "author": "Alasdair Middleton from Rothesay, Scotland",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cha_Du-Ri_-_celtic.jpg"
+    }
+  },
+  "P-99914": {
+    "nameEn": "Cléber Chalá",
+    "birthDate": "1971.06.29"
+  },
+  "P-28816": {
+    "nameEn": "José Chamot",
+    "birthDate": "1969.05.17"
+  },
+  "P-36426": {
+    "nameEn": "José Luis Chilavert",
+    "birthDate": "1965.07.27"
+  },
+  "P-07865": {
+    "nameEn": "Choi Jin-cheul",
+    "birthDate": "1971.03.26",
+    "nameKo": "최진철",
+    "height": 187,
+    "birthPlace": "진도",
+    "clubs": [
+      {
+        "name": "전북 현대 모터스 FC",
+        "start": "1996.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "최진철 은 대한민국의 전 축구 선수, 지도자이다.",
+    "image": {
+      "url": "/players/P-07865.jpg",
+      "author": "SBS Radio 에라오",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%B5%9C%EC%A7%84%EC%B2%A0.jpg"
+    }
+  },
+  "P-37114": {
+    "nameEn": "Choi Tae-uk",
+    "birthDate": "1981.03.13",
+    "nameKo": "최태욱",
+    "height": 173,
+    "birthPlace": "인천광역시",
+    "clubs": [
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2000.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "인천 유나이티드 FC",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "시미즈 에스펄스",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "전북 현대 모터스 FC",
+        "start": "2008.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2010.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2014.01.01",
+        "end": "2014.01.01"
+      }
+    ],
+    "bio": "최태욱(崔兌旭, 1981년 3월 13일~)은 대한민국의 은퇴한 축구 선수로 포지션은 윙어였다.",
+    "image": {
+      "url": "/players/P-37114.jpg",
+      "author": "acrofan.com",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choi_Tae-Uk_from_acrofan.jpg"
+    }
+  },
+  "P-72495": {
+    "nameEn": "Choi Yong-soo",
+    "birthDate": "1973.09.10",
+    "nameKo": "최용수",
+    "height": 184,
+    "birthPlace": "부산광역시",
+    "clubs": [
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "1992.01.01",
+        "end": "1993.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "1994.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1994.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "상주 상무 FC",
+        "start": "1997.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "제프 유나이티드 이치하라 지바",
+        "start": "2001.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "교토 상가 FC",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "주빌로 이와타",
+        "start": "2005.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "최용수(崔龍洙, 1971년 9월 10일~)는 대한민국의 축구 지도자이다.",
+    "image": {
+      "url": "/players/P-72495.jpg",
+      "author": "GOAL TV",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%B5%9C%EC%9A%A9%EC%88%98_2022.jpg"
+    }
+  },
+  "P-03331": {
+    "nameEn": "Justice Christopher",
+    "birthDate": "1981.12.24"
+  },
+  "P-00649": {
+    "nameEn": "Sebastjan Cimirotič",
+    "birthDate": "1974.09.14"
+  },
+  "P-95302": {
+    "nameEn": "Aliou Cissé",
+    "birthDate": "1976.03.24"
+  },
+  "P-53533": {
+    "nameEn": "Djibril Cissé",
+    "birthDate": "1981.08.12"
+  },
+  "P-44011": {
+    "nameEn": "José Clayton",
+    "birthDate": "1974.03.21"
+  },
+  "P-15450": {
+    "nameEn": "Francesco Coco",
+    "birthDate": "1977.01.08"
+  },
+  "P-16557": {
+    "nameEn": "Ashley Cole",
+    "birthDate": "1980.12.20"
+  },
+  "P-37933": {
+    "nameEn": "Joe Cole",
+    "birthDate": "1981.11.08"
+  },
+  "P-37924": {
+    "nameEn": "Ferdinand Coly",
+    "birthDate": "1973.09.10"
+  },
+  "P-88800": {
+    "nameEn": "Sérgio Conceição",
+    "birthDate": "1974.11.15"
+  },
+  "P-20792": {
+    "nameEn": "David Connolly",
+    "birthDate": "1977.06.06"
+  },
+  "P-73722": {
+    "nameEn": "Jorge Costa",
+    "birthDate": "1971.10.14"
+  },
+  "P-62808": {
+    "nameEn": "Rui Costa",
+    "birthDate": "1972.03.29"
+  },
+  "P-23927": {
+    "nameEn": "Fernando Couto",
+    "birthDate": "1969.08.02"
+  },
+  "P-19888": {
+    "nameEn": "Hernán Crespo",
+    "birthDate": "1975.07.05"
+  },
+  "P-88899": {
+    "nameEn": "Nelson Cuevas",
+    "birthDate": "1980.01.10"
+  },
+  "P-57630": {
+    "nameEn": "Kenny Cunningham",
+    "birthDate": "1971.06.28"
+  },
+  "P-55616": {
+    "nameEn": "Mladen Dabanovič",
+    "birthDate": "1971.09.13"
+  },
+  "P-27229": {
+    "nameEn": "Omar Daf",
+    "birthDate": "1977.02.12"
+  },
+  "P-31566": {
+    "nameEn": "Ümit Davala",
+    "birthDate": "1973.07.30"
+  },
+  "P-94736": {
+    "nameEn": "Glen De Boeck",
+    "birthDate": "1971.08.22"
+  },
+  "P-92146": {
+    "nameEn": "Ulises de la Cruz",
+    "birthDate": "1974.02.08"
+  },
+  "P-97963": {
+    "nameEn": "Gonzalo de los Santos",
+    "birthDate": "1976.07.19"
+  },
+  "P-24963": {
+    "nameEn": "Javier de Pedro",
+    "birthDate": "1973.08.04"
+  },
+  "P-48592": {
+    "nameEn": "Geert De Vlieger",
+    "birthDate": "1971.10.16"
+  },
+  "P-17071": {
+    "nameEn": "Éric Deflandre",
+    "birthDate": "1973.08.02"
+  },
+  "P-83836": {
+    "nameEn": "Alessandro Del Piero",
+    "birthDate": "1974.11.09"
+  },
+  "P-19156": {
+    "nameEn": "Agustín Delgado",
+    "birthDate": "1974.12.23"
+  },
+  "P-79146": {
+    "nameEn": "Denílson",
+    "birthDate": "1977.08.24"
+  },
+  "P-79380": {
+    "nameEn": "Marcel Desailly",
+    "birthDate": "1968.09.07"
+  },
+  "P-42659": {
+    "nameEn": "Luigi Di Biagio",
+    "birthDate": "1971.06.03"
+  },
+  "P-59777": {
+    "nameEn": "Angelo Di Livio",
+    "birthDate": "1966.07.26"
+  },
+  "P-35019": {
+    "nameEn": "Salif Diao",
+    "birthDate": "1977.02.10"
+  },
+  "P-16046": {
+    "nameEn": "Lamine Diatta",
+    "birthDate": "1975.07.02"
+  },
+  "P-82212": {
+    "nameEn": "Papa Bouba Diop",
+    "birthDate": "1978.01.28"
+  },
+  "P-84943": {
+    "nameEn": "El Hadji Diouf",
+    "birthDate": "1981.01.15"
+  },
+  "P-80680": {
+    "nameEn": "Youri Djorkaeff",
+    "birthDate": "1968.03.09"
+  },
+  "P-68818": {
+    "nameEn": "Cristiano Doni",
+    "birthDate": "1973.04.01"
+  },
+  "P-05728": {
+    "nameEn": "Landon Donovan",
+    "birthDate": "1982.03.04"
+  },
+  "P-60686": {
+    "nameEn": "Wei Du",
+    "birthDate": "1982.02.09"
+  },
+  "P-59886": {
+    "nameEn": "Jerzy Dudek",
+    "birthDate": "1973.03.23"
+  },
+  "P-18106": {
+    "nameEn": "Damien Duff",
+    "birthDate": "1979.03.02"
+  },
+  "P-74065": {
+    "nameEn": "Christophe Dugarry",
+    "birthDate": "1972.03.24"
+  },
+  "P-34406": {
+    "nameEn": "Kieron Dyer",
+    "birthDate": "1978.12.29"
+  },
+  "P-26695": {
+    "nameEn": "Edílson",
+    "birthDate": "1971.09.17"
+  },
+  "P-09270": {
+    "nameEn": "Edmílson",
+    "birthDate": "1976.07.10"
+  },
+  "P-38878": {
+    "nameEn": "Luis Enrique",
+    "birthDate": "1970.05.08"
+  },
+  "P-39249": {
+    "nameEn": "Vincent Enyeama",
+    "birthDate": "1982.08.29"
+  },
+  "P-37782": {
+    "nameEn": "Arif Erdem",
+    "birthDate": "1972.01.02"
+  },
+  "P-61703": {
+    "nameEn": "Samuel Eto'o",
+    "birthDate": "1981.03.10"
+  },
+  "P-62977": {
+    "nameEn": "Khalilou Fadiga",
+    "birthDate": "1974.12.30"
+  },
+  "P-24535": {
+    "nameEn": "Zhiyi Fan",
+    "birthDate": "1969.11.06"
+  },
+  "P-42976": {
+    "nameEn": "Amdy Faye",
+    "birthDate": "1977.03.12"
+  },
+  "P-01249": {
+    "nameEn": "Rio Ferdinand",
+    "birthDate": "1978.11.07"
+  },
+  "P-57496": {
+    "nameEn": "Luís Figo",
+    "birthDate": "1972.11.04"
+  },
+  "P-56778": {
+    "nameEn": "Steve Finnan",
+    "birthDate": "1976.04.24"
+  },
+  "P-63522": {
+    "nameEn": "Marc-Vivien Foé",
+    "birthDate": "1975.05.01"
+  },
+  "P-03776": {
+    "nameEn": "Rolando Fonseca",
+    "birthDate": "1974.06.06"
+  },
+  "P-86087": {
+    "nameEn": "Diego Forlán",
+    "birthDate": "1979.05.19"
+  },
+  "P-02423": {
+    "nameEn": "Quinton Fortune",
+    "birthDate": "1977.05.21"
+  },
+  "P-10663": {
+    "nameEn": "Robbie Fowler",
+    "birthDate": "1975.04.09"
+  },
+  "P-22263": {
+    "nameEn": "Juan Carlos Franco",
+    "birthDate": "1973.04.17"
+  },
+  "P-11424": {
+    "nameEn": "Nuno Frechaut",
+    "birthDate": "1977.09.24"
+  },
+  "P-76191": {
+    "nameEn": "Brad Friedel",
+    "birthDate": "1971.05.18"
+  },
+  "P-35264": {
+    "nameEn": "Torsten Frings",
+    "birthDate": "1976.11.22"
+  },
+  "P-89292": {
+    "nameEn": "Takashi Fukunishi",
+    "birthDate": "1976.09.01"
+  },
+  "P-15858": {
+    "nameEn": "Hassen Gabsi",
+    "birthDate": "1974.02.23"
+  },
+  "P-75095": {
+    "nameEn": "Saša Gajser",
+    "birthDate": "1974.02.11"
+  },
+  "P-48946": {
+    "nameEn": "Marinko Galič",
+    "birthDate": "1970.04.22"
+  },
+  "P-19241": {
+    "nameEn": "Carlos Gamarra",
+    "birthDate": "1971.02.17"
+  },
+  "P-76244": {
+    "nameEn": "Pablo García",
+    "birthDate": "1977.05.11"
+  },
+  "P-87592": {
+    "nameEn": "Rafael García",
+    "birthDate": "1974.08.14"
+  },
+  "P-21495": {
+    "nameEn": "Alberto García Aspe",
+    "birthDate": "1967.05.11"
+  },
+  "P-18164": {
+    "nameEn": "Gennaro Gattuso",
+    "birthDate": "1978.01.09"
+  },
+  "P-75108": {
+    "nameEn": "Diego Gavilán",
+    "birthDate": "1980.03.01"
+  },
+  "P-86465": {
+    "nameEn": "Geremi",
+    "birthDate": "1978.12.20"
+  },
+  "P-41620": {
+    "nameEn": "Kaies Ghodhbane",
+    "birthDate": "1976.01.07"
+  },
+  "P-32512": {
+    "nameEn": "Shay Given",
+    "birthDate": "1976.04.20"
+  },
+  "P-37701": {
+    "nameEn": "Arkadiusz Głowacki",
+    "birthDate": "1979.03.13"
+  },
+  "P-57631": {
+    "nameEn": "Nuno Gomes",
+    "birthDate": "1976.07.05"
+  },
+  "P-55170": {
+    "nameEn": "Rónald Gómez",
+    "birthDate": "1975.01.24"
+  },
+  "P-11130": {
+    "nameEn": "Kily González",
+    "birthDate": "1974.08.04"
+  },
+  "P-34376": {
+    "nameEn": "Bart Goor",
+    "birthDate": "1973.04.09"
+  },
+  "P-24031": {
+    "nameEn": "Thomas Gravesen",
+    "birthDate": "1976.03.11"
+  },
+  "P-63778": {
+    "nameEn": "Jesper Grønkjær",
+    "birthDate": "1977.08.12"
+  },
+  "P-32567": {
+    "nameEn": "Raúl Guerrón",
+    "birthDate": "1976.10.12"
+  },
+  "P-45056": {
+    "nameEn": "Gianni Guigou",
+    "birthDate": "1975.02.22"
+  },
+  "P-53829": {
+    "nameEn": "Tomasz Hajto",
+    "birthDate": "1972.10.16"
+  },
+  "P-35902": {
+    "nameEn": "Dietmar Hamann",
+    "birthDate": "1973.08.27"
+  },
+  "P-27445": {
+    "nameEn": "Haidong Hao",
+    "birthDate": "1970.05.09"
+  },
+  "P-61216": {
+    "nameEn": "Owen Hargreaves",
+    "birthDate": "1981.01.20"
+  },
+  "P-59412": {
+    "nameEn": "Ian Harte",
+    "birthDate": "1977.08.31"
+  },
+  "P-64961": {
+    "nameEn": "Toshihiro Hattori",
+    "birthDate": "1973.09.23"
+  },
+  "P-16859": {
+    "nameEn": "Tayfur Havutçu",
+    "birthDate": "1970.04.23"
+  },
+  "P-07902": {
+    "nameEn": "Magnus Hedman",
+    "birthDate": "1973.03.19"
+  },
+  "P-79273": {
+    "nameEn": "Jan Heintze",
+    "birthDate": "1963.08.17"
+  },
+  "P-34695": {
+    "nameEn": "Frankie Hejduk",
+    "birthDate": "1974.08.05"
+  },
+  "P-20643": {
+    "nameEn": "Iván Helguera",
+    "birthDate": "1975.03.18"
+  },
+  "P-72404": {
+    "nameEn": "Thomas Helveg",
+    "birthDate": "1971.06.24"
+  },
+  "P-86345": {
+    "nameEn": "René Henriksen",
+    "birthDate": "1969.08.27"
+  },
+  "P-51395": {
+    "nameEn": "Thierry Henry",
+    "birthDate": "1977.08.17"
+  },
+  "P-45941": {
+    "nameEn": "Luis Hernández",
+    "birthDate": "1968.12.22"
+  },
+  "P-08307": {
+    "nameEn": "Emile Heskey",
+    "birthDate": "1978.01.11"
+  },
+  "P-35246": {
+    "nameEn": "Fernando Hierro",
+    "birthDate": "1968.03.23"
+  },
+  "P-00105": {
+    "nameEn": "Matt Holland",
+    "birthDate": "1974.04.11"
+  },
+  "P-55097": {
+    "nameEn": "Hong Myung-bo",
+    "birthDate": "1969.02.12",
+    "nameKo": "홍명보",
+    "height": 181,
+    "birthPlace": "서울특별시",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1990.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "상주 상무 FC",
+        "start": "1991.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "1992.01.01",
+        "end": "1997.01.01"
+      },
+      {
+        "name": "쇼난 벨마레",
+        "start": "1997.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "가시와 레이솔",
+        "start": "1999.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "2002.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "로스앤젤레스 갤럭시",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      }
+    ],
+    "bio": "홍명보(洪明甫, 1969년 2월 12일~)는 대한민국의 축구 선수 출신 지도자로 선수 시절 포지션은 수비수였다. 현재 대한민국 축구 국가대표팀 감독을 맡고 있으며 대한민국 국가대표 선수로서 국제 A매치 136경기에 출전하여 2026년 6월 기준으로 차범근과 함께 대한민국 국가대표팀 역대 최다 출전 2위 기록을 보유하고 있다.",
+    "image": {
+      "url": "/players/P-55097.jpg",
+      "author": "Republic of  Korea",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Myung-Bo.jpg"
+    }
+  },
+  "P-98031": {
+    "nameEn": "Iván Hurtado",
+    "birthDate": "1974.08.16"
+  },
+  "P-15222": {
+    "nameEn": "Hwang Sun-hong",
+    "birthDate": "1968.07.14",
+    "nameKo": "황선홍",
+    "height": 183,
+    "birthPlace": "예산군",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1988.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "바이어 04 레버쿠젠",
+        "start": "1991.01.01",
+        "end": "1991.01.01"
+      },
+      {
+        "name": "부퍼탈러 SV",
+        "start": "1992.01.01",
+        "end": "1992.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "1993.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1996.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "세레소 오사카",
+        "start": "1998.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "가시와 레이솔",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "전남 드래곤즈 FC",
+        "start": "2002.01.01",
+        "end": "2002.01.01"
+      }
+    ],
+    "bio": "황선홍(黃善洪, 1968년 7월 14일~)은 대한민국의 축구 선수 출신 축구 감독이다. 선수 시절 스트라이커로 활동했으며 현재 K리그1의 대전 하나 시티즌 감독을 맡고 있다.",
+    "image": {
+      "url": "/players/P-15222.jpg",
+      "author": "Official Youtube account of KBS 뷰(KBS View)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FC%EC%84%9C%EC%9A%B8_%ED%99%A9%EC%84%A0%ED%99%8D_%EA%B0%90%EB%8F%85_%EC%B7%A8%EC%9E%84_%EA%B8%B0%EC%9E%90%ED%9A%8C%EA%B2%AC_2.23_minutes_Scene.jpg"
+    }
+  },
+  "P-80105": {
+    "nameEn": "Zlatan Ibrahimović",
+    "birthDate": "1981.10.03"
+  },
+  "P-48525": {
+    "nameEn": "Daisuke Ichikawa",
+    "birthDate": "1980.05.14"
+  },
+  "P-27347": {
+    "nameEn": "Pius Ikedia",
+    "birthDate": "1980.07.11"
+  },
+  "P-46807": {
+    "nameEn": "Junichi Inamoto",
+    "birthDate": "1979.09.18"
+  },
+  "P-29172": {
+    "nameEn": "Filippo Inzaghi",
+    "birthDate": "1973.08.09"
+  },
+  "P-65806": {
+    "nameEn": "Pierre Issa",
+    "birthDate": "1975.09.12"
+  },
+  "P-84093": {
+    "nameEn": "Mark Iuliano",
+    "birthDate": "1973.08.12"
+  },
+  "P-14715": {
+    "nameEn": "Marat Izmailov",
+    "birthDate": "1982.09.21"
+  },
+  "P-59617": {
+    "nameEn": "Muzzy Izzet",
+    "birthDate": "1974.10.31"
+  },
+  "P-76769": {
+    "nameEn": "Radhi Jaïdi",
+    "birthDate": "1975.08.30"
+  },
+  "P-68329": {
+    "nameEn": "Andreas Jakobsson",
+    "birthDate": "1972.10.06"
+  },
+  "P-45490": {
+    "nameEn": "Carsten Jancker",
+    "birthDate": "1974.08.28"
+  },
+  "P-26414": {
+    "nameEn": "Robert Jarni",
+    "birthDate": "1968.10.26"
+  },
+  "P-00640": {
+    "nameEn": "Ziad Jaziri",
+    "birthDate": "1978.07.12"
+  },
+  "P-26759": {
+    "nameEn": "Claus Jensen",
+    "birthDate": "1977.04.29"
+  },
+  "P-34389": {
+    "nameEn": "Niclas Jensen",
+    "birthDate": "1974.08.17"
+  },
+  "P-65108": {
+    "nameEn": "Jens Jeremies",
+    "birthDate": "1974.03.05"
+  },
+  "P-02177": {
+    "nameEn": "Jin Jiang",
+    "birthDate": "1968.10.07"
+  },
+  "P-70144": {
+    "nameEn": "Joaquín",
+    "birthDate": "1981.07.21"
+  },
+  "P-14458": {
+    "nameEn": "Joseph-Désiré Job",
+    "birthDate": "1977.12.01"
+  },
+  "P-49258": {
+    "nameEn": "Cobi Jones",
+    "birthDate": "1970.06.16"
+  },
+  "P-20557": {
+    "nameEn": "Mattias Jonson",
+    "birthDate": "1974.01.16"
+  },
+  "P-61068": {
+    "nameEn": "Rui Jorge",
+    "birthDate": "1973.03.27"
+  },
+  "P-68055": {
+    "nameEn": "Martin Jørgensen",
+    "birthDate": "1975.10.06"
+  },
+  "P-29082": {
+    "nameEn": "Juanfran",
+    "birthDate": "1976.07.15"
+  },
+  "P-29601": {
+    "nameEn": "Júnior",
+    "birthDate": "1973.06.20"
+  },
+  "P-66308": {
+    "nameEn": "Roque Júnior",
+    "birthDate": "1976.08.31"
+  },
+  "P-33751": {
+    "nameEn": "Oliver Kahn",
+    "birthDate": "1969.06.15"
+  },
+  "P-98680": {
+    "nameEn": "Nihat Kahveci",
+    "birthDate": "1979.11.23"
+  },
+  "P-58388": {
+    "nameEn": "Kaká",
+    "birthDate": "1982.04.22"
+  },
+  "P-07520": {
+    "nameEn": "Raymond Kalla",
+    "birthDate": "1975.04.22"
+  },
+  "P-29986": {
+    "nameEn": "Radosław Kałużny",
+    "birthDate": "1974.02.02"
+  },
+  "P-91516": {
+    "nameEn": "Nwankwo Kanu",
+    "birthDate": "1976.08.01"
+  },
+  "P-31903": {
+    "nameEn": "Amir Karić",
+    "birthDate": "1973.12.31"
+  },
+  "P-48249": {
+    "nameEn": "Valeri Karpin",
+    "birthDate": "1969.02.02"
+  },
+  "P-03128": {
+    "nameEn": "Iván Kaviedes",
+    "birthDate": "1977.10.24"
+  },
+  "P-84878": {
+    "nameEn": "Robbie Keane",
+    "birthDate": "1980.07.08"
+  },
+  "P-51287": {
+    "nameEn": "Sebastian Kehl",
+    "birthDate": "1980.02.13"
+  },
+  "P-07683": {
+    "nameEn": "Gary Kelly",
+    "birthDate": "1974.07.09"
+  },
+  "P-63089": {
+    "nameEn": "Tugay Kerimoğlu",
+    "birthDate": "1970.08.24"
+  },
+  "P-89971": {
+    "nameEn": "Aleksandr Kerzhakov",
+    "birthDate": "1982.11.27"
+  },
+  "P-28437": {
+    "nameEn": "Dmitri Khokhlov",
+    "birthDate": "1975.12.22"
+  },
+  "P-32499": {
+    "nameEn": "Kevin Kilbane",
+    "birthDate": "1977.02.01"
+  },
+  "P-51785": {
+    "nameEn": "Kim Nam-il",
+    "birthDate": "1977.03.14",
+    "nameKo": "김남일",
+    "height": 182,
+    "birthPlace": "인천광역시",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1998.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "전남 드래곤즈 FC",
+        "start": "2000.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "SBV 엑셀시오르",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2005.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "비셀 고베",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "FC 톰 톰스크",
+        "start": "2010.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "인천 유나이티드 FC",
+        "start": "2012.01.01",
+        "end": "2013.01.01"
+      },
+      {
+        "name": "전북 현대 모터스 FC",
+        "start": "2014.01.01",
+        "end": "2014.01.01"
+      },
+      {
+        "name": "교토 상가 FC",
+        "start": "2015.01.01",
+        "end": "2015.01.01"
+      }
+    ],
+    "bio": "김남일(한국 한자: 金南日, 1977년 5월 1일 ~ )은 대한민국의 축구 선수 출신 축구 지도자이다. 현역 시절 포지션은 수비형 미드필더였다. 본관은 강릉이다.",
+    "image": {
+      "url": "/players/P-51785.jpg",
+      "author": "Amarhgil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Nam-Il_IMG_2896.jpg"
+    }
+  },
+  "P-96267": {
+    "nameEn": "Kim Tae-young",
+    "birthDate": "1970.11.08",
+    "nameKo": "김태영",
+    "birthPlace": "고흥군",
+    "clubs": [
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1992.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "고양 KB 국민은행 FC",
+        "start": "1994",
+        "end": "1994"
+      },
+      {
+        "name": "전남 드래곤즈 FC",
+        "start": "1995.01.01",
+        "end": "2005.01.01"
+      }
+    ],
+    "bio": "김태영(한국 한자: 金泰映, 1970년 11월 8일 - )은 대한민국의 전 축구 선수이자 현 지도자로 현역 시절 포지션은 수비수였으며 선수 시절 전남 드래곤즈에서만 11년을 뛴 K리그의 레전드이다.",
+    "image": {
+      "url": "/players/P-96267.jpg",
+      "author": "acrofan.com",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Tae-Young_from_acrofan.jpg"
+    }
+  },
+  "P-34285": {
+    "nameEn": "Mark Kinsella",
+    "birthDate": "1972.08.12"
+  },
+  "P-79283": {
+    "nameEn": "Kléberson",
+    "birthDate": "1979.06.19"
+  },
+  "P-99558": {
+    "nameEn": "Tomasz Kłos",
+    "birthDate": "1973.03.07"
+  },
+  "P-27787": {
+    "nameEn": "Miroslav Klose",
+    "birthDate": "1978.06.09"
+  },
+  "P-04672": {
+    "nameEn": "Aleksander Knavs",
+    "birthDate": "1975.12.05"
+  },
+  "P-18536": {
+    "nameEn": "Daniel Kome",
+    "birthDate": "1980.05.19"
+  },
+  "P-94559": {
+    "nameEn": "Bülent Korkmaz",
+    "birthDate": "1968.11.24"
+  },
+  "P-73319": {
+    "nameEn": "George Koumantarakis",
+    "birthDate": "1974.03.27"
+  },
+  "P-84378": {
+    "nameEn": "Niko Kovač",
+    "birthDate": "1971.10.15"
+  },
+  "P-61666": {
+    "nameEn": "Robert Kovač",
+    "birthDate": "1974.04.06"
+  },
+  "P-70372": {
+    "nameEn": "Yuri Kovtun",
+    "birthDate": "1970.01.05"
+  },
+  "P-06017": {
+    "nameEn": "Marek Koźmiński",
+    "birthDate": "1971.02.07"
+  },
+  "P-69995": {
+    "nameEn": "Paweł Kryszałowicz",
+    "birthDate": "1974.06.23"
+  },
+  "P-49007": {
+    "nameEn": "Jacek Krzynówek",
+    "birthDate": "1976.05.15"
+  },
+  "P-93812": {
+    "nameEn": "Cezary Kucharski",
+    "birthDate": "1972.02.17"
+  },
+  "P-42895": {
+    "nameEn": "Henrik Larsson",
+    "birthDate": "1971.09.20"
+  },
+  "P-38724": {
+    "nameEn": "Lauren",
+    "birthDate": "1977.01.19"
+  },
+  "P-27808": {
+    "nameEn": "Martin Laursen",
+    "birthDate": "1977.07.26"
+  },
+  "P-76542": {
+    "nameEn": "Garba Lawal",
+    "birthDate": "1974.05.22"
+  },
+  "P-19907": {
+    "nameEn": "Frank Leboeuf",
+    "birthDate": "1968.01.22"
+  },
+  "P-22338": {
+    "nameEn": "Lee Chun-soo",
+    "birthDate": "1981.07.09",
+    "nameKo": "이천수",
+    "height": 172,
+    "birthPlace": "인천광역시",
+    "clubs": [
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "레알 소시에다드",
+        "start": "2003.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "CD 누만시아",
+        "start": "2004.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2005.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2006.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "페예노르트",
+        "start": "2007.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2008.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "알나스르",
+        "start": "2009.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "전남 드래곤즈 FC",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "오미야 아르디자",
+        "start": "2010.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "인천 유나이티드 FC",
+        "start": "2013.01.01",
+        "end": "2015.01.01"
+      }
+    ],
+    "bio": "이천수(李天秀, 1981년 7월 9일 ~ )는 대한민국의 전 축구 선수다. 선수 시절 포지션은 윙어였다. 현재 대한축구협회 사회공헌위원장을 맡고 있다.",
+    "image": {
+      "url": "/players/P-22338.jpg",
+      "author": "ⓒ블루포토 홍준기",
+      "license": "CC BY-SA 2.0 kr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lee_Chun-Soo.jpg"
+    }
+  },
+  "P-60562": {
+    "nameEn": "Lee Eul-yong",
+    "birthDate": "1975.09.08",
+    "nameKo": "이을용",
+    "height": 176,
+    "birthPlace": "태백시",
+    "clubs": [
+      {
+        "name": "FC 서울"
+      },
+      {
+        "name": "대전 코레일 FC"
+      },
+      {
+        "name": "상주 상무 FC"
+      },
+      {
+        "name": "제주 SK FC",
+        "start": "1998.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "트라브존스포르",
+        "start": "2002.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2006.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "강원 FC",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "이을용 은 대한민국의 은퇴한 축구 선수로 포지션은 중앙 미드필더와 윙어였다."
+  },
+  "P-66219": {
+    "nameEn": "Lee Min-sung",
+    "birthDate": "1973.06.23",
+    "nameKo": "이민성",
+    "height": 182,
+    "birthPlace": "광명시",
+    "clubs": [
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1994.01.01",
+        "end": "1995.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1995.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "부산 아이파크 FC",
+        "start": "1996.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "상주 상무 FC",
+        "start": "1999.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2005.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "용인 시청 FC",
+        "start": "2010.01.01",
+        "end": "2010.01.01"
+      }
+    ],
+    "bio": "이민성(李敏成, 1973년 6월 23일 ~ )는 대한민국의 전직 축구 선수로, 포지션은 수비형 미드필더, 센터백였으며 현재 대한민국 U-23의 감독이다.",
+    "image": {
+      "url": "/players/P-66219.jpg",
+      "author": "OSEN SPORTS",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EB%AF%BC%EC%84%B1_2021.jpg"
+    }
+  },
+  "P-95122": {
+    "nameEn": "Lee Woon-jae",
+    "birthDate": "1973.04.26",
+    "nameKo": "이운재",
+    "height": 182,
+    "birthPlace": "청주시",
+    "clubs": [
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1992.01.01",
+        "end": "1996.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1993.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "1996.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "상주 상무 FC",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2002.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2002.01.01"
+      },
+      {
+        "name": "전남 드래곤즈 FC",
+        "start": "2011.01.01",
+        "end": "2012.01.01"
+      }
+    ],
+    "bio": "이운재(李雲在, 1973년 4월 26일~)는 골키퍼로 활약한 대한민국의 은퇴한 축구 선수이자 축구 지도자로, 현재 베트남 축구 국가대표팀 골키퍼 코치를 맡고 있으며, 별명은 거미손이다. 김병지와 함께 대한민국의 전설적인 명골키퍼로 평가 받고 있다.",
+    "image": {
+      "url": "/players/P-95122.jpg",
+      "author": "김효선",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeeWJ080413.jpg"
+    }
+  },
+  "P-46519": {
+    "nameEn": "Lee Young-pyo",
+    "birthDate": "1977.04.23",
+    "nameKo": "이영표",
+    "height": 176,
+    "birthPlace": "홍천군",
+    "clubs": [
+      {
+        "name": "FC 서울"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "FC 서울",
+        "start": "2000.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "PSV 에인트호번",
+        "start": "2003.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "토트넘 홋스퍼 FC",
+        "start": "2005.01.01",
+        "end": "2008.01.01"
+      },
+      {
+        "name": "보루시아 도르트문트",
+        "start": "2008.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "2009.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "밴쿠버 화이트캡스 FC",
+        "start": "2012.01.01",
+        "end": "2013.01.01"
+      }
+    ],
+    "bio": "이영표(李榮杓, 1977년 4월 23일 ~ )는 대한민국의 전 축구 선수이다. 현역 시절 포지션은 수비수였다. 현재 KBS 축구 해설위원과 풋웨어 스타트업 삭스업의 대표이사이다.",
+    "image": {
+      "url": "/players/P-46519.jpg",
+      "author": "Lord Bob",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leeyoungpyo.jpg"
+    }
+  },
+  "P-10439": {
+    "nameEn": "Jacob Lekgetho",
+    "birthDate": "1974.03.24"
+  },
+  "P-31352": {
+    "nameEn": "Alejandro Lembo",
+    "birthDate": "1978.02.15"
+  },
+  "P-97784": {
+    "nameEn": "Eddie Lewis",
+    "birthDate": "1974.05.17"
+  },
+  "P-28870": {
+    "nameEn": "Tie Li",
+    "birthDate": "1977.05.18"
+  },
+  "P-12619": {
+    "nameEn": "Weifeng Li",
+    "birthDate": "1978.12.01"
+  },
+  "P-71211": {
+    "nameEn": "Xiaopeng Li",
+    "birthDate": "1975.06.20"
+  },
+  "P-05583": {
+    "nameEn": "Tobias Linderoth",
+    "birthDate": "1979.04.21"
+  },
+  "P-17520": {
+    "nameEn": "Thomas Linke",
+    "birthDate": "1969.12.26"
+  },
+  "P-56735": {
+    "nameEn": "Bixente Lizarazu",
+    "birthDate": "1969.12.09"
+  },
+  "P-84022": {
+    "nameEn": "Freddie Ljungberg",
+    "birthDate": "1977.04.16"
+  },
+  "P-49219": {
+    "nameEn": "Carlos Llamosa",
+    "birthDate": "1969.06.30"
+  },
+  "P-74709": {
+    "nameEn": "Erick Lonnis",
+    "birthDate": "1965.09.09"
+  },
+  "P-60203": {
+    "nameEn": "Claudio López",
+    "birthDate": "1974.07.17"
+  },
+  "P-67575": {
+    "nameEn": "Wílmer López",
+    "birthDate": "1971.03.08"
+  },
+  "P-41271": {
+    "nameEn": "Peter Løvenkrands",
+    "birthDate": "1980.01.29"
+  },
+  "P-30568": {
+    "nameEn": "Teddy Lučić",
+    "birthDate": "1973.04.15"
+  },
+  "P-42918": {
+    "nameEn": "Lúcio",
+    "birthDate": "1978.05.08"
+  },
+  "P-89804": {
+    "nameEn": "Luizão",
+    "birthDate": "1975.11.14"
+  },
+  "P-19578": {
+    "nameEn": "Braulio Luna",
+    "birthDate": "1974.09.08"
+  },
+  "P-23336": {
+    "nameEn": "Albert Luque",
+    "birthDate": "1978.03.11"
+  },
+  "P-18804": {
+    "nameEn": "Patrick M'Boma",
+    "birthDate": "1970.11.15"
+  },
+  "P-05235": {
+    "nameEn": "Mingyu Ma",
+    "birthDate": "1970.02.04"
+  },
+  "P-95938": {
+    "nameEn": "Federico Magallanes",
+    "birthDate": "1976.08.22"
+  },
+  "P-13151": {
+    "nameEn": "Radosław Majdan",
+    "birthDate": "1972.05.10"
+  },
+  "P-93048": {
+    "nameEn": "Claude Makélélé",
+    "birthDate": "1973.02.18"
+  },
+  "P-43222": {
+    "nameEn": "Paolo Maldini",
+    "birthDate": "1968.06.26"
+  },
+  "P-50303": {
+    "nameEn": "Pape Malick Diop",
+    "birthDate": "1974.12.29"
+  },
+  "P-41133": {
+    "nameEn": "İlhan Mansız",
+    "birthDate": "1975.08.10"
+  },
+  "P-64377": {
+    "nameEn": "Marcos",
+    "birthDate": "1973.08.04"
+  },
+  "P-50749": {
+    "nameEn": "Luis Marín",
+    "birthDate": "1974.08.10"
+  },
+  "P-44763": {
+    "nameEn": "Rafael Márquez",
+    "birthDate": "1979.02.13"
+  },
+  "P-32696": {
+    "nameEn": "Gilberto Martínez",
+    "birthDate": "1979.10.01"
+  },
+  "P-58649": {
+    "nameEn": "Pablo Mastroeni",
+    "birthDate": "1976.08.29"
+  },
+  "P-37126": {
+    "nameEn": "Marco Materazzi",
+    "birthDate": "1973.08.19"
+  },
+  "P-38074": {
+    "nameEn": "Clint Mathis",
+    "birthDate": "1976.11.25"
+  },
+  "P-21222": {
+    "nameEn": "Naoki Matsuda",
+    "birthDate": "1977.03.14"
+  },
+  "P-15705": {
+    "nameEn": "Jason McAteer",
+    "birthDate": "1971.06.18"
+  },
+  "P-60597": {
+    "nameEn": "Brian McBride",
+    "birthDate": "1972.06.19"
+  },
+  "P-59298": {
+    "nameEn": "Benni McCarthy",
+    "birthDate": "1977.11.12"
+  },
+  "P-02273": {
+    "nameEn": "Hernán Medford",
+    "birthDate": "1968.05.23"
+  },
+  "P-00668": {
+    "nameEn": "Mourad Melki",
+    "birthDate": "1975.05.09"
+  },
+  "P-06256": {
+    "nameEn": "Olof Mellberg",
+    "birthDate": "1977.09.03"
+  },
+  "P-42534": {
+    "nameEn": "Édison Méndez",
+    "birthDate": "1979.03.16"
+  },
+  "P-17321": {
+    "nameEn": "Gustavo Méndez",
+    "birthDate": "1971.02.03"
+  },
+  "P-37161": {
+    "nameEn": "Gaizka Mendieta",
+    "birthDate": "1974.03.27"
+  },
+  "P-87229": {
+    "nameEn": "Sigifredo Mercado",
+    "birthDate": "1968.12.21"
+  },
+  "P-04065": {
+    "nameEn": "Christoph Metzelder",
+    "birthDate": "1980.11.05"
+  },
+  "P-72780": {
+    "nameEn": "Imed Mhedhebi",
+    "birthDate": "1976.03.22"
+  },
+  "P-57906": {
+    "nameEn": "Johan Micoud",
+    "birthDate": "1973.07.24"
+  },
+  "P-84477": {
+    "nameEn": "Željko Milinovič",
+    "birthDate": "1969.10.12"
+  },
+  "P-68164": {
+    "nameEn": "Danny Mills",
+    "birthDate": "1977.05.18"
+  },
+  "P-11915": {
+    "nameEn": "Tsuneyasu Miyamoto",
+    "birthDate": "1977.02.07"
+  },
+  "P-56718": {
+    "nameEn": "Johan Mjällby",
+    "birthDate": "1971.02.09"
+  },
+  "P-44407": {
+    "nameEn": "Mohamed Mkacher",
+    "birthDate": "1975.05.25"
+  },
+  "P-65611": {
+    "nameEn": "Aaron Mokoena",
+    "birthDate": "1980.11.25"
+  },
+  "P-99521": {
+    "nameEn": "Teboho Mokoena",
+    "birthDate": "1974.07.10"
+  },
+  "P-68024": {
+    "nameEn": "Thabang Molefe",
+    "birthDate": "1979.04.11"
+  },
+  "P-01311": {
+    "nameEn": "Vincenzo Montella",
+    "birthDate": "1974.06.18"
+  },
+  "P-38683": {
+    "nameEn": "Paolo Montero",
+    "birthDate": "1971.09.03"
+  },
+  "P-86464": {
+    "nameEn": "Joe-Max Moore",
+    "birthDate": "1971.02.23"
+  },
+  "P-98036": {
+    "nameEn": "Ramón Morales",
+    "birthDate": "1975.10.10"
+  },
+  "P-48761": {
+    "nameEn": "Richard Morales",
+    "birthDate": "1975.02.21"
+  },
+  "P-08514": {
+    "nameEn": "Fernando Morientes",
+    "birthDate": "1976.04.05"
+  },
+  "P-03401": {
+    "nameEn": "Gustavo Morínigo",
+    "birthDate": "1977.01.23"
+  },
+  "P-49610": {
+    "nameEn": "Ryuzo Morioka",
+    "birthDate": "1975.10.07"
+  },
+  "P-17348": {
+    "nameEn": "Hiroaki Morishima",
+    "birthDate": "1972.04.30"
+  },
+  "P-90633": {
+    "nameEn": "Mbo Mpenza",
+    "birthDate": "1976.12.04"
+  },
+  "P-65059": {
+    "nameEn": "MacDonald Mukansi",
+    "birthDate": "1975.05.26"
+  },
+  "P-68833": {
+    "nameEn": "Maciej Murawski",
+    "birthDate": "1974.02.20"
+  },
+  "P-58878": {
+    "nameEn": "Tomokazu Myojin",
+    "birthDate": "1978.01.24"
+  },
+  "P-62939": {
+    "nameEn": "Moussa N'Diaye",
+    "birthDate": "1979.02.20"
+  },
+  "P-82601": {
+    "nameEn": "Alassane N'Dour",
+    "birthDate": "1981.12.12"
+  },
+  "P-03307": {
+    "nameEn": "Miguel Ángel Nadal",
+    "birthDate": "1966.07.28"
+  },
+  "P-09349": {
+    "nameEn": "Hidetoshi Nakata",
+    "birthDate": "1977.01.22"
+  },
+  "P-95259": {
+    "nameEn": "Kōji Nakata",
+    "birthDate": "1979.07.09"
+  },
+  "P-84762": {
+    "nameEn": "Masashi Nakayama",
+    "birthDate": "1967.09.23"
+  },
+  "P-24251": {
+    "nameEn": "Seigo Narazaki",
+    "birthDate": "1976.04.15"
+  },
+  "P-67466": {
+    "nameEn": "Pius Ndiefi",
+    "birthDate": "1975.07.05"
+  },
+  "P-55511": {
+    "nameEn": "Alessandro Nesta",
+    "birthDate": "1976.03.19"
+  },
+  "P-55504": {
+    "nameEn": "Oliver Neuville",
+    "birthDate": "1973.05.01"
+  },
+  "P-86448": {
+    "nameEn": "Ruslan Nigmatullin",
+    "birthDate": "1974.10.07"
+  },
+  "P-70700": {
+    "nameEn": "Yuri Nikiforov",
+    "birthDate": "1970.09.16"
+  },
+  "P-99721": {
+    "nameEn": "Akinori Nishizawa",
+    "birthDate": "1976.06.18"
+  },
+  "P-53197": {
+    "nameEn": "Pierre Njanka",
+    "birthDate": "1975.03.15"
+  },
+  "P-22393": {
+    "nameEn": "Siyabonga Nomvethe",
+    "birthDate": "1977.12.02"
+  },
+  "P-90435": {
+    "nameEn": "Mohammed Noor",
+    "birthDate": "1978.02.26"
+  },
+  "P-75494": {
+    "nameEn": "Džoni Novak",
+    "birthDate": "1969.09.04"
+  },
+  "P-72876": {
+    "nameEn": "Cyril Nzama",
+    "birthDate": "1974.06.26"
+  },
+  "P-88043": {
+    "nameEn": "John O'Brien",
+    "birthDate": "1977.08.29"
+  },
+  "P-52108": {
+    "nameEn": "James Obiorah",
+    "birthDate": "1978.08.24"
+  },
+  "P-37753": {
+    "nameEn": "Alfonso Obregón",
+    "birthDate": "1972.05.12"
+  },
+  "P-12376": {
+    "nameEn": "Mitsuo Ogasawara",
+    "birthDate": "1979.04.05"
+  },
+  "P-48550": {
+    "nameEn": "Bartholomew Ogbeche",
+    "birthDate": "1984.10.01"
+  },
+  "P-83122": {
+    "nameEn": "Jay-Jay Okocha",
+    "birthDate": "1973.08.14"
+  },
+  "P-19121": {
+    "nameEn": "Isaac Okoronkwo",
+    "birthDate": "1978.05.01"
+  },
+  "P-84152": {
+    "nameEn": "Salomon Olembé",
+    "birthDate": "1980.12.08"
+  },
+  "P-13265": {
+    "nameEn": "Ivica Olić",
+    "birthDate": "1979.09.14"
+  },
+  "P-75230": {
+    "nameEn": "Emmanuel Olisadebe",
+    "birthDate": "1978.12.22"
+  },
+  "P-04785": {
+    "nameEn": "Shinji Ono",
+    "birthDate": "1979.09.27"
+  },
+  "P-83394": {
+    "nameEn": "Viktor Onopko",
+    "birthDate": "1969.10.14"
+  },
+  "P-52099": {
+    "nameEn": "Femi Opabunmi",
+    "birthDate": "1985.03.03"
+  },
+  "P-00065": {
+    "nameEn": "Ariel Ortega",
+    "birthDate": "1974.03.04"
+  },
+  "P-48910": {
+    "nameEn": "Milan Osterc",
+    "birthDate": "1975.07.04"
+  },
+  "P-51130": {
+    "nameEn": "Michael Owen",
+    "birthDate": "1979.12.14"
+  },
+  "P-44850": {
+    "nameEn": "Alpay Özalan",
+    "birthDate": "1973.05.29"
+  },
+  "P-04455": {
+    "nameEn": "Ümit Özat",
+    "birthDate": "1976.10.30"
+  },
+  "P-80183": {
+    "nameEn": "Francisco Palencia",
+    "birthDate": "1973.04.28"
+  },
+  "P-45258": {
+    "nameEn": "Christian Panucci",
+    "birthDate": "1973.04.12"
+  },
+  "P-42797": {
+    "nameEn": "Carlos Paredes",
+    "birthDate": "1976.07.16"
+  },
+  "P-25724": {
+    "nameEn": "Park Ji-Sung",
+    "birthDate": "1981.02.25",
+    "nameKo": "박지성",
+    "height": 173,
+    "birthPlace": "서울특별시",
+    "clubs": [
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "교토 상가 FC",
+        "start": "2000.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "PSV 에인트호번",
+        "start": "2003.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "맨체스터 유나이티드 FC",
+        "start": "2005.01.01",
+        "end": "2012.01.01"
+      },
+      {
+        "name": "퀸즈 파크 레인저스 FC",
+        "start": "2012.01.01",
+        "end": "2014.01.01"
+      },
+      {
+        "name": "PSV 에인트호번",
+        "start": "2013.01.01",
+        "end": "2014.01.01"
+      }
+    ],
+    "bio": "박지성(朴智星, 1981년 3월 30일~)은 대한민국의 前 축구 선수로, 현역 시절 포지션은 윙어, 미드필더였다.",
+    "image": {
+      "url": "/players/P-25724.jpg",
+      "author": "Korea.net / Korean Culture and Information Service",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Ji-sung_G20_Seoul_Summit_Ambassador_(cropped).jpg"
+    }
+  },
+  "P-20880": {
+    "nameEn": "Winston Parks",
+    "birthDate": "1981.10.12"
+  },
+  "P-57982": {
+    "nameEn": "Pauleta",
+    "birthDate": "1973.04.28"
+  },
+  "P-20389": {
+    "nameEn": "Juninho Paulista",
+    "birthDate": "1973.02.22"
+  },
+  "P-06135": {
+    "nameEn": "Miran Pavlin",
+    "birthDate": "1971.10.08"
+  },
+  "P-12842": {
+    "nameEn": "Jacky Peeters",
+    "birthDate": "1969.12.13"
+  },
+  "P-65298": {
+    "nameEn": "Ergün Penbe",
+    "birthDate": "1972.05.17"
+  },
+  "P-52784": {
+    "nameEn": "Óscar Pérez",
+    "birthDate": "1973.02.01"
+  },
+  "P-40400": {
+    "nameEn": "Emmanuel Petit",
+    "birthDate": "1970.09.22"
+  },
+  "P-92307": {
+    "nameEn": "Petit",
+    "birthDate": "1976.09.25"
+  },
+  "P-76375": {
+    "nameEn": "Ruslan Pimenov",
+    "birthDate": "1981.11.25"
+  },
+  "P-70698": {
+    "nameEn": "João Pinto",
+    "birthDate": "1971.08.19"
+  },
+  "P-02174": {
+    "nameEn": "Diego Placente",
+    "birthDate": "1977.04.24"
+  },
+  "P-85818": {
+    "nameEn": "Stipe Pletikosa",
+    "birthDate": "1979.01.08"
+  },
+  "P-31684": {
+    "nameEn": "Mauricio Pochettino",
+    "birthDate": "1972.03.02"
+  },
+  "P-09454": {
+    "nameEn": "Ânderson Polga",
+    "birthDate": "1979.02.09"
+  },
+  "P-02842": {
+    "nameEn": "Eddie Pope",
+    "birthDate": "1973.12.24"
+  },
+  "P-59372": {
+    "nameEn": "Augusto Porozo",
+    "birthDate": "1974.04.13"
+  },
+  "P-46718": {
+    "nameEn": "Christian Poulsen",
+    "birthDate": "1980.02.28"
+  },
+  "P-62861": {
+    "nameEn": "Robert Prosinečki",
+    "birthDate": "1969.01.12"
+  },
+  "P-27802": {
+    "nameEn": "Jabu Pule",
+    "birthDate": "1980.07.11"
+  },
+  "P-51089": {
+    "nameEn": "Carles Puyol",
+    "birthDate": "1978.04.13"
+  },
+  "P-68056": {
+    "nameEn": "Hong Qi",
+    "birthDate": "1976.06.03"
+  },
+  "P-57338": {
+    "nameEn": "Bo Qu",
+    "birthDate": "1981.07.15"
+  },
+  "P-51629": {
+    "nameEn": "Niall Quinn",
+    "birthDate": "1966.10.06"
+  },
+  "P-56543": {
+    "nameEn": "Lucas Radebe",
+    "birthDate": "1969.04.12"
+  },
+  "P-57588": {
+    "nameEn": "Carsten Ramelow",
+    "birthDate": "1974.03.20"
+  },
+  "P-55293": {
+    "nameEn": "Milan Rapaić",
+    "birthDate": "1973.08.16"
+  },
+  "P-24556": {
+    "nameEn": "Raúl",
+    "birthDate": "1977.06.27"
+  },
+  "P-61478": {
+    "nameEn": "Rüştü Reçber",
+    "birthDate": "1973.05.10"
+  },
+  "P-66684": {
+    "nameEn": "Álvaro Recoba",
+    "birthDate": "1976.03.17"
+  },
+  "P-46554": {
+    "nameEn": "Mario Regueiro",
+    "birthDate": "1978.09.14"
+  },
+  "P-71726": {
+    "nameEn": "Marko Rehmer",
+    "birthDate": "1972.04.29"
+  },
+  "P-19727": {
+    "nameEn": "Steven Reid",
+    "birthDate": "1981.03.10"
+  },
+  "P-97459": {
+    "nameEn": "Claudio Reyna",
+    "birthDate": "1973.07.20"
+  },
+  "P-57975": {
+    "nameEn": "Ricardinho",
+    "birthDate": "1976.05.23"
+  },
+  "P-74261": {
+    "nameEn": "Rivaldo",
+    "birthDate": "1972.04.19"
+  },
+  "P-49428": {
+    "nameEn": "Darío Rodríguez",
+    "birthDate": "1974.09.17"
+  },
+  "P-57272": {
+    "nameEn": "Johan Rodríguez",
+    "birthDate": "1975.08.15"
+  },
+  "P-40852": {
+    "nameEn": "Enrique Romero",
+    "birthDate": "1971.06.23"
+  },
+  "P-03231": {
+    "nameEn": "Marcelo Romero",
+    "birthDate": "1976.07.04"
+  },
+  "P-80170": {
+    "nameEn": "Dennis Rommedahl",
+    "birthDate": "1978.07.22"
+  },
+  "P-57361": {
+    "nameEn": "Ronaldinho",
+    "birthDate": "1980.03.21"
+  },
+  "P-62722": {
+    "nameEn": "Ronaldo",
+    "birthDate": "1976.09.18"
+  },
+  "P-30524": {
+    "nameEn": "Mladen Rudonja",
+    "birthDate": "1971.07.26"
+  },
+  "P-20085": {
+    "nameEn": "Tomasz Rząsa",
+    "birthDate": "1973.03.11"
+  },
+  "P-76131": {
+    "nameEn": "Walter Samuel",
+    "birthDate": "1978.03.23"
+  },
+  "P-80289": {
+    "nameEn": "Ebbe Sand",
+    "birthDate": "1972.07.19"
+  },
+  "P-92064": {
+    "nameEn": "Tony Sanneh",
+    "birthDate": "1971.06.01"
+  },
+  "P-34530": {
+    "nameEn": "Roque Santa Cruz",
+    "birthDate": "1981.08.16"
+  },
+  "P-42311": {
+    "nameEn": "Alessandro Santos",
+    "birthDate": "1977.07.20"
+  },
+  "P-36689": {
+    "nameEn": "Daniel Šarić",
+    "birthDate": "1972.08.04"
+  },
+  "P-81968": {
+    "nameEn": "Pape Sarr",
+    "birthDate": "1977.12.07"
+  },
+  "P-23883": {
+    "nameEn": "Hasan Şaş",
+    "birthDate": "1976.08.01"
+  },
+  "P-32136": {
+    "nameEn": "Bernd Schneider",
+    "birthDate": "1973.11.17"
+  },
+  "P-63916": {
+    "nameEn": "Paul Scholes",
+    "birthDate": "1974.11.16"
+  },
+  "P-13285": {
+    "nameEn": "David Seaman",
+    "birthDate": "1963.09.19"
+  },
+  "P-15025": {
+    "nameEn": "Adel Sellimi",
+    "birthDate": "1972.11.16"
+  },
+  "P-65105": {
+    "nameEn": "Igor Semshov",
+    "birthDate": "1978.04.06"
+  },
+  "P-53680": {
+    "nameEn": "Dmitri Sennikov",
+    "birthDate": "1976.06.24"
+  },
+  "P-56626": {
+    "nameEn": "Seol Ki-hyeon",
+    "birthDate": "1979.01.08",
+    "nameKo": "설기현",
+    "height": 187,
+    "birthPlace": "정선군",
+    "clubs": [
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "대한민국 올림픽 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "로열 앤트워프 FC",
+        "start": "2000.01.01",
+        "end": "2001.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "RSC 안데를레흐트",
+        "start": "2001.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "울버햄프턴 원더러스 FC",
+        "start": "2004.01.01",
+        "end": "2006.01.01"
+      },
+      {
+        "name": "레딩 FC",
+        "start": "2006.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "풀럼 FC",
+        "start": "2007.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "알힐랄",
+        "start": "2009.01.01",
+        "end": "2009.01.01"
+      },
+      {
+        "name": "FC 포항 스틸러스",
+        "start": "2010.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2011.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "인천 유나이티드 FC",
+        "start": "2012.01.01",
+        "end": "2014.01.01"
+      }
+    ],
+    "bio": "설기현(薛琦鉉, 1979년 2월 4일 ~ )은 대한민국의 은퇴한 축구 선수이자 현 지도자로서 포지션은 윙어였다.",
+    "image": {
+      "url": "/players/P-56626.jpg",
+      "author": "Mikhail Slain",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seol_Ki-Hyeon.JPG"
+    }
+  },
+  "P-14456": {
+    "nameEn": "Sergio",
+    "birthDate": "1976.11.10"
+  },
+  "P-37402": {
+    "nameEn": "Jiayi Shao",
+    "birthDate": "1980.04.10"
+  },
+  "P-94825": {
+    "nameEn": "Teddy Sheringham",
+    "birthDate": "1966.04.02"
+  },
+  "P-22507": {
+    "nameEn": "Ike Shorunmu",
+    "birthDate": "1967.10.16"
+  },
+  "P-21000": {
+    "nameEn": "MacBeth Sibaya",
+    "birthDate": "1977.11.25"
+  },
+  "P-09579": {
+    "nameEn": "Paweł Sibik",
+    "birthDate": "1971.02.15"
+  },
+  "P-74863": {
+    "nameEn": "Darío Silva",
+    "birthDate": "1972.11.02"
+  },
+  "P-45956": {
+    "nameEn": "Gilberto Silva",
+    "birthDate": "1976.10.07"
+  },
+  "P-06370": {
+    "nameEn": "Diego Simeone",
+    "birthDate": "1970.04.28"
+  },
+  "P-49309": {
+    "nameEn": "Marko Simeunovič",
+    "birthDate": "1967.12.06"
+  },
+  "P-41724": {
+    "nameEn": "Dario Šimić",
+    "birthDate": "1975.11.12"
+  },
+  "P-80262": {
+    "nameEn": "Timmy Simons",
+    "birthDate": "1976.12.11"
+  },
+  "P-29621": {
+    "nameEn": "Josip Šimunić",
+    "birthDate": "1978.02.18"
+  },
+  "P-53590": {
+    "nameEn": "Trevor Sinclair",
+    "birthDate": "1973.03.02"
+  },
+  "P-79578": {
+    "nameEn": "Alexey Smertin",
+    "birthDate": "1975.05.01"
+  },
+  "P-06935": {
+    "nameEn": "Efe Sodje",
+    "birthDate": "1972.10.05"
+  },
+  "P-37461": {
+    "nameEn": "Zvonimir Soldo",
+    "birthDate": "1967.11.02"
+  },
+  "P-26474": {
+    "nameEn": "Mauricio Solís",
+    "birthDate": "1972.12.13"
+  },
+  "P-27678": {
+    "nameEn": "Andrei Solomatin",
+    "birthDate": "1975.09.09"
+  },
+  "P-64922": {
+    "nameEn": "Wesley Sonck",
+    "birthDate": "1978.08.09"
+  },
+  "P-83544": {
+    "nameEn": "Song Chong-gug",
+    "birthDate": "1979.02.20",
+    "nameKo": "송종국",
+    "height": 178,
+    "birthPlace": "단양군",
+    "clubs": [
+      {
+        "name": "대한민국 U-20 축구 국가대표팀",
+        "start": "1997.01.01",
+        "end": "1999.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "2000.01.01",
+        "end": "2007.01.01"
+      },
+      {
+        "name": "부산 아이파크 FC",
+        "start": "2001.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "페예노르트",
+        "start": "2002.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "수원 삼성 블루윙즈 FC",
+        "start": "2005.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "알샤바브 (리야드)",
+        "start": "2010.01.01",
+        "end": "2010.01.01"
+      },
+      {
+        "name": "톈진 진먼후",
+        "start": "2011.01.01",
+        "end": "2011.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2011.01.01",
+        "end": "2011.01.01"
+      }
+    ],
+    "bio": "송종국(宋鍾國, 1978년 3월 9일 ~ )은 대한민국의 은퇴한 축구 선수로서 포지션은 오른쪽 미드필더이었다. 前 MBC 축구 해설위원을 역임했고 현재 FC안양의 어드바이저이다.",
+    "image": {
+      "url": "/players/P-83544.jpg",
+      "author": "김효선",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SongCG080413.jpg"
+    }
+  },
+  "P-98173": {
+    "nameEn": "Rigobert Song",
+    "birthDate": "1976.07.01"
+  },
+  "P-00212": {
+    "nameEn": "Thomas Sørensen",
+    "birthDate": "1976.06.12"
+  },
+  "P-60914": {
+    "nameEn": "Juan Pablo Sorín",
+    "birthDate": "1976.05.05"
+  },
+  "P-03960": {
+    "nameEn": "Gonzalo Sorondo",
+    "birthDate": "1979.10.09"
+  },
+  "P-75377": {
+    "nameEn": "Mario Stanić",
+    "birthDate": "1972.04.10"
+  },
+  "P-69817": {
+    "nameEn": "Steve Staunton",
+    "birthDate": "1969.01.19"
+  },
+  "P-04393": {
+    "nameEn": "Brian Steen Nielsen",
+    "birthDate": "1968.12.28"
+  },
+  "P-96178": {
+    "nameEn": "Earnie Stewart",
+    "birthDate": "1969.03.28"
+  },
+  "P-03038": {
+    "nameEn": "Branko Strupar",
+    "birthDate": "1970.02.09"
+  },
+  "P-66123": {
+    "nameEn": "Estanislao Struway",
+    "birthDate": "1968.06.25"
+  },
+  "P-05845": {
+    "nameEn": "Maozhen Su",
+    "birthDate": "1972.07.30"
+  },
+  "P-99681": {
+    "nameEn": "Patrick Suffo",
+    "birthDate": "1978.01.17"
+  },
+  "P-58374": {
+    "nameEn": "Davor Šuker",
+    "birthDate": "1968.01.01"
+  },
+  "P-58212": {
+    "nameEn": "Hakan Şükür",
+    "birthDate": "1971.09.01"
+  },
+  "P-50171": {
+    "nameEn": "Abdullah Sulaiman Zubromawi",
+    "birthDate": "1973.11.15"
+  },
+  "P-50519": {
+    "nameEn": "Jihai Sun",
+    "birthDate": "1977.09.30"
+  },
+  "P-96566": {
+    "nameEn": "Takayuki Suzuki",
+    "birthDate": "1976.06.05"
+  },
+  "P-85432": {
+    "nameEn": "Anders Svensson",
+    "birthDate": "1976.07.17"
+  },
+  "P-59548": {
+    "nameEn": "Magnus Svensson",
+    "birthDate": "1969.03.10"
+  },
+  "P-34709": {
+    "nameEn": "Piotr Świerczewski",
+    "birthDate": "1972.04.08"
+  },
+  "P-04731": {
+    "nameEn": "Dmitri Sychev",
+    "birthDate": "1983.10.26"
+  },
+  "P-16571": {
+    "nameEn": "Tony Sylva",
+    "birthDate": "1975.05.17"
+  },
+  "P-93337": {
+    "nameEn": "Ricardo Tavarelli",
+    "birthDate": "1970.08.02"
+  },
+  "P-26609": {
+    "nameEn": "Rajko Tavčar",
+    "birthDate": "1974.07.21"
+  },
+  "P-60766": {
+    "nameEn": "Bill Tchato",
+    "birthDate": "1975.05.14"
+  },
+  "P-86943": {
+    "nameEn": "Carlos Tenorio",
+    "birthDate": "1979.05.14"
+  },
+  "P-30306": {
+    "nameEn": "Edwin Tenorio",
+    "birthDate": "1976.06.16"
+  },
+  "P-91308": {
+    "nameEn": "Pape Thiaw",
+    "birthDate": "1981.02.05"
+  },
+  "P-56947": {
+    "nameEn": "Lilian Thuram",
+    "birthDate": "1972.01.01"
+  },
+  "P-12511": {
+    "nameEn": "Senad Tiganj",
+    "birthDate": "1975.08.28"
+  },
+  "P-66907": {
+    "nameEn": "Yegor Titov",
+    "birthDate": "1976.05.29"
+  },
+  "P-79993": {
+    "nameEn": "Kazuyuki Toda",
+    "birthDate": "1977.12.30"
+  },
+  "P-37132": {
+    "nameEn": "Stig Tøfting",
+    "birthDate": "1969.08.14"
+  },
+  "P-87187": {
+    "nameEn": "Stjepan Tomas",
+    "birthDate": "1976.03.06"
+  },
+  "P-50534": {
+    "nameEn": "Jon Dahl Tomasson",
+    "birthDate": "1976.08.29"
+  },
+  "P-26847": {
+    "nameEn": "Damiano Tommasi",
+    "birthDate": "1974.05.17"
+  },
+  "P-89297": {
+    "nameEn": "Gerardo Torrado",
+    "birthDate": "1979.04.30"
+  },
+  "P-19229": {
+    "nameEn": "Curro Torres",
+    "birthDate": "1976.12.27"
+  },
+  "P-42038": {
+    "nameEn": "Francesco Totti",
+    "birthDate": "1976.09.27"
+  },
+  "P-82870": {
+    "nameEn": "Hatem Trabelsi",
+    "birthDate": "1977.01.25"
+  },
+  "P-12167": {
+    "nameEn": "David Trezeguet",
+    "birthDate": "1977.10.15"
+  },
+  "P-71130": {
+    "nameEn": "Diego Tristán",
+    "birthDate": "1976.01.05"
+  },
+  "P-90725": {
+    "nameEn": "Redha Tukar",
+    "birthDate": "1975.11.29"
+  },
+  "P-03741": {
+    "nameEn": "Ifeanyi Udeze",
+    "birthDate": "1980.07.21"
+  },
+  "P-78533": {
+    "nameEn": "Hakan Ünsal",
+    "birthDate": "1973.05.14"
+  },
+  "P-64893": {
+    "nameEn": "John Utaka",
+    "birthDate": "1982.01.08"
+  },
+  "P-76612": {
+    "nameEn": "Juan Carlos Valerón",
+    "birthDate": "1975.06.17"
+  },
+  "P-06280": {
+    "nameEn": "Vampeta",
+    "birthDate": "1974.03.13"
+  },
+  "P-21070": {
+    "nameEn": "Daniel Van Buyten",
+    "birthDate": "1978.02.07"
+  },
+  "P-02977": {
+    "nameEn": "Peter Van der Heyden",
+    "birthDate": "1976.07.16"
+  },
+  "P-28883": {
+    "nameEn": "Nico Van Kerckhoven",
+    "birthDate": "1970.12.14"
+  },
+  "P-71601": {
+    "nameEn": "Eric Van Meir",
+    "birthDate": "1968.02.28"
+  },
+  "P-46499": {
+    "nameEn": "Yves Vanderhaeghe",
+    "birthDate": "1970.01.30"
+  },
+  "P-41694": {
+    "nameEn": "Gustavo Varela",
+    "birthDate": "1978.05.14"
+  },
+  "P-00447": {
+    "nameEn": "Darius Vassell",
+    "birthDate": "1980.06.13"
+  },
+  "P-52358": {
+    "nameEn": "Gert Verheyen",
+    "birthDate": "1970.09.20"
+  },
+  "P-91831": {
+    "nameEn": "Sven Vermant",
+    "birthDate": "1973.04.04"
+  },
+  "P-62209": {
+    "nameEn": "Juan Sebastián Verón",
+    "birthDate": "1975.03.09"
+  },
+  "P-13917": {
+    "nameEn": "Manuel Vidrio",
+    "birthDate": "1972.08.23"
+  },
+  "P-96540": {
+    "nameEn": "Patrick Vieira",
+    "birthDate": "1976.06.23"
+  },
+  "P-34670": {
+    "nameEn": "Christian Vieri",
+    "birthDate": "1973.07.12"
+  },
+  "P-91190": {
+    "nameEn": "Jurica Vranješ",
+    "birthDate": "1980.01.31"
+  },
+  "P-13966": {
+    "nameEn": "Muamer Vugdalić",
+    "birthDate": "1977.08.25"
+  },
+  "P-10638": {
+    "nameEn": "Davor Vugrinec",
+    "birthDate": "1975.03.24"
+  },
+  "P-68907": {
+    "nameEn": "Tomasz Wałdoch",
+    "birthDate": "1971.05.10"
+  },
+  "P-03447": {
+    "nameEn": "Johan Walem",
+    "birthDate": "1972.02.01"
+  },
+  "P-85975": {
+    "nameEn": "Harold Wallace",
+    "birthDate": "1975.09.07"
+  },
+  "P-22046": {
+    "nameEn": "Paulo Wanchope",
+    "birthDate": "1976.07.31"
+  },
+  "P-79669": {
+    "nameEn": "Taribo West",
+    "birthDate": "1974.03.26"
+  },
+  "P-69659": {
+    "nameEn": "Marc Wilmots",
+    "birthDate": "1969.02.22"
+  },
+  "P-00916": {
+    "nameEn": "Sylvain Wiltord",
+    "birthDate": "1974.05.10"
+  },
+  "P-78068": {
+    "nameEn": "Josh Wolff",
+    "birthDate": "1977.02.25"
+  },
+  "P-67168": {
+    "nameEn": "Pierre Womé",
+    "birthDate": "1979.03.26"
+  },
+  "P-56613": {
+    "nameEn": "Mauricio Wright",
+    "birthDate": "1970.12.20"
+  },
+  "P-29611": {
+    "nameEn": "Chengying Wu",
+    "birthDate": "1975.04.21"
+  },
+  "P-29415": {
+    "nameEn": "Xavi",
+    "birthDate": "1980.01.25"
+  },
+  "P-39199": {
+    "nameEn": "Abel Xavier",
+    "birthDate": "1972.11.30"
+  },
+  "P-39905": {
+    "nameEn": "Yunlong Xu",
+    "birthDate": "1979.02.17"
+  },
+  "P-35882": {
+    "nameEn": "Atsushi Yanagisawa",
+    "birthDate": "1977.05.27"
+  },
+  "P-84550": {
+    "nameEn": "Chen Yang",
+    "birthDate": "1974.01.17"
+  },
+  "P-83943": {
+    "nameEn": "Pu Yang",
+    "birthDate": "1978.03.30"
+  },
+  "P-64104": {
+    "nameEn": "Joseph Yobo",
+    "birthDate": "1980.09.06"
+  },
+  "P-75255": {
+    "nameEn": "Yoo Sang-chul",
+    "birthDate": "1971.10.18",
+    "nameKo": "유상철",
+    "height": 184,
+    "birthPlace": "서울특별시",
+    "clubs": [
+      {
+        "name": "울산 HD FC",
+        "start": "1994.01.01",
+        "end": "1998.01.01"
+      },
+      {
+        "name": "대한민국 축구 국가대표팀",
+        "start": "1994.01.01",
+        "end": "2005.01.01"
+      },
+      {
+        "name": "요코하마 F. 마리노스",
+        "start": "1999.01.01",
+        "end": "2000.01.01"
+      },
+      {
+        "name": "가시와 레이솔",
+        "start": "2001.01.01",
+        "end": "2002.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2002.01.01",
+        "end": "2003.01.01"
+      },
+      {
+        "name": "요코하마 F. 마리노스",
+        "start": "2003.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "대한민국 U-23 축구 국가대표팀",
+        "start": "2004.01.01",
+        "end": "2004.01.01"
+      },
+      {
+        "name": "울산 HD FC",
+        "start": "2005.01.01",
+        "end": "2006.01.01"
+      }
+    ],
+    "bio": "유상철(柳想鐵, 1971년 10월 18일~2021년 6월 7일)은 대한민국의 은퇴한 축구 선수, 지도자이다. 현역 시절 포지션은 중앙 미드필더이다. 한국 축구 역사상 가장 뛰어난 올라운더형 선수로 평가받으며, K리그와 J리그에서 선수 생활을 보냈다. 2002년 FIFA 월드컵에 대한민국 국가대표로 참가하여 4강 진출에 기여했으며, 해당 월드컵 올스타로 선정되었다. 2013년에는 K리그 출범 30주년을 기념으로 선정된 \"K리그 30주년 레전드 베스트 XI\"에 이름을 올렸다."
+  },
+  "P-19411": {
+    "nameEn": "Genwei Yu",
+    "birthDate": "1974.01.07"
+  },
+  "P-64619": {
+    "nameEn": "Zlatko Zahovič",
+    "birthDate": "1971.02.01"
+  },
+  "P-42227": {
+    "nameEn": "Gianluca Zambrotta",
+    "birthDate": "1977.02.19"
+  },
+  "P-57378": {
+    "nameEn": "Cristiano Zanetti",
+    "birthDate": "1977.04.14"
+  },
+  "P-53716": {
+    "nameEn": "Javier Zanetti",
+    "birthDate": "1973.08.10"
+  },
+  "P-03927": {
+    "nameEn": "Marcin Żewłakow",
+    "birthDate": "1976.04.22"
+  },
+  "P-15578": {
+    "nameEn": "Michał Żewłakow",
+    "birthDate": "1976.04.22"
+  },
+  "P-90061": {
+    "nameEn": "Junzhe Zhao",
+    "birthDate": "1979.04.18"
+  },
+  "P-56430": {
+    "nameEn": "Zinedine Zidane",
+    "birthDate": "1972.06.23"
+  },
+  "P-67544": {
+    "nameEn": "Christian Ziege",
+    "birthDate": "1972.02.01"
+  },
+  "P-66681": {
+    "nameEn": "Jacek Zieliński",
+    "birthDate": "1967.10.10"
+  },
+  "P-63935": {
+    "nameEn": "Ali Zitouni",
+    "birthDate": "1981.01.11"
+  },
+  "P-70100": {
+    "nameEn": "Boris Živković",
+    "birthDate": "1975.11.15"
+  },
+  "P-05390": {
+    "nameEn": "Sibusiso Zuma",
+    "birthDate": "1975.06.23"
+  },
+  "P-07088": {
+    "nameEn": "Maciej Żurawski",
+    "birthDate": "1976.09.12"
+  }
+}

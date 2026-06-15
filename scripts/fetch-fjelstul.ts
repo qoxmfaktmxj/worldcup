@@ -11,6 +11,7 @@ const FILES = [
   'bookings.csv',
   'substitutions.csv',
   'squads.csv',
+  'players.csv',
 ]
 const UA = 'WorldCupArchive/1.0 (+https://worldcup.minseok91.cloud)'
 
@@ -21,7 +22,8 @@ async function main() {
     if (!res.ok) throw new Error(`fetch ${f} failed: ${res.status}`)
     const text = await res.text()
     const lines = text.split('\n')
-    const kept = lines.filter((l, i) => i === 0 || l.includes('WC-2002'))
+    // players.csv is a global dimension table (no tournament id) — keep all rows.
+    const kept = f === 'players.csv' ? lines : lines.filter((l, i) => i === 0 || l.includes('WC-2002'))
     await writeFile(`data/raw/2002/${f}`, kept.join('\n'))
     console.log(`${f}: ${kept.length - 1} rows`)
   }

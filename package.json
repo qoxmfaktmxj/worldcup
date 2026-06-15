@@ -9,6 +9,7 @@
     "lint": "eslint",
     "data:fetch": "tsx scripts/fetch-fjelstul.ts",
     "data:generate": "tsx scripts/generate.ts",
+    "data:enrich": "tsx scripts/enrich-players.ts",
     "data:validate": "tsx scripts/validate.ts",
     "data:build": "npm run data:fetch && npm run data:generate && npm run data:validate",
     "test": "vitest run",
