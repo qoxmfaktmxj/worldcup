@@ -38,24 +38,53 @@ export default async function MatchPage({
         </div>
       )}
 
-      <div className="mt-6 grid gap-4 md:grid-cols-2">
-        <div>
+      <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
+        <div className="flex flex-col">
           <h2 className="font-display text-xl mb-2">{m.home.nameKo}</h2>
-          <MatchPitch players={m.lineups.home} side="home" cards={cards} />
+          <MatchPitch players={m.lineups.home} side="home" accent="red" cards={cards} />
         </div>
-        <div>
+        <div className="flex flex-col">
           <h2 className="font-display text-xl mb-2">{m.away.nameKo}</h2>
-          <MatchPitch players={m.lineups.away} side="away" cards={cards} />
+          <MatchPitch players={m.lineups.away} side="away" accent="blue" cards={cards} />
         </div>
       </div>
 
-      <h3 className="font-display text-lg mt-6 mb-2">교체 투입</h3>
-      <div className="grid gap-2 sm:grid-cols-2">
-        {[...m.lineups.home, ...m.lineups.away]
-          .filter((a) => a.substitute && cards[a.playerId])
-          .map((a) => (
-            <PlayerChip key={a.playerId} card={cards[a.playerId]} />
-          ))}
+      <h3 className="font-display text-lg mt-8 mb-3" style={{ transform: "skewX(-6deg)" }}>
+        교체 투입
+      </h3>
+      <div className="grid gap-6 sm:grid-cols-2">
+        {[
+          { team: m.home, accent: "red" as const },
+          { team: m.away, accent: "blue" as const },
+        ].map(({ team, accent }) => {
+          const subs = m.subs.filter((s) => s.teamId === team.id).sort((a, b) => a.minute - b.minute);
+          return (
+            <div key={team.id}>
+              <h4 className="font-display mb-2 text-base text-muted">{team.nameKo}</h4>
+              {subs.length ? (
+                <div className="flex flex-col gap-2">
+                  {subs.map((s, i) => {
+                    const on = cards[s.onId];
+                    const off = cards[s.offId];
+                    if (!on) return null;
+                    const half = s.minute <= 45 ? "전반" : "후반";
+                    return (
+                      <div key={i}>
+                        <PlayerChip card={on} accent={accent} />
+                        <div className="mt-0.5 pl-1 text-[11px] text-muted">
+                          {s.minute}&#39; {half}
+                          {off ? ` · ${off.nameKo} 아웃` : ""}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <p className="text-sm text-muted">교체 없음</p>
+              )}
+            </div>
+          );
+        })}
       </div>
     </main>
   );

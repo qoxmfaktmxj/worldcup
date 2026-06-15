@@ -1,12 +1,20 @@
+const ACCENTS = {
+  red: ["#e4002b", "#7a0018"],
+  blue: ["#2f6bff", "#10307a"],
+} as const;
+
 export function FallbackAvatar({
   name,
   shirt,
   size = 40,
+  accent = "red",
 }: {
   name: string;
   shirt?: number;
   size?: number;
+  accent?: "red" | "blue";
 }) {
+  const [a, b] = ACCENTS[accent];
   const initials = name
     .replace(/[^\p{L}\s]/gu, "")
     .trim()
@@ -21,7 +29,7 @@ export function FallbackAvatar({
         width: size,
         height: size,
         fontSize: size * 0.4,
-        background: "linear-gradient(135deg, #e4002b 0%, #7a0018 100%)",
+        background: `linear-gradient(135deg, ${a} 0%, ${b} 100%)`,
         clipPath: "polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%)",
       }}
       aria-label={name}
