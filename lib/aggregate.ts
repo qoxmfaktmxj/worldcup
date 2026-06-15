@@ -1,4 +1,5 @@
 import type {
+  FinalRankRow,
   GroupStanding,
   Match,
   Player,
@@ -139,6 +140,86 @@ export function buildTeamView(
 
 export function getPlayer(matches: Match[], slug: string): Player | undefined {
   return buildPlayers(matches).find((p) => p.slug === slug);
+}
+
+const FINISH: Record<number, string> = {
+  7: "우승",
+  6: "준우승",
+  5: "3위",
+  4: "4위",
+  3: "8강",
+  2: "16강",
+  1: "조별리그",
+};
+
+export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
+  type Agg = { team: TeamRef; played: number; wins: number; draws: number; losses: number; gf: number; ga: number; points: number };
+  const agg = new Map<string, Agg>();
+  const get = (t: TeamRef): Agg => {
+    let a = agg.get(t.id);
+    if (!a) {
+      a = { team: t, played: 0, wins: 0, draws: 0, losses: 0, gf: 0, ga: 0, points: 0 };
+      agg.set(t.id, a);
+    }
+    return a;
+  };
+  // Per-match aggregate. Penalty-decided knockout games count as draws (FIFA convention).
+  for (const m of matches) {
+    const h = get(m.home);
+    const a = get(m.away);
+    h.played++; a.played++;
+    h.gf += m.homeScore; h.ga += m.awayScore;
+    a.gf += m.awayScore; a.ga += m.homeScore;
+    if (m.homeScore > m.awayScore) { h.wins++; a.losses++; h.points += 3; }
+    else if (m.homeScore < m.awayScore) { a.wins++; h.losses++; a.points += 3; }
+    else { h.draws++; a.draws++; h.points++; a.points++; }
+  }
+
+  // Tier by round reached. `result` captures the advancing side (incl. penalties).
+  const winnerOf = (m: Match) => (m.result === "win" ? m.home : m.away);
+  const loserOf = (m: Match) => (m.result === "win" ? m.away : m.home);
+  const tier = new Map<string, number>();
+  const finalM = matches.find((m) => m.stage === "final");
+  const thirdM = matches.find((m) => m.stage === "third-place match");
+  if (finalM) { tier.set(winnerOf(finalM).id, 7); tier.set(loserOf(finalM).id, 6); }
+  if (thirdM) { tier.set(winnerOf(thirdM).id, 5); tier.set(loserOf(thirdM).id, 4); }
+
+  const stageRank: Record<string, number> = {
+    final: 5, "semi-finals": 4, "quarter-finals": 3, "round of 16": 2,
+  };
+  const koByTeam = new Map<string, Match[]>();
+  for (const m of matches) {
+    if (m.groupStage) continue;
+    for (const t of [m.home, m.away]) {
+      const arr = koByTeam.get(t.id) ?? [];
+      arr.push(m);
+      koByTeam.set(t.id, arr);
+    }
+  }
+  for (const [id] of agg) {
+    if (tier.has(id)) continue;
+    const ko = koByTeam.get(id);
+    if (!ko?.length) { tier.set(id, 1); continue; }
+    const deepest = ko.reduce((d, m) => ((stageRank[m.stage] ?? 0) > (stageRank[d.stage] ?? 0) ? m : d), ko[0]);
+    tier.set(id, deepest.stage === "quarter-finals" ? 3 : 2);
+  }
+
+  const rows = [...agg.values()].map((a) => ({
+    position: 0,
+    team: a.team,
+    played: a.played,
+    wins: a.wins,
+    draws: a.draws,
+    losses: a.losses,
+    gf: a.gf,
+    ga: a.ga,
+    gd: a.gf - a.ga,
+    points: a.points,
+    finish: FINISH[tier.get(a.team.id) ?? 1],
+    _tier: tier.get(a.team.id) ?? 1,
+  }));
+  rows.sort((x, y) => y._tier - x._tier || y.points - x.points || y.gd - x.gd || y.gf - x.gf || x.team.nameKo.localeCompare(y.team.nameKo));
+  return rows.map(({ _tier, ...r }, i) => ({ ...r, position: i + 1 }));
 }
 
 export function buildSearchIndex(matches: Match[]): SearchDoc[] {

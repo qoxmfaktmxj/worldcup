@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament } from "./types";
-import { buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, teamSlugs } from "./aggregate";
+import type { FinalRankRow, GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament } from "./types";
+import { buildFinalRanking, buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, teamSlugs } from "./aggregate";
 
 const dir = (year: number) => path.join(process.cwd(), "data", "generated", String(year));
 
@@ -36,6 +36,10 @@ export async function getPlayer(year: number, slug: string): Promise<Player | un
 
 export async function getSearchIndex(year: number): Promise<SearchDoc[]> {
   return buildSearchIndex(await getMatches(year));
+}
+
+export async function getFinalRanking(year: number): Promise<FinalRankRow[]> {
+  return buildFinalRanking(await getMatches(year));
 }
 
 export async function getPlayersMeta(year: number): Promise<Record<string, PlayerMeta>> {

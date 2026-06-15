@@ -158,6 +158,20 @@ export interface SearchDoc {
   href: string
 }
 
+export interface FinalRankRow {
+  position: number
+  team: TeamRef
+  played: number
+  wins: number
+  draws: number
+  losses: number
+  gf: number
+  ga: number
+  gd: number
+  points: number
+  finish: string
+}
+
 export interface PlayerImage {
   url: string
   author: string

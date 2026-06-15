@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { GroupBoard } from "@/components/kinetic/GroupBoard";
-import { getStandings, getTournament } from "@/lib/data";
+import { FinalRanking } from "@/components/kinetic/FinalRanking";
+import { getFinalRanking, getStandings, getTournament } from "@/lib/data";
 
 export function generateStaticParams() {
   return [{ year: "2002" }];
@@ -9,7 +10,7 @@ export function generateStaticParams() {
 export default async function TournamentPage({ params }: { params: Promise<{ year: string }> }) {
   const { year } = await params;
   const y = Number(year);
-  const [t, standings] = await Promise.all([getTournament(y), getStandings(y)]);
+  const [t, standings, ranking] = await Promise.all([getTournament(y), getStandings(y), getFinalRanking(y)]);
   return (
     <main className="mx-auto max-w-5xl p-6">
       <div className="flex items-end justify-between gap-4">
@@ -36,6 +37,13 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
           <GroupBoard key={g.group} g={g} />
         ))}
       </div>
+
+      <section className="mt-10">
+        <h2 className="font-display text-3xl text-korea mb-4" style={{ transform: "skewX(-6deg)" }}>
+          최종 순위
+        </h2>
+        <FinalRanking rows={ranking} />
+      </section>
     </main>
   );
 }
