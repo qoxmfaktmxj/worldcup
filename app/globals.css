@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-ink: #0e1016;
+  --color-panel: #171a22;
+  --color-line: #23262f;
+  --color-korea: #e4002b;
+  --color-muted: #8a92a3;
+  --color-muted-dim: #5a6070;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-black-han), sans-serif;
+  --font-body: var(--font-noto), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--color-ink);
+  color: #ffffff;
 }
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+}
+
+@keyframes streak {
+  from { transform: translateX(-120%) skewX(-20deg); }
+  to { transform: translateX(360%) skewX(-20deg); }
+}
+@keyframes slide {
+  from { opacity: 0; transform: translateX(-24px) skewX(-6deg); }
+  to { opacity: 1; transform: translateX(0) skewX(-6deg); }
+}
+@keyframes pop {
+  from { opacity: 0; transform: scale(.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.kx-streak { animation: streak 3.5s linear infinite; }
+.kx-slide { animation: slide .55s cubic-bezier(.2, .8, .2, 1) both; }
+.kx-pop { animation: pop .5s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .kx-streak { display: none; }
+  .kx-slide,
+  .kx-pop { animation: none; opacity: 1; transform: none; }
 }
