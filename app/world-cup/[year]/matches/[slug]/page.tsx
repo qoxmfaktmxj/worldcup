@@ -33,8 +33,8 @@ export default async function MatchPage({
         >
           {m.goals.map((g, i) => (
             <span key={i} className="mr-3">
-              {g.nameKo} {g.minute}&#39;{g.ownGoal ? " (OG)" : ""}
-              {g.penalty ? " (PK)" : ""}
+              {g.nameKo} {g.minute}&#39;{g.ownGoal ? " (자책골)" : ""}
+              {g.penalty ? " (페널티골)" : ""}
             </span>
           ))}
         </div>
