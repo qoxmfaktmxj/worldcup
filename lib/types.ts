@@ -89,3 +89,71 @@ export interface Tournament {
   name: string
   host: string
 }
+
+export interface PlayerMatch {
+  matchId: string
+  slug: string
+  group: string
+  stage: string
+  date: string
+  teamId: string
+  opponentNameKo: string
+  side: 'home' | 'away'
+  starter: boolean
+  substitute: boolean
+  position: string
+  shirtNumber: number
+  goals: number
+}
+
+export interface Player {
+  id: string
+  slug: string
+  nameKo: string
+  nameEn: string
+  teamId: string
+  teamNameKo: string
+  teamSlug: string
+  shirtNumber: number
+  position: string
+  matches: PlayerMatch[]
+  starts: number
+  subs: number
+  goals: number
+}
+
+export interface TeamSquadEntry {
+  playerId: string
+  slug: string
+  nameKo: string
+  shirtNumber: number
+  position: string
+  starts: number
+  subs: number
+  goals: number
+}
+
+export interface TeamMatchLine {
+  slug: string
+  date: string
+  group: string
+  opponentNameKo: string
+  gf: number
+  ga: number
+  result: Result
+}
+
+export interface TeamView {
+  team: TeamRef
+  slug: string
+  standing?: Standing
+  squad: TeamSquadEntry[]
+  matches: TeamMatchLine[]
+}
+
+export interface SearchDoc {
+  type: 'player' | 'team' | 'match'
+  title: string
+  subtitle: string
+  href: string
+}

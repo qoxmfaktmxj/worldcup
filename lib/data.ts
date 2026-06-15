@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { GroupStanding, Match, Tournament } from "./types";
+import type { GroupStanding, Match, Player, SearchDoc, TeamView, Tournament } from "./types";
+import { buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, teamSlugs } from "./aggregate";
 
 const dir = (year: number) => path.join(process.cwd(), "data", "generated", String(year));
 
@@ -14,4 +15,25 @@ export const getStandings = (year: number) => load<GroupStanding[]>(year, "stand
 
 export async function getMatch(year: number, slug: string): Promise<Match | undefined> {
   return (await getMatches(year)).find((m) => m.slug === slug);
+}
+
+export async function getTeamSlugs(year: number): Promise<string[]> {
+  return teamSlugs(await getMatches(year));
+}
+
+export async function getTeamView(year: number, slug: string): Promise<TeamView | undefined> {
+  const [matches, standings] = await Promise.all([getMatches(year), getStandings(year)]);
+  return buildTeamView(matches, standings, slug);
+}
+
+export async function getPlayerSlugs(year: number): Promise<string[]> {
+  return buildPlayers(await getMatches(year)).map((p) => p.slug);
+}
+
+export async function getPlayer(year: number, slug: string): Promise<Player | undefined> {
+  return pickPlayer(await getMatches(year), slug);
+}
+
+export async function getSearchIndex(year: number): Promise<SearchDoc[]> {
+  return buildSearchIndex(await getMatches(year));
 }
