@@ -117,6 +117,18 @@ export default function SourcesPage() {
             </a>
           </p>
         </div>
+
+        {/* Card 5 */}
+        <div className="bg-panel border border-line rounded-lg p-4">
+          <p className="font-medium">
+            대회 엠블럼{" "}
+            <span className="text-muted text-sm font-normal">© FIFA · 상표</span>
+          </p>
+          <p className="text-sm text-muted leading-relaxed mt-2">
+            각 월드컵 엠블럼·로고의 모든 권리는 FIFA에 있습니다. 본 아카이브는
+            비영리·식별 목적으로만 표시합니다.
+          </p>
+        </div>
       </div>
 
       <div className="mt-8">
