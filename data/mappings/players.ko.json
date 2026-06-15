@@ -1,4 +1,23 @@
 {
-  "comment": "Fjelstul player_id -> Korean display name. Stars curated; rest fall back to romanized given+family.",
-  "names": {}
+  "comment": "Fjelstul player_id -> Korean display name. Stars curated; rest fall back to romanized given+family. Plan 2 fills the rest systematically via Wikidata ko labels.",
+  "names": {
+    "P-95122": "이운재",
+    "P-07865": "최진철",
+    "P-51785": "김남일",
+    "P-75255": "유상철",
+    "P-96267": "김태영",
+    "P-37114": "최태욱",
+    "P-56626": "설기현",
+    "P-46519": "이영표",
+    "P-72495": "최용수",
+    "P-60562": "이을용",
+    "P-22338": "이천수",
+    "P-66219": "이민성",
+    "P-39884": "차두리",
+    "P-15222": "황선홍",
+    "P-26616": "안정환",
+    "P-55097": "홍명보",
+    "P-25724": "박지성",
+    "P-83544": "송종국"
+  }
 }
