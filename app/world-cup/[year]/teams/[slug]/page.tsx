@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getTeamSlugs, getTeamView } from "@/lib/data";
-import { FallbackAvatar } from "@/components/kinetic/FallbackAvatar";
+import { getPlayerCards, getTeamSlugs, getTeamView } from "@/lib/data";
+import { PlayerAvatar } from "@/components/kinetic/PlayerAvatar";
+import { PlayerTrigger } from "@/components/kinetic/PlayerTrigger";
 
 export async function generateStaticParams() {
   return (await getTeamSlugs(2002)).map((slug) => ({ year: "2002", slug }));
@@ -17,6 +18,7 @@ export default async function TeamPage({
   if (!view) notFound();
 
   const { team, standing, squad, matches } = view;
+  const cards = await getPlayerCards(2002);
 
   return (
     <main className="mx-auto max-w-5xl p-6">
@@ -137,25 +139,35 @@ export default async function TeamPage({
             스쿼드
           </h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            {squad.map((entry, i) => (
-              <Link
-                key={entry.slug}
-                href={`/players/${entry.slug}`}
-                className="kx-pop bg-panel rounded p-3 border border-line hover:border-korea hover:-translate-y-0.5 transition-all flex items-center gap-3 group"
-                style={{ animationDelay: `${0.04 * i}s` }}
-              >
-                <FallbackAvatar name={entry.nameKo} shirt={entry.shirtNumber} size={40} />
-                <div className="min-w-0">
-                  <p className="text-white font-medium text-sm truncate group-hover:text-korea transition-colors">
-                    {entry.nameKo}
-                  </p>
-                  <p className="text-muted text-xs truncate">{entry.position}</p>
-                  <p className="text-muted text-xs mt-0.5">
-                    선발 {entry.starts} · 교체 {entry.subs} · 골 {entry.goals}
-                  </p>
-                </div>
-              </Link>
-            ))}
+            {squad.map((entry, i) => {
+              const card = cards[entry.playerId];
+              const inner = (
+                <span
+                  className="kx-pop group flex w-full items-center gap-3 rounded border border-line bg-panel p-3 transition-all hover:-translate-y-0.5 hover:border-korea"
+                  style={{ animationDelay: `${0.04 * i}s` }}
+                >
+                  {card ? <PlayerAvatar card={card} size={40} /> : null}
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm font-medium text-white transition-colors group-hover:text-korea">
+                      {entry.nameKo}
+                    </span>
+                    <span className="block truncate text-xs text-muted">{entry.position}</span>
+                    <span className="mt-0.5 block text-xs text-muted">
+                      선발 {entry.starts} · 교체 {entry.subs} · 골 {entry.goals}
+                    </span>
+                  </span>
+                </span>
+              );
+              return card ? (
+                <PlayerTrigger key={entry.slug} card={card} preview={false} className="w-full text-left">
+                  {inner}
+                </PlayerTrigger>
+              ) : (
+                <Link key={entry.slug} href={`/players/${entry.slug}`} className="w-full">
+                  {inner}
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

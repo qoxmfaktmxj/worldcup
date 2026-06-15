@@ -1,7 +1,6 @@
-import Link from "next/link";
-import type { Appearance } from "@/lib/types";
-import { playerSlug } from "@/lib/aggregate";
-import { fullName } from "@/lib/pipeline/names";
+import type { Appearance, PlayerCardData } from "@/lib/types";
+import { PlayerAvatar } from "./PlayerAvatar";
+import { PlayerTrigger } from "./PlayerTrigger";
 import { FallbackAvatar } from "./FallbackAvatar";
 
 const BANDS: { key: string; codes: string[] }[] = [
@@ -15,7 +14,15 @@ function band(code: string): string {
   return BANDS.find((b) => b.codes.includes(code))?.key ?? "MF";
 }
 
-export function MatchPitch({ players, side }: { players: Appearance[]; side: "home" | "away" }) {
+export function MatchPitch({
+  players,
+  side,
+  cards,
+}: {
+  players: Appearance[];
+  side: "home" | "away";
+  cards: Record<string, PlayerCardData>;
+}) {
   const starters = players.filter((p) => p.starter);
   const rows = BANDS.map((b) => ({
     key: b.key,
@@ -28,16 +35,27 @@ export function MatchPitch({ players, side }: { players: Appearance[]; side: "ho
       <div className="relative flex flex-col gap-3">
         {order.map((r) => (
           <div key={r.key} className="flex justify-center gap-3 flex-wrap">
-            {r.list.map((p) => (
-              <Link
-                key={p.playerId}
-                href={`/players/${playerSlug(fullName(p.givenName, p.familyName), p.playerId)}`}
-                className="flex flex-col items-center gap-1 w-14 hover:opacity-80 transition-opacity"
-              >
-                <FallbackAvatar name={p.nameKo} shirt={p.shirtNumber} size={36} />
-                <span className="text-[10px] text-center text-white/80 leading-tight">{p.nameKo}</span>
-              </Link>
-            ))}
+            {r.list.map((p) => {
+              const card = cards[p.playerId];
+              const label = card?.nameKo ?? p.nameKo;
+              return (
+                <div key={p.playerId} className="flex w-14 flex-col items-center">
+                  {card ? (
+                    <PlayerTrigger card={card}>
+                      <span className="flex flex-col items-center gap-1 hover:opacity-80 transition-opacity">
+                        <PlayerAvatar card={card} size={36} />
+                        <span className="text-[10px] text-center text-white/80 leading-tight">{label}</span>
+                      </span>
+                    </PlayerTrigger>
+                  ) : (
+                    <span className="flex flex-col items-center gap-1">
+                      <FallbackAvatar name={label} shirt={p.shirtNumber} size={36} />
+                      <span className="text-[10px] text-center text-white/80 leading-tight">{label}</span>
+                    </span>
+                  )}
+                </div>
+              );
+            })}
           </div>
         ))}
       </div>
