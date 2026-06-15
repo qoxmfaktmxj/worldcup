@@ -30,7 +30,7 @@ export function MatchPitch({
     .filter((r) => r.list.length > 0);
   const order = side === "home" ? rows : [...rows].reverse();
   return (
-    <div className="relative flex min-h-[300px] flex-1 flex-col overflow-hidden rounded-lg border border-line bg-[#0a1f12] p-3">
+    <div className="relative flex min-h-[300px] flex-1 flex-col rounded-lg border border-line bg-[#0a1f12] p-3">
       <div className="absolute inset-x-0 top-1/2 h-px bg-white/10" aria-hidden />
       <div className="relative flex flex-1 flex-col justify-between gap-3">
         {order.map((r) => (
