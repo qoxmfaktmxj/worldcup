@@ -1,11 +1,17 @@
+import Link from "next/link";
 import type { GroupStanding } from "@/lib/types";
+import { groupSlug, teamSlug } from "@/lib/aggregate";
 
 export function GroupBoard({ g }: { g: GroupStanding }) {
   return (
     <div className="bg-panel/60 border border-line rounded-lg p-3">
-      <div className="font-display text-korea text-lg mb-2" style={{ transform: "skewX(-6deg)" }}>
+      <Link
+        href={`/world-cup/2002/groups/${groupSlug(g.group)}`}
+        className="font-display text-korea text-lg mb-2 inline-block hover:opacity-80"
+        style={{ transform: "skewX(-6deg)" }}
+      >
         {g.group}
-      </div>
+      </Link>
       <table className="w-full text-sm">
         <thead>
           <tr className="text-[11px] text-muted">
@@ -19,7 +25,11 @@ export function GroupBoard({ g }: { g: GroupStanding }) {
           {g.rows.map((r) => (
             <tr key={r.team.id} className={r.advanced ? "text-white" : "text-muted"}>
               <td className={`py-1 ${r.advanced ? "text-korea font-medium" : ""}`}>{r.position}</td>
-              <td className="py-1">{r.team.nameKo}</td>
+              <td className="py-1">
+                <Link href={`/world-cup/2002/teams/${teamSlug(r.team)}`} className="hover:text-korea transition-colors">
+                  {r.team.nameKo}
+                </Link>
+              </td>
               <td className="py-1 text-right text-xs text-muted">
                 {r.wins}·{r.draws}·{r.losses}
               </td>

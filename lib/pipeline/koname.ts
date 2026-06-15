@@ -1,10 +1,12 @@
+import { fullName } from "./names"
+
 export function koName(
   playerId: string,
   family: string,
   given: string,
   map: Record<string, string>,
 ): string {
-  return map[playerId] ?? `${given} ${family}`.trim()
+  return map[playerId] ?? fullName(given, family)
 }
 
 export function koTeam(

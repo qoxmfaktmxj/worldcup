@@ -12,6 +12,7 @@ import type {
   TeamView,
 } from "./types";
 import { slugify } from "./pipeline/transform";
+import { fullName } from "./pipeline/names";
 
 export function teamSlug(t: TeamRef): string {
   return slugify(t.name);
@@ -52,9 +53,9 @@ export function buildPlayers(matches: Match[]): Player[] {
         if (!p) {
           p = {
             id: a.playerId,
-            slug: playerSlug(`${a.givenName} ${a.familyName}`, a.playerId),
+            slug: playerSlug(fullName(a.givenName, a.familyName), a.playerId),
             nameKo: a.nameKo,
-            nameEn: `${a.givenName} ${a.familyName}`.trim(),
+            nameEn: fullName(a.givenName, a.familyName),
             teamId: team.id,
             teamNameKo: team.nameKo,
             teamSlug: teamSlug(team),

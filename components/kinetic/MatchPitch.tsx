@@ -1,4 +1,7 @@
+import Link from "next/link";
 import type { Appearance } from "@/lib/types";
+import { playerSlug } from "@/lib/aggregate";
+import { fullName } from "@/lib/pipeline/names";
 import { FallbackAvatar } from "./FallbackAvatar";
 
 const BANDS: { key: string; codes: string[] }[] = [
@@ -26,10 +29,14 @@ export function MatchPitch({ players, side }: { players: Appearance[]; side: "ho
         {order.map((r) => (
           <div key={r.key} className="flex justify-center gap-3 flex-wrap">
             {r.list.map((p) => (
-              <div key={p.playerId} className="flex flex-col items-center gap-1 w-14">
+              <Link
+                key={p.playerId}
+                href={`/players/${playerSlug(fullName(p.givenName, p.familyName), p.playerId)}`}
+                className="flex flex-col items-center gap-1 w-14 hover:opacity-80 transition-opacity"
+              >
                 <FallbackAvatar name={p.nameKo} shirt={p.shirtNumber} size={36} />
                 <span className="text-[10px] text-center text-white/80 leading-tight">{p.nameKo}</span>
-              </div>
+              </Link>
             ))}
           </div>
         ))}

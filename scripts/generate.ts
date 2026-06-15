@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { parse } from 'csv-parse/sync'
 import type { Booking, Goal, Match, Substitution } from '../lib/types'
 import { buildAppearances, buildStandings, slugify, teamRef, toResult } from '../lib/pipeline/transform'
+import { fullName } from '../lib/pipeline/names'
 
 type Row = Record<string, string>
 
@@ -70,7 +71,7 @@ async function main() {
   const bookingsByMatch = groupBy(bookingRows, 'match_id')
   const subsByMatch = groupBy(subRows, 'match_id')
 
-  const ko = (r: Row) => playerMap[r.player_id] ?? `${r.given_name} ${r.family_name}`.trim()
+  const ko = (r: Row) => playerMap[r.player_id] ?? fullName(r.given_name, r.family_name)
 
   const matches: Match[] = matchRows.map((m) => {
     const home = teamRef(m.home_team_id, m.home_team_name, m.home_team_code, teamMap)
