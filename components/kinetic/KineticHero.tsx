@@ -3,7 +3,7 @@ import { roundLabel } from "@/lib/stages";
 import { StreakBg } from "./StreakBg";
 import { ScoreLine } from "./ScoreLine";
 
-export function KineticHero({ m }: { m: Match }) {
+export function KineticHero({ m, year }: { m: Match; year: number }) {
   return (
     <div className="relative overflow-hidden rounded-xl border border-line bg-ink p-6">
       <StreakBg />
@@ -13,7 +13,7 @@ export function KineticHero({ m }: { m: Match }) {
           style={{ transform: "skewX(-12deg)" }}
         >
           <span style={{ display: "inline-block", transform: "skewX(12deg)" }}>
-            2002 월드컵 · {roundLabel(m.group, m.stage)} · {m.city}
+            {year} 월드컵 · {roundLabel(m.group, m.stage)} · {m.city}
           </span>
         </div>
         <div className="mt-4">

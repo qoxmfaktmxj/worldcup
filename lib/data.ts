@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { FinalRankRow, GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament } from "./types";
 import { buildFinalRanking, buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, teamSlugs } from "./aggregate";
+import { availableYears } from "./tournaments";
 
 const dir = (year: number) => path.join(process.cwd(), "data", "generated", String(year));
 
@@ -35,7 +36,24 @@ export async function getPlayer(year: number, slug: string): Promise<Player | un
 }
 
 export async function getSearchIndex(year: number): Promise<SearchDoc[]> {
-  return buildSearchIndex(await getMatches(year));
+  return buildSearchIndex(await getMatches(year), year);
+}
+
+// Search across every available tournament. Player docs are deduped by href
+// (one player can appear in multiple World Cups but has a single global page).
+export async function getSearchIndexAll(): Promise<SearchDoc[]> {
+  const out: SearchDoc[] = [];
+  const seenPlayer = new Set<string>();
+  for (const y of [...availableYears()].reverse()) {
+    for (const d of await getSearchIndex(y)) {
+      if (d.type === "player") {
+        if (seenPlayer.has(d.href)) continue;
+        seenPlayer.add(d.href);
+      }
+      out.push(d);
+    }
+  }
+  return out;
 }
 
 export async function getFinalRanking(year: number): Promise<FinalRankRow[]> {
@@ -60,6 +78,7 @@ export async function getPlayerCards(year: number): Promise<Record<string, Playe
     out[p.id] = {
       id: p.id,
       slug: p.slug,
+      year,
       nameKo: m?.nameKo || p.nameKo,
       nameEn: m?.nameEn || p.nameEn,
       shirtNumber: p.shirtNumber,
@@ -70,4 +89,38 @@ export async function getPlayerCards(year: number): Promise<Record<string, Playe
     };
   }
   return out;
+}
+
+// Player pages live at /players/[slug] — global across tournaments. A player who
+// appeared in several World Cups gets one page merging every appearance.
+export async function getAllPlayerSlugs(): Promise<string[]> {
+  const set = new Set<string>();
+  for (const y of availableYears()) for (const p of buildPlayers(await getMatches(y))) set.add(p.slug);
+  return [...set];
+}
+
+export async function getPlayerGlobal(slug: string): Promise<Player | undefined> {
+  let merged: Player | undefined;
+  for (const y of availableYears()) {
+    const p = buildPlayers(await getMatches(y), y).find((x) => x.slug === slug);
+    if (!p) continue;
+    if (!merged) {
+      merged = { ...p, matches: [...p.matches] };
+    } else {
+      merged.matches.push(...p.matches);
+      merged.starts += p.starts;
+      merged.subs += p.subs;
+      merged.goals += p.goals;
+      // Latest tournament wins for identity (name/team/shirt may change between cups).
+      merged.nameKo = p.nameKo;
+      merged.nameEn = p.nameEn;
+      merged.teamId = p.teamId;
+      merged.teamNameKo = p.teamNameKo;
+      merged.teamSlug = p.teamSlug;
+      merged.shirtNumber = p.shirtNumber;
+      merged.position = p.position;
+    }
+  }
+  if (merged) merged.matches.sort((a, b) => a.date.localeCompare(b.date));
+  return merged;
 }

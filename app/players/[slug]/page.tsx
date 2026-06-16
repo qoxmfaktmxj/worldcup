@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPlayerSlugs, getPlayer } from "@/lib/data";
+import { getAllPlayerSlugs, getPlayerGlobal } from "@/lib/data";
 import { roundLabel } from "@/lib/stages";
 import { FallbackAvatar } from "@/components/kinetic/FallbackAvatar";
 
 export async function generateStaticParams() {
-  return (await getPlayerSlugs(2002)).map((slug) => ({ slug }));
+  return (await getAllPlayerSlugs()).map((slug) => ({ slug }));
 }
 
 export default async function PlayerPage({
@@ -14,12 +14,12 @@ export default async function PlayerPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const p = await getPlayer(2002, slug);
+  const p = await getPlayerGlobal(slug);
   if (!p) notFound();
 
-  const sortedMatches = [...p.matches].sort((a, b) =>
-    a.date.localeCompare(b.date)
-  );
+  // Group appearances by tournament (newest first); identity links use the latest cup.
+  const years = [...new Set(p.matches.map((m) => m.year))].sort((a, b) => b - a);
+  const latestYear = years[0];
 
   const STAT_TILES = [
     { label: "출전", value: p.matches.length, accent: false },
@@ -32,7 +32,7 @@ export default async function PlayerPage({
     <main className="mx-auto max-w-3xl p-6">
       {/* Back navigation */}
       <Link
-        href={`/world-cup/2002/teams/${p.teamSlug}`}
+        href={`/world-cup/${latestYear}/teams/${p.teamSlug}`}
         className="inline-flex items-center gap-1 text-muted text-xs mb-5 hover:text-white transition-colors"
       >
         ← {p.teamNameKo}
@@ -51,7 +51,7 @@ export default async function PlayerPage({
           <p className="text-sm text-muted-dim mt-0.5 truncate">{p.nameEn}</p>
           <div className="mt-2 flex items-center gap-1.5 flex-wrap">
             <Link
-              href={`/world-cup/2002/teams/${p.teamSlug}`}
+              href={`/world-cup/${latestYear}/teams/${p.teamSlug}`}
               className="text-sm text-white hover:text-korea transition-colors font-medium"
             >
               {p.teamNameKo}
@@ -61,6 +61,15 @@ export default async function PlayerPage({
             <span className="text-muted-dim text-sm">·</span>
             <span className="text-muted text-sm">#{p.shirtNumber}</span>
           </div>
+          {years.length > 1 && (
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {years.map((yr) => (
+                <span key={yr} className="rounded border border-line bg-ink/40 px-2 py-0.5 text-[11px] text-muted">
+                  {yr} 월드컵
+                </span>
+              ))}
+            </div>
+          )}
         </div>
         {/* Decorative shirt number */}
         <div
@@ -97,7 +106,7 @@ export default async function PlayerPage({
         ))}
       </div>
 
-      {/* Match history */}
+      {/* Match history — grouped by tournament */}
       <div className="mt-8">
         <h2
           className="font-display text-xl mb-3"
@@ -106,65 +115,82 @@ export default async function PlayerPage({
           경기별 기록
         </h2>
 
-        {sortedMatches.length === 0 ? (
+        {p.matches.length === 0 ? (
           <p className="text-muted text-sm">경기 기록이 없습니다.</p>
         ) : (
-          <div className="flex flex-col gap-2">
-            {sortedMatches.map((pm, i) => (
-              <Link
-                key={pm.matchId}
-                href={`/world-cup/2002/matches/${pm.slug}`}
-                className="kx-slide bg-panel border border-line rounded-lg p-3 flex items-center gap-3 hover:border-korea transition-colors group"
-                style={{ animationDelay: `${0.12 + i * 0.05}s` }}
-              >
-                {/* Badge: 선발 or 교체 */}
-                <div className="flex-shrink-0">
-                  {pm.starter ? (
-                    <span className="bg-korea text-white text-[10px] font-display px-2 py-0.5 rounded">
-                      선발
-                    </span>
-                  ) : (
-                    <span className="border border-line text-muted text-[10px] font-display px-2 py-0.5 rounded">
-                      교체
-                    </span>
-                  )}
-                </div>
-
-                {/* Opponent + meta */}
-                <div className="flex-1 min-w-0">
-                  <div className="text-sm font-medium text-white group-hover:text-korea transition-colors truncate">
-                    vs {pm.opponentNameKo}
-                  </div>
-                  <div className="text-muted text-xs mt-0.5">
-                    {roundLabel(pm.group, pm.stage)} · {pm.date}
-                  </div>
-                </div>
-
-                {/* Goal indicator */}
-                {pm.goals > 0 && (
-                  <div className="flex-shrink-0 font-display text-sm text-korea">
-                    골 {pm.goals}
-                  </div>
+          years.map((yr) => {
+            const yearMatches = p.matches
+              .filter((m) => m.year === yr)
+              .sort((a, b) => a.date.localeCompare(b.date));
+            return (
+              <div key={yr} className="mb-6 last:mb-0">
+                {years.length > 1 && (
+                  <h3
+                    className="font-display text-korea text-base mb-2"
+                    style={{ transform: "skewX(-6deg)" }}
+                  >
+                    {yr} 월드컵
+                  </h3>
                 )}
+                <div className="flex flex-col gap-2">
+                  {yearMatches.map((pm, i) => (
+                    <Link
+                      key={pm.matchId}
+                      href={`/world-cup/${pm.year}/matches/${pm.slug}`}
+                      className="kx-slide bg-panel border border-line rounded-lg p-3 flex items-center gap-3 hover:border-korea transition-colors group"
+                      style={{ animationDelay: `${0.12 + i * 0.05}s` }}
+                    >
+                      {/* Badge: 선발 or 교체 */}
+                      <div className="flex-shrink-0">
+                        {pm.starter ? (
+                          <span className="bg-korea text-white text-[10px] font-display px-2 py-0.5 rounded">
+                            선발
+                          </span>
+                        ) : (
+                          <span className="border border-line text-muted text-[10px] font-display px-2 py-0.5 rounded">
+                            교체
+                          </span>
+                        )}
+                      </div>
 
-                {/* Chevron */}
-                <svg
-                  className="flex-shrink-0 w-4 h-4 text-muted-dim group-hover:text-korea transition-colors"
-                  fill="none"
-                  viewBox="0 0 16 16"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M6 4l4 4-4 4"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Link>
-            ))}
-          </div>
+                      {/* Opponent + meta */}
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-medium text-white group-hover:text-korea transition-colors truncate">
+                          vs {pm.opponentNameKo}
+                        </div>
+                        <div className="text-muted text-xs mt-0.5">
+                          {roundLabel(pm.group, pm.stage)} · {pm.date}
+                        </div>
+                      </div>
+
+                      {/* Goal indicator */}
+                      {pm.goals > 0 && (
+                        <div className="flex-shrink-0 font-display text-sm text-korea">
+                          골 {pm.goals}
+                        </div>
+                      )}
+
+                      {/* Chevron */}
+                      <svg
+                        className="flex-shrink-0 w-4 h-4 text-muted-dim group-hover:text-korea transition-colors"
+                        fill="none"
+                        viewBox="0 0 16 16"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M6 4l4 4-4 4"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })
         )}
       </div>
     </main>

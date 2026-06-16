@@ -3,10 +3,14 @@ import Link from "next/link";
 import { GroupBoard } from "@/components/kinetic/GroupBoard";
 import { getStandings, getMatches } from "@/lib/data";
 import { groupSlug } from "@/lib/aggregate";
+import { availableYears } from "@/lib/tournaments";
 
 export async function generateStaticParams() {
-  const s = await getStandings(2002);
-  return s.map((g) => ({ year: "2002", group: groupSlug(g.group) }));
+  const params: { year: string; group: string }[] = [];
+  for (const year of availableYears()) {
+    for (const g of await getStandings(year)) params.push({ year: String(year), group: groupSlug(g.group) });
+  }
+  return params;
 }
 
 export default async function GroupPage({
@@ -14,12 +18,13 @@ export default async function GroupPage({
 }: {
   params: Promise<{ year: string; group: string }>;
 }) {
-  const { group } = await params;
-  const standings = await getStandings(2002);
+  const { year, group } = await params;
+  const y = Number(year);
+  const standings = await getStandings(y);
   const g = standings.find((x) => groupSlug(x.group) === group);
   if (!g) notFound();
 
-  const matches = (await getMatches(2002))
+  const matches = (await getMatches(y))
     .filter((m) => m.group === g.group)
     .sort((a, b) => a.date.localeCompare(b.date));
 
@@ -33,7 +38,7 @@ export default async function GroupPage({
       </h1>
 
       <div className="mt-6">
-        <GroupBoard g={g} />
+        <GroupBoard g={g} year={y} />
       </div>
 
       <section className="mt-6">
@@ -47,7 +52,7 @@ export default async function GroupPage({
           {matches.map((m, i) => (
             <Link
               key={m.slug}
-              href={`/world-cup/2002/matches/${m.slug}`}
+              href={`/world-cup/${y}/matches/${m.slug}`}
               className="kx-slide bg-panel border border-line rounded-lg p-3 flex items-center justify-between hover:border-korea transition-colors"
               style={{ animationDelay: `${i * 0.07}s` }}
             >

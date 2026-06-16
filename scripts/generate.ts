@@ -6,8 +6,15 @@ import { fullName } from '../lib/pipeline/names'
 
 type Row = Record<string, string>
 
+// Year from CLI arg or env, default 2002.
+const YEAR = process.argv[2] ?? process.env.YEAR ?? '2002'
+const HOST: Record<string, string> = {
+  '2002': '대한민국/일본',
+  '2006': '독일',
+}
+
 async function csv(name: string): Promise<Row[]> {
-  const text = await readFile(`data/raw/2002/${name}`, 'utf8')
+  const text = await readFile(`data/raw/${YEAR}/${name}`, 'utf8')
   return parse(text, { columns: true, skip_empty_lines: true, relax_column_count: true })
 }
 
@@ -136,13 +143,17 @@ async function main() {
 
   const standings = buildStandings(standingRows, teamMap)
 
-  await mkdir('data/generated/2002', { recursive: true })
+  await mkdir(`data/generated/${YEAR}`, { recursive: true })
   await writeFile(
-    'data/generated/2002/tournament.json',
-    JSON.stringify({ year: 2002, id: 'WC-2002', name: '2002 FIFA 월드컵', host: '대한민국/일본' }, null, 2),
+    `data/generated/${YEAR}/tournament.json`,
+    JSON.stringify(
+      { year: Number(YEAR), id: `WC-${YEAR}`, name: `${YEAR} FIFA 월드컵`, host: HOST[YEAR] ?? '' },
+      null,
+      2,
+    ),
   )
-  await writeFile('data/generated/2002/matches.json', JSON.stringify(matches, null, 2))
-  await writeFile('data/generated/2002/standings.json', JSON.stringify(standings, null, 2))
+  await writeFile(`data/generated/${YEAR}/matches.json`, JSON.stringify(matches, null, 2))
+  await writeFile(`data/generated/${YEAR}/standings.json`, JSON.stringify(standings, null, 2))
   console.log(`generated ${matches.length} matches, ${standings.length} groups`)
 }
 

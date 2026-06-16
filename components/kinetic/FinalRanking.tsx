@@ -13,7 +13,7 @@ const FINISH_STYLE: Record<string, string> = {
   조별리그: "text-muted-dim",
 };
 
-export function FinalRanking({ rows }: { rows: FinalRankRow[] }) {
+export function FinalRanking({ rows, year }: { rows: FinalRankRow[]; year: number }) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full min-w-[560px] text-sm">
@@ -36,7 +36,7 @@ export function FinalRanking({ rows }: { rows: FinalRankRow[] }) {
               <td className="py-1.5 font-display text-muted">{r.position}</td>
               <td className="py-1.5">
                 <Link
-                  href={`/world-cup/2002/teams/${teamSlug(r.team)}`}
+                  href={`/world-cup/${year}/teams/${teamSlug(r.team)}`}
                   className="flex items-center gap-2 transition-colors hover:text-korea"
                 >
                   <span className="h-3 w-3 shrink-0 rounded-sm" style={{ background: teamPrimary(r.team.name) }} aria-hidden />

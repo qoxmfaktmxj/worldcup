@@ -5,14 +5,9 @@ import { fullName } from "../lib/pipeline/names";
 import type { PlayerClub, PlayerMeta } from "../lib/types";
 
 const UA = "WorldCupArchive/1.0 (+https://worldcup.minseok91.cloud)";
-const CACHE = "data/raw/2002/wikidata-cache.json";
+const YEAR = process.argv[2] ?? process.env.YEAR ?? "2002";
+const CACHE = `data/raw/${YEAR}/wikidata-cache.json`;
 const LIMIT = Number(process.env.ENRICH_LIMIT ?? "60"); // network passes; 0 = csv-only
-// 2002 Korea squad — prioritised so a capped run enriches the flagship pages first.
-const PRIORITY = new Set([
-  "P-95122", "P-07865", "P-51785", "P-75255", "P-96267", "P-37114", "P-56626",
-  "P-46519", "P-72495", "P-60562", "P-22338", "P-66219", "P-39884", "P-15222",
-  "P-26616", "P-55097", "P-25724", "P-83544",
-]);
 
 type Row = Record<string, string>;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
@@ -24,7 +19,7 @@ async function getJSON(url: string): Promise<any> {
 }
 
 function csv(name: string): Promise<Row[]> {
-  return readFile(`data/raw/2002/${name}`, "utf8").then((t) =>
+  return readFile(`data/raw/${YEAR}/${name}`, "utf8").then((t) =>
     parse(t, { columns: true, skip_empty_lines: true, relax_column_count: true }),
   );
 }
@@ -118,7 +113,12 @@ async function summary(title: string, lang: string): Promise<string | undefined>
 async function main() {
   const playerRows = await csv("players.csv");
   const apps = await csv("player_appearances.csv");
+  const squads = await csv("squads.csv");
   const wanted = new Set(apps.map((a) => a.player_id));
+  // Prioritise the host/flagship squad (Korea) so a capped run enriches those pages first.
+  const PRIORITY = new Set(
+    squads.filter((s) => s.team_code === "KOR" || s.team_name === "South Korea").map((s) => s.player_id),
+  );
   const cache = await loadCache();
   const meta: Record<string, PlayerMeta> = {};
 
@@ -196,9 +196,9 @@ async function main() {
     }
   }
 
-  await mkdir("data/generated/2002", { recursive: true });
+  await mkdir(`data/generated/${YEAR}`, { recursive: true });
   await writeFile(CACHE, JSON.stringify(cache));
-  await writeFile("data/generated/2002/players-meta.json", JSON.stringify(meta, null, 2));
+  await writeFile(`data/generated/${YEAR}/players-meta.json`, JSON.stringify(meta, null, 2));
 
   const koPath = "data/mappings/players.ko.json";
   const ko = JSON.parse(await readFile(koPath, "utf8"));

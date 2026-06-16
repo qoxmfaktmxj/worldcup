@@ -106,6 +106,7 @@ export interface Tournament {
 export interface PlayerMatch {
   matchId: string
   slug: string
+  year: number
   group: string
   stage: string
   date: string
@@ -215,6 +216,7 @@ export interface PlayerMeta {
 export interface PlayerCardData {
   id: string
   slug: string
+  year: number
   nameKo: string
   nameEn: string
   shirtNumber: number

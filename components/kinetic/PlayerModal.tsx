@@ -95,7 +95,7 @@ export function PlayerModal({ card, onClose }: { card: PlayerCardData; onClose: 
           </div>
         </div>
         <div className="p-[18px] pt-3">
-          <div className="mb-1.5 text-[11px] tracking-wider text-[#9aa1b0]">2002 월드컵</div>
+          <div className="mb-1.5 text-[11px] tracking-wider text-[#9aa1b0]">{card.year} 월드컵</div>
           <div className="grid grid-cols-4 gap-2">
             {stat(card.stats.matches, "출전")}
             {stat(card.stats.starts, "선발")}

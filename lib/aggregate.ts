@@ -27,7 +27,7 @@ export function playerSlug(nameEn: string, id: string): string {
   return `${slugify(nameEn)}-${id.replace(/^P-/, "")}`;
 }
 
-export function buildPlayers(matches: Match[]): Player[] {
+export function buildPlayers(matches: Match[], year = 0): Player[] {
   const map = new Map<string, Player>();
   for (const m of matches) {
     for (const side of ["home", "away"] as const) {
@@ -38,6 +38,7 @@ export function buildPlayers(matches: Match[]): Player[] {
         const pm: PlayerMatch = {
           matchId: m.id,
           slug: m.slug,
+          year,
           group: m.group,
           stage: m.stage,
           date: m.date,
@@ -222,11 +223,11 @@ export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
   return rows.map(({ _tier, ...r }, i) => ({ ...r, position: i + 1 }));
 }
 
-export function buildSearchIndex(matches: Match[]): SearchDoc[] {
+export function buildSearchIndex(matches: Match[], year: number): SearchDoc[] {
   const docs: SearchDoc[] = [];
   for (const t of teamSlugs(matches)) {
     const team = findTeam(matches, t);
-    if (team) docs.push({ type: "team", title: team.nameKo, subtitle: "국가", href: `/world-cup/2002/teams/${t}` });
+    if (team) docs.push({ type: "team", title: team.nameKo, subtitle: `${year} 국가`, href: `/world-cup/${year}/teams/${t}` });
   }
   for (const p of buildPlayers(matches)) {
     docs.push({
@@ -240,8 +241,8 @@ export function buildSearchIndex(matches: Match[]): SearchDoc[] {
     docs.push({
       type: "match",
       title: `${m.home.nameKo} ${m.homeScore}:${m.awayScore} ${m.away.nameKo}`,
-      subtitle: `${m.group} · ${m.date}`,
-      href: `/world-cup/2002/matches/${m.slug}`,
+      subtitle: `${year} · ${m.group} · ${m.date}`,
+      href: `/world-cup/${year}/matches/${m.slug}`,
     });
   }
   return docs;

@@ -36,6 +36,19 @@ const TEAM_COLORS: Record<string, { primary: Swatch; secondary: Swatch }> = {
   Belgium: { primary: ["#E30613", "red"], secondary: ["#FDDA24", "gold"] },
   Russia: { primary: ["#DA291C", "red"], secondary: ["#ffffff", "white"] },
   Tunisia: { primary: ["#E70013", "red"], secondary: ["#ffffff", "white"] },
+  // 2006 newcomers (not present in 2002).
+  Switzerland: { primary: ["#D52B1E", "red"], secondary: ["#ffffff", "white"] },
+  Netherlands: { primary: ["#EC7700", "gold"], secondary: ["#ffffff", "white"] },
+  Ukraine: { primary: ["#FFD500", "gold"], secondary: ["#005BBB", "blue"] },
+  "Czech Republic": { primary: ["#D7141A", "red"], secondary: ["#ffffff", "white"] },
+  "Ivory Coast": { primary: ["#FF8200", "gold"], secondary: ["#009E60", "green"] },
+  Ghana: { primary: ["#F4F4F4", "white"], secondary: ["#006B3F", "green"] },
+  Iran: { primary: ["#F4F4F4", "white"], secondary: ["#239F40", "green"] },
+  Angola: { primary: ["#CC092F", "red"], secondary: ["#1A1A1A", "dark"] },
+  Togo: { primary: ["#006A4E", "green"], secondary: ["#FFCE00", "gold"] },
+  Australia: { primary: ["#FFB81C", "gold"], secondary: ["#00843D", "green"] },
+  "Serbia and Montenegro": { primary: ["#C6363C", "red"], secondary: ["#0C4076", "blue"] },
+  "Trinidad and Tobago": { primary: ["#DA1A35", "red"], secondary: ["#ffffff", "white"] },
 };
 
 const DEFAULT = { primary: ["#e4002b", "red"] as Swatch, secondary: ["#888888", "gray"] as Swatch };
@@ -103,6 +116,18 @@ const KO: Record<string, string> = {
   Belgium: "벨기에",
   Russia: "러시아",
   Tunisia: "튀니지",
+  Switzerland: "스위스",
+  Netherlands: "네덜란드",
+  Ukraine: "우크라이나",
+  "Czech Republic": "체코",
+  "Ivory Coast": "코트디부아르",
+  Ghana: "가나",
+  Iran: "이란",
+  Angola: "앙골라",
+  Togo: "토고",
+  Australia: "호주",
+  "Serbia and Montenegro": "세르비아 몬테네그로",
+  "Trinidad and Tobago": "트리니다드 토바고",
 };
 
 export function teamKo(name: string): string | undefined {

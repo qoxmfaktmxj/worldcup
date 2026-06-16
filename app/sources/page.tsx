@@ -21,7 +21,7 @@ export default function SourcesPage() {
             <span className="text-muted text-sm font-normal">CC BY-SA 4.0</span>
           </p>
           <p className="text-sm text-muted leading-relaxed mt-2">
-            © 2023 Joshua C. Fjelstul, Ph.D. 데이터를 2002 대회 기준으로
+            © 2023 Joshua C. Fjelstul, Ph.D. 데이터를 각 대회 기준으로
             정제·한글화·재구성했습니다. 본 사이트의 가공 데이터셋 또한 CC
             BY-SA 4.0으로 제공됩니다.
           </p>
@@ -89,6 +89,15 @@ export default function SourcesPage() {
               className="text-korea hover:underline"
             >
               2002 FIFA World Cup
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/2006_FIFA_World_Cup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-korea hover:underline"
+            >
+              2006 FIFA World Cup
             </a>
           </p>
         </div>
@@ -133,10 +142,10 @@ export default function SourcesPage() {
 
       <div className="mt-8">
         <Link
-          href="/world-cup/2002"
+          href="/"
           className="text-muted hover:text-korea transition-colors text-sm"
         >
-          ← 2002 월드컵
+          ← 홈
         </Link>
       </div>
     </main>

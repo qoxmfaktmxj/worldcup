@@ -1,11 +1,16 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPlayerCards, getTeamSlugs, getTeamView } from "@/lib/data";
+import { availableYears } from "@/lib/tournaments";
 import { PlayerAvatar } from "@/components/kinetic/PlayerAvatar";
 import { PlayerTrigger } from "@/components/kinetic/PlayerTrigger";
 
 export async function generateStaticParams() {
-  return (await getTeamSlugs(2002)).map((slug) => ({ year: "2002", slug }));
+  const params: { year: string; slug: string }[] = [];
+  for (const year of availableYears()) {
+    for (const slug of await getTeamSlugs(year)) params.push({ year: String(year), slug });
+  }
+  return params;
 }
 
 export default async function TeamPage({
@@ -13,12 +18,13 @@ export default async function TeamPage({
 }: {
   params: Promise<{ year: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const view = await getTeamView(2002, slug);
+  const { year, slug } = await params;
+  const y = Number(year);
+  const view = await getTeamView(y, slug);
   if (!view) notFound();
 
   const { team, standing, squad, matches } = view;
-  const cards = await getPlayerCards(2002);
+  const cards = await getPlayerCards(y);
 
   return (
     <main className="mx-auto max-w-5xl p-6">
@@ -92,7 +98,7 @@ export default async function TeamPage({
             {matches.map((line, i) => (
               <Link
                 key={line.slug}
-                href={`/world-cup/2002/matches/${line.slug}`}
+                href={`/world-cup/${y}/matches/${line.slug}`}
                 className="kx-slide bg-panel rounded p-3 border border-line hover:border-korea transition-colors flex items-center gap-4"
                 style={{ animationDelay: `${0.05 * i}s` }}
               >

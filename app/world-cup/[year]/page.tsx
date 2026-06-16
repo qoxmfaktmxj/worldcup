@@ -2,10 +2,10 @@ import Link from "next/link";
 import { GroupBoard } from "@/components/kinetic/GroupBoard";
 import { FinalRanking } from "@/components/kinetic/FinalRanking";
 import { getFinalRanking, getStandings, getTournament } from "@/lib/data";
-import { emblemLarge } from "@/lib/tournaments";
+import { availableYears, emblemLarge } from "@/lib/tournaments";
 
 export function generateStaticParams() {
-  return [{ year: "2002" }];
+  return availableYears().map((year) => ({ year: String(year) }));
 }
 
 export default async function TournamentPage({ params }: { params: Promise<{ year: string }> }) {
@@ -25,7 +25,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
           </div>
         </div>
         <nav className="flex gap-2 text-sm">
-          <Link href="/world-cup/2002/bracket" className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
+          <Link href={`/world-cup/${y}/bracket`} className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
             토너먼트
           </Link>
           <Link href="/search" className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
@@ -38,7 +38,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
       </div>
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {standings.map((g) => (
-          <GroupBoard key={g.group} g={g} />
+          <GroupBoard key={g.group} g={g} year={y} />
         ))}
       </div>
 
@@ -46,7 +46,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
         <h2 className="font-display text-3xl text-korea mb-4" style={{ transform: "skewX(-6deg)" }}>
           최종 순위
         </h2>
-        <FinalRanking rows={ranking} />
+        <FinalRanking rows={ranking} year={y} />
       </section>
     </main>
   );

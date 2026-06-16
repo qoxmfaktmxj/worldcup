@@ -12,6 +12,7 @@
     "data:enrich": "tsx scripts/enrich-players.ts",
     "data:validate": "tsx scripts/validate.ts",
     "data:build": "npm run data:fetch && npm run data:generate && npm run data:validate",
+    "data:build:2006": "tsx scripts/fetch-fjelstul.ts 2006 && tsx scripts/generate.ts 2006 && tsx scripts/validate.ts 2006",
     "test": "vitest run",
     "test:watch": "vitest"
   },

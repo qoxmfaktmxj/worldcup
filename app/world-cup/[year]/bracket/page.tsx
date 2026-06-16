@@ -2,10 +2,11 @@ import Link from "next/link";
 import { getMatches } from "@/lib/data";
 import { teamPrimary } from "@/lib/teamColors";
 import { stageKo } from "@/lib/stages";
+import { availableYears } from "@/lib/tournaments";
 import type { Match, TeamRef } from "@/lib/types";
 
 export function generateStaticParams() {
-  return [{ year: "2002" }];
+  return availableYears().map((year) => ({ year: String(year) }));
 }
 
 function TeamRow({ team, score, win }: { team: TeamRef; score: number; win: boolean }) {
@@ -63,7 +64,7 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
                 return (
                   <Link
                     key={m.slug}
-                    href={`/world-cup/2002/matches/${m.slug}`}
+                    href={`/world-cup/${year}/matches/${m.slug}`}
                     className="kx-slide block rounded-lg border border-line bg-panel p-3 transition-colors hover:border-korea"
                     style={{ animationDelay: `${(roundIdx * matches.length + matchIdx) * 0.05}s` }}
                   >

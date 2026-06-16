@@ -4,10 +4,14 @@ import { MatchPitch } from "@/components/kinetic/MatchPitch";
 import { PlayerChip } from "@/components/kinetic/PlayerChip";
 import { getMatch, getMatches, getPlayerCards } from "@/lib/data";
 import { resolveMatchColors } from "@/lib/teamColors";
+import { availableYears } from "@/lib/tournaments";
 
 export async function generateStaticParams() {
-  const matches = await getMatches(2002);
-  return matches.map((m) => ({ year: "2002", slug: m.slug }));
+  const params: { year: string; slug: string }[] = [];
+  for (const year of availableYears()) {
+    for (const m of await getMatches(year)) params.push({ year: String(year), slug: m.slug });
+  }
+  return params;
 }
 
 export default async function MatchPage({
@@ -24,7 +28,7 @@ export default async function MatchPage({
 
   return (
     <main className="mx-auto max-w-4xl p-6">
-      <KineticHero m={m} />
+      <KineticHero m={m} year={Number(year)} />
 
       {m.goals.length > 0 && (
         <div
