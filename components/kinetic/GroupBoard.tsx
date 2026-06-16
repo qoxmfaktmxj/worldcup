@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { GroupStanding } from "@/lib/types";
 import { groupSlug, teamSlug } from "@/lib/aggregate";
+import { groupKo } from "@/lib/stages";
 
 export function GroupBoard({ g, year }: { g: GroupStanding; year: number }) {
   return (
@@ -10,7 +11,7 @@ export function GroupBoard({ g, year }: { g: GroupStanding; year: number }) {
         className="font-display text-korea text-lg mb-2 inline-block hover:opacity-80"
         style={{ transform: "skewX(-6deg)" }}
       >
-        {g.group}
+        {groupKo(g.group)}
       </Link>
       <table className="w-full text-sm">
         <thead>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { GroupBoard } from "@/components/kinetic/GroupBoard";
 import { getStandings, getMatches } from "@/lib/data";
 import { groupSlug } from "@/lib/aggregate";
+import { groupKo } from "@/lib/stages";
 import { availableYears } from "@/lib/tournaments";
 
 export async function generateStaticParams() {
@@ -34,7 +35,7 @@ export default async function GroupPage({
         className="font-display text-5xl text-korea"
         style={{ transform: "skewX(-6deg)" }}
       >
-        {g.group}
+        {groupKo(g.group)}
       </h1>
 
       <div className="mt-6">

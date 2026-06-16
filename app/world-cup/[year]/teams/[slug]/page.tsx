@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPlayerCards, getTeamSlugs, getTeamView } from "@/lib/data";
+import { roundLabel } from "@/lib/stages";
 import { availableYears } from "@/lib/tournaments";
 import { PlayerAvatar } from "@/components/kinetic/PlayerAvatar";
 import { PlayerTrigger } from "@/components/kinetic/PlayerTrigger";
@@ -125,9 +126,9 @@ export default async function TeamPage({
                   {line.gf} : {line.ga}
                 </span>
 
-                {/* Group & date */}
+                {/* Round & date */}
                 <span className="text-muted text-xs shrink-0 hidden sm:block">
-                  {line.group} · {line.date}
+                  {roundLabel(line.group, line.stage)} · {line.date}
                 </span>
               </Link>
             ))}

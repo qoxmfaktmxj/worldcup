@@ -151,6 +151,7 @@ export interface TeamMatchLine {
   slug: string
   date: string
   group: string
+  stage: string
   opponentNameKo: string
   gf: number
   ga: number

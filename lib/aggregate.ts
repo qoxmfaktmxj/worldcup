@@ -14,6 +14,7 @@ import type {
 } from "./types";
 import { slugify } from "./pipeline/transform";
 import { fullName } from "./pipeline/names";
+import { roundLabel } from "./stages";
 
 export function teamSlug(t: TeamRef): string {
   return slugify(t.name);
@@ -122,6 +123,7 @@ export function buildTeamView(
         slug: m.slug,
         date: m.date,
         group: m.group,
+        stage: m.stage,
         opponentNameKo: (home ? m.away : m.home).nameKo,
         gf,
         ga,
@@ -241,7 +243,7 @@ export function buildSearchIndex(matches: Match[], year: number): SearchDoc[] {
     docs.push({
       type: "match",
       title: `${m.home.nameKo} ${m.homeScore}:${m.awayScore} ${m.away.nameKo}`,
-      subtitle: `${year} · ${m.group} · ${m.date}`,
+      subtitle: `${year} · ${roundLabel(m.group, m.stage)} · ${m.date}`,
       href: `/world-cup/${year}/matches/${m.slug}`,
     });
   }
