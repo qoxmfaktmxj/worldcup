@@ -124,3 +124,15 @@ export async function getPlayerGlobal(slug: string): Promise<Player | undefined>
   if (merged) merged.matches.sort((a, b) => a.date.localeCompare(b.date));
   return merged;
 }
+
+// Best meta for a player across cups — newest first, preferring an entry with a photo.
+export async function getPlayerMetaGlobal(id: string): Promise<PlayerMeta | null> {
+  let best: PlayerMeta | null = null;
+  for (const y of [...availableYears()].reverse()) {
+    const meta = (await getPlayersMeta(y))[id];
+    if (!meta) continue;
+    if (meta.image) return meta;
+    best ??= meta;
+  }
+  return best;
+}

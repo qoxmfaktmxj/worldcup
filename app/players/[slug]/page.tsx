@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllPlayerSlugs, getPlayerGlobal } from "@/lib/data";
+import Image from "next/image";
+import { getAllPlayerSlugs, getPlayerGlobal, getPlayerMetaGlobal } from "@/lib/data";
 import { roundLabel } from "@/lib/stages";
 import { FallbackAvatar } from "@/components/kinetic/FallbackAvatar";
 
@@ -16,6 +17,9 @@ export default async function PlayerPage({
   const { slug } = await params;
   const p = await getPlayerGlobal(slug);
   if (!p) notFound();
+
+  const meta = await getPlayerMetaGlobal(p.id);
+  const photo = meta?.image?.url;
 
   // Group appearances by tournament (newest first); identity links use the latest cup.
   const years = [...new Set(p.matches.map((m) => m.year))].sort((a, b) => b - a);
@@ -40,7 +44,19 @@ export default async function PlayerPage({
 
       {/* Hero */}
       <div className="kx-slide bg-panel border border-line rounded-xl p-6 flex items-center gap-5">
-        <FallbackAvatar name={p.nameKo} shirt={p.shirtNumber} size={72} />
+        {photo ? (
+          <Image
+            src={photo}
+            alt={p.nameKo}
+            width={88}
+            height={88}
+            unoptimized
+            className="rounded-lg object-cover shrink-0"
+            style={{ width: 88, height: 88 }}
+          />
+        ) : (
+          <FallbackAvatar name={p.nameKo} shirt={p.shirtNumber} size={72} />
+        )}
         <div className="flex-1 min-w-0">
           <h1
             className="font-display text-4xl leading-none text-white truncate"
