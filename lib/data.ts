@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { FinalRankRow, GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament } from "./types";
-import { buildFinalRanking, buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, teamSlugs } from "./aggregate";
+import { buildFinalRanking, buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, modePosition, teamSlugs } from "./aggregate";
 import { availableYears } from "./tournaments";
 
 const dir = (year: number) => path.join(process.cwd(), "data", "generated", String(year));
@@ -121,7 +121,10 @@ export async function getPlayerGlobal(slug: string): Promise<Player | undefined>
       merged.position = p.position;
     }
   }
-  if (merged) merged.matches.sort((a, b) => a.date.localeCompare(b.date));
+  if (merged) {
+    merged.matches.sort((a, b) => a.date.localeCompare(b.date));
+    merged.position = modePosition(merged.matches); // primary role across all cups
+  }
   return merged;
 }
 

@@ -28,6 +28,18 @@ export function playerSlug(nameEn: string, id: string): string {
   return `${slugify(nameEn)}-${id.replace(/^P-/, "")}`;
 }
 
+// Fjelstul records a position per match; players vary game to game (e.g. Park
+// Ji-sung was right forward 6 of 10 WC games, center mid twice). The headline
+// position is the role filled most often; ties keep the earliest-seen.
+export function modePosition(matches: { position: string }[]): string {
+  const count = new Map<string, number>();
+  for (const m of matches) count.set(m.position, (count.get(m.position) ?? 0) + 1);
+  let best = matches[0]?.position ?? "";
+  let bestN = 0;
+  for (const [pos, n] of count) if (n > bestN) ((best = pos), (bestN = n));
+  return best;
+}
+
 export function buildPlayers(matches: Match[], year = 0): Player[] {
   const map = new Map<string, Player>();
   for (const m of matches) {
@@ -78,6 +90,7 @@ export function buildPlayers(matches: Match[], year = 0): Player[] {
       }
     }
   }
+  for (const p of map.values()) p.position = modePosition(p.matches);
   return [...map.values()].sort((a, b) => b.goals - a.goals || b.starts - a.starts);
 }
 
