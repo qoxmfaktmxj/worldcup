@@ -78,7 +78,7 @@ export default async function TeamPage({
                   standing.advanced ? "text-korea" : "text-muted-dim"
                 }`}
               >
-                {standing.advanced ? "16강 진출" : "조별 탈락"}
+                {standing.played < 3 ? "조별리그 진행 중" : standing.advanced ? "16강 진출" : "조별 탈락"}
               </span>
               <span className="text-muted-dim text-xs mt-0.5">{standing.position}위</span>
             </div>

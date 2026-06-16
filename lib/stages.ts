@@ -1,5 +1,6 @@
 export const STAGE_KO: Record<string, string> = {
   "group stage": "조별리그",
+  "round of 32": "32강",
   "round of 16": "16강",
   "quarter-finals": "8강",
   "semi-finals": "4강",

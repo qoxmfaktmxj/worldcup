@@ -1,0 +1,926 @@
+[
+  {
+    "group": "Group A",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-MEX",
+          "name": "Mexico",
+          "code": "MEX",
+          "nameKo": "멕시코"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 2,
+        "ga": 0,
+        "gd": 2,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-KOR",
+          "name": "South Korea",
+          "code": "KOR",
+          "nameKo": "대한민국"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-CZE",
+          "name": "Czech Republic",
+          "code": "CZE",
+          "nameKo": "체코"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 2,
+        "gd": -1,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-RSA",
+          "name": "South Africa",
+          "code": "RSA",
+          "nameKo": "남아프리카공화국"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group B",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-SUI",
+          "name": "Switzerland",
+          "code": "SUI",
+          "nameKo": "스위스"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-CAN",
+          "name": "Canada",
+          "code": "CAN",
+          "nameKo": "캐나다"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-QAT",
+          "name": "Qatar",
+          "code": "QAT",
+          "nameKo": "카타르"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-BIH",
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "nameKo": "보스니아 헤르체고비나"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group C",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-SCO",
+          "name": "Scotland",
+          "code": "SCO",
+          "nameKo": "스코틀랜드"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-MAR",
+          "name": "Morocco",
+          "code": "MAR",
+          "nameKo": "모로코"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-BRA",
+          "name": "Brazil",
+          "code": "BRA",
+          "nameKo": "브라질"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-HAI",
+          "name": "Haiti",
+          "code": "HAI",
+          "nameKo": "아이티"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group D",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-USA",
+          "name": "United States",
+          "code": "USA",
+          "nameKo": "미국"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-AUS",
+          "name": "Australia",
+          "code": "AUS",
+          "nameKo": "호주"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 2,
+        "ga": 0,
+        "gd": 2,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-TUR",
+          "name": "Turkey",
+          "code": "TUR",
+          "nameKo": "터키"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 0,
+        "ga": 2,
+        "gd": -2,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-PAR",
+          "name": "Paraguay",
+          "code": "PAR",
+          "nameKo": "파라과이"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group E",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-GER",
+          "name": "Germany",
+          "code": "GER",
+          "nameKo": "독일"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-CIV",
+          "name": "Ivory Coast",
+          "code": "CIV",
+          "nameKo": "코트디부아르"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-ECU",
+          "name": "Ecuador",
+          "code": "ECU",
+          "nameKo": "에콰도르"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-CUW",
+          "name": "Curaçao",
+          "code": "CUW",
+          "nameKo": "퀴라소"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group F",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-SWE",
+          "name": "Sweden",
+          "code": "SWE",
+          "nameKo": "스웨덴"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 5,
+        "ga": 1,
+        "gd": 4,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-JPN",
+          "name": "Japan",
+          "code": "JPN",
+          "nameKo": "일본"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-NED",
+          "name": "Netherlands",
+          "code": "NED",
+          "nameKo": "네덜란드"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-TUN",
+          "name": "Tunisia",
+          "code": "TUN",
+          "nameKo": "튀니지"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group G",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-NZL",
+          "name": "New Zealand",
+          "code": "NZL",
+          "nameKo": "뉴질랜드"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-IRN",
+          "name": "Iran",
+          "code": "IRN",
+          "nameKo": "이란"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-BEL",
+          "name": "Belgium",
+          "code": "BEL",
+          "nameKo": "벨기에"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-EGY",
+          "name": "Egypt",
+          "code": "EGY",
+          "nameKo": "이집트"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group H",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-URU",
+          "name": "Uruguay",
+          "code": "URU",
+          "nameKo": "우루과이"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-KSA",
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "nameKo": "사우디아라비아"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-ESP",
+          "name": "Spain",
+          "code": "ESP",
+          "nameKo": "스페인"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-CPV",
+          "name": "Cape Verde",
+          "code": "CPV",
+          "nameKo": "카보베르데"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 1,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group I",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-FRA",
+          "name": "France",
+          "code": "FRA",
+          "nameKo": "프랑스"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-SEN",
+          "name": "Senegal",
+          "code": "SEN",
+          "nameKo": "세네갈"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-IRQ",
+          "name": "Iraq",
+          "code": "IRQ",
+          "nameKo": "이라크"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-NOR",
+          "name": "Norway",
+          "code": "NOR",
+          "nameKo": "노르웨이"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group J",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-ARG",
+          "name": "Argentina",
+          "code": "ARG",
+          "nameKo": "아르헨티나"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-ALG",
+          "name": "Algeria",
+          "code": "ALG",
+          "nameKo": "알제리"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-AUT",
+          "name": "Austria",
+          "code": "AUT",
+          "nameKo": "오스트리아"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-JOR",
+          "name": "Jordan",
+          "code": "JOR",
+          "nameKo": "요르단"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group K",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-POR",
+          "name": "Portugal",
+          "code": "POR",
+          "nameKo": "포르투갈"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-COD",
+          "name": "DR Congo",
+          "code": "COD",
+          "nameKo": "콩고민주공화국"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-UZB",
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "nameKo": "우즈베키스탄"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-COL",
+          "name": "Colombia",
+          "code": "COL",
+          "nameKo": "콜롬비아"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  },
+  {
+    "group": "Group L",
+    "rows": [
+      {
+        "position": 1,
+        "team": {
+          "id": "T-ENG",
+          "name": "England",
+          "code": "ENG",
+          "nameKo": "잉글랜드"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
+          "id": "T-CRO",
+          "name": "Croatia",
+          "code": "CRO",
+          "nameKo": "크로아티아"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 3,
+        "team": {
+          "id": "T-GHA",
+          "name": "Ghana",
+          "code": "GHA",
+          "nameKo": "가나"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-PAN",
+          "name": "Panama",
+          "code": "PAN",
+          "nameKo": "파나마"
+        },
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "points": 0,
+        "advanced": false
+      }
+    ]
+  }
+]

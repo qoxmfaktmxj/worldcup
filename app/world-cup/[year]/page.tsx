@@ -21,7 +21,10 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
             <h1 className="font-display text-5xl text-korea" style={{ transform: "skewX(-6deg)" }}>
               {t.name}
             </h1>
-            <p className="text-muted mt-1">{t.host}</p>
+            <p className="text-muted mt-1">
+              {t.host}
+              {t.asOf ? <span className="text-korea"> · 진행 중 ({t.asOf} 기준)</span> : ""}
+            </p>
           </div>
         </div>
         <nav className="flex gap-2 text-sm">
@@ -42,12 +45,14 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
         ))}
       </div>
 
-      <section className="mt-10">
-        <h2 className="font-display text-3xl text-korea mb-4" style={{ transform: "skewX(-6deg)" }}>
-          최종 순위
-        </h2>
-        <FinalRanking rows={ranking} year={y} />
-      </section>
+      {!t.asOf && (
+        <section className="mt-10">
+          <h2 className="font-display text-3xl text-korea mb-4" style={{ transform: "skewX(-6deg)" }}>
+            최종 순위
+          </h2>
+          <FinalRanking rows={ranking} year={y} />
+        </section>
+      )}
     </main>
   );
 }

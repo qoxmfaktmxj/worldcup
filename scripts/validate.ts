@@ -92,7 +92,9 @@ async function main() {
     console.error('Validation FAILED')
     process.exit(1)
   }
-  console.log(`Validation OK (${YEAR}): 64 matches, 11+11 starters, ${t?.group} ground-truth, ${t?.match.slug} ${t?.match.home}-${t?.match.away}`)
+  if (t) {
+    console.log(`Validation OK (${YEAR}): 64 matches, 11+11 starters, ${t.group} ground-truth, ${t.match.slug} ${t.match.home}-${t.match.away}`)
+  }
 }
 
 main().catch((e) => {

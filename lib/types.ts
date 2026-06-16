@@ -101,6 +101,7 @@ export interface Tournament {
   id: string
   name: string
   host: string
+  asOf?: string // set for an in-progress tournament — snapshot date (e.g. 2026)
 }
 
 export interface PlayerMatch {
