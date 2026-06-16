@@ -11,6 +11,11 @@ const YEAR = process.argv[2] ?? process.env.YEAR ?? '2002'
 const HOST: Record<string, string> = {
   '2002': '대한민국/일본',
   '2006': '독일',
+  '2010': '남아프리카공화국',
+  '2014': '브라질',
+  '2018': '러시아',
+  '2022': '카타르',
+  '2026': '미국·캐나다·멕시코',
 }
 
 async function csv(name: string): Promise<Row[]> {
