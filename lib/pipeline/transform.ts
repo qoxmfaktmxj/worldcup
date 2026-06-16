@@ -1,6 +1,7 @@
 import type { Appearance, GroupStanding, Result, Standing, TeamRef } from '../types'
 import { koName, koTeam } from './koname'
 import { teamKo } from '../teamColors'
+import { posKo } from '../positions'
 
 type Row = Record<string, string>
 
@@ -31,7 +32,7 @@ export function buildAppearances(rows: Row[], playerMap: Record<string, string>)
     givenName: r.given_name,
     nameKo: koName(r.player_id, r.family_name, r.given_name, playerMap),
     shirtNumber: Number(r.shirt_number),
-    position: r.position_name,
+    position: posKo(r.position_name),
     positionCode: r.position_code,
     starter: r.starter === '1',
     substitute: r.substitute === '1',
