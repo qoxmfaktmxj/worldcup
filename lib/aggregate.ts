@@ -15,6 +15,7 @@ import type {
 import { slugify } from "./pipeline/transform";
 import { fullName } from "./pipeline/names";
 import { roundLabel } from "./stages";
+import { broadRole } from "./positions";
 
 export function teamSlug(t: TeamRef): string {
   return slugify(t.name);
@@ -30,13 +31,25 @@ export function playerSlug(nameEn: string, id: string): string {
 
 // Fjelstul records a position per match; players vary game to game (e.g. Park
 // Ji-sung was right forward 6 of 10 WC games, center mid twice). The headline
-// position is the role filled most often; ties keep the earliest-seen.
+// is the single most-played fine position. When that's a tie (e.g. one game
+// each at RF/LF/RW), generalize to the most-played broad role (공격수 등) so
+// the label stays meaningful instead of an arbitrary pick.
 export function modePosition(matches: { position: string }[]): string {
+  if (!matches.length) return "";
   const count = new Map<string, number>();
   for (const m of matches) count.set(m.position, (count.get(m.position) ?? 0) + 1);
-  let best = matches[0]?.position ?? "";
+  const maxN = Math.max(...count.values());
+  const top = [...count].filter(([, n]) => n === maxN).map(([p]) => p);
+  if (top.length === 1) return top[0];
+
+  const broad = new Map<string, number>();
+  for (const m of matches) {
+    const b = broadRole(m.position);
+    broad.set(b, (broad.get(b) ?? 0) + 1);
+  }
+  let best = broadRole(matches[0].position);
   let bestN = 0;
-  for (const [pos, n] of count) if (n > bestN) ((best = pos), (bestN = n));
+  for (const [b, n] of broad) if (n > bestN) ((best = b), (bestN = n));
   return best;
 }
 
