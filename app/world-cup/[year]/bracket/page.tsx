@@ -1,19 +1,12 @@
 import Link from "next/link";
 import { getMatches } from "@/lib/data";
 import { teamPrimary } from "@/lib/teamColors";
+import { stageKo } from "@/lib/stages";
 import type { Match, TeamRef } from "@/lib/types";
 
 export function generateStaticParams() {
   return [{ year: "2002" }];
 }
-
-const STAGE_KO: Record<string, string> = {
-  "round of 16": "16강",
-  "quarter-finals": "8강",
-  "semi-finals": "준결승",
-  "third-place match": "3·4위전",
-  final: "결승",
-};
 
 function TeamRow({ team, score, win }: { team: TeamRef; score: number; win: boolean }) {
   return (
@@ -56,7 +49,7 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
         {rounds.map(({ stage, matches }, roundIdx) => (
           <section key={stage} className="min-w-[230px] flex-shrink-0">
             <h2 className="font-display text-lg text-muted mb-3 inline-block" style={{ transform: "skewX(-6deg)" }}>
-              {STAGE_KO[stage] ?? stage}
+              {stageKo(stage)}
             </h2>
             <div className="space-y-3">
               {matches.map((m, matchIdx) => {

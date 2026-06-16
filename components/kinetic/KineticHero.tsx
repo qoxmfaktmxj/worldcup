@@ -1,4 +1,5 @@
 import type { Match } from "@/lib/types";
+import { roundLabel } from "@/lib/stages";
 import { StreakBg } from "./StreakBg";
 import { ScoreLine } from "./ScoreLine";
 
@@ -12,7 +13,7 @@ export function KineticHero({ m }: { m: Match }) {
           style={{ transform: "skewX(-12deg)" }}
         >
           <span style={{ display: "inline-block", transform: "skewX(12deg)" }}>
-            2002 월드컵 · {m.group} · {m.city}
+            2002 월드컵 · {roundLabel(m.group, m.stage)} · {m.city}
           </span>
         </div>
         <div className="mt-4">

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPlayerSlugs, getPlayer } from "@/lib/data";
+import { roundLabel } from "@/lib/stages";
 import { FallbackAvatar } from "@/components/kinetic/FallbackAvatar";
 
 export async function generateStaticParams() {
@@ -135,7 +136,7 @@ export default async function PlayerPage({
                     vs {pm.opponentNameKo}
                   </div>
                   <div className="text-muted text-xs mt-0.5">
-                    {pm.group} · {pm.date}
+                    {roundLabel(pm.group, pm.stage)} · {pm.date}
                   </div>
                 </div>
 
