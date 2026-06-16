@@ -121,14 +121,14 @@ export default async function TeamPage({
                   {line.opponentNameKo}
                 </span>
 
-                {/* Score */}
-                <span className="font-display text-xl text-white shrink-0">
-                  {line.gf} : {line.ga}
+                {/* Round & date */}
+                <span className="text-muted text-xs shrink-0 hidden text-right tabular-nums sm:block">
+                  {roundLabel(line.group, line.stage)} · {line.date}
                 </span>
 
-                {/* Round & date */}
-                <span className="text-muted text-xs shrink-0 hidden sm:block">
-                  {roundLabel(line.group, line.stage)} · {line.date}
+                {/* Score (right edge) */}
+                <span className="font-display text-xl text-white shrink-0 w-16 text-right tabular-nums">
+                  {line.gf} : {line.ga}
                 </span>
               </Link>
             ))}
