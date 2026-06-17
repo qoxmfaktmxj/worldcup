@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      # Lint is advisory for now (pre-existing `any` in data scripts) — report, don't block.
+      - name: Lint (non-blocking)
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Unit tests
+        run: npm test
+
+      # Data integrity gate — generated JSON must be valid for every tournament.
+      - name: Validate data
+        run: |
+          for y in 2002 2006 2010 2014 2018 2022 2026; do
+            npx tsx scripts/validate.ts $y
+          done
+
+      - name: Build
+        run: npm run build

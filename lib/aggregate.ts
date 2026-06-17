@@ -49,7 +49,12 @@ export function modePosition(matches: { position: string }[]): string {
   }
   let best = broadRole(matches[0].position);
   let bestN = 0;
-  for (const [b, n] of broad) if (n > bestN) ((best = b), (bestN = n));
+  for (const [b, n] of broad) {
+    if (n > bestN) {
+      best = b;
+      bestN = n;
+    }
+  }
   return best;
 }
 
