@@ -15,9 +15,7 @@ export default function Home() {
         {TOURNAMENTS.map((t, i) => {
           const inner = (
             <div
-              className={`kx-pop flex h-full flex-col items-center gap-3 rounded-xl border bg-panel p-5 text-center transition-all ${
-                t.available ? "border-line hover:-translate-y-1 hover:border-korea" : "border-line/50 opacity-55"
-              }`}
+              className={`kx-pop flex h-full flex-col items-center gap-3 rounded-xl border bg-panel p-5 text-center transition-all border-line hover:-translate-y-1 hover:border-korea`}
               style={{ animationDelay: `${i * 0.05}s` }}
             >
               <img
@@ -29,21 +27,14 @@ export default function Home() {
                 <div className="font-display text-2xl">{t.year}</div>
                 <div className="mt-0.5 text-xs text-muted">{t.nameKo}</div>
               </div>
-              {t.available ? (
-                <span className="text-xs font-medium text-korea">탐험 →</span>
-              ) : (
-                <span className="rounded border border-line px-2 py-0.5 text-[11px] text-muted-dim">준비중</span>
-              )}
+              {/* TODO(task6): distinguish archive-complete vs live-snapshot visually */}
+              <span className="text-xs font-medium text-korea">탐험 →</span>
             </div>
           );
-          return t.available ? (
+          return (
             <Link key={t.year} href={`/world-cup/${t.year}`} className="block">
               {inner}
             </Link>
-          ) : (
-            <div key={t.year} aria-disabled>
-              {inner}
-            </div>
           );
         })}
       </div>
