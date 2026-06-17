@@ -61,7 +61,7 @@ export function ThirdPlaceTable({ rows }: { rows: ThirdPlaceRow[] }) {
                 </td>
                 <td className="py-1.5 text-center text-muted">{r.played}</td>
                 <td className="py-1.5 text-center font-display">{r.points}</td>
-                <td className={`py-1.5 text-center tabular-nums ${r.gd > 0 ? 'text-korea' : r.gd < 0 ? 'text-red-400' : 'text-muted'}`}>
+                <td className={`py-1.5 text-center tabular-nums ${r.gd > 0 ? 'text-[#3ddc84]' : r.gd < 0 ? 'text-[#ff5a5a]' : 'text-muted-dim'}`}>
                   {r.gd > 0 ? `+${r.gd}` : r.gd}
                 </td>
                 <td className="py-1.5 text-center text-muted">{r.gf}</td>

@@ -20,7 +20,8 @@ export function GroupBoard({ g, year }: { g: GroupStanding; year: number }) {
             <th className="text-left font-normal w-6 pb-1">#</th>
             <th className="text-left font-normal pb-1">팀</th>
             <th className="text-right font-normal pb-1">승무패</th>
-            <th className="text-right font-normal w-8 pb-1">점</th>
+            <th className="text-right font-normal w-9 pb-1">득실</th>
+            <th className="text-right font-normal w-7 pb-1">점</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,9 @@ export function GroupBoard({ g, year }: { g: GroupStanding; year: number }) {
               </td>
               <td className="py-1 text-right text-xs text-muted tabular-nums">
                 {r.wins}·{r.draws}·{r.losses}
+              </td>
+              <td className={`py-1 text-right text-xs tabular-nums ${r.gd > 0 ? "text-[#3ddc84]" : r.gd < 0 ? "text-[#ff5a5a]" : "text-muted-dim"}`}>
+                {r.gd > 0 ? `+${r.gd}` : r.gd}
               </td>
               <td className={`py-1 text-right font-display tabular-nums ${r.advanced ? "text-korea" : "text-white"}`}>{r.points}</td>
             </tr>
