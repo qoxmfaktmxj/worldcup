@@ -1,0 +1,42 @@
+[
+  {
+    "scope": "tournament",
+    "provider": "naver-sports",
+    "label": "네이버 스포츠 — 월드컵",
+    "url": "https://sports.news.naver.com/wfootball/index",
+    "verifiedAt": "2026-06-17",
+    "note": "네이버 스포츠 해외축구/월드컵 중계 페이지"
+  },
+  {
+    "scope": "tournament",
+    "provider": "chzzk",
+    "label": "치지직 — 라이브 검색",
+    "url": "https://chzzk.naver.com/search?query=월드컵",
+    "verifiedAt": "2026-06-17",
+    "note": "치지직에서 월드컵 라이브 검색"
+  },
+  {
+    "scope": "tournament",
+    "provider": "jtbc",
+    "label": "JTBC 스포츠",
+    "url": "https://sports.jtbc.co.kr",
+    "verifiedAt": "2026-06-17",
+    "note": "JTBC 2026 월드컵 중계권"
+  },
+  {
+    "scope": "tournament",
+    "provider": "kbs",
+    "label": "KBS 스포츠",
+    "url": "https://sports.kbs.co.kr",
+    "verifiedAt": "2026-06-17",
+    "note": "KBS 스포츠 편성 안내"
+  },
+  {
+    "scope": "tournament",
+    "provider": "fifa",
+    "label": "FIFA Match Centre",
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+    "verifiedAt": "2026-06-17",
+    "note": "공식 일정·결과"
+  }
+]
