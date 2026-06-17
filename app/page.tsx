@@ -1,43 +1,71 @@
 import Link from "next/link";
+import { Live2026Strip } from "@/components/kinetic/Live2026Strip";
+import { getMatches, getStandings, getTournament } from "@/lib/data";
 import { TOURNAMENTS, emblemSmall } from "@/lib/tournaments";
 
-export default function Home() {
-  return (
-    <main className="mx-auto max-w-5xl p-6 sm:p-8">
-      <header className="mb-8">
-        <h1 className="font-display text-5xl text-korea" style={{ transform: "skewX(-6deg)" }}>
-          월드컵 아카이브
-        </h1>
-        <p className="text-muted mt-2">역대 FIFA 월드컵을 경기 · 선수 · 기록으로 탐험하세요.</p>
-      </header>
+export default async function Home() {
+  const [matches, standings, tournament] = await Promise.all([
+    getMatches(2026),
+    getStandings(2026),
+    getTournament(2026),
+  ]);
 
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-        {TOURNAMENTS.map((t, i) => {
-          const inner = (
-            <div
-              className={`kx-pop flex h-full flex-col items-center gap-3 rounded-xl border bg-panel p-5 text-center transition-all border-line hover:-translate-y-1 hover:border-korea`}
-              style={{ animationDelay: `${i * 0.05}s` }}
+  const archiveYears = TOURNAMENTS.filter((t) => t.status === "archive-complete");
+
+  return (
+    <main className="mx-auto max-w-5xl p-6 sm:p-8 space-y-10">
+      {/* 2026 현황 스트립 */}
+      <Live2026Strip
+        matches={matches}
+        standings={standings}
+        asOf={tournament.asOf}
+      />
+
+      {/* 역대 월드컵 아카이브 */}
+      <section>
+        <div className="mb-4 flex items-end justify-between">
+          <h2
+            className="font-display text-2xl text-white"
+            style={{ transform: "skewX(-6deg)" }}
+          >
+            역대 월드컵
+          </h2>
+          <Link
+            href="/archive"
+            className="text-sm text-korea hover:underline"
+          >
+            전체 보기 →
+          </Link>
+        </div>
+
+        <div className="flex flex-wrap gap-3">
+          {archiveYears.map((t, i) => (
+            <Link
+              key={t.year}
+              href={`/world-cup/${t.year}`}
+              className="kx-pop group flex flex-col items-center gap-1.5 rounded-xl border border-line bg-panel px-4 py-3 hover:border-korea transition-all hover:-translate-y-0.5"
+              style={{ animationDelay: `${i * 0.04}s` }}
             >
               <img
                 src={emblemSmall(t.year)}
-                alt={`${t.year} 월드컵 엠블럼`}
-                className="h-20 w-20 object-contain"
+                alt={`${t.year} 엠블럼`}
+                className="h-12 w-12 object-contain"
               />
-              <div>
-                <div className="font-display text-2xl">{t.year}</div>
-                <div className="mt-0.5 text-xs text-muted">{t.nameKo}</div>
-              </div>
-              {/* TODO(task6): distinguish archive-complete vs live-snapshot visually */}
-              <span className="text-xs font-medium text-korea">탐험 →</span>
-            </div>
-          );
-          return (
-            <Link key={t.year} href={`/world-cup/${t.year}`} className="block">
-              {inner}
+              <span className="font-display text-lg leading-none">{t.year}</span>
+              <span className="text-[10px] text-muted">{t.nameKo}</span>
             </Link>
-          );
-        })}
-      </div>
+          ))}
+
+          {/* 전체 보기 CTA 칩 */}
+          <Link
+            href="/archive"
+            className="flex flex-col items-center justify-center gap-1.5 rounded-xl border border-dashed border-line bg-panel/50 px-4 py-3 hover:border-korea transition-all hover:-translate-y-0.5 min-w-[80px]"
+          >
+            <span className="text-2xl text-muted">+</span>
+            <span className="text-[10px] text-muted">전체 보기</span>
+          </Link>
+        </div>
+      </section>
     </main>
   );
 }
