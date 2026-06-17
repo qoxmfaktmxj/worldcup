@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import { KineticHero } from "@/components/kinetic/KineticHero";
 import { MatchPitch } from "@/components/kinetic/MatchPitch";
 import { PlayerChip } from "@/components/kinetic/PlayerChip";
-import { getMatch, getMatches, getPlayerCards } from "@/lib/data";
+import { ScheduledMatchCard } from "@/components/kinetic/ScheduledMatchCard";
+import { getMatch, getMatches, getPlayerCards, getStandings, getWatchLinks } from "@/lib/data";
 import { resolveMatchColors } from "@/lib/teamColors";
 import { availableYears } from "@/lib/tournaments";
 
@@ -22,6 +23,18 @@ export default async function MatchPage({
   const { year, slug } = await params;
   const m = await getMatch(Number(year), slug);
   if (!m) notFound();
+
+  if (m.status === "scheduled") {
+    const [standings, watchLinks] = await Promise.all([
+      getStandings(Number(year)),
+      getWatchLinks(Number(year)),
+    ]);
+    return (
+      <main className="mx-auto max-w-4xl p-6">
+        <ScheduledMatchCard m={m} year={Number(year)} standings={standings} watchLinks={watchLinks} />
+      </main>
+    );
+  }
 
   const cards = await getPlayerCards(Number(year));
   const colors = resolveMatchColors(m.home.name, m.away.name);
