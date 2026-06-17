@@ -199,8 +199,8 @@ export function ScheduleView({ matches }: Props) {
                     <span className="text-white truncate">{m.away.nameKo}</span>
                   </div>
 
-                  {/* 경기장 */}
-                  <span className="text-muted text-xs hidden md:inline shrink-0 truncate max-w-[140px]">
+                  {/* 경기장 — 고정폭이라야 스코어 칸 x좌표가 행마다 흔들리지 않음 */}
+                  <span className="text-muted text-xs hidden md:block w-36 shrink-0 truncate text-right">
                     {m.stadium}
                   </span>
                 </div>
