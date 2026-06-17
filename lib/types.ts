@@ -1,5 +1,7 @@
 export type Result = 'win' | 'draw' | 'loss'
 
+export type MatchStatus = 'scheduled' | 'finished'
+
 export interface TeamRef {
   id: string
   name: string
@@ -55,6 +57,7 @@ export interface PenaltyKick {
 export interface Match {
   id: string
   slug: string
+  status: MatchStatus
   date: string
   time: string
   stadium: string
@@ -75,6 +78,9 @@ export interface Match {
   bookings: Booking[]
   subs: Substitution[]
   shootout: PenaltyKick[]
+  kickoffUtc?: string
+  venueId?: string
+  country?: string
 }
 
 export interface Standing {
@@ -186,6 +192,25 @@ export interface FinalRankRow {
   gd: number
   points: number
   finish: string
+}
+
+export interface Venue {
+  id: string
+  fifaName: string
+  commonName?: string
+  city: string
+  country: string
+  timezone: string
+}
+
+export interface WatchLink {
+  scope: 'tournament' | 'match'
+  matchId?: string
+  provider: 'naver-sports' | 'chzzk' | 'jtbc' | 'kbs' | 'fifa'
+  label: string
+  url: string
+  verifiedAt: string
+  note?: string
 }
 
 export interface PlayerImage {

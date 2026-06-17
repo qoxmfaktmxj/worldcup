@@ -77,6 +77,7 @@ const standings: GroupStanding[] = Object.entries(GROUPS).map(([letter, stats]) 
 const matches: Match[] = RESULTS.map(([date, group, home, hs, away, as], i) => ({
   id: `M-2026-${String(i + 1).padStart(2, "0")}`,
   slug: slugify(`${home} vs ${away}`),
+  status: "finished" as const,
   date,
   time: "",
   stadium: "",

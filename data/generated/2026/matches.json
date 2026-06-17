@@ -2,6 +2,7 @@
   {
     "id": "M-2026-01",
     "slug": "mexico-vs-south-africa",
+    "status": "finished",
     "date": "2026-06-11",
     "time": "",
     "stadium": "",
@@ -39,6 +40,7 @@
   {
     "id": "M-2026-02",
     "slug": "south-korea-vs-czech-republic",
+    "status": "finished",
     "date": "2026-06-11",
     "time": "",
     "stadium": "",
@@ -76,6 +78,7 @@
   {
     "id": "M-2026-03",
     "slug": "canada-vs-bosnia-and-herzegovina",
+    "status": "finished",
     "date": "2026-06-12",
     "time": "",
     "stadium": "",
@@ -113,6 +116,7 @@
   {
     "id": "M-2026-04",
     "slug": "qatar-vs-switzerland",
+    "status": "finished",
     "date": "2026-06-13",
     "time": "",
     "stadium": "",
@@ -150,6 +154,7 @@
   {
     "id": "M-2026-05",
     "slug": "brazil-vs-morocco",
+    "status": "finished",
     "date": "2026-06-13",
     "time": "",
     "stadium": "",
@@ -187,6 +192,7 @@
   {
     "id": "M-2026-06",
     "slug": "haiti-vs-scotland",
+    "status": "finished",
     "date": "2026-06-13",
     "time": "",
     "stadium": "",
@@ -224,6 +230,7 @@
   {
     "id": "M-2026-07",
     "slug": "united-states-vs-paraguay",
+    "status": "finished",
     "date": "2026-06-12",
     "time": "",
     "stadium": "",
@@ -261,6 +268,7 @@
   {
     "id": "M-2026-08",
     "slug": "australia-vs-turkey",
+    "status": "finished",
     "date": "2026-06-13",
     "time": "",
     "stadium": "",
@@ -298,6 +306,7 @@
   {
     "id": "M-2026-09",
     "slug": "germany-vs-curacao",
+    "status": "finished",
     "date": "2026-06-14",
     "time": "",
     "stadium": "",
@@ -335,6 +344,7 @@
   {
     "id": "M-2026-10",
     "slug": "ivory-coast-vs-ecuador",
+    "status": "finished",
     "date": "2026-06-14",
     "time": "",
     "stadium": "",
@@ -372,6 +382,7 @@
   {
     "id": "M-2026-11",
     "slug": "netherlands-vs-japan",
+    "status": "finished",
     "date": "2026-06-14",
     "time": "",
     "stadium": "",
@@ -409,6 +420,7 @@
   {
     "id": "M-2026-12",
     "slug": "sweden-vs-tunisia",
+    "status": "finished",
     "date": "2026-06-14",
     "time": "",
     "stadium": "",
@@ -446,6 +458,7 @@
   {
     "id": "M-2026-13",
     "slug": "belgium-vs-egypt",
+    "status": "finished",
     "date": "2026-06-15",
     "time": "",
     "stadium": "",
@@ -483,6 +496,7 @@
   {
     "id": "M-2026-14",
     "slug": "iran-vs-new-zealand",
+    "status": "finished",
     "date": "2026-06-15",
     "time": "",
     "stadium": "",
@@ -520,6 +534,7 @@
   {
     "id": "M-2026-15",
     "slug": "spain-vs-cape-verde",
+    "status": "finished",
     "date": "2026-06-15",
     "time": "",
     "stadium": "",
@@ -557,6 +572,7 @@
   {
     "id": "M-2026-16",
     "slug": "saudi-arabia-vs-uruguay",
+    "status": "finished",
     "date": "2026-06-15",
     "time": "",
     "stadium": "",

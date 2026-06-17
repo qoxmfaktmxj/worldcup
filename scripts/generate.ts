@@ -113,6 +113,7 @@ async function main() {
     return {
       id: m.match_id,
       slug: slugify(m.match_name),
+      status: 'finished' as const,
       date: m.match_date,
       time: m.match_time,
       stadium: m.stadium_name,

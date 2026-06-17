@@ -18,6 +18,7 @@ const appe = (pid: string, given: string, family: string, starter: boolean) => (
 const m: Match = {
   id: "M-1",
   slug: "a-vs-b",
+  status: "finished",
   date: "2002-06-04",
   time: "20:30",
   stadium: "X",

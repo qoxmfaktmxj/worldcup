@@ -2,6 +2,7 @@
   {
     "id": "M-2002-01",
     "slug": "france-vs-senegal",
+    "status": "finished",
     "date": "2002-05-31",
     "time": "20:30",
     "stadium": "Seoul World Cup Stadium",
@@ -342,6 +343,7 @@
   {
     "id": "M-2002-02",
     "slug": "republic-of-ireland-vs-cameroon",
+    "status": "finished",
     "date": "2002-06-01",
     "time": "15:30",
     "stadium": "Niigata Stadium",
@@ -721,6 +723,7 @@
   {
     "id": "M-2002-03",
     "slug": "uruguay-vs-denmark",
+    "status": "finished",
     "date": "2002-06-01",
     "time": "18:00",
     "stadium": "Ulsan Munsu Football Stadium",
@@ -1152,6 +1155,7 @@
   {
     "id": "M-2002-04",
     "slug": "germany-vs-saudi-arabia",
+    "status": "finished",
     "date": "2002-06-01",
     "time": "20:30",
     "stadium": "Sapporo Dome",
@@ -1623,6 +1627,7 @@
   {
     "id": "M-2002-05",
     "slug": "argentina-vs-nigeria",
+    "status": "finished",
     "date": "2002-06-02",
     "time": "14:30",
     "stadium": "Kashima Stadium",
@@ -2021,6 +2026,7 @@
   {
     "id": "M-2002-06",
     "slug": "paraguay-vs-south-africa",
+    "status": "finished",
     "date": "2002-06-02",
     "time": "16:30",
     "stadium": "Busan Asiad Stadium",
@@ -2478,6 +2484,7 @@
   {
     "id": "M-2002-07",
     "slug": "england-vs-sweden",
+    "status": "finished",
     "date": "2002-06-02",
     "time": "18:30",
     "stadium": "Saitama Stadium",
@@ -2867,6 +2874,7 @@
   {
     "id": "M-2002-08",
     "slug": "spain-vs-slovenia",
+    "status": "finished",
     "date": "2002-06-02",
     "time": "20:30",
     "stadium": "Gwangju World Cup Stadium",
@@ -3306,6 +3314,7 @@
   {
     "id": "M-2002-09",
     "slug": "croatia-vs-mexico",
+    "status": "finished",
     "date": "2002-06-03",
     "time": "15:30",
     "stadium": "Niigata Stadium",
@@ -3690,6 +3699,7 @@
   {
     "id": "M-2002-10",
     "slug": "brazil-vs-turkey",
+    "status": "finished",
     "date": "2002-06-03",
     "time": "18:00",
     "stadium": "Ulsan Munsu Football Stadium",
@@ -4128,6 +4138,7 @@
   {
     "id": "M-2002-11",
     "slug": "italy-vs-ecuador",
+    "status": "finished",
     "date": "2002-06-03",
     "time": "20:30",
     "stadium": "Sapporo Dome",
@@ -4558,6 +4569,7 @@
   {
     "id": "M-2002-12",
     "slug": "china-vs-costa-rica",
+    "status": "finished",
     "date": "2002-06-04",
     "time": "15:30",
     "stadium": "Gwangju World Cup Stadium",
@@ -5009,6 +5021,7 @@
   {
     "id": "M-2002-13",
     "slug": "japan-vs-belgium",
+    "status": "finished",
     "date": "2002-06-04",
     "time": "18:00",
     "stadium": "Saitama Stadium",
@@ -5445,6 +5458,7 @@
   {
     "id": "M-2002-14",
     "slug": "south-korea-vs-poland",
+    "status": "finished",
     "date": "2002-06-04",
     "time": "20:30",
     "stadium": "Busan Asiad Stadium",
@@ -5882,6 +5896,7 @@
   {
     "id": "M-2002-15",
     "slug": "russia-vs-tunisia",
+    "status": "finished",
     "date": "2002-06-05",
     "time": "15:30",
     "stadium": "Kobe Wing Stadium",
@@ -6312,6 +6327,7 @@
   {
     "id": "M-2002-16",
     "slug": "united-states-vs-portugal",
+    "status": "finished",
     "date": "2002-06-05",
     "time": "18:00",
     "stadium": "Suwon World Cup Stadium",
@@ -6759,6 +6775,7 @@
   {
     "id": "M-2002-17",
     "slug": "germany-vs-republic-of-ireland",
+    "status": "finished",
     "date": "2002-06-05",
     "time": "20:30",
     "stadium": "Kashima Stadium",
@@ -7160,6 +7177,7 @@
   {
     "id": "M-2002-18",
     "slug": "denmark-vs-senegal",
+    "status": "finished",
     "date": "2002-06-06",
     "time": "15:30",
     "stadium": "Daegu World Cup Stadium",
@@ -7604,6 +7622,7 @@
   {
     "id": "M-2002-19",
     "slug": "cameroon-vs-saudi-arabia",
+    "status": "finished",
     "date": "2002-06-06",
     "time": "18:00",
     "stadium": "Saitama Stadium",
@@ -8012,6 +8031,7 @@
   {
     "id": "M-2002-20",
     "slug": "france-vs-uruguay",
+    "status": "finished",
     "date": "2002-06-06",
     "time": "20:30",
     "stadium": "Busan Asiad Stadium",
@@ -8439,6 +8459,7 @@
   {
     "id": "M-2002-21",
     "slug": "sweden-vs-nigeria",
+    "status": "finished",
     "date": "2002-06-07",
     "time": "15:30",
     "stadium": "Kobe Wing Stadium",
@@ -8836,6 +8857,7 @@
   {
     "id": "M-2002-22",
     "slug": "spain-vs-paraguay",
+    "status": "finished",
     "date": "2002-06-07",
     "time": "18:00",
     "stadium": "Jeonju World Cup Stadium",
@@ -9265,6 +9287,7 @@
   {
     "id": "M-2002-23",
     "slug": "argentina-vs-england",
+    "status": "finished",
     "date": "2002-06-07",
     "time": "20:30",
     "stadium": "Sapporo Dome",
@@ -9680,6 +9703,7 @@
   {
     "id": "M-2002-24",
     "slug": "south-africa-vs-slovenia",
+    "status": "finished",
     "date": "2002-06-08",
     "time": "15:30",
     "stadium": "Daegu World Cup Stadium",
@@ -10116,6 +10140,7 @@
   {
     "id": "M-2002-25",
     "slug": "italy-vs-croatia",
+    "status": "finished",
     "date": "2002-06-08",
     "time": "18:00",
     "stadium": "Kashima Stadium",
@@ -10523,6 +10548,7 @@
   {
     "id": "M-2002-26",
     "slug": "brazil-vs-china",
+    "status": "finished",
     "date": "2002-06-08",
     "time": "20:30",
     "stadium": "Jeju World Cup Stadium",
@@ -10955,6 +10981,7 @@
   {
     "id": "M-2002-27",
     "slug": "mexico-vs-ecuador",
+    "status": "finished",
     "date": "2002-06-09",
     "time": "15:30",
     "stadium": "Miyagi Stadium",
@@ -11407,6 +11434,7 @@
   {
     "id": "M-2002-28",
     "slug": "costa-rica-vs-turkey",
+    "status": "finished",
     "date": "2002-06-09",
     "time": "18:00",
     "stadium": "Incheon Munhak Stadium",
@@ -11844,6 +11872,7 @@
   {
     "id": "M-2002-29",
     "slug": "japan-vs-russia",
+    "status": "finished",
     "date": "2002-06-09",
     "time": "20:30",
     "stadium": "International Stadium Yokohama",
@@ -12280,6 +12309,7 @@
   {
     "id": "M-2002-30",
     "slug": "south-korea-vs-united-states",
+    "status": "finished",
     "date": "2002-06-10",
     "time": "15:30",
     "stadium": "Daegu World Cup Stadium",
@@ -12686,6 +12716,7 @@
   {
     "id": "M-2002-31",
     "slug": "tunisia-vs-belgium",
+    "status": "finished",
     "date": "2002-06-10",
     "time": "18:00",
     "stadium": "Ōita Stadium",
@@ -13123,6 +13154,7 @@
   {
     "id": "M-2002-32",
     "slug": "portugal-vs-poland",
+    "status": "finished",
     "date": "2002-06-10",
     "time": "20:30",
     "stadium": "Jeonju World Cup Stadium",
@@ -13576,6 +13608,7 @@
   {
     "id": "M-2002-33",
     "slug": "denmark-vs-france",
+    "status": "finished",
     "date": "2002-06-11",
     "time": "15:30",
     "stadium": "Incheon Munhak Stadium",
@@ -13999,6 +14032,7 @@
   {
     "id": "M-2002-34",
     "slug": "senegal-vs-uruguay",
+    "status": "finished",
     "date": "2002-06-11",
     "time": "15:30",
     "stadium": "Suwon World Cup Stadium",
@@ -14517,6 +14551,7 @@
   {
     "id": "M-2002-35",
     "slug": "cameroon-vs-germany",
+    "status": "finished",
     "date": "2002-06-11",
     "time": "20:30",
     "stadium": "Shizuoka Stadium ECOPA",
@@ -15017,6 +15052,7 @@
   {
     "id": "M-2002-36",
     "slug": "saudi-arabia-vs-republic-of-ireland",
+    "status": "finished",
     "date": "2002-06-11",
     "time": "20:30",
     "stadium": "International Stadium Yokohama",
@@ -15441,6 +15477,7 @@
   {
     "id": "M-2002-37",
     "slug": "nigeria-vs-england",
+    "status": "finished",
     "date": "2002-06-12",
     "time": "15:30",
     "stadium": "Nagai Stadium",
@@ -15791,6 +15828,7 @@
   {
     "id": "M-2002-38",
     "slug": "sweden-vs-argentina",
+    "status": "finished",
     "date": "2002-06-12",
     "time": "15:30",
     "stadium": "Miyagi Stadium",
@@ -16235,6 +16273,7 @@
   {
     "id": "M-2002-39",
     "slug": "slovenia-vs-paraguay",
+    "status": "finished",
     "date": "2002-06-12",
     "time": "20:30",
     "stadium": "Jeju World Cup Stadium",
@@ -16695,6 +16734,7 @@
   {
     "id": "M-2002-40",
     "slug": "south-africa-vs-spain",
+    "status": "finished",
     "date": "2002-06-12",
     "time": "20:30",
     "stadium": "Daejeon World Cup Stadium",
@@ -17149,6 +17189,7 @@
   {
     "id": "M-2002-41",
     "slug": "costa-rica-vs-brazil",
+    "status": "finished",
     "date": "2002-06-13",
     "time": "15:30",
     "stadium": "Suwon World Cup Stadium",
@@ -17598,6 +17639,7 @@
   {
     "id": "M-2002-42",
     "slug": "turkey-vs-china",
+    "status": "finished",
     "date": "2002-06-13",
     "time": "15:30",
     "stadium": "Seoul World Cup Stadium",
@@ -18050,6 +18092,7 @@
   {
     "id": "M-2002-43",
     "slug": "ecuador-vs-croatia",
+    "status": "finished",
     "date": "2002-06-13",
     "time": "20:30",
     "stadium": "International Stadium Yokohama",
@@ -18448,6 +18491,7 @@
   {
     "id": "M-2002-44",
     "slug": "mexico-vs-italy",
+    "status": "finished",
     "date": "2002-06-13",
     "time": "20:30",
     "stadium": "Ōita Stadium",
@@ -18899,6 +18943,7 @@
   {
     "id": "M-2002-45",
     "slug": "belgium-vs-russia",
+    "status": "finished",
     "date": "2002-06-14",
     "time": "15:30",
     "stadium": "Shizuoka Stadium ECOPA",
@@ -19360,6 +19405,7 @@
   {
     "id": "M-2002-46",
     "slug": "tunisia-vs-japan",
+    "status": "finished",
     "date": "2002-06-14",
     "time": "15:30",
     "stadium": "Nagai Stadium",
@@ -19776,6 +19822,7 @@
   {
     "id": "M-2002-47",
     "slug": "poland-vs-united-states",
+    "status": "finished",
     "date": "2002-06-14",
     "time": "20:30",
     "stadium": "Daejeon World Cup Stadium",
@@ -20229,6 +20276,7 @@
   {
     "id": "M-2002-48",
     "slug": "portugal-vs-south-korea",
+    "status": "finished",
     "date": "2002-06-14",
     "time": "20:30",
     "stadium": "Incheon Munhak Stadium",
@@ -20638,6 +20686,7 @@
   {
     "id": "M-2002-49",
     "slug": "germany-vs-paraguay",
+    "status": "finished",
     "date": "2002-06-15",
     "time": "15:30",
     "stadium": "Jeju World Cup Stadium",
@@ -21067,6 +21116,7 @@
   {
     "id": "M-2002-50",
     "slug": "denmark-vs-england",
+    "status": "finished",
     "date": "2002-06-15",
     "time": "20:30",
     "stadium": "Niigata Stadium",
@@ -21474,6 +21524,7 @@
   {
     "id": "M-2002-51",
     "slug": "sweden-vs-senegal",
+    "status": "finished",
     "date": "2002-06-16",
     "time": "15:30",
     "stadium": "Ōita Stadium",
@@ -21864,6 +21915,7 @@
   {
     "id": "M-2002-52",
     "slug": "spain-vs-republic-of-ireland",
+    "status": "finished",
     "date": "2002-06-16",
     "time": "20:30",
     "stadium": "Suwon World Cup Stadium",
@@ -22368,6 +22420,7 @@
   {
     "id": "M-2002-53",
     "slug": "mexico-vs-united-states",
+    "status": "finished",
     "date": "2002-06-17",
     "time": "15:30",
     "stadium": "Jeonju World Cup Stadium",
@@ -22847,6 +22900,7 @@
   {
     "id": "M-2002-54",
     "slug": "brazil-vs-belgium",
+    "status": "finished",
     "date": "2002-06-17",
     "time": "20:30",
     "stadium": "Kobe Wing Stadium",
@@ -23229,6 +23283,7 @@
   {
     "id": "M-2002-55",
     "slug": "japan-vs-turkey",
+    "status": "finished",
     "date": "2002-06-18",
     "time": "15:30",
     "stadium": "Miyagi Stadium",
@@ -23651,6 +23706,7 @@
   {
     "id": "M-2002-56",
     "slug": "south-korea-vs-italy",
+    "status": "finished",
     "date": "2002-06-18",
     "time": "20:30",
     "stadium": "Daejeon World Cup Stadium",
@@ -24100,6 +24156,7 @@
   {
     "id": "M-2002-57",
     "slug": "england-vs-brazil",
+    "status": "finished",
     "date": "2002-06-21",
     "time": "15:30",
     "stadium": "Shizuoka Stadium ECOPA",
@@ -24497,6 +24554,7 @@
   {
     "id": "M-2002-58",
     "slug": "germany-vs-united-states",
+    "status": "finished",
     "date": "2002-06-21",
     "time": "20:30",
     "stadium": "Ulsan Munsu Football Stadium",
@@ -24940,6 +24998,7 @@
   {
     "id": "M-2002-59",
     "slug": "spain-vs-south-korea",
+    "status": "finished",
     "date": "2002-06-22",
     "time": "15:30",
     "stadium": "Gwangju World Cup Stadium",
@@ -25419,6 +25478,7 @@
   {
     "id": "M-2002-60",
     "slug": "senegal-vs-turkey",
+    "status": "finished",
     "date": "2002-06-22",
     "time": "20:30",
     "stadium": "Nagai Stadium",
@@ -25773,6 +25833,7 @@
   {
     "id": "M-2002-61",
     "slug": "germany-vs-south-korea",
+    "status": "finished",
     "date": "2002-06-25",
     "time": "20:30",
     "stadium": "Seoul World Cup Stadium",
@@ -26188,6 +26249,7 @@
   {
     "id": "M-2002-62",
     "slug": "brazil-vs-turkey",
+    "status": "finished",
     "date": "2002-06-26",
     "time": "20:30",
     "stadium": "Saitama Stadium",
@@ -26603,6 +26665,7 @@
   {
     "id": "M-2002-63",
     "slug": "south-korea-vs-turkey",
+    "status": "finished",
     "date": "2002-06-29",
     "time": "20:00",
     "stadium": "Daegu World Cup Stadium",
@@ -27050,6 +27113,7 @@
   {
     "id": "M-2002-64",
     "slug": "germany-vs-brazil",
+    "status": "finished",
     "date": "2002-06-30",
     "time": "20:00",
     "stadium": "International Stadium Yokohama",
