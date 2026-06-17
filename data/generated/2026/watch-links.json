@@ -17,14 +17,6 @@
   },
   {
     "scope": "tournament",
-    "provider": "jtbc",
-    "label": "JTBC 스포츠",
-    "url": "https://sports.jtbc.co.kr",
-    "verifiedAt": "2026-06-17",
-    "note": "JTBC 2026 월드컵 중계권"
-  },
-  {
-    "scope": "tournament",
     "provider": "kbs",
     "label": "KBS 스포츠",
     "url": "https://sports.kbs.co.kr",
