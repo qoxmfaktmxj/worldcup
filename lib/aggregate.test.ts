@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { teamSlug, groupSlug, playerSlug, buildPlayers } from "./aggregate";
+import { teamSlug, groupSlug, playerSlug, buildPlayers, buildTeamView, buildSearchIndex } from "./aggregate";
 import type { Match } from "./types";
 
 const team = (id: string, name: string, code: string) => ({ id, name, nameKo: name, code });
@@ -58,5 +58,64 @@ describe("buildPlayers", () => {
     expect(park.goals).toBe(1);
     expect(park.teamSlug).toBe("south-korea");
     expect(park.matches[0].opponentNameKo).toBe("Poland");
+  });
+});
+
+// A 2026-style scheduled match: stored with placeholder 0:0 / "draw" that must
+// NOT surface as a real result anywhere.
+const scheduled: Match = {
+  ...m,
+  id: "M-2",
+  slug: "south-korea-vs-mexico",
+  status: "scheduled",
+  date: "2026-06-12",
+  away: team("T-99", "Mexico", "MEX"),
+  homeScore: 0,
+  awayScore: 0,
+  result: "draw",
+  goals: [],
+  lineups: { home: [], away: [] },
+  kickoffUtc: "2026-06-11T19:00:00Z",
+};
+
+describe("buildTeamView — scheduled match", () => {
+  const view = buildTeamView([scheduled], [], "south-korea")!;
+  const line = view.matches[0];
+  it("does not compute a result for a scheduled match", () => {
+    expect(line.status).toBe("scheduled");
+    expect(line.result).toBeNull();
+    expect(line.gf).toBeNull();
+    expect(line.ga).toBeNull();
+  });
+});
+
+describe("buildTeamView — finished match", () => {
+  const view = buildTeamView([m], [], "south-korea")!;
+  const line = view.matches[0];
+  it("keeps real score and result", () => {
+    expect(line.status).toBe("finished");
+    expect(line.result).toBe("win");
+    expect(line.gf).toBe(2);
+    expect(line.ga).toBe(0);
+  });
+});
+
+describe("buildSearchIndex — scheduled match", () => {
+  const docs = buildSearchIndex([scheduled], 2026);
+  const matchDoc = docs.find((d) => d.type === "match")!;
+  it("uses 'vs' not a 0:0 scoreline", () => {
+    expect(matchDoc.title).toBe("South Korea vs Mexico");
+    expect(matchDoc.title).not.toContain("0:0");
+  });
+  it("tags the subtitle as 예정", () => {
+    expect(matchDoc.subtitle).toContain("예정");
+  });
+});
+
+describe("buildSearchIndex — finished match", () => {
+  const docs = buildSearchIndex([m], 2002);
+  const matchDoc = docs.find((d) => d.type === "match")!;
+  it("keeps the scoreline", () => {
+    expect(matchDoc.title).toBe("South Korea 2:0 Poland");
   });
 });

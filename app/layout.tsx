@@ -17,8 +17,9 @@ const body = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "월드컵 아카이브",
-  description: "2002~2022 FIFA 월드컵 인터랙티브 아카이브",
+  title: "월드컵 아카이브 · 2026 한국시간 일정",
+  description:
+    "2026 FIFA 월드컵 한국시간 일정·대한민국 경기·조별 순위와 2002년 이후 월드컵 기록을 함께 보는 한국어 월드컵 아카이브.",
 };
 
 export default function RootLayout({

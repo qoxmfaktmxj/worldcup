@@ -56,13 +56,6 @@ interface Props {
 export function ScheduleView({ matches }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>('전체')
 
-  const tabs: Tab[] = [
-    '전체',
-    '오늘',
-    '대한민국',
-    ...GROUP_LETTERS.map((l) => `${l}조`),
-  ]
-
   // 정렬: kickoffUtc 기준
   const sorted = useMemo(
     () =>
@@ -106,10 +99,10 @@ export function ScheduleView({ matches }: Props) {
 
   return (
     <div className="flex flex-col gap-6">
-      {/* 탭 바 — 모바일 가로 스크롤 */}
-      <div className="overflow-x-auto -mx-1 px-1">
-        <div className="flex gap-1.5 min-w-max pb-1">
-          {tabs.map((tab) => (
+      {/* 필터 바 — 세그먼트(전체/오늘/대한민국) + 조 드롭다운 (스크롤 없음) */}
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="flex gap-1.5">
+          {(['전체', '오늘', '대한민국'] as const).map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -124,6 +117,28 @@ export function ScheduleView({ matches }: Props) {
             </button>
           ))}
         </div>
+        {(() => {
+          const isGroup = GROUP_LETTERS.some((l) => `${l}조` === activeTab)
+          return (
+            <select
+              value={isGroup ? (activeTab as string) : ''}
+              onChange={(e) => e.target.value && setActiveTab(e.target.value)}
+              className={[
+                'px-3 py-1.5 text-sm rounded font-medium transition-colors cursor-pointer outline-none',
+                isGroup
+                  ? 'bg-korea/15 border border-korea text-korea'
+                  : 'bg-panel border border-line text-muted hover:border-korea hover:text-white',
+              ].join(' ')}
+            >
+              <option value="">조별 선택</option>
+              {GROUP_LETTERS.map((l) => (
+                <option key={l} value={`${l}조`}>
+                  {l}조
+                </option>
+              ))}
+            </select>
+          )
+        })()}
       </div>
 
       {/* 경기 없음 */}

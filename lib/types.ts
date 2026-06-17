@@ -162,9 +162,10 @@ export interface TeamMatchLine {
   stage: string
   opponentName: string
   opponentNameKo: string
-  gf: number
-  ga: number
-  result: Result
+  status: MatchStatus
+  gf: number | null // null while scheduled (no result yet)
+  ga: number | null
+  result: Result | null
 }
 
 export interface TeamView {

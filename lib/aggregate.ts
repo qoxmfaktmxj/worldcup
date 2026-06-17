@@ -16,6 +16,7 @@ import { slugify } from "./pipeline/transform";
 import { fullName } from "./pipeline/names";
 import { roundLabel } from "./stages";
 import { broadRole } from "./positions";
+import { toKstLabel } from "./time";
 
 export function teamSlug(t: TeamRef): string {
   return slugify(t.name);
@@ -146,22 +147,25 @@ export function buildTeamView(
 
   const lines: TeamMatchLine[] = matches
     .filter((m) => m.home.id === team.id || m.away.id === team.id)
-    .map((m) => {
+    .map((m): TeamMatchLine => {
       const home = m.home.id === team.id;
-      const gf = home ? m.homeScore : m.awayScore;
-      const ga = home ? m.awayScore : m.homeScore;
-      const result: Result = gf > ga ? "win" : gf < ga ? "loss" : "draw";
-      return {
+      const base = {
         slug: m.slug,
         date: m.date,
         group: m.group,
         stage: m.stage,
         opponentName: (home ? m.away : m.home).name,
         opponentNameKo: (home ? m.away : m.home).nameKo,
-        gf,
-        ga,
-        result,
+        status: m.status,
       };
+      // Scheduled matches carry placeholder 0:0 — never treat that as a result.
+      if (m.status === "scheduled") {
+        return { ...base, gf: null, ga: null, result: null };
+      }
+      const gf = home ? m.homeScore : m.awayScore;
+      const ga = home ? m.awayScore : m.homeScore;
+      const result: Result = gf > ga ? "win" : gf < ga ? "loss" : "draw";
+      return { ...base, gf, ga, result };
     })
     .sort((a, b) => a.date.localeCompare(b.date));
 
@@ -273,10 +277,16 @@ export function buildSearchIndex(matches: Match[], year: number): SearchDoc[] {
     });
   }
   for (const m of matches) {
+    const title =
+      m.status === "finished"
+        ? `${m.home.nameKo} ${m.homeScore}:${m.awayScore} ${m.away.nameKo}`
+        : `${m.home.nameKo} vs ${m.away.nameKo}`;
+    const when = m.status === "scheduled" && m.kickoffUtc ? toKstLabel(m.kickoffUtc) : m.date;
+    const tag = m.status === "scheduled" ? " · 예정" : "";
     docs.push({
       type: "match",
-      title: `${m.home.nameKo} ${m.homeScore}:${m.awayScore} ${m.away.nameKo}`,
-      subtitle: `${year} · ${roundLabel(m.group, m.stage)} · ${m.date}`,
+      title,
+      subtitle: `${year} · ${roundLabel(m.group, m.stage)}${tag} · ${when}`,
       href: `/world-cup/${year}/matches/${m.slug}`,
     });
   }

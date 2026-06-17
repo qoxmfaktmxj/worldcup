@@ -4,6 +4,11 @@ import { WatchHub } from '@/components/kinetic/WatchHub'
 
 export const dynamic = 'force-static'
 
+export const metadata = {
+  title: '2026 월드컵 중계 보기 · 한국 방송·스트리밍',
+  description: '2026 FIFA 월드컵 한국 중계 링크 — 네이버 스포츠, 치지직, KBS, FIFA 공식 등.',
+}
+
 export default async function Watch2026Page() {
   const links = await getWatchLinks(2026)
 

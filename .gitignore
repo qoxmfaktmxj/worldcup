@@ -43,3 +43,6 @@ next-env.d.ts
 # raw downloaded data (generated/ is committed)
 /data/raw/
 .gstack/
+
+# local QA screenshots (regenerate with scripts/shots.mjs)
+/screenshots/

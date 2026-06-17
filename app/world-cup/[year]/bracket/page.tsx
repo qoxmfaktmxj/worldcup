@@ -11,9 +11,9 @@ export function generateStaticParams() {
 
 function TeamRow({ team, score, win }: { team: TeamRef; score: number; win: boolean }) {
   return (
-    <div className="flex items-center gap-2 font-display text-base">
+    <div className="flex items-center gap-1.5 font-display text-sm">
       <span
-        className="h-4 w-1 shrink-0 rounded-sm"
+        className="h-3.5 w-1 shrink-0 rounded-sm"
         style={{ background: teamPrimary(team.name) }}
         aria-hidden
       />
@@ -46,13 +46,20 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
         <p className="text-muted mt-1 text-sm">{year} FIFA 월드컵 · 녹아웃</p>
       </div>
 
-      <div className="mt-6 flex gap-4 overflow-x-auto pb-4 sm:gap-6">
+      {rounds.length === 0 && (
+        <div className="mt-8 rounded-lg border border-line bg-panel/40 p-6 text-center">
+          <p className="font-display text-xl text-white">토너먼트 대진 공개 전</p>
+          <p className="text-muted text-sm mt-2">32강 대진은 조별리그 종료 후 반영됩니다.</p>
+        </div>
+      )}
+
+      <div className="mt-6 flex flex-col gap-6 md:flex-row md:items-start md:gap-2 lg:gap-3">
         {rounds.map(({ stage, matches }, roundIdx) => (
-          <section key={stage} className="min-w-[230px] flex-shrink-0">
-            <h2 className="font-display text-lg text-muted mb-3 inline-block" style={{ transform: "skewX(-6deg)" }}>
+          <section key={stage} className="md:min-w-0 md:flex-1">
+            <h2 className="font-display text-base text-muted mb-2 inline-block" style={{ transform: "skewX(-6deg)" }}>
               {stageKo(stage)}
             </h2>
-            <div className="space-y-3">
+            <div className="space-y-2.5">
               {matches.map((m, matchIdx) => {
                 const homeWin = m.result === "win";
                 const awayWin = m.result === "loss";
@@ -65,13 +72,13 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
                   <Link
                     key={m.slug}
                     href={`/world-cup/${year}/matches/${m.slug}`}
-                    className="kx-slide block rounded-lg border border-line bg-panel p-3 transition-colors hover:border-korea"
+                    className="kx-slide block rounded-lg border border-line bg-panel p-2.5 transition-colors hover:border-korea"
                     style={{ animationDelay: `${(roundIdx * matches.length + matchIdx) * 0.05}s` }}
                   >
                     <TeamRow team={m.home} score={m.homeScore} win={homeWin} />
-                    <div className="my-1.5 border-t border-line" />
+                    <div className="my-1 border-t border-line" />
                     <TeamRow team={m.away} score={m.awayScore} win={awayWin} />
-                    <p className="text-muted-dim text-xs mt-2">
+                    <p className="text-muted-dim text-[11px] mt-1.5 leading-tight">
                       {m.date}
                       {penNote}
                     </p>

@@ -19,8 +19,8 @@ export function Nav({ active, extra }: Props) {
   const allLinks = extra ? [...LINKS, ...extra] : LINKS;
 
   return (
-    <nav className="overflow-x-auto">
-      <div className="flex gap-1.5 pb-1 min-w-max">
+    <nav>
+      <div className="flex flex-wrap gap-1.5 pb-1">
         {allLinks.map((link) => {
           const isActive = link.label === active;
           return (

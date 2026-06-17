@@ -15,17 +15,17 @@ const FINISH_STYLE: Record<string, string> = {
 
 export function FinalRanking({ rows, year }: { rows: FinalRankRow[]; year: number }) {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[560px] text-sm">
+    <div>
+      <table className="w-full text-sm">
         <thead>
           <tr className="border-b border-line text-[11px] text-muted">
             <th className="w-8 py-2 text-left font-normal">#</th>
             <th className="py-2 text-left font-normal">팀</th>
-            <th className="w-9 py-2 text-center font-normal">경기</th>
-            <th className="w-8 py-2 text-center font-normal">승</th>
-            <th className="w-8 py-2 text-center font-normal">무</th>
-            <th className="w-8 py-2 text-center font-normal">패</th>
-            <th className="w-12 py-2 text-center font-normal">득실</th>
+            <th className="hidden w-9 py-2 text-center font-normal sm:table-cell">경기</th>
+            <th className="hidden w-8 py-2 text-center font-normal sm:table-cell">승</th>
+            <th className="hidden w-8 py-2 text-center font-normal sm:table-cell">무</th>
+            <th className="hidden w-8 py-2 text-center font-normal sm:table-cell">패</th>
+            <th className="hidden w-12 py-2 text-center font-normal sm:table-cell">득실</th>
             <th className="w-10 py-2 text-center font-normal">승점</th>
             <th className="w-16 py-2 text-right font-normal">비고</th>
           </tr>
@@ -43,11 +43,11 @@ export function FinalRanking({ rows, year }: { rows: FinalRankRow[]; year: numbe
                   <span className="truncate">{r.team.nameKo}</span>
                 </Link>
               </td>
-              <td className="py-1.5 text-center text-muted">{r.played}</td>
-              <td className="py-1.5 text-center">{r.wins}</td>
-              <td className="py-1.5 text-center text-muted">{r.draws}</td>
-              <td className="py-1.5 text-center text-muted">{r.losses}</td>
-              <td className="py-1.5 text-center tabular-nums text-muted">
+              <td className="hidden py-1.5 text-center text-muted sm:table-cell">{r.played}</td>
+              <td className="hidden py-1.5 text-center sm:table-cell">{r.wins}</td>
+              <td className="hidden py-1.5 text-center text-muted sm:table-cell">{r.draws}</td>
+              <td className="hidden py-1.5 text-center text-muted sm:table-cell">{r.losses}</td>
+              <td className="hidden py-1.5 text-center tabular-nums text-muted sm:table-cell">
                 {r.gf}:{r.ga}
               </td>
               <td className="py-1.5 text-center font-display">{r.points}</td>

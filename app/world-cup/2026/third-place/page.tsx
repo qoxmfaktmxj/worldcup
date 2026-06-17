@@ -5,6 +5,11 @@ import { ThirdPlaceTable } from '@/components/kinetic/ThirdPlaceTable'
 
 export const dynamic = 'force-static'
 
+export const metadata = {
+  title: '2026 월드컵 각 조 3위 순위 · 32강 와일드카드',
+  description: '2026 FIFA 월드컵 12개 조 3위 비교 순위 — 상위 8팀 32강 진출 기준(현재 스냅샷).',
+}
+
 export default async function ThirdPlacePage() {
   const standings = await getStandings(2026)
   const rows = thirdPlaceRanking(standings)

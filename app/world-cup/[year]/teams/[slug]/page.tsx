@@ -112,17 +112,25 @@ export default async function TeamPage({
                 className="kx-slide bg-panel rounded p-3 border border-line hover:border-korea transition-colors flex items-center gap-4"
                 style={{ animationDelay: `${0.05 * i}s` }}
               >
-                {/* Result pill */}
+                {/* Result pill (예정 경기는 결과 없음) */}
                 <span
                   className={`font-display text-sm rounded px-2 py-0.5 shrink-0 ${
-                    line.result === "win"
+                    line.status === "scheduled"
+                      ? "border border-line text-muted-dim"
+                      : line.result === "win"
                       ? "bg-korea text-white"
                       : line.result === "draw"
                       ? "bg-panel border border-line text-white"
                       : "text-muted-dim"
                   }`}
                 >
-                  {line.result === "win" ? "승" : line.result === "draw" ? "무" : "패"}
+                  {line.status === "scheduled"
+                    ? "예정"
+                    : line.result === "win"
+                    ? "승"
+                    : line.result === "draw"
+                    ? "무"
+                    : "패"}
                 </span>
 
                 {/* Opponent */}
@@ -137,9 +145,9 @@ export default async function TeamPage({
                   {roundLabel(line.group, line.stage)} · {line.date}
                 </span>
 
-                {/* Score (right edge) */}
+                {/* Score (right edge) — 예정 경기는 스코어 없음 */}
                 <span className="font-display text-xl text-white shrink-0 w-16 text-right tabular-nums">
-                  {line.gf} : {line.ga}
+                  {line.status === "finished" ? `${line.gf} : ${line.ga}` : "—"}
                 </span>
               </Link>
             ))}

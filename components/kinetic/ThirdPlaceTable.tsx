@@ -7,16 +7,16 @@ const ADVANCE_DIVIDER_AFTER = 7 // index 7 = 8th row (0-based); divider between 
 
 export function ThirdPlaceTable({ rows }: { rows: ThirdPlaceRow[] }) {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[520px] text-sm">
+    <div>
+      <table className="w-full text-sm">
         <thead>
           <tr className="border-b border-line text-[11px] text-muted">
             <th className="w-8 py-2 text-left font-normal">#</th>
             <th className="py-2 text-left font-normal">팀</th>
-            <th className="w-9 py-2 text-center font-normal">경기</th>
+            <th className="hidden w-9 py-2 text-center font-normal sm:table-cell">경기</th>
             <th className="w-10 py-2 text-center font-normal">승점</th>
             <th className="w-12 py-2 text-center font-normal">득실</th>
-            <th className="w-10 py-2 text-center font-normal">득점</th>
+            <th className="hidden w-10 py-2 text-center font-normal sm:table-cell">득점</th>
           </tr>
         </thead>
         <tbody>
@@ -59,12 +59,12 @@ export function ThirdPlaceTable({ rows }: { rows: ThirdPlaceRow[] }) {
                     </span>
                   </span>
                 </td>
-                <td className="py-1.5 text-center text-muted">{r.played}</td>
+                <td className="hidden py-1.5 text-center text-muted sm:table-cell">{r.played}</td>
                 <td className="py-1.5 text-center font-display">{r.points}</td>
                 <td className={`py-1.5 text-center tabular-nums ${r.gd > 0 ? 'text-[#3ddc84]' : r.gd < 0 ? 'text-[#ff5a5a]' : 'text-muted-dim'}`}>
                   {r.gd > 0 ? `+${r.gd}` : r.gd}
                 </td>
-                <td className="py-1.5 text-center text-muted">{r.gf}</td>
+                <td className="hidden py-1.5 text-center text-muted sm:table-cell">{r.gf}</td>
               </tr>
             </Fragment>
           ))}

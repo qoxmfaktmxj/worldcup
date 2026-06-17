@@ -12,7 +12,8 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
   const { year } = await params;
   const y = Number(year);
   const [t, standings, ranking] = await Promise.all([getTournament(y), getStandings(y), getFinalRanking(y)]);
-  const tournamentExtra = [{ label: "토너먼트", href: `/world-cup/${y}/bracket` }];
+  // 진행 중 대회(live-snapshot)는 녹아웃 데이터가 아직 없어 브래킷이 비므로 nav 숨김.
+  const tournamentExtra = t.asOf ? [] : [{ label: "토너먼트", href: `/world-cup/${y}/bracket` }];
 
   return (
     <main className="mx-auto max-w-5xl p-6">

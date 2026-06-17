@@ -4,6 +4,11 @@ import { VenueCard } from "@/components/kinetic/VenueCard";
 
 export const dynamic = "force-static";
 
+export const metadata = {
+  title: "2026 월드컵 경기장 · 16개 개최지",
+  description: "2026 FIFA 월드컵 16개 개최 경기장 — FIFA 대회명, 도시, 한국과의 시차, 예정 경기 수.",
+};
+
 /**
  * Parse a shortOffset string like "GMT+9" or "GMT-7" into a numeric hour offset.
  */
