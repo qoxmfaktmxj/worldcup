@@ -118,6 +118,7 @@ export interface PlayerMatch {
   stage: string
   date: string
   teamId: string
+  opponentName: string
   opponentNameKo: string
   side: 'home' | 'away'
   starter: boolean
@@ -159,6 +160,7 @@ export interface TeamMatchLine {
   date: string
   group: string
   stage: string
+  opponentName: string
   opponentNameKo: string
   gf: number
   ga: number

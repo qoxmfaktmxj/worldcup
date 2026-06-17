@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Match } from "@/lib/types";
 import { kstDateKey, toKstLabel } from "@/lib/time";
+import { TeamLabel } from "./TeamLabel";
 
 interface Props {
   matches: Match[];
@@ -88,17 +89,16 @@ export function Live2026Strip({ matches, asOf }: Props) {
                 <div className="mb-1.5 text-[11px] text-muted">
                   {m.kickoffUtc ? toKstLabel(m.kickoffUtc) : m.date}
                 </div>
-                <div className="font-display text-sm leading-snug">
-                  {m.home.nameKo}
+                <div className="flex flex-wrap items-center gap-x-1.5 font-display text-sm leading-snug">
+                  <TeamLabel name={m.home.name} nameKo={m.home.nameKo} />
                   {m.status === "finished" ? (
                     <span className="text-korea">
-                      {" "}
-                      {m.homeScore}:{m.awayScore}{" "}
+                      {m.homeScore}:{m.awayScore}
                     </span>
                   ) : (
-                    <span className="text-muted-dim"> vs </span>
+                    <span className="text-muted-dim">vs</span>
                   )}
-                  {m.away.nameKo}
+                  <TeamLabel name={m.away.name} nameKo={m.away.nameKo} barSide="right" />
                 </div>
                 <div className="mt-1 text-[11px] text-muted truncate">
                   {m.stadium}
@@ -124,10 +124,12 @@ export function Live2026Strip({ matches, asOf }: Props) {
               href={`/world-cup/2026/matches/${koreaNext.slug}`}
               className="group block"
             >
-              <div className="font-display text-base leading-snug group-hover:text-korea transition-colors">
-                {koreaNext.home.code === "KOR"
-                  ? `vs ${koreaNext.away.nameKo}`
-                  : `vs ${koreaNext.home.nameKo}`}
+              <div className="flex items-center gap-1.5 font-display text-base leading-snug group-hover:text-korea transition-colors">
+                vs{" "}
+                <TeamLabel
+                  name={(koreaNext.home.code === "KOR" ? koreaNext.away : koreaNext.home).name}
+                  nameKo={(koreaNext.home.code === "KOR" ? koreaNext.away : koreaNext.home).nameKo}
+                />
               </div>
               <div className="mt-0.5 text-[11px] text-muted">
                 {koreaNext.kickoffUtc
@@ -148,12 +150,12 @@ export function Live2026Strip({ matches, asOf }: Props) {
               href={`/world-cup/2026/matches/${koreaFinished.slug}`}
               className="group block"
             >
-              <div className="font-display text-sm group-hover:text-korea transition-colors">
-                {koreaFinished.home.nameKo}{" "}
+              <div className="flex flex-wrap items-center gap-x-1.5 font-display text-sm group-hover:text-korea transition-colors">
+                <TeamLabel name={koreaFinished.home.name} nameKo={koreaFinished.home.nameKo} />
                 <span className="text-korea">
                   {koreaFinished.homeScore}:{koreaFinished.awayScore}
-                </span>{" "}
-                {koreaFinished.away.nameKo}
+                </span>
+                <TeamLabel name={koreaFinished.away.name} nameKo={koreaFinished.away.nameKo} barSide="right" />
               </div>
             </Link>
           </div>

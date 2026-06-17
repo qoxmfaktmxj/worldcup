@@ -5,6 +5,7 @@ import { getStandings, getMatches } from "@/lib/data";
 import { groupSlug } from "@/lib/aggregate";
 import { groupKo } from "@/lib/stages";
 import { availableYears } from "@/lib/tournaments";
+import { TeamLabel } from "@/components/kinetic/TeamLabel";
 
 export async function generateStaticParams() {
   const params: { year: string; group: string }[] = [];
@@ -58,11 +59,15 @@ export default async function GroupPage({
               style={{ animationDelay: `${i * 0.07}s` }}
             >
               <div className="flex items-center gap-3 text-sm">
-                <span className="text-white">{m.home.nameKo}</span>
-                <span className="font-display text-korea text-base tabular-nums">
-                  {m.homeScore}&nbsp;:&nbsp;{m.awayScore}
-                </span>
-                <span className="text-white">{m.away.nameKo}</span>
+                <TeamLabel name={m.home.name} nameKo={m.home.nameKo} className="text-white" />
+                {m.status === "finished" ? (
+                  <span className="font-display text-korea text-base tabular-nums">
+                    {m.homeScore}&nbsp;:&nbsp;{m.awayScore}
+                  </span>
+                ) : (
+                  <span className="text-muted text-xs">예정</span>
+                )}
+                <TeamLabel name={m.away.name} nameKo={m.away.nameKo} className="text-white" />
               </div>
               <span className="text-muted text-xs shrink-0 ml-4">{m.date}</span>
             </Link>

@@ -3,6 +3,7 @@ import type { GroupStanding, Match, WatchLink } from '@/lib/types'
 import { qualifyScenarios } from '@/lib/qualify'
 import { toKstLabel } from '@/lib/time'
 import { KoreaCountdown } from './KoreaCountdown'
+import { TeamLabel } from './TeamLabel'
 
 interface Props {
   standings: GroupStanding[]
@@ -119,8 +120,8 @@ export function KoreaTracker({ standings, matches, watchLinks }: Props) {
                 >
                   <div className="flex items-center gap-3 text-sm">
                     <span className="text-muted text-xs w-12 shrink-0">완료</span>
-                    <span className="text-white">
-                      vs {opponent.nameKo}
+                    <span className="inline-flex items-center gap-1.5 text-white">
+                      vs <TeamLabel name={opponent.name} nameKo={opponent.nameKo} />
                     </span>
                     <span className="font-display text-korea tabular-nums">
                       {kor}&nbsp;:&nbsp;{opp}
@@ -151,7 +152,7 @@ export function KoreaTracker({ standings, matches, watchLinks }: Props) {
               >
                 <div className="flex items-center gap-3 text-sm">
                   <span className="text-muted text-xs w-12 shrink-0">예정</span>
-                  <span className="text-white">vs {opponent.nameKo}</span>
+                  <span className="inline-flex items-center gap-1.5 text-white">vs <TeamLabel name={opponent.name} nameKo={opponent.nameKo} /></span>
                   <span className="text-muted text-xs">
                     {m.kickoffUtc ? toKstLabel(m.kickoffUtc) : m.date}
                   </span>

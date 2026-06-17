@@ -4,6 +4,7 @@ import Image from "next/image";
 import { getAllPlayerSlugs, getPlayerGlobal, getPlayerMetaGlobal } from "@/lib/data";
 import { roundLabel } from "@/lib/stages";
 import { FallbackAvatar } from "@/components/kinetic/FallbackAvatar";
+import { TeamLabel } from "@/components/kinetic/TeamLabel";
 
 export async function generateStaticParams() {
   return (await getAllPlayerSlugs()).map((slug) => ({ slug }));
@@ -171,8 +172,8 @@ export default async function PlayerPage({
 
                       {/* Opponent + meta */}
                       <div className="flex-1 min-w-0">
-                        <div className="text-sm font-medium text-white group-hover:text-korea transition-colors truncate">
-                          vs {pm.opponentNameKo}
+                        <div className="flex items-center gap-1.5 text-sm font-medium text-white group-hover:text-korea transition-colors">
+                          vs <TeamLabel name={pm.opponentName} nameKo={pm.opponentNameKo} />
                         </div>
                         <div className="text-muted text-xs mt-0.5">
                           {roundLabel(pm.group, pm.stage)} · {pm.date}

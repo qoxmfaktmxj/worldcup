@@ -3,8 +3,10 @@ import Link from "next/link";
 import { getPlayerCards, getTeamSlugs, getTeamView } from "@/lib/data";
 import { roundLabel } from "@/lib/stages";
 import { availableYears } from "@/lib/tournaments";
+import { teamPrimary } from "@/lib/teamColors";
 import { PlayerAvatar } from "@/components/kinetic/PlayerAvatar";
 import { PlayerTrigger } from "@/components/kinetic/PlayerTrigger";
+import { TeamLabel } from "@/components/kinetic/TeamLabel";
 
 export async function generateStaticParams() {
   const params: { year: string; slug: string }[] = [];
@@ -31,12 +33,19 @@ export default async function TeamPage({
     <main className="mx-auto max-w-5xl p-6">
       {/* Header */}
       <div className="mb-8">
-        <h1
-          className="font-display text-5xl text-korea inline-block"
-          style={{ transform: "skewX(-6deg)" }}
-        >
-          {team.nameKo}
-        </h1>
+        <div className="flex items-center gap-3">
+          <span
+            className="h-10 w-1.5 shrink-0 rounded-sm"
+            style={{ background: teamPrimary(team.name) }}
+            aria-hidden
+          />
+          <h1
+            className="font-display text-5xl text-korea inline-block"
+            style={{ transform: "skewX(-6deg)" }}
+          >
+            {team.nameKo}
+          </h1>
+        </div>
         <p className="text-muted-dim text-sm mt-1 tracking-widest uppercase">
           {team.name} · {team.code}
         </p>
@@ -117,9 +126,11 @@ export default async function TeamPage({
                 </span>
 
                 {/* Opponent */}
-                <span className="text-white font-medium flex-1 truncate">
-                  {line.opponentNameKo}
-                </span>
+                <TeamLabel
+                  name={line.opponentName}
+                  nameKo={line.opponentNameKo}
+                  className="flex-1 text-white font-medium"
+                />
 
                 {/* Round & date */}
                 <span className="text-muted text-xs shrink-0 hidden text-right tabular-nums sm:block">

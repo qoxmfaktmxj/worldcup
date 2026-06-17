@@ -91,14 +91,16 @@ export default async function MatchPage({
         <>
           <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
             <div className="flex flex-col">
-              <h2 className="font-display text-xl mb-2">
-                {m.home.nameKo} <span className="text-muted text-sm font-normal">{`(${m.home.name})`}</span>
+              <h2 className="font-display text-xl mb-2 flex items-center gap-2">
+                <span className="h-5 w-1.5 shrink-0 rounded-sm" style={{ background: colors.home }} aria-hidden />
+                <span>{m.home.nameKo} <span className="text-muted text-sm font-normal">{`(${m.home.name})`}</span></span>
               </h2>
               <MatchPitch players={m.lineups.home} side="home" color={colors.home} cards={cards} />
             </div>
             <div className="flex flex-col">
-              <h2 className="font-display text-xl mb-2">
-                {m.away.nameKo} <span className="text-muted text-sm font-normal">{`(${m.away.name})`}</span>
+              <h2 className="font-display text-xl mb-2 flex items-center gap-2">
+                <span className="h-5 w-1.5 shrink-0 rounded-sm" style={{ background: colors.away }} aria-hidden />
+                <span>{m.away.nameKo} <span className="text-muted text-sm font-normal">{`(${m.away.name})`}</span></span>
               </h2>
               <MatchPitch players={m.lineups.away} side="away" color={colors.away} cards={cards} />
             </div>
