@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { getVenues, getMatches } from "@/lib/data";
+import { Nav } from "@/components/kinetic/Nav";
 import { VenueCard } from "@/components/kinetic/VenueCard";
 
 export const dynamic = "force-static";
@@ -56,8 +56,9 @@ export default async function Venues2026Page() {
 
   return (
     <main className="mx-auto max-w-5xl p-6">
+      <Nav />
       {/* Header */}
-      <div className="flex items-start justify-between flex-wrap gap-3 mb-2">
+      <div className="flex items-start flex-wrap gap-3 mb-2 mt-6">
         <div>
           <h1
             className="font-display text-4xl text-korea"
@@ -69,12 +70,6 @@ export default async function Venues2026Page() {
             FIFA 대회 명칭 / 실제 경기장명
           </p>
         </div>
-        <Link
-          href="/world-cup/2026"
-          className="text-sm text-muted hover:text-korea transition-colors mt-1"
-        >
-          ← 2026 월드컵
-        </Link>
       </div>
 
       {/* Venue grid */}

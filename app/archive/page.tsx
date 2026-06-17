@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Nav } from "@/components/kinetic/Nav";
 import { TOURNAMENTS, emblemSmall } from "@/lib/tournaments";
 
 export const metadata = {
@@ -9,7 +10,8 @@ export const metadata = {
 export default function ArchivePage() {
   return (
     <main className="mx-auto max-w-5xl p-6 sm:p-8">
-      <header className="mb-8">
+      <Nav active="아카이브" />
+      <header className="mb-8 mt-6">
         <h1
           className="font-display text-5xl text-korea"
           style={{ transform: "skewX(-6deg)" }}

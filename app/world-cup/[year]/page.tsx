@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { GroupBoard } from "@/components/kinetic/GroupBoard";
 import { FinalRanking } from "@/components/kinetic/FinalRanking";
+import { Nav } from "@/components/kinetic/Nav";
 import { getFinalRanking, getStandings, getTournament } from "@/lib/data";
 import { availableYears, emblemLarge } from "@/lib/tournaments";
 
@@ -12,9 +12,12 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
   const { year } = await params;
   const y = Number(year);
   const [t, standings, ranking] = await Promise.all([getTournament(y), getStandings(y), getFinalRanking(y)]);
+  const tournamentExtra = [{ label: "토너먼트", href: `/world-cup/${y}/bracket` }];
+
   return (
     <main className="mx-auto max-w-5xl p-6">
-      <div className="flex flex-wrap items-end justify-between gap-4">
+      <Nav extra={tournamentExtra} />
+      <div className="flex flex-wrap items-end gap-4 mt-6">
         <div className="flex items-center gap-4">
           <img src={emblemLarge(y)} alt={`${t.name} 로고`} className="h-28 w-auto" />
           <div>
@@ -27,17 +30,6 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
             </p>
           </div>
         </div>
-        <nav className="flex gap-2 text-sm">
-          <Link href={`/world-cup/${y}/bracket`} className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
-            토너먼트
-          </Link>
-          <Link href="/search" className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
-            검색
-          </Link>
-          <Link href="/sources" className="bg-panel border border-line rounded-lg px-3 py-2 hover:border-korea transition-colors">
-            출처
-          </Link>
-        </nav>
       </div>
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {standings.map((g) => (

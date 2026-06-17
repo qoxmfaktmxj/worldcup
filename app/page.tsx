@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Live2026Strip } from "@/components/kinetic/Live2026Strip";
+import { Nav } from "@/components/kinetic/Nav";
 import { getMatches, getStandings, getTournament } from "@/lib/data";
 import { TOURNAMENTS, emblemSmall } from "@/lib/tournaments";
 
@@ -14,6 +15,8 @@ export default async function Home() {
 
   return (
     <main className="mx-auto max-w-5xl p-6 sm:p-8 space-y-10">
+      <Nav active="2026" />
+
       {/* 2026 현황 스트립 */}
       <Live2026Strip
         matches={matches}
