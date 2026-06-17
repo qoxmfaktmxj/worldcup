@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import type { ThirdPlaceRow } from '@/lib/thirdplace'
 import { teamPrimary } from '@/lib/teamColors'
 import { groupKo } from '@/lib/stages'
@@ -20,7 +21,7 @@ export function ThirdPlaceTable({ rows }: { rows: ThirdPlaceRow[] }) {
         </thead>
         <tbody>
           {rows.map((r, i) => (
-            <>
+            <Fragment key={r.team.id}>
               {i === ADVANCE_DIVIDER_AFTER + 1 && (
                 <tr key="divider-row" aria-hidden>
                   <td colSpan={6} className="py-0">
@@ -65,7 +66,7 @@ export function ThirdPlaceTable({ rows }: { rows: ThirdPlaceRow[] }) {
                 </td>
                 <td className="py-1.5 text-center text-muted">{r.gf}</td>
               </tr>
-            </>
+            </Fragment>
           ))}
         </tbody>
       </table>

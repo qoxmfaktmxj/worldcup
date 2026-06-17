@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { Live2026Strip } from "@/components/kinetic/Live2026Strip";
 import { Nav } from "@/components/kinetic/Nav";
-import { getMatches, getStandings, getTournament } from "@/lib/data";
+import { getMatches, getTournament } from "@/lib/data";
 import { TOURNAMENTS, emblemSmall } from "@/lib/tournaments";
 
 export default async function Home() {
-  const [matches, standings, tournament] = await Promise.all([
+  const [matches, tournament] = await Promise.all([
     getMatches(2026),
-    getStandings(2026),
     getTournament(2026),
   ]);
 
@@ -18,11 +17,7 @@ export default async function Home() {
       <Nav active="2026" />
 
       {/* 2026 현황 스트립 */}
-      <Live2026Strip
-        matches={matches}
-        standings={standings}
-        asOf={tournament.asOf}
-      />
+      <Live2026Strip matches={matches} asOf={tournament.asOf} />
 
       {/* 역대 월드컵 아카이브 */}
       <section>

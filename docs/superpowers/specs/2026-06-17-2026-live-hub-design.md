@@ -60,7 +60,9 @@
 
 ## 데이터 수집 (subagent + 검증)
 
-전체 104 픽스처를 Sonnet 서브에이전트 병렬로 수집:
+> 구현 결과: 조별리그 진행 중이라 녹아웃 32강 대진이 미확정 → 추측 금지 원칙에 따라 **조별 72경기만 수집**(녹아웃은 팀 확정 후 추가). 아래 "104"는 대회 전체 규모이며, 현재 스냅샷은 72.
+
+전체 104 픽스처(현재 가능한 조별 72)를 Sonnet 서브에이전트 병렬로 수집:
 - 소스: Wikipedia "2026 FIFA World Cup" + 조별 페이지(A–L) + 매치데이 스케줄 + 경기장 목록. (FIFA/ESPN 보조)
 - 수집 항목: 경기별 팀(코드)·조·kickoffUtc·venueId·status·(진행 시)스코어. 경기장: fifaName/commonName/city/country/timezone.
 

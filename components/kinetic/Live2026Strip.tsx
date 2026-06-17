@@ -1,10 +1,9 @@
 import Link from "next/link";
-import type { GroupStanding, Match } from "@/lib/types";
+import type { Match } from "@/lib/types";
 import { kstDateKey, toKstLabel } from "@/lib/time";
 
 interface Props {
   matches: Match[];
-  standings: GroupStanding[];
   asOf?: string;
 }
 
