@@ -82,10 +82,10 @@
       {
         "position": 1,
         "team": {
-          "id": "T-SUI",
-          "name": "Switzerland",
-          "code": "SUI",
-          "nameKo": "스위스"
+          "id": "T-CAN",
+          "name": "Canada",
+          "code": "CAN",
+          "nameKo": "캐나다"
         },
         "played": 1,
         "wins": 0,
@@ -100,10 +100,10 @@
       {
         "position": 2,
         "team": {
-          "id": "T-CAN",
-          "name": "Canada",
-          "code": "CAN",
-          "nameKo": "캐나다"
+          "id": "T-BIH",
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "nameKo": "보스니아 헤르체고비나"
         },
         "played": 1,
         "wins": 0,
@@ -136,10 +136,10 @@
       {
         "position": 4,
         "team": {
-          "id": "T-BIH",
-          "name": "Bosnia and Herzegovina",
-          "code": "BIH",
-          "nameKo": "보스니아 헤르체고비나"
+          "id": "T-SUI",
+          "name": "Switzerland",
+          "code": "SUI",
+          "nameKo": "스위스"
         },
         "played": 1,
         "wins": 0,
@@ -177,10 +177,10 @@
       {
         "position": 2,
         "team": {
-          "id": "T-MAR",
-          "name": "Morocco",
-          "code": "MAR",
-          "nameKo": "모로코"
+          "id": "T-BRA",
+          "name": "Brazil",
+          "code": "BRA",
+          "nameKo": "브라질"
         },
         "played": 1,
         "wins": 0,
@@ -195,10 +195,10 @@
       {
         "position": 3,
         "team": {
-          "id": "T-BRA",
-          "name": "Brazil",
-          "code": "BRA",
-          "nameKo": "브라질"
+          "id": "T-MAR",
+          "name": "Morocco",
+          "code": "MAR",
+          "nameKo": "모로코"
         },
         "played": 1,
         "wins": 0,
@@ -408,10 +408,10 @@
       {
         "position": 2,
         "team": {
-          "id": "T-JPN",
-          "name": "Japan",
-          "code": "JPN",
-          "nameKo": "일본"
+          "id": "T-NED",
+          "name": "Netherlands",
+          "code": "NED",
+          "nameKo": "네덜란드"
         },
         "played": 1,
         "wins": 0,
@@ -426,10 +426,10 @@
       {
         "position": 3,
         "team": {
-          "id": "T-NED",
-          "name": "Netherlands",
-          "code": "NED",
-          "nameKo": "네덜란드"
+          "id": "T-JPN",
+          "name": "Japan",
+          "code": "JPN",
+          "nameKo": "일본"
         },
         "played": 1,
         "wins": 0,
@@ -467,10 +467,10 @@
       {
         "position": 1,
         "team": {
-          "id": "T-NZL",
-          "name": "New Zealand",
-          "code": "NZL",
-          "nameKo": "뉴질랜드"
+          "id": "T-IRN",
+          "name": "Iran",
+          "code": "IRN",
+          "nameKo": "이란"
         },
         "played": 1,
         "wins": 0,
@@ -485,10 +485,10 @@
       {
         "position": 2,
         "team": {
-          "id": "T-IRN",
-          "name": "Iran",
-          "code": "IRN",
-          "nameKo": "이란"
+          "id": "T-NZL",
+          "name": "New Zealand",
+          "code": "NZL",
+          "nameKo": "뉴질랜드"
         },
         "played": 1,
         "wins": 0,
@@ -544,10 +544,10 @@
       {
         "position": 1,
         "team": {
-          "id": "T-URU",
-          "name": "Uruguay",
-          "code": "URU",
-          "nameKo": "우루과이"
+          "id": "T-KSA",
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "nameKo": "사우디아라비아"
         },
         "played": 1,
         "wins": 0,
@@ -562,10 +562,10 @@
       {
         "position": 2,
         "team": {
-          "id": "T-KSA",
-          "name": "Saudi Arabia",
-          "code": "KSA",
-          "nameKo": "사우디아라비아"
+          "id": "T-URU",
+          "name": "Uruguay",
+          "code": "URU",
+          "nameKo": "우루과이"
         },
         "played": 1,
         "wins": 0,
@@ -621,72 +621,72 @@
       {
         "position": 1,
         "team": {
+          "id": "T-NOR",
+          "name": "Norway",
+          "code": "NOR",
+          "nameKo": "노르웨이"
+        },
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "points": 3,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
           "id": "T-FRA",
           "name": "France",
           "code": "FRA",
           "nameKo": "프랑스"
         },
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "points": 3,
         "advanced": false
       },
       {
-        "position": 2,
+        "position": 3,
         "team": {
           "id": "T-SEN",
           "name": "Senegal",
           "code": "SEN",
           "nameKo": "세네갈"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
-        "advanced": false
-      },
-      {
-        "position": 3,
-        "team": {
-          "id": "T-IRQ",
-          "name": "Iraq",
-          "code": "IRQ",
-          "nameKo": "이라크"
-        },
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
         "points": 0,
         "advanced": false
       },
       {
         "position": 4,
         "team": {
-          "id": "T-NOR",
-          "name": "Norway",
-          "code": "NOR",
-          "nameKo": "노르웨이"
+          "id": "T-IRQ",
+          "name": "Iraq",
+          "code": "IRQ",
+          "nameKo": "이라크"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
         "points": 0,
         "advanced": false
       }

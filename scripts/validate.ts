@@ -51,6 +51,52 @@ async function main() {
   const matches = await json<Match[]>(`data/generated/${YEAR}/matches.json`)
   const standings = await json<GroupStanding[]>(`data/generated/${YEAR}/standings.json`)
 
+  if (YEAR === '2026') {
+    // 2026-specific checks
+    assert(matches.length === 72, `expected 72 matches, got ${matches.length}`)
+
+    // Every match must have kickoffUtc (parseable) and venueId
+    for (const m of matches) {
+      assert(
+        m.kickoffUtc !== undefined && !isNaN(Date.parse(m.kickoffUtc)),
+        `${m.id} ${m.slug}: invalid or missing kickoffUtc (${m.kickoffUtc})`,
+      )
+      assert(
+        m.venueId !== undefined && m.venueId.length > 0,
+        `${m.id} ${m.slug}: missing venueId`,
+      )
+    }
+
+    // Finished matches must have numeric scores
+    for (const m of matches.filter((x) => x.status === 'finished')) {
+      assert(
+        typeof m.homeScore === 'number' && typeof m.awayScore === 'number',
+        `${m.id} ${m.slug}: finished but scores are not numeric`,
+      )
+    }
+
+    // Each team appears in exactly 3 group matches
+    const appearances = new Map<string, number>()
+    for (const m of matches) {
+      appearances.set(m.home.code, (appearances.get(m.home.code) ?? 0) + 1)
+      appearances.set(m.away.code, (appearances.get(m.away.code) ?? 0) + 1)
+    }
+    for (const [code, count] of appearances) {
+      assert(count === 3, `team ${code}: expected 3 group matches, got ${count}`)
+    }
+
+    const finished = matches.filter((m) => m.status === 'finished').length
+    const groups = standings.length
+    if (process.exitCode !== 1) {
+      console.log(`Validation OK (2026): ${matches.length} matches, ${finished} finished, ${groups} groups — all 2026 checks passed`)
+    } else {
+      console.error('Validation FAILED')
+      process.exit(1)
+    }
+    return
+  }
+
+  // Generic checks for completed tournaments (64 matches with full lineups)
   assert(matches.length === 64, `expected 64 matches, got ${matches.length}`)
 
   for (const m of matches) {

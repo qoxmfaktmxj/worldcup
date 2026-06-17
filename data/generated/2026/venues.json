@@ -1,0 +1,130 @@
+[
+  {
+    "id": "azteca",
+    "fifaName": "Estadio Ciudad de México",
+    "commonName": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "timezone": "America/Mexico_City"
+  },
+  {
+    "id": "akron",
+    "fifaName": "Estadio Guadalajara",
+    "commonName": "Estadio Akron",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "timezone": "America/Mexico_City"
+  },
+  {
+    "id": "bbva",
+    "fifaName": "Estadio Monterrey",
+    "commonName": "Estadio BBVA",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "timezone": "America/Monterrey"
+  },
+  {
+    "id": "atlanta",
+    "fifaName": "Atlanta Stadium",
+    "commonName": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "toronto",
+    "fifaName": "Toronto Stadium",
+    "commonName": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "timezone": "America/Toronto"
+  },
+  {
+    "id": "santaclara",
+    "fifaName": "San Francisco Bay Area Stadium",
+    "commonName": "Levi's Stadium",
+    "city": "Santa Clara",
+    "country": "United States",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "inglewood",
+    "fifaName": "Los Angeles Stadium",
+    "commonName": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "United States",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "vancouver",
+    "fifaName": "Vancouver Stadium",
+    "commonName": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "timezone": "America/Vancouver"
+  },
+  {
+    "id": "seattle",
+    "fifaName": "Seattle Stadium",
+    "commonName": "Lumen Field",
+    "city": "Seattle",
+    "country": "United States",
+    "timezone": "America/Los_Angeles"
+  },
+  {
+    "id": "eastrutherford",
+    "fifaName": "New York New Jersey Stadium",
+    "commonName": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "foxborough",
+    "fifaName": "Boston Stadium",
+    "commonName": "Gillette Stadium",
+    "city": "Foxborough",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "philadelphia",
+    "fifaName": "Philadelphia Stadium",
+    "commonName": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "miami",
+    "fifaName": "Miami Stadium",
+    "commonName": "Hard Rock Stadium",
+    "city": "Miami Gardens",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "houston",
+    "fifaName": "Houston Stadium",
+    "commonName": "NRG Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "arlington",
+    "fifaName": "Dallas Stadium",
+    "commonName": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "kansascity",
+    "fifaName": "Kansas City Stadium",
+    "commonName": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "United States",
+    "timezone": "America/Chicago"
+  }
+]

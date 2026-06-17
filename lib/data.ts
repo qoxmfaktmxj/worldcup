@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { FinalRankRow, GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament } from "./types";
+import type { FinalRankRow, GroupStanding, Match, Player, PlayerCardData, PlayerMeta, SearchDoc, TeamView, Tournament, Venue, WatchLink } from "./types";
 import { buildFinalRanking, buildPlayers, buildSearchIndex, buildTeamView, getPlayer as pickPlayer, modePosition, teamSlugs } from "./aggregate";
 import { availableYears } from "./tournaments";
 
@@ -65,6 +65,22 @@ export async function getPlayersMeta(year: number): Promise<Record<string, Playe
     return JSON.parse(await readFile(path.join(dir(year), "players-meta.json"), "utf8")) as Record<string, PlayerMeta>;
   } catch {
     return {};
+  }
+}
+
+export async function getVenues(year: number): Promise<Venue[]> {
+  try {
+    return JSON.parse(await readFile(path.join(dir(year), "venues.json"), "utf8")) as Venue[];
+  } catch {
+    return [];
+  }
+}
+
+export async function getWatchLinks(year: number): Promise<WatchLink[]> {
+  try {
+    return JSON.parse(await readFile(path.join(dir(year), "watch-links.json"), "utf8")) as WatchLink[];
+  } catch {
+    return [];
   }
 }
 

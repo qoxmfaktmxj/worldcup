@@ -1,114 +1,152 @@
 /**
- * 2026 FIFA World Cup is in progress (June 11 – July 19, 2026) and is NOT in the
- * Fjelstul database. This builds a live SNAPSHOT from public results (Wikipedia
- * per-group pages) — group standings + played match scores only.
+ * 2026 FIFA World Cup — builds from the full 72-fixture group stage in
+ * fixtures-2026.ts. Scheduled matches carry no score; finished matches have
+ * real scores. Standings are recomputed from finished fixtures only.
  *
- * No lineups are fabricated: matches carry empty lineups (the source has no
- * verified XI), so match pages show the score/teams without a starting XI.
- * Re-run with refreshed SNAPSHOT data to update. asOf marks the snapshot date.
+ * No lineups are fabricated: matches carry empty lineups (no verified XI for a
+ * live tournament). Re-run with refreshed fixtures-2026.ts to update.
  */
 import { mkdir, writeFile } from "node:fs/promises";
-import type { GroupStanding, Match, Standing } from "../lib/types";
+import type { GroupStanding, Match, Standing, Venue } from "../lib/types";
 import { slugify, teamRef } from "../lib/pipeline/transform";
+import { kstDateKey } from "../lib/time";
+import { CODES_2026, FIXTURES_2026, VENUES_2026 } from "./fixtures-2026";
 
 const ASOF = "2026-06-17";
 
-type TeamStat = [name: string, code: string, p: number, w: number, d: number, l: number, gf: number, ga: number, pts: number];
+const ref = (name: string) => teamRef(`T-${CODES_2026[name]}`, name, CODES_2026[name], {});
 
-// Current standings order per group (A–L). I–L have not kicked off yet (all zeros).
-const GROUPS: Record<string, TeamStat[]> = {
-  A: [["Mexico", "MEX", 1, 1, 0, 0, 2, 0, 3], ["South Korea", "KOR", 1, 1, 0, 0, 2, 1, 3], ["Czech Republic", "CZE", 1, 0, 0, 1, 1, 2, 0], ["South Africa", "RSA", 1, 0, 0, 1, 0, 2, 0]],
-  B: [["Switzerland", "SUI", 1, 0, 1, 0, 1, 1, 1], ["Canada", "CAN", 1, 0, 1, 0, 1, 1, 1], ["Qatar", "QAT", 1, 0, 1, 0, 1, 1, 1], ["Bosnia and Herzegovina", "BIH", 1, 0, 1, 0, 1, 1, 1]],
-  C: [["Scotland", "SCO", 1, 1, 0, 0, 1, 0, 3], ["Morocco", "MAR", 1, 0, 1, 0, 1, 1, 1], ["Brazil", "BRA", 1, 0, 1, 0, 1, 1, 1], ["Haiti", "HAI", 1, 0, 0, 1, 0, 1, 0]],
-  D: [["United States", "USA", 1, 1, 0, 0, 4, 1, 3], ["Australia", "AUS", 1, 1, 0, 0, 2, 0, 3], ["Turkey", "TUR", 1, 0, 0, 1, 0, 2, 0], ["Paraguay", "PAR", 1, 0, 0, 1, 1, 4, 0]],
-  E: [["Germany", "GER", 1, 1, 0, 0, 7, 1, 3], ["Ivory Coast", "CIV", 1, 1, 0, 0, 1, 0, 3], ["Ecuador", "ECU", 1, 0, 0, 1, 0, 1, 0], ["Curaçao", "CUW", 1, 0, 0, 1, 1, 7, 0]],
-  F: [["Sweden", "SWE", 1, 1, 0, 0, 5, 1, 3], ["Japan", "JPN", 1, 0, 1, 0, 2, 2, 1], ["Netherlands", "NED", 1, 0, 1, 0, 2, 2, 1], ["Tunisia", "TUN", 1, 0, 0, 1, 1, 5, 0]],
-  G: [["New Zealand", "NZL", 1, 0, 1, 0, 2, 2, 1], ["Iran", "IRN", 1, 0, 1, 0, 2, 2, 1], ["Belgium", "BEL", 1, 0, 1, 0, 1, 1, 1], ["Egypt", "EGY", 1, 0, 1, 0, 1, 1, 1]],
-  H: [["Uruguay", "URU", 1, 0, 1, 0, 1, 1, 1], ["Saudi Arabia", "KSA", 1, 0, 1, 0, 1, 1, 1], ["Spain", "ESP", 1, 0, 1, 0, 0, 0, 1], ["Cape Verde", "CPV", 1, 0, 1, 0, 0, 0, 1]],
-  I: [["France", "FRA", 0, 0, 0, 0, 0, 0, 0], ["Senegal", "SEN", 0, 0, 0, 0, 0, 0, 0], ["Iraq", "IRQ", 0, 0, 0, 0, 0, 0, 0], ["Norway", "NOR", 0, 0, 0, 0, 0, 0, 0]],
-  J: [["Argentina", "ARG", 0, 0, 0, 0, 0, 0, 0], ["Algeria", "ALG", 0, 0, 0, 0, 0, 0, 0], ["Austria", "AUT", 0, 0, 0, 0, 0, 0, 0], ["Jordan", "JOR", 0, 0, 0, 0, 0, 0, 0]],
-  K: [["Portugal", "POR", 0, 0, 0, 0, 0, 0, 0], ["DR Congo", "COD", 0, 0, 0, 0, 0, 0, 0], ["Uzbekistan", "UZB", 0, 0, 0, 0, 0, 0, 0], ["Colombia", "COL", 0, 0, 0, 0, 0, 0, 0]],
-  L: [["England", "ENG", 0, 0, 0, 0, 0, 0, 0], ["Croatia", "CRO", 0, 0, 0, 0, 0, 0, 0], ["Ghana", "GHA", 0, 0, 0, 0, 0, 0, 0], ["Panama", "PAN", 0, 0, 0, 0, 0, 0, 0]],
-};
+// Build matches from fixtures
+const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
+  const [g, kickoffUtc, home, away, homeScore, awayScore, venueId] = tuple;
+  const finished = homeScore !== null && awayScore !== null;
+  const hs = finished ? (homeScore as number) : 0;
+  const as = finished ? (awayScore as number) : 0;
+  const result = finished ? (hs > as ? "win" : hs < as ? "loss" : "draw") : "draw";
+  const venue: Venue | undefined = VENUES_2026.find((v) => v.id === venueId);
 
-type Played = [date: string, group: string, home: string, hs: number, away: string, as: number];
+  return {
+    id: `M-2026-${String(i + 1).padStart(2, "0")}`,
+    slug: slugify(`${home} vs ${away}`),
+    status: finished ? ("finished" as const) : ("scheduled" as const),
+    date: kstDateKey(kickoffUtc),
+    time: "",
+    kickoffUtc,
+    venueId,
+    stadium: venue?.commonName ?? venue?.fifaName ?? "",
+    city: venue?.city ?? "",
+    country: venue?.country ?? "",
+    group: `Group ${g}`,
+    stage: "group stage",
+    groupStage: true,
+    home: ref(home),
+    away: ref(away),
+    homeScore: hs,
+    awayScore: as,
+    penaltyShootout: false,
+    homePenalties: 0,
+    awayPenalties: 0,
+    result,
+    lineups: { home: [], away: [] }, // no verified XI for a live tournament — not fabricated
+    goals: [],
+    bookings: [],
+    subs: [],
+    shootout: [],
+  } satisfies Match;
+});
 
-// Completed matches as of ASOF (group stage round 1; I–L not started).
-const RESULTS: Played[] = [
-  ["2026-06-11", "A", "Mexico", 2, "South Africa", 0],
-  ["2026-06-11", "A", "South Korea", 2, "Czech Republic", 1],
-  ["2026-06-12", "B", "Canada", 1, "Bosnia and Herzegovina", 1],
-  ["2026-06-13", "B", "Qatar", 1, "Switzerland", 1],
-  ["2026-06-13", "C", "Brazil", 1, "Morocco", 1],
-  ["2026-06-13", "C", "Haiti", 0, "Scotland", 1],
-  ["2026-06-12", "D", "United States", 4, "Paraguay", 1],
-  ["2026-06-13", "D", "Australia", 2, "Turkey", 0],
-  ["2026-06-14", "E", "Germany", 7, "Curaçao", 1],
-  ["2026-06-14", "E", "Ivory Coast", 1, "Ecuador", 0],
-  ["2026-06-14", "F", "Netherlands", 2, "Japan", 2],
-  ["2026-06-14", "F", "Sweden", 5, "Tunisia", 1],
-  ["2026-06-15", "G", "Belgium", 1, "Egypt", 1],
-  ["2026-06-15", "G", "Iran", 2, "New Zealand", 2],
-  ["2026-06-15", "H", "Spain", 0, "Cape Verde", 0],
-  ["2026-06-15", "H", "Saudi Arabia", 1, "Uruguay", 1],
-];
+// Recompute standings from FINISHED fixtures only
+const groupTeams = new Map<string, Set<string>>();
+for (const [g, , home, away] of FIXTURES_2026) {
+  const grp = `Group ${g}`;
+  if (!groupTeams.has(grp)) groupTeams.set(grp, new Set());
+  groupTeams.get(grp)!.add(home);
+  groupTeams.get(grp)!.add(away);
+}
 
-const codeOf: Record<string, string> = {};
-for (const stats of Object.values(GROUPS)) for (const [name, code] of stats) codeOf[name] = code;
-const ref = (name: string) => teamRef(`T-${codeOf[name]}`, name, codeOf[name], {});
+type StatRow = { w: number; d: number; l: number; gf: number; ga: number };
+const teamStats = new Map<string, StatRow>();
+for (const [, teamName] of [...groupTeams.values()].flatMap((s) => [...s].map((n) => [n, n]))) {
+  teamStats.set(teamName as string, { w: 0, d: 0, l: 0, gf: 0, ga: 0 });
+}
 
-const standings: GroupStanding[] = Object.entries(GROUPS).map(([letter, stats]) => ({
-  group: `Group ${letter}`,
-  rows: stats.map(([name, code, p, w, d, l, gf, ga, pts], i): Standing => ({
-    position: i + 1,
-    team: ref(name),
-    played: p,
-    wins: w,
-    draws: d,
-    losses: l,
-    gf,
-    ga,
-    gd: gf - ga,
-    points: pts,
-    advanced: false, // group stage in progress
-  })),
-}));
+for (const m of matches.filter((m) => m.status === "finished")) {
+  const hName = m.home.name;
+  const aName = m.away.name;
+  const hs = m.homeScore;
+  const as = m.awayScore;
 
-const matches: Match[] = RESULTS.map(([date, group, home, hs, away, as], i) => ({
-  id: `M-2026-${String(i + 1).padStart(2, "0")}`,
-  slug: slugify(`${home} vs ${away}`),
-  status: "finished" as const,
-  date,
-  time: "",
-  stadium: "",
-  city: "",
-  group: `Group ${group}`,
-  stage: "group stage",
-  groupStage: true,
-  home: ref(home),
-  away: ref(away),
-  homeScore: hs,
-  awayScore: as,
-  penaltyShootout: false,
-  homePenalties: 0,
-  awayPenalties: 0,
-  result: hs > as ? "win" : hs < as ? "loss" : "draw",
-  lineups: { home: [], away: [] }, // no verified XI for a live tournament — not fabricated
-  goals: [],
-  bookings: [],
-  subs: [],
-  shootout: [],
-}));
+  const hStat = teamStats.get(hName) ?? { w: 0, d: 0, l: 0, gf: 0, ga: 0 };
+  const aStat = teamStats.get(aName) ?? { w: 0, d: 0, l: 0, gf: 0, ga: 0 };
+
+  hStat.gf += hs;
+  hStat.ga += as;
+  aStat.gf += as;
+  aStat.ga += hs;
+
+  if (hs > as) {
+    hStat.w++;
+    aStat.l++;
+  } else if (hs < as) {
+    hStat.l++;
+    aStat.w++;
+  } else {
+    hStat.d++;
+    aStat.d++;
+  }
+
+  teamStats.set(hName, hStat);
+  teamStats.set(aName, aStat);
+}
+
+const standings: GroupStanding[] = [...groupTeams.entries()]
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([grp, teams]) => {
+    const rows: Standing[] = [...teams].map((name) => {
+      const s = teamStats.get(name) ?? { w: 0, d: 0, l: 0, gf: 0, ga: 0 };
+      const played = s.w + s.d + s.l;
+      const points = s.w * 3 + s.d;
+      const gd = s.gf - s.ga;
+      return {
+        position: 0, // will be set after sort
+        team: ref(name),
+        played,
+        wins: s.w,
+        draws: s.d,
+        losses: s.l,
+        gf: s.gf,
+        ga: s.ga,
+        gd,
+        points,
+        advanced: false, // group stage in progress
+      };
+    });
+
+    // Sort: points desc, gd desc, gf desc
+    rows.sort((a, b) => b.points - a.points || b.gd - a.gd || b.gf - a.gf);
+    rows.forEach((r, i) => {
+      r.position = i + 1;
+    });
+
+    return { group: grp, rows };
+  });
 
 async function main() {
   await mkdir("data/generated/2026", { recursive: true });
+
   await writeFile(
     "data/generated/2026/tournament.json",
     JSON.stringify({ year: 2026, id: "WC-2026", name: "2026 FIFA 월드컵", host: "미국·캐나다·멕시코", asOf: ASOF }, null, 2),
   );
   await writeFile("data/generated/2026/matches.json", JSON.stringify(matches, null, 2));
   await writeFile("data/generated/2026/standings.json", JSON.stringify(standings, null, 2));
-  console.log(`2026 snapshot (${ASOF}): ${matches.length} played matches, ${standings.length} groups, ${Object.keys(codeOf).length} teams`);
+  await writeFile("data/generated/2026/venues.json", JSON.stringify(VENUES_2026, null, 2));
+
+  const finished = matches.filter((m) => m.status === "finished").length;
+  const groupCount = standings.length;
+  const venueCount = VENUES_2026.length;
+
+  console.log(`2026 snapshot (${ASOF}): ${matches.length} matches, ${finished} finished, ${groupCount} groups, ${venueCount} venues`);
 }
 
 main().catch((e) => {
