@@ -9,7 +9,7 @@ export default async function Watch2026Page() {
 
   return (
     <main className="mx-auto max-w-3xl p-6">
-      <Nav />
+      <Nav active="중계" />
       <div className="flex items-start flex-wrap gap-3 mb-6 mt-6">
         <div>
           <h1

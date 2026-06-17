@@ -38,6 +38,7 @@ export default async function MatchPage({
 
   const cards = await getPlayerCards(Number(year));
   const colors = resolveMatchColors(m.home.name, m.away.name);
+  const hasLineups = m.lineups.home.length > 0 || m.lineups.away.length > 0;
 
   return (
     <main className="mx-auto max-w-4xl p-6">
@@ -86,58 +87,66 @@ export default async function MatchPage({
         </section>
       )}
 
-      <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
-        <div className="flex flex-col">
-          <h2 className="font-display text-xl mb-2">
-            {m.home.nameKo} <span className="text-muted text-sm font-normal">{`(${m.home.name})`}</span>
-          </h2>
-          <MatchPitch players={m.lineups.home} side="home" color={colors.home} cards={cards} />
-        </div>
-        <div className="flex flex-col">
-          <h2 className="font-display text-xl mb-2">
-            {m.away.nameKo} <span className="text-muted text-sm font-normal">{`(${m.away.name})`}</span>
-          </h2>
-          <MatchPitch players={m.lineups.away} side="away" color={colors.away} cards={cards} />
-        </div>
-      </div>
-
-      <h3 className="font-display text-lg mt-8 mb-3" style={{ transform: "skewX(-6deg)" }}>
-        교체 투입
-      </h3>
-      <div className="grid gap-6 sm:grid-cols-2">
-        {[
-          { team: m.home, color: colors.home },
-          { team: m.away, color: colors.away },
-        ].map(({ team, color }) => {
-          const subs = m.subs.filter((s) => s.teamId === team.id).sort((a, b) => a.minute - b.minute);
-          return (
-            <div key={team.id}>
-              <h4 className="font-display mb-2 text-base text-muted">{team.nameKo}</h4>
-              {subs.length ? (
-                <div className="flex flex-col gap-2">
-                  {subs.map((s, i) => {
-                    const on = cards[s.onId];
-                    const off = cards[s.offId];
-                    if (!on) return null;
-                    const half = s.minute <= 45 ? "전반" : "후반";
-                    return (
-                      <div key={i}>
-                        <PlayerChip card={on} color={color} />
-                        <div className="mt-0.5 pl-1 text-[11px] text-muted">
-                          {s.minute}&#39; {half}
-                          {off ? ` · ${off.nameKo} 아웃` : ""}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              ) : (
-                <p className="text-sm text-muted">교체 없음</p>
-              )}
+      {hasLineups ? (
+        <>
+          <div className="mt-6 grid items-stretch gap-4 md:grid-cols-2">
+            <div className="flex flex-col">
+              <h2 className="font-display text-xl mb-2">
+                {m.home.nameKo} <span className="text-muted text-sm font-normal">{`(${m.home.name})`}</span>
+              </h2>
+              <MatchPitch players={m.lineups.home} side="home" color={colors.home} cards={cards} />
             </div>
-          );
-        })}
-      </div>
+            <div className="flex flex-col">
+              <h2 className="font-display text-xl mb-2">
+                {m.away.nameKo} <span className="text-muted text-sm font-normal">{`(${m.away.name})`}</span>
+              </h2>
+              <MatchPitch players={m.lineups.away} side="away" color={colors.away} cards={cards} />
+            </div>
+          </div>
+
+          <h3 className="font-display text-lg mt-8 mb-3" style={{ transform: "skewX(-6deg)" }}>
+            교체 투입
+          </h3>
+          <div className="grid gap-6 sm:grid-cols-2">
+            {[
+              { team: m.home, color: colors.home },
+              { team: m.away, color: colors.away },
+            ].map(({ team, color }) => {
+              const subs = m.subs.filter((s) => s.teamId === team.id).sort((a, b) => a.minute - b.minute);
+              return (
+                <div key={team.id}>
+                  <h4 className="font-display mb-2 text-base text-muted">{team.nameKo}</h4>
+                  {subs.length ? (
+                    <div className="flex flex-col gap-2">
+                      {subs.map((s, i) => {
+                        const on = cards[s.onId];
+                        const off = cards[s.offId];
+                        if (!on) return null;
+                        const half = s.minute <= 45 ? "전반" : "후반";
+                        return (
+                          <div key={i}>
+                            <PlayerChip card={on} color={color} />
+                            <div className="mt-0.5 pl-1 text-[11px] text-muted">
+                              {s.minute}&#39; {half}
+                              {off ? ` · ${off.nameKo} 아웃` : ""}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <p className="text-sm text-muted">교체 없음</p>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </>
+      ) : (
+        <div className="mt-6 rounded-lg border border-line bg-panel/40 p-5 text-sm text-muted">
+          이 경기는 결과만 기록되어 있습니다. 라인업·교체 등 상세 기록은 제공되지 않습니다.
+        </div>
+      )}
     </main>
   );
 }

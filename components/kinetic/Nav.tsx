@@ -4,6 +4,7 @@ const LINKS = [
   { label: "2026", href: "/world-cup/2026" },
   { label: "일정", href: "/world-cup/2026/schedule" },
   { label: "대한민국", href: "/world-cup/2026/korea" },
+  { label: "중계", href: "/world-cup/2026/watch" },
   { label: "아카이브", href: "/archive" },
   { label: "검색", href: "/search" },
   { label: "출처", href: "/sources" },
