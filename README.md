@@ -1,62 +1,108 @@
-# ⚽ 월드컵 아카이브 (World Cup Archive)
+# ⚽ 월드컵 아카이브 + 2026 라이브 허브
 
-역대 FIFA 월드컵을 **경기 · 선수 · 기록**으로 탐험하는 한국어 인터랙티브 아카이브.
-조별리그 순위부터 녹아웃 대진, 경기별 선발 라인업·교체·득점·승부차기, 선수 개인 페이지까지 한 곳에서 본다.
+**2026 월드컵을 정직한 현황으로 보고, 끝나면 그대로 역사 아카이브가 되는 한국어 월드컵 데이터 사이트.**
 
-현재 **2002 한·일** 월드컵과 **2006 독일** 월드컵이 라이브.
+진행 중인 **2026 북중미** 월드컵(일정·조 순위·대한민국·중계)을 메인에 두고, **2002–2022 역대 7개 대회**를 경기·선수·기록으로 깊게 탐험한다.
 
 ```
 정적 사이트(SSG) · 런타임 DB 없음 · 데이터는 빌드 시 JSON으로 구워 커밋
+라이브 데이터 피드/채팅/백엔드 없음 — 2026은 "N월N일 기준" 수동 스냅샷(추측 금지)
 ```
 
 ---
 
 ## 화면
 
-### 메인 — 대회 선택
-역대 대회를 엠블럼 그리드로. 데이터가 준비된 대회만 "탐험" 활성화.
+### 메인 — 2026 현황 허브
+오늘·다가오는 경기(KST), 대한민국 다음 경기, 그리고 하단에 역대 대회 아카이브.
 
-![메인 화면](docs/screenshots/01-home.png)
+![메인 — 2026 허브](docs/screenshots/r-home.png)
 
-### 대회 페이지 — 조별 순위 + 최종 순위
-8개 조 순위 보드와 우승~조별탈락까지 정렬된 최종 순위표.
+### 대한민국 트래커
+현재 순위·다음 경기 카운트다운·경기 일정(완료/예정)·**진출 시나리오 계산**·중계 링크.
 
-![2002 대회 페이지](docs/screenshots/02-tournament-2002.png)
+![대한민국 트래커](docs/screenshots/r-korea.png)
 
-### 토너먼트 대진표
-16강 → 8강 → 4강 → 3·4위전 → 결승. 국가별 대표 색 바, 승부차기 스코어 표기.
+### 전체 일정 (KST)
+한국시간 기준 날짜별·매치데이·조별·대한민국 필터. 진행 경기는 스코어, 미진행은 "예정".
 
-![2002 토너먼트](docs/screenshots/03-bracket-2002.png)
+![2026 일정](docs/screenshots/r-schedule.png)
 
-### 경기 페이지 — 라인업 · 교체 · 승부차기
-양 팀 포메이션을 피치 위에 배치(국가색 구분), 득점·교체 시간, 승부차기는 키커별 성공/실패까지.
+### 경기 페이지 — 예정 / 완료 분기
+예정 경기는 킥오프(KST)·경기장·"라인업 공개 전"·조별 순위 영향·중계 링크. 완료 경기는 라인업·득점·교체·승부차기.
 
-![스페인 vs 대한민국 8강 (승부차기)](docs/screenshots/04-match-shootout.png)
+![예정 경기 (멕시코 vs 대한민국)](docs/screenshots/r-match-scheduled.png)
+![완료 경기 — 승부차기 (스페인 vs 대한민국 2002 8강)](docs/screenshots/r-match-shootout.png)
 
-### 국가 페이지 — 전적 · 경기 · 스쿼드
-승·무·패·승점·득실, 라운드별 경기(나라 왼쪽 / 점수 오른쪽 정렬), 사진이 들어간 스쿼드.
+### 3위 와일드카드 경쟁
+12개 조 3위 중 상위 8팀이 32강 진출 — 진출권/탈락권 경계 표시.
 
-![대한민국 국가 페이지](docs/screenshots/05-team-korea.png)
+![3위 경쟁표](docs/screenshots/r-thirdplace.png)
 
-### 선수 페이지 — 여러 대회 통합
-한 선수의 출전을 **대회별로 묶어** 표시. 사진·포지션·통산 기록, 대회마다 다른 라운드 라벨.
+### 경기장 · 도시
+16개 경기장. FIFA 대회 명칭 / 실제 경기장명 분리, 한국과의 시차.
 
-![박지성 선수 페이지](docs/screenshots/06-player-park.png)
+![경기장](docs/screenshots/r-venues.png)
 
-> 카드를 호버하면 미리보기, 클릭하면 사진·생년월일·키·소속팀 이력이 담긴 모달이 뜬다.
+### 중계 허브 · 역대 아카이브 · 선수 페이지
+
+![중계 허브](docs/screenshots/r-watch.png)
+![역대 아카이브](docs/screenshots/r-archive.png)
+![박지성 선수 페이지 (여러 대회 통합)](docs/screenshots/r-player.png)
+
+> 선수 카드는 호버 시 미리보기, 클릭 시 사진·생년월일·키·소속팀 이력 모달.
 
 ---
 
 ## 주요 기능
 
-- **조별리그 → 녹아웃 전 과정**: 순위표, 대진표, 최종 순위(우승/준우승/3위/4위/8강/16강/조별리그).
-- **경기별 풀 라인업**: 모든 경기의 선발 11명 + 교체 명단(시간·교체 대상 포함). *누락 0경기.*
-- **승부차기 상세**: 키커 순서·성공/실패·득점 스코어.
-- **선수 카탈로그**: 통합 선수 페이지 + 호버 미리보기 + 상세 모달(사진/생년월일/키/소속팀 이력/약력).
-- **한국어 우선**: 국가명(`독일`)·포지션(`골키퍼`/`미드필더`)·라운드(`16강`/`8강`/`4강`)·조(`D조`) 전부 한글. 영문명도 병기.
-- **국가별 대표 색**: 32개국 킷 컬러로 대진·라인업 시각 구분, 색 충돌 시 대비색 fallback.
-- **다년도 검색**: 선수·국가·경기 통합 검색.
-- **모션 디자인**: 다크 테마 + 키네틱 슬라이드/스큐 모션, `prefers-reduced-motion` 대응.
+**2026 (진행 중 · 스냅샷)**
+- 2026 현황 메인 허브 + KST 전체 일정(매치데이/조/대한민국 필터)
+- 대한민국 트래커 — 순위·카운트다운·**진출 시나리오 계산(순수함수)**
+- 3위 와일드카드 경쟁표(48팀·12조·상위 3위 8팀 진출)
+- 경기장/도시(FIFA·실제명, 시차), 중계 링크 허브(네이버·치지직·JTBC·KBS·FIFA)
+- 경기 상태 분기: `예정`("라인업 공개 전") / `완료`. **추측 데이터 0 — 미진행 경기는 스코어 없음, 라인업 비움**
+
+**아카이브 (2002–2022 · 완결)**
+- 조별리그 → 녹아웃 전 과정: 순위표, 대진표, 최종 순위
+- 경기별 풀 라인업(선발 11 + 교체, 시간·대상) — *누락 0경기*, 승부차기 키커별 성공/실패
+- 통합 선수 페이지(여러 대회 합산) + 호버 미리보기 + 상세 모달
+- 한글 우선: 국가명·포지션(`골키퍼`/`미드필더`)·라운드(`16강`/`8강`/`4강`)·조(`D조`), 영문 병기
+- 국가별 킷 컬러, 다년도 통합 검색, 다크+키네틱 모션(`prefers-reduced-motion` 대응)
+
+---
+
+## 정보 구조 (라우트)
+
+```
+/                            2026 현황 허브 + 하단 역대 아카이브
+/archive                     역대 7개 대회 선택 그리드
+/world-cup/2026              2026 대회 메인(조 순위 · 진행 중)
+/world-cup/2026/schedule     전체 일정 (KST)
+/world-cup/2026/korea        대한민국 트래커 + 진출 시나리오
+/world-cup/2026/third-place  3위 와일드카드 경쟁
+/world-cup/2026/venues       경기장 · 도시
+/world-cup/2026/watch        중계 링크 허브
+/world-cup/[year]            역대 대회(조 보드 + 최종 순위)
+/world-cup/[year]/bracket    토너먼트 대진표
+/world-cup/[year]/groups/[group], /matches/[slug], /teams/[slug]
+/players/[slug]              선수 통합 페이지   /search   /sources
+```
+
+상단 네비: `2026 · 일정 · 대한민국 · 아카이브 · 검색 · 출처`.
+
+---
+
+## 2026 데이터 — 정직성 원칙
+
+2026은 FIFA가 진행 중인 대회라 데이터 소스(Fjelstul DB)에 없다. 공개 자료(Wikipedia 조별 페이지)에서 **수동 스냅샷**으로 수집한다.
+
+- **조별 72경기**(팀·KST 킥오프·경기장) 수록. 진행 경기만 `완료`+스코어, 나머지는 `예정`.
+- 녹아웃(32강~)은 **대진 미확정**이라 보류(추측 금지) — 팀 확정 후 추가.
+- **라인업/스코어를 지어내지 않는다.** 검증 가능한 결과만 반영, `asOf`로 기준일 명시.
+- 갱신: `scripts/fixtures-2026.ts`의 결과를 새 데이터로 바꿔 `npx tsx scripts/build-2026.ts` 재실행.
+
+라이브 스코어 자동 갱신·실시간 채팅·백엔드는 **의도적으로 도입하지 않음**(정적 정체성 유지).
 
 ---
 
@@ -64,22 +110,22 @@
 
 | 용도 | 출처 | 라이선스 |
 |---|---|---|
-| 경기/라인업/순위 (척추 데이터) | [Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup) | CC BY-SA 4.0 |
+| 경기/라인업/순위 (척추, 2002–2022) | [Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup) | CC BY-SA 4.0 |
+| 2026 일정·결과 스냅샷 | Wikipedia (per-group) | 사실 자료(저작권 비대상) |
 | 스코어·순위 교차검증 | [openfootball/worldcup.more](https://github.com/openfootball/worldcup.more) | CC0 |
-| 한글 표기·약력 보강 | Wikipedia / Wikidata | 사실 자료(저작권 비대상) |
+| 한글 표기·약력 | Wikipedia / Wikidata | 사실 자료 |
 | 선수 사진 | [Wikimedia Commons](https://commons.wikimedia.org) | 이미지별 자유 라이선스(CC BY/BY-SA/CC0/PD), 저작자 표기 |
 
-> 가공 데이터셋은 원본을 따라 **CC BY-SA 4.0**으로 제공. 대회 엠블럼의 모든 권리는 FIFA에 있으며 비영리·식별 목적 표시. 사진은 자유 라이선스만 사용하고 저작자는 각 선수 카드와 `/sources`에 표기.
+> 가공 데이터셋은 원본을 따라 **CC BY-SA 4.0**. 대회 엠블럼 권리는 FIFA에 있으며 비영리·식별 목적 표시. 중계는 외부 공식 링크만(영상 임베드 없음).
 
 ---
 
 ## 기술 스택
 
-- **Next.js 16** (App Router, Turbopack, SSG `generateStaticParams`)
-- **React 19** · **TypeScript**
+- **Next.js 16** (App Router, Turbopack, SSG `generateStaticParams`) · **React 19** · **TypeScript**
 - **Tailwind CSS v4** (CSS-first `@theme`)
-- **Vitest** (순수 함수 TDD) · **tsx** (데이터 스크립트)
-- 런타임 DB 없음 — 데이터는 `data/generated/<연도>/*.json`으로 빌드 시 구워 커밋.
+- **Vitest** (순수 함수 TDD — KST 변환·진출 시나리오·3위 랭킹) · **tsx** (데이터 스크립트)
+- 런타임 DB 없음 — 데이터는 `data/generated/<연도>/*.json`으로 빌드 시 구워 커밋
 
 ---
 
@@ -88,37 +134,35 @@
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-```
-
-```bash
-npm run build    # 정적 빌드 (2002 + 2006 전 페이지 prerender)
+npm run build    # 정적 빌드 (7개 대회 전 페이지 prerender)
 npm test         # vitest
 ```
 
 ## 데이터 파이프라인
 
 ```bash
-npm run data:build         # 2002: fetch → generate → validate
-npm run data:build:2006    # 2006 동일
+# 아카이브 연도 (Fjelstul): fetch → generate → validate
+npm run data:build            # 2002
+npm run data:build:2006       # 2006 (다른 연도는 인자로)
+npx tsx scripts/fetch-fjelstul.ts 2010
+npx tsx scripts/generate.ts 2010
+npx tsx scripts/validate.ts 2010
+npx tsx scripts/enrich-players.ts 2010   # Wikidata/Commons 사진·약력
+npx tsx scripts/missing-teams.ts 2010    # 한글명/킷 컬러 누락 국가 점검
 
-# 개별 단계 (연도 인자, 기본 2002)
-npx tsx scripts/fetch-fjelstul.ts 2006   # Fjelstul에서 해당 대회 추출
-npx tsx scripts/generate.ts 2006         # matches/standings/tournament JSON 생성
-npx tsx scripts/validate.ts 2006         # 64경기·선발 11명·정답지 게이트
-npx tsx scripts/enrich-players.ts 2006   # Wikidata/Commons 사진·약력 (ENRICH_LIMIT로 상한)
+# 2026 (라이브 스냅샷)
+npx tsx scripts/build-2026.ts            # fixtures-2026.ts → matches/standings/venues
+npx tsx scripts/validate.ts 2026         # 72경기·킥오프·경기장·진행경기 스코어 게이트
 ```
 
 `data/raw/`는 `.gitignore`(원본 CSV·캐시). `data/generated/`·`public/players/*.jpg`는 커밋.
 
-### 새 대회 연도 추가
-
-1. `scripts/generate.ts`의 `HOST`, `scripts/validate.ts`의 `TRUTH`에 해당 연도 추가
-2. `data:build:<연도>` 실행 → `enrich-players.ts <연도>`
-3. 신규 출전국이 있으면 `lib/teamColors.ts`에 한글명·킷 컬러 추가 후 `generate` 재실행
-4. `lib/tournaments.ts`에서 `available: true` — 나머지 라우트/검색/선수 페이지가 자동 반영
+### 새 아카이브 연도 추가
+`scripts/generate.ts` HOST + (선택)`validate.ts` TRUTH → `data:build` → `enrich-players` → 신규국 `lib/teamColors.ts` 한글명·색 추가 후 재생성 → `lib/tournaments.ts`에 `status` 등록.
 
 ---
 
-## 배포
+## CI / 배포
 
-정적 빌드라 **Vercel** 또는 개인 서버(Docker + Caddy) 모두 가능. 자세한 설정은 [`docs/DEPLOY.md`](docs/DEPLOY.md).
+- **GitHub Actions** (`.github/workflows/ci.yml`): `npm ci` → lint(비차단) → `tsc` → `vitest` → `validate`(7개년) → `build`.
+- 정적 빌드라 **Vercel** 또는 개인 서버(Docker + Caddy) 모두 가능 — [`docs/DEPLOY.md`](docs/DEPLOY.md).
