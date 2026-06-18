@@ -2216,7 +2216,7 @@
   {
     "id": "M-2026-55",
     "slug": "argentina-vs-algeria",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-17",
     "time": "",
     "kickoffUtc": "2026-06-17T01:00:00Z",
@@ -2239,12 +2239,12 @@
       "code": "ALG",
       "nameKo": "알제리"
     },
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -2257,7 +2257,7 @@
   {
     "id": "M-2026-56",
     "slug": "austria-vs-jordan",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-17",
     "time": "",
     "kickoffUtc": "2026-06-17T04:00:00Z",
@@ -2280,12 +2280,12 @@
       "code": "JOR",
       "nameKo": "요르단"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -2462,7 +2462,7 @@
   {
     "id": "M-2026-61",
     "slug": "portugal-vs-dr-congo",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-18",
     "time": "",
     "kickoffUtc": "2026-06-17T17:00:00Z",
@@ -2485,8 +2485,8 @@
       "code": "COD",
       "nameKo": "콩고민주공화국"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
@@ -2708,7 +2708,7 @@
   {
     "id": "M-2026-67",
     "slug": "england-vs-croatia",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-18",
     "time": "",
     "kickoffUtc": "2026-06-17T20:00:00Z",
@@ -2731,12 +2731,12 @@
       "code": "CRO",
       "nameKo": "크로아티아"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 4,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -2749,7 +2749,7 @@
   {
     "id": "M-2026-68",
     "slug": "ghana-vs-panama",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-18",
     "time": "",
     "kickoffUtc": "2026-06-17T23:00:00Z",
@@ -2772,12 +2772,12 @@
       "code": "PAN",
       "nameKo": "파나마"
     },
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []

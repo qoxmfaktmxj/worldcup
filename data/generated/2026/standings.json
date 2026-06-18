@@ -703,67 +703,67 @@
           "code": "ARG",
           "nameKo": "아르헨티나"
         },
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "gf": 0,
+        "gf": 3,
         "ga": 0,
-        "gd": 0,
-        "points": 0,
+        "gd": 3,
+        "points": 3,
         "advanced": false
       },
       {
         "position": 2,
-        "team": {
-          "id": "T-ALG",
-          "name": "Algeria",
-          "code": "ALG",
-          "nameKo": "알제리"
-        },
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
-        "advanced": false
-      },
-      {
-        "position": 3,
         "team": {
           "id": "T-AUT",
           "name": "Austria",
           "code": "AUT",
           "nameKo": "오스트리아"
         },
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "points": 3,
         "advanced": false
       },
       {
-        "position": 4,
+        "position": 3,
         "team": {
           "id": "T-JOR",
           "name": "Jordan",
           "code": "JOR",
           "nameKo": "요르단"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-ALG",
+          "name": "Algeria",
+          "code": "ALG",
+          "nameKo": "알제리"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
         "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "ga": 3,
+        "gd": -3,
         "points": 0,
         "advanced": false
       }
@@ -780,14 +780,14 @@
           "code": "POR",
           "nameKo": "포르투갈"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0,
+        "points": 1,
         "advanced": false
       },
       {
@@ -798,14 +798,14 @@
           "code": "COD",
           "nameKo": "콩고민주공화국"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0,
+        "points": 1,
         "advanced": false
       },
       {
@@ -857,67 +857,67 @@
           "code": "ENG",
           "nameKo": "잉글랜드"
         },
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 3,
         "advanced": false
       },
       {
         "position": 2,
-        "team": {
-          "id": "T-CRO",
-          "name": "Croatia",
-          "code": "CRO",
-          "nameKo": "크로아티아"
-        },
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0,
-        "advanced": false
-      },
-      {
-        "position": 3,
         "team": {
           "id": "T-GHA",
           "name": "Ghana",
           "code": "GHA",
           "nameKo": "가나"
         },
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "gf": 0,
+        "gf": 1,
         "ga": 0,
-        "gd": 0,
-        "points": 0,
+        "gd": 1,
+        "points": 3,
         "advanced": false
       },
       {
-        "position": 4,
+        "position": 3,
         "team": {
           "id": "T-PAN",
           "name": "Panama",
           "code": "PAN",
           "nameKo": "파나마"
         },
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "ga": 1,
+        "gd": -1,
+        "points": 0,
+        "advanced": false
+      },
+      {
+        "position": 4,
+        "team": {
+          "id": "T-CRO",
+          "name": "Croatia",
+          "code": "CRO",
+          "nameKo": "크로아티아"
+        },
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
         "points": 0,
         "advanced": false
       }

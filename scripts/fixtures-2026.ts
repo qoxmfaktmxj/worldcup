@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * Wikipedia per-group match tables, asOf 2026-06-17). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-06-18). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -113,22 +113,22 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["I", "2026-06-26T19:00:00Z", "Norway", "France", null, null, "foxborough"],
   ["I", "2026-06-26T19:00:00Z", "Senegal", "Iraq", null, null, "toronto"],
   // Group J
-  ["J", "2026-06-17T01:00:00Z", "Argentina", "Algeria", null, null, "kansascity"],
-  ["J", "2026-06-17T04:00:00Z", "Austria", "Jordan", null, null, "santaclara"],
+  ["J", "2026-06-17T01:00:00Z", "Argentina", "Algeria", 3, 0, "kansascity"],
+  ["J", "2026-06-17T04:00:00Z", "Austria", "Jordan", 3, 1, "santaclara"],
   ["J", "2026-06-22T17:00:00Z", "Argentina", "Austria", null, null, "arlington"],
   ["J", "2026-06-23T03:00:00Z", "Jordan", "Algeria", null, null, "santaclara"],
   ["J", "2026-06-28T02:00:00Z", "Algeria", "Austria", null, null, "kansascity"],
   ["J", "2026-06-28T02:00:00Z", "Jordan", "Argentina", null, null, "arlington"],
   // Group K
-  ["K", "2026-06-17T17:00:00Z", "Portugal", "DR Congo", null, null, "houston"],
+  ["K", "2026-06-17T17:00:00Z", "Portugal", "DR Congo", 1, 1, "houston"],
   ["K", "2026-06-18T02:00:00Z", "Uzbekistan", "Colombia", null, null, "azteca"],
   ["K", "2026-06-23T17:00:00Z", "Portugal", "Uzbekistan", null, null, "houston"],
   ["K", "2026-06-24T02:00:00Z", "Colombia", "DR Congo", null, null, "akron"],
   ["K", "2026-06-27T23:30:00Z", "Colombia", "Portugal", null, null, "miami"],
   ["K", "2026-06-27T23:30:00Z", "DR Congo", "Uzbekistan", null, null, "atlanta"],
   // Group L
-  ["L", "2026-06-17T20:00:00Z", "England", "Croatia", null, null, "arlington"],
-  ["L", "2026-06-17T23:00:00Z", "Ghana", "Panama", null, null, "toronto"],
+  ["L", "2026-06-17T20:00:00Z", "England", "Croatia", 4, 2, "arlington"],
+  ["L", "2026-06-17T23:00:00Z", "Ghana", "Panama", 1, 0, "toronto"],
   ["L", "2026-06-23T20:00:00Z", "England", "Ghana", null, null, "foxborough"],
   ["L", "2026-06-23T23:00:00Z", "Panama", "Croatia", null, null, "toronto"],
   ["L", "2026-06-27T21:00:00Z", "Panama", "England", null, null, "eastrutherford"],
