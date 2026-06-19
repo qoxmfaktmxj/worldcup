@@ -52,15 +52,15 @@ export const FIXTURES_2026: FixtureTuple[] = [
   // Group A
   ["A", "2026-06-11T19:00:00Z", "Mexico", "South Africa", 2, 0, "azteca"],
   ["A", "2026-06-12T02:00:00Z", "South Korea", "Czech Republic", 2, 1, "akron"],
-  ["A", "2026-06-18T16:00:00Z", "Czech Republic", "South Africa", null, null, "atlanta"],
+  ["A", "2026-06-18T16:00:00Z", "Czech Republic", "South Africa", 1, 1, "atlanta"],
   ["A", "2026-06-19T01:00:00Z", "Mexico", "South Korea", null, null, "akron"],
   ["A", "2026-06-25T01:00:00Z", "Czech Republic", "Mexico", null, null, "azteca"],
   ["A", "2026-06-25T01:00:00Z", "South Africa", "South Korea", null, null, "bbva"],
   // Group B
   ["B", "2026-06-12T19:00:00Z", "Canada", "Bosnia and Herzegovina", 1, 1, "toronto"],
   ["B", "2026-06-13T19:00:00Z", "Qatar", "Switzerland", 1, 1, "santaclara"],
-  ["B", "2026-06-18T19:00:00Z", "Switzerland", "Bosnia and Herzegovina", null, null, "inglewood"],
-  ["B", "2026-06-18T22:00:00Z", "Canada", "Qatar", null, null, "vancouver"],
+  ["B", "2026-06-18T19:00:00Z", "Switzerland", "Bosnia and Herzegovina", 4, 1, "inglewood"],
+  ["B", "2026-06-18T22:00:00Z", "Canada", "Qatar", 6, 0, "vancouver"],
   ["B", "2026-06-24T19:00:00Z", "Switzerland", "Canada", null, null, "vancouver"],
   ["B", "2026-06-24T19:00:00Z", "Bosnia and Herzegovina", "Qatar", null, null, "seattle"],
   // Group C
@@ -121,7 +121,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["J", "2026-06-28T02:00:00Z", "Jordan", "Argentina", null, null, "arlington"],
   // Group K
   ["K", "2026-06-17T17:00:00Z", "Portugal", "DR Congo", 1, 1, "houston"],
-  ["K", "2026-06-18T02:00:00Z", "Uzbekistan", "Colombia", null, null, "azteca"],
+  ["K", "2026-06-18T02:00:00Z", "Uzbekistan", "Colombia", 1, 3, "azteca"],
   ["K", "2026-06-23T17:00:00Z", "Portugal", "Uzbekistan", null, null, "houston"],
   ["K", "2026-06-24T02:00:00Z", "Colombia", "DR Congo", null, null, "akron"],
   ["K", "2026-06-27T23:30:00Z", "Colombia", "Portugal", null, null, "miami"],
