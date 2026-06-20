@@ -10,14 +10,14 @@
           "code": "MEX",
           "nameKo": "멕시코"
         },
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "gd": 2,
-        "points": 3,
+        "gd": 3,
+        "points": 6,
         "advanced": false
       },
       {
@@ -28,13 +28,13 @@
           "code": "KOR",
           "nameKo": "대한민국"
         },
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "ga": 2,
+        "gd": 0,
         "points": 3,
         "advanced": false
       },

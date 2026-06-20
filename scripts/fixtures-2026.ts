@@ -53,7 +53,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["A", "2026-06-11T19:00:00Z", "Mexico", "South Africa", 2, 0, "azteca"],
   ["A", "2026-06-12T02:00:00Z", "South Korea", "Czech Republic", 2, 1, "akron"],
   ["A", "2026-06-18T16:00:00Z", "Czech Republic", "South Africa", 1, 1, "atlanta"],
-  ["A", "2026-06-19T01:00:00Z", "Mexico", "South Korea", null, null, "akron"],
+  ["A", "2026-06-19T01:00:00Z", "Mexico", "South Korea", 1, 0, "akron"],
   ["A", "2026-06-25T01:00:00Z", "Czech Republic", "Mexico", null, null, "azteca"],
   ["A", "2026-06-25T01:00:00Z", "South Africa", "South Korea", null, null, "bbva"],
   // Group B

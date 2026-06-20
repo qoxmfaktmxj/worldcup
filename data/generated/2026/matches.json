@@ -125,7 +125,7 @@
   {
     "id": "M-2026-04",
     "slug": "mexico-vs-south-korea",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-19",
     "time": "",
     "kickoffUtc": "2026-06-19T01:00:00Z",
@@ -148,12 +148,12 @@
       "code": "KOR",
       "nameKo": "대한민국"
     },
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
