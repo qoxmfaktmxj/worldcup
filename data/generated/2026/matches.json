@@ -576,7 +576,7 @@
   {
     "id": "M-2026-15",
     "slug": "scotland-vs-morocco",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-20",
     "time": "",
     "kickoffUtc": "2026-06-19T22:00:00Z",
@@ -600,11 +600,11 @@
       "nameKo": "모로코"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -617,7 +617,7 @@
   {
     "id": "M-2026-16",
     "slug": "brazil-vs-haiti",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-20",
     "time": "",
     "kickoffUtc": "2026-06-20T00:30:00Z",
@@ -640,12 +640,12 @@
       "code": "HAI",
       "nameKo": "아이티"
     },
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -822,7 +822,7 @@
   {
     "id": "M-2026-21",
     "slug": "united-states-vs-australia",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-20",
     "time": "",
     "kickoffUtc": "2026-06-19T19:00:00Z",
@@ -845,12 +845,12 @@
       "code": "AUS",
       "nameKo": "호주"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -863,7 +863,7 @@
   {
     "id": "M-2026-22",
     "slug": "turkey-vs-paraguay",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-20",
     "time": "",
     "kickoffUtc": "2026-06-20T03:00:00Z",
@@ -887,11 +887,11 @@
       "nameKo": "파라과이"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -1068,7 +1068,7 @@
   {
     "id": "M-2026-27",
     "slug": "germany-vs-ivory-coast",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-21",
     "time": "",
     "kickoffUtc": "2026-06-20T20:00:00Z",
@@ -1091,12 +1091,12 @@
       "code": "CIV",
       "nameKo": "코트디부아르"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -1314,7 +1314,7 @@
   {
     "id": "M-2026-33",
     "slug": "netherlands-vs-sweden",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-21",
     "time": "",
     "kickoffUtc": "2026-06-20T17:00:00Z",
@@ -1337,12 +1337,12 @@
       "code": "SWE",
       "nameKo": "스웨덴"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 5,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
