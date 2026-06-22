@@ -567,14 +567,14 @@
           "code": "URU",
           "nameKo": "우루과이"
         },
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "gf": 1,
-        "ga": 1,
+        "gf": 3,
+        "ga": 3,
         "gd": 0,
-        "points": 1,
+        "points": 2,
         "advanced": false
       },
       {
@@ -585,14 +585,14 @@
           "code": "CPV",
           "nameKo": "카보베르데"
         },
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 2,
+        "ga": 2,
         "gd": 0,
-        "points": 1,
+        "points": 2,
         "advanced": false
       },
       {
