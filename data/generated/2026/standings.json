@@ -467,6 +467,24 @@
       {
         "position": 1,
         "team": {
+          "id": "T-EGY",
+          "name": "Egypt",
+          "code": "EGY",
+          "nameKo": "이집트"
+        },
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 4,
+        "advanced": false
+      },
+      {
+        "position": 2,
+        "team": {
           "id": "T-IRN",
           "name": "Iran",
           "code": "IRN",
@@ -483,7 +501,7 @@
         "advanced": false
       },
       {
-        "position": 2,
+        "position": 3,
         "team": {
           "id": "T-BEL",
           "name": "Belgium",
@@ -501,38 +519,20 @@
         "advanced": false
       },
       {
-        "position": 3,
+        "position": 4,
         "team": {
           "id": "T-NZL",
           "name": "New Zealand",
           "code": "NZL",
           "nameKo": "뉴질랜드"
         },
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 1,
-        "losses": 0,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "points": 1,
-        "advanced": false
-      },
-      {
-        "position": 4,
-        "team": {
-          "id": "T-EGY",
-          "name": "Egypt",
-          "code": "EGY",
-          "nameKo": "이집트"
-        },
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "losses": 1,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
         "points": 1,
         "advanced": false
       }
@@ -703,14 +703,14 @@
           "code": "ARG",
           "nameKo": "아르헨티나"
         },
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "gf": 3,
+        "gf": 5,
         "ga": 0,
-        "gd": 3,
-        "points": 3,
+        "gd": 5,
+        "points": 6,
         "advanced": false
       },
       {
@@ -721,13 +721,13 @@
           "code": "AUT",
           "nameKo": "오스트리아"
         },
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "gf": 3,
-        "ga": 1,
-        "gd": 2,
+        "ga": 3,
+        "gd": 0,
         "points": 3,
         "advanced": false
       },

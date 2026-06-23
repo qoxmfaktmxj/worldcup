@@ -1601,7 +1601,7 @@
   {
     "id": "M-2026-40",
     "slug": "new-zealand-vs-egypt",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-22",
     "time": "",
     "kickoffUtc": "2026-06-22T01:00:00Z",
@@ -1624,12 +1624,12 @@
       "code": "EGY",
       "nameKo": "이집트"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 3,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -2298,7 +2298,7 @@
   {
     "id": "M-2026-57",
     "slug": "argentina-vs-austria",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-23",
     "time": "",
     "kickoffUtc": "2026-06-22T17:00:00Z",
@@ -2321,12 +2321,12 @@
       "code": "AUT",
       "nameKo": "오스트리아"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []

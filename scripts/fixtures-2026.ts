@@ -95,7 +95,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["G", "2026-06-15T19:00:00Z", "Belgium", "Egypt", 1, 1, "seattle"],
   ["G", "2026-06-16T01:00:00Z", "Iran", "New Zealand", 2, 2, "inglewood"],
   ["G", "2026-06-21T19:00:00Z", "Belgium", "Iran", 0, 0, "inglewood"],
-  ["G", "2026-06-22T01:00:00Z", "New Zealand", "Egypt", null, null, "vancouver"],
+  ["G", "2026-06-22T01:00:00Z", "New Zealand", "Egypt", 1, 3, "vancouver"],
   ["G", "2026-06-27T03:00:00Z", "Egypt", "Iran", null, null, "seattle"],
   ["G", "2026-06-27T03:00:00Z", "New Zealand", "Belgium", null, null, "vancouver"],
   // Group H
@@ -115,7 +115,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
   // Group J
   ["J", "2026-06-17T01:00:00Z", "Argentina", "Algeria", 3, 0, "kansascity"],
   ["J", "2026-06-17T04:00:00Z", "Austria", "Jordan", 3, 1, "santaclara"],
-  ["J", "2026-06-22T17:00:00Z", "Argentina", "Austria", null, null, "arlington"],
+  ["J", "2026-06-22T17:00:00Z", "Argentina", "Austria", 2, 0, "arlington"],
   ["J", "2026-06-23T03:00:00Z", "Jordan", "Algeria", null, null, "santaclara"],
   ["J", "2026-06-28T02:00:00Z", "Algeria", "Austria", null, null, "kansascity"],
   ["J", "2026-06-28T02:00:00Z", "Jordan", "Argentina", null, null, "arlington"],
