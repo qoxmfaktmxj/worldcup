@@ -12,7 +12,7 @@ import { slugify, teamRef } from "../lib/pipeline/transform";
 import { kstDateKey } from "../lib/time";
 import { CODES_2026, FIXTURES_2026, VENUES_2026 } from "./fixtures-2026";
 
-const ASOF = "2026-06-23";
+const ASOF = "2026-06-25";
 
 const ref = (name: string) => teamRef(`T-${CODES_2026[name]}`, name, CODES_2026[name], {});
 

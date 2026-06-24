@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-06-18). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-06-25). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -61,15 +61,15 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["B", "2026-06-13T19:00:00Z", "Qatar", "Switzerland", 1, 1, "santaclara"],
   ["B", "2026-06-18T19:00:00Z", "Switzerland", "Bosnia and Herzegovina", 4, 1, "inglewood"],
   ["B", "2026-06-18T22:00:00Z", "Canada", "Qatar", 6, 0, "vancouver"],
-  ["B", "2026-06-24T19:00:00Z", "Switzerland", "Canada", null, null, "vancouver"],
-  ["B", "2026-06-24T19:00:00Z", "Bosnia and Herzegovina", "Qatar", null, null, "seattle"],
+  ["B", "2026-06-24T19:00:00Z", "Switzerland", "Canada", 2, 1, "vancouver"],
+  ["B", "2026-06-24T19:00:00Z", "Bosnia and Herzegovina", "Qatar", 3, 1, "seattle"],
   // Group C
   ["C", "2026-06-13T22:00:00Z", "Brazil", "Morocco", 1, 1, "eastrutherford"],
   ["C", "2026-06-14T01:00:00Z", "Haiti", "Scotland", 0, 1, "foxborough"],
   ["C", "2026-06-19T22:00:00Z", "Scotland", "Morocco", 0, 1, "foxborough"],
   ["C", "2026-06-20T00:30:00Z", "Brazil", "Haiti", 3, 0, "philadelphia"],
-  ["C", "2026-06-24T22:00:00Z", "Scotland", "Brazil", null, null, "miami"],
-  ["C", "2026-06-24T22:00:00Z", "Morocco", "Haiti", null, null, "atlanta"],
+  ["C", "2026-06-24T22:00:00Z", "Scotland", "Brazil", 0, 3, "miami"],
+  ["C", "2026-06-24T22:00:00Z", "Morocco", "Haiti", 3, 2, "atlanta"],
   // Group D
   ["D", "2026-06-13T01:00:00Z", "United States", "Paraguay", 4, 1, "inglewood"],
   ["D", "2026-06-14T04:00:00Z", "Australia", "Turkey", 2, 0, "vancouver"],
@@ -108,29 +108,29 @@ export const FIXTURES_2026: FixtureTuple[] = [
   // Group I
   ["I", "2026-06-16T19:00:00Z", "France", "Senegal", 3, 1, "eastrutherford"],
   ["I", "2026-06-16T22:00:00Z", "Iraq", "Norway", 1, 4, "foxborough"],
-  ["I", "2026-06-22T21:00:00Z", "France", "Iraq", null, null, "philadelphia"],
-  ["I", "2026-06-23T00:00:00Z", "Norway", "Senegal", null, null, "eastrutherford"],
+  ["I", "2026-06-22T21:00:00Z", "France", "Iraq", 3, 0, "philadelphia"],
+  ["I", "2026-06-23T00:00:00Z", "Norway", "Senegal", 3, 2, "eastrutherford"],
   ["I", "2026-06-26T19:00:00Z", "Norway", "France", null, null, "foxborough"],
   ["I", "2026-06-26T19:00:00Z", "Senegal", "Iraq", null, null, "toronto"],
   // Group J
   ["J", "2026-06-17T01:00:00Z", "Argentina", "Algeria", 3, 0, "kansascity"],
   ["J", "2026-06-17T04:00:00Z", "Austria", "Jordan", 3, 1, "santaclara"],
   ["J", "2026-06-22T17:00:00Z", "Argentina", "Austria", 2, 0, "arlington"],
-  ["J", "2026-06-23T03:00:00Z", "Jordan", "Algeria", null, null, "santaclara"],
+  ["J", "2026-06-23T03:00:00Z", "Jordan", "Algeria", 1, 2, "santaclara"],
   ["J", "2026-06-28T02:00:00Z", "Algeria", "Austria", null, null, "kansascity"],
   ["J", "2026-06-28T02:00:00Z", "Jordan", "Argentina", null, null, "arlington"],
   // Group K
   ["K", "2026-06-17T17:00:00Z", "Portugal", "DR Congo", 1, 1, "houston"],
   ["K", "2026-06-18T02:00:00Z", "Uzbekistan", "Colombia", 1, 3, "azteca"],
-  ["K", "2026-06-23T17:00:00Z", "Portugal", "Uzbekistan", null, null, "houston"],
-  ["K", "2026-06-24T02:00:00Z", "Colombia", "DR Congo", null, null, "akron"],
+  ["K", "2026-06-23T17:00:00Z", "Portugal", "Uzbekistan", 5, 0, "houston"],
+  ["K", "2026-06-24T02:00:00Z", "Colombia", "DR Congo", 1, 0, "akron"],
   ["K", "2026-06-27T23:30:00Z", "Colombia", "Portugal", null, null, "miami"],
   ["K", "2026-06-27T23:30:00Z", "DR Congo", "Uzbekistan", null, null, "atlanta"],
   // Group L
   ["L", "2026-06-17T20:00:00Z", "England", "Croatia", 4, 2, "arlington"],
   ["L", "2026-06-17T23:00:00Z", "Ghana", "Panama", 1, 0, "toronto"],
-  ["L", "2026-06-23T20:00:00Z", "England", "Ghana", null, null, "foxborough"],
-  ["L", "2026-06-23T23:00:00Z", "Panama", "Croatia", null, null, "toronto"],
+  ["L", "2026-06-23T20:00:00Z", "England", "Ghana", 0, 0, "foxborough"],
+  ["L", "2026-06-23T23:00:00Z", "Panama", "Croatia", 0, 1, "toronto"],
   ["L", "2026-06-27T21:00:00Z", "Panama", "England", null, null, "eastrutherford"],
   ["L", "2026-06-27T21:00:00Z", "Croatia", "Ghana", null, null, "philadelphia"],
 ];
