@@ -11,6 +11,7 @@ import type { GroupStanding, Match, Standing, Venue } from "../lib/types";
 import { slugify, teamRef } from "../lib/pipeline/transform";
 import { kstDateKey } from "../lib/time";
 import { CODES_2026, FIXTURES_2026, VENUES_2026 } from "./fixtures-2026";
+import { DETAILS_2026 } from "./match-details-2026";
 
 const ASOF = "2026-06-25";
 
@@ -24,10 +25,14 @@ const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
   const as = finished ? (awayScore as number) : 0;
   const result = finished ? (hs > as ? "win" : hs < as ? "loss" : "draw") : "draw";
   const venue: Venue | undefined = VENUES_2026.find((v) => v.id === venueId);
+  const slug = slugify(`${home} vs ${away}`);
+  // Verified per-match detail (lineups/goals/subs/cards), if collected. Matches
+  // without an entry keep empty detail — a score-only snapshot, nothing fabricated.
+  const detail = DETAILS_2026[slug];
 
   return {
     id: `M-2026-${String(i + 1).padStart(2, "0")}`,
-    slug: slugify(`${home} vs ${away}`),
+    slug,
     status: finished ? ("finished" as const) : ("scheduled" as const),
     date: kstDateKey(kickoffUtc),
     time: "",
@@ -47,10 +52,10 @@ const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
     homePenalties: 0,
     awayPenalties: 0,
     result,
-    lineups: { home: [], away: [] }, // no verified XI for a live tournament — not fabricated
-    goals: [],
-    bookings: [],
-    subs: [],
+    lineups: detail?.lineups ?? { home: [], away: [] }, // empty unless verified detail collected
+    goals: detail?.goals ?? [],
+    bookings: detail?.bookings ?? [],
+    subs: detail?.subs ?? [],
     shootout: [],
   } satisfies Match;
 });

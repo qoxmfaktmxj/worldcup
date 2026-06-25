@@ -73,12 +73,443 @@
     "awayPenalties": 0,
     "result": "win",
     "lineups": {
-      "home": [],
-      "away": []
+      "home": [
+        {
+          "playerId": "P-2026-KOR-1",
+          "familyName": "Kim",
+          "givenName": "Seung-gyu",
+          "nameKo": "김승규",
+          "shirtNumber": 1,
+          "position": "goalkeeper",
+          "positionCode": "GK",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-2",
+          "familyName": "Lee",
+          "givenName": "Han-beom",
+          "nameKo": "이한범",
+          "shirtNumber": 2,
+          "position": "right center back",
+          "positionCode": "RCB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-3",
+          "familyName": "Lee",
+          "givenName": "Gi-hyuk",
+          "nameKo": "이기혁",
+          "shirtNumber": 3,
+          "position": "center back",
+          "positionCode": "CB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-4",
+          "familyName": "Kim",
+          "givenName": "Min-jae",
+          "nameKo": "김민재",
+          "shirtNumber": 4,
+          "position": "left center back",
+          "positionCode": "LCB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-22",
+          "familyName": "Seol",
+          "givenName": "Young-woo",
+          "nameKo": "설영우",
+          "shirtNumber": 22,
+          "position": "right wing back",
+          "positionCode": "RWB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-6",
+          "familyName": "Hwang",
+          "givenName": "In-beom",
+          "nameKo": "황인범",
+          "shirtNumber": 6,
+          "position": "right central midfield",
+          "positionCode": "RCM",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-8",
+          "familyName": "Paik",
+          "givenName": "Seung-ho",
+          "nameKo": "백승호",
+          "shirtNumber": 8,
+          "position": "left central midfield",
+          "positionCode": "LCM",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-13",
+          "familyName": "Lee",
+          "givenName": "Tae-seok",
+          "nameKo": "이태석",
+          "shirtNumber": 13,
+          "position": "left wing back",
+          "positionCode": "LWB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-19",
+          "familyName": "Lee",
+          "givenName": "Kang-in",
+          "nameKo": "이강인",
+          "shirtNumber": 19,
+          "position": "right forward",
+          "positionCode": "RF",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-10",
+          "familyName": "Lee",
+          "givenName": "Jae-sung",
+          "nameKo": "이재성",
+          "shirtNumber": 10,
+          "position": "second striker",
+          "positionCode": "SS",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-7",
+          "familyName": "Son",
+          "givenName": "Heung-min",
+          "nameKo": "손흥민",
+          "shirtNumber": 7,
+          "position": "striker",
+          "positionCode": "ST",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-KOR-11",
+          "familyName": "Hwang",
+          "givenName": "Hee-chan",
+          "nameKo": "황희찬",
+          "shirtNumber": 11,
+          "position": "forward",
+          "positionCode": "ST",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-KOR-18",
+          "familyName": "Oh",
+          "givenName": "Hyeon-gyu",
+          "nameKo": "오현규",
+          "shirtNumber": 18,
+          "position": "striker",
+          "positionCode": "ST",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-KOR-25",
+          "familyName": "Eom",
+          "givenName": "Ji-sung",
+          "nameKo": "엄지성",
+          "shirtNumber": 25,
+          "position": "midfield",
+          "positionCode": "CM",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-KOR-24",
+          "familyName": "Kim",
+          "givenName": "Jin-gyu",
+          "nameKo": "김진규",
+          "shirtNumber": 24,
+          "position": "midfield",
+          "positionCode": "CM",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-KOR-16",
+          "familyName": "Park",
+          "givenName": "Jin-seop",
+          "nameKo": "박진섭",
+          "shirtNumber": 16,
+          "position": "defender",
+          "positionCode": "CB",
+          "starter": false,
+          "substitute": true
+        }
+      ],
+      "away": [
+        {
+          "playerId": "P-2026-CZE-1",
+          "familyName": "Kovář",
+          "givenName": "Matej",
+          "nameKo": "Matej Kovář",
+          "shirtNumber": 1,
+          "position": "goalkeeper",
+          "positionCode": "GK",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-6",
+          "familyName": "Chaloupek",
+          "givenName": "Stepan",
+          "nameKo": "Stepan Chaloupek",
+          "shirtNumber": 6,
+          "position": "right center back",
+          "positionCode": "RCB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-4",
+          "familyName": "Hranáč",
+          "givenName": "Robin",
+          "nameKo": "Robin Hranáč",
+          "shirtNumber": 4,
+          "position": "center back",
+          "positionCode": "CB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-7",
+          "familyName": "Krejčí",
+          "givenName": "Ladislav",
+          "nameKo": "Ladislav Krejčí",
+          "shirtNumber": 7,
+          "position": "left center back",
+          "positionCode": "LCB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-5",
+          "familyName": "Coufal",
+          "givenName": "Vladimir",
+          "nameKo": "Vladimir Coufal",
+          "shirtNumber": 5,
+          "position": "right wing back",
+          "positionCode": "RWB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-22",
+          "familyName": "Souček",
+          "givenName": "Tomáš",
+          "nameKo": "Tomáš Souček",
+          "shirtNumber": 22,
+          "position": "right central midfield",
+          "positionCode": "RCM",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-24",
+          "familyName": "Sojka",
+          "givenName": "Alexandr",
+          "nameKo": "Alexandr Sojka",
+          "shirtNumber": 24,
+          "position": "left central midfield",
+          "positionCode": "LCM",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-20",
+          "familyName": "Zelený",
+          "givenName": "Jaroslav",
+          "nameKo": "Jaroslav Zelený",
+          "shirtNumber": 20,
+          "position": "left wing back",
+          "positionCode": "LWB",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-15",
+          "familyName": "Šulc",
+          "givenName": "Pavel",
+          "nameKo": "Pavel Šulc",
+          "shirtNumber": 15,
+          "position": "right forward",
+          "positionCode": "RF",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-17",
+          "familyName": "Provod",
+          "givenName": "Lukáš",
+          "nameKo": "Lukáš Provod",
+          "shirtNumber": 17,
+          "position": "second striker",
+          "positionCode": "SS",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-10",
+          "familyName": "Schick",
+          "givenName": "Patrik",
+          "nameKo": "Patrik Schick",
+          "shirtNumber": 10,
+          "position": "striker",
+          "positionCode": "ST",
+          "starter": true,
+          "substitute": false
+        },
+        {
+          "playerId": "P-2026-CZE-19",
+          "familyName": "Chorý",
+          "givenName": "Tomáš",
+          "nameKo": "Tomáš Chorý",
+          "shirtNumber": 19,
+          "position": "striker",
+          "positionCode": "ST",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-CZE-9",
+          "familyName": "Hložek",
+          "givenName": "Adam",
+          "nameKo": "Adam Hložek",
+          "shirtNumber": 9,
+          "position": "forward",
+          "positionCode": "ST",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-CZE-18",
+          "familyName": "Sadílek",
+          "givenName": "Michal",
+          "nameKo": "Michal Sadílek",
+          "shirtNumber": 18,
+          "position": "midfield",
+          "positionCode": "CM",
+          "starter": false,
+          "substitute": true
+        },
+        {
+          "playerId": "P-2026-CZE-13",
+          "familyName": "Chytil",
+          "givenName": "Mojmír",
+          "nameKo": "Mojmír Chytil",
+          "shirtNumber": 13,
+          "position": "forward",
+          "positionCode": "ST",
+          "starter": false,
+          "substitute": true
+        }
+      ]
     },
-    "goals": [],
-    "bookings": [],
-    "subs": [],
+    "goals": [
+      {
+        "minute": 59,
+        "playerId": "P-2026-CZE-7",
+        "nameKo": "Ladislav Krejčí",
+        "teamId": "T-CZE",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "minute": 67,
+        "playerId": "P-2026-KOR-6",
+        "nameKo": "황인범",
+        "teamId": "T-KOR",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "minute": 80,
+        "playerId": "P-2026-KOR-18",
+        "nameKo": "오현규",
+        "teamId": "T-KOR",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "bookings": [
+      {
+        "minute": 90,
+        "playerId": "P-2026-KOR-3",
+        "nameKo": "이기혁",
+        "teamId": "T-KOR",
+        "card": "yellow"
+      }
+    ],
+    "subs": [
+      {
+        "minute": 62,
+        "onId": "P-2026-KOR-11",
+        "offId": "P-2026-KOR-10",
+        "teamId": "T-KOR"
+      },
+      {
+        "minute": 69,
+        "onId": "P-2026-KOR-18",
+        "offId": "P-2026-KOR-7",
+        "teamId": "T-KOR"
+      },
+      {
+        "minute": 69,
+        "onId": "P-2026-KOR-25",
+        "offId": "P-2026-KOR-13",
+        "teamId": "T-KOR"
+      },
+      {
+        "minute": 84,
+        "onId": "P-2026-KOR-24",
+        "offId": "P-2026-KOR-6",
+        "teamId": "T-KOR"
+      },
+      {
+        "minute": 84,
+        "onId": "P-2026-KOR-16",
+        "offId": "P-2026-KOR-8",
+        "teamId": "T-KOR"
+      },
+      {
+        "minute": 64,
+        "onId": "P-2026-CZE-19",
+        "offId": "P-2026-CZE-10",
+        "teamId": "T-CZE"
+      },
+      {
+        "minute": 64,
+        "onId": "P-2026-CZE-9",
+        "offId": "P-2026-CZE-15",
+        "teamId": "T-CZE"
+      },
+      {
+        "minute": 64,
+        "onId": "P-2026-CZE-18",
+        "offId": "P-2026-CZE-17",
+        "teamId": "T-CZE"
+      },
+      {
+        "minute": 84,
+        "onId": "P-2026-CZE-13",
+        "offId": "P-2026-CZE-24",
+        "teamId": "T-CZE"
+      }
+    ],
     "shootout": []
   },
   {
