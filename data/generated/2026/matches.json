@@ -597,7 +597,7 @@
   {
     "id": "M-2026-05",
     "slug": "czech-republic-vs-mexico",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-25",
     "time": "",
     "kickoffUtc": "2026-06-25T01:00:00Z",
@@ -621,11 +621,11 @@
       "nameKo": "멕시코"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 3,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -638,7 +638,7 @@
   {
     "id": "M-2026-06",
     "slug": "south-africa-vs-south-korea",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-25",
     "time": "",
     "kickoffUtc": "2026-06-25T01:00:00Z",
@@ -661,12 +661,12 @@
       "code": "KOR",
       "nameKo": "대한민국"
     },
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -1581,7 +1581,7 @@
   {
     "id": "M-2026-29",
     "slug": "curacao-vs-ivory-coast",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-26",
     "time": "",
     "kickoffUtc": "2026-06-25T20:00:00Z",
@@ -1605,11 +1605,11 @@
       "nameKo": "코트디부아르"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -1622,7 +1622,7 @@
   {
     "id": "M-2026-30",
     "slug": "ecuador-vs-germany",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-26",
     "time": "",
     "kickoffUtc": "2026-06-25T20:00:00Z",
@@ -1645,12 +1645,12 @@
       "code": "GER",
       "nameKo": "독일"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []

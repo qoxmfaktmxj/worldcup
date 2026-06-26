@@ -1,7 +1,7 @@
 {
   "version": null,
   "isOldVersion": false,
-  "detectedAt": "2026-06-22T00:16:51.270Z",
+  "detectedAt": "2026-06-26T00:16:50.983Z",
   "ttlSeconds": 3600,
   "detectError": "spawnSync C:\\windows\\system32\\cmd.exe ETIMEDOUT"
 }

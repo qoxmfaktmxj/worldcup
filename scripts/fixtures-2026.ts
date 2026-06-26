@@ -54,8 +54,8 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["A", "2026-06-12T02:00:00Z", "South Korea", "Czech Republic", 2, 1, "akron"],
   ["A", "2026-06-18T16:00:00Z", "Czech Republic", "South Africa", 1, 1, "atlanta"],
   ["A", "2026-06-19T01:00:00Z", "Mexico", "South Korea", 1, 0, "akron"],
-  ["A", "2026-06-25T01:00:00Z", "Czech Republic", "Mexico", null, null, "azteca"],
-  ["A", "2026-06-25T01:00:00Z", "South Africa", "South Korea", null, null, "bbva"],
+  ["A", "2026-06-25T01:00:00Z", "Czech Republic", "Mexico", 0, 3, "azteca"],
+  ["A", "2026-06-25T01:00:00Z", "South Africa", "South Korea", 1, 0, "bbva"],
   // Group B
   ["B", "2026-06-12T19:00:00Z", "Canada", "Bosnia and Herzegovina", 1, 1, "toronto"],
   ["B", "2026-06-13T19:00:00Z", "Qatar", "Switzerland", 1, 1, "santaclara"],
@@ -82,8 +82,8 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["E", "2026-06-14T23:00:00Z", "Ivory Coast", "Ecuador", 1, 0, "philadelphia"],
   ["E", "2026-06-20T20:00:00Z", "Germany", "Ivory Coast", 2, 1, "toronto"],
   ["E", "2026-06-21T00:00:00Z", "Ecuador", "Curaçao", 0, 0, "kansascity"],
-  ["E", "2026-06-25T20:00:00Z", "Curaçao", "Ivory Coast", null, null, "philadelphia"],
-  ["E", "2026-06-25T20:00:00Z", "Ecuador", "Germany", null, null, "eastrutherford"],
+  ["E", "2026-06-25T20:00:00Z", "Curaçao", "Ivory Coast", 0, 2, "philadelphia"],
+  ["E", "2026-06-25T20:00:00Z", "Ecuador", "Germany", 2, 1, "eastrutherford"],
   // Group F
   ["F", "2026-06-14T20:00:00Z", "Netherlands", "Japan", 2, 2, "arlington"],
   ["F", "2026-06-15T02:00:00Z", "Sweden", "Tunisia", 5, 1, "bbva"],
