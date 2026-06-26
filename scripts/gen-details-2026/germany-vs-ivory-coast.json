@@ -1,0 +1,58 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-GER-1","familyName":"Neuer","givenName":"Manuel","nameKo":"Manuel Neuer","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-6","familyName":"Kimmich","givenName":"Joshua","nameKo":"Joshua Kimmich","shirtNumber":6,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-4","familyName":"Tah","givenName":"Jonathan","nameKo":"Jonathan Tah","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-15","familyName":"Schlotterbeck","givenName":"Nico","nameKo":"Nico Schlotterbeck","shirtNumber":15,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-18","familyName":"Brown","givenName":"Nathaniel","nameKo":"Nathaniel Brown","shirtNumber":18,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-5","familyName":"Pavlovic","givenName":"Aleksandar","nameKo":"Aleksandar Pavlovic","shirtNumber":5,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-23","familyName":"Nmecha","givenName":"Felix","nameKo":"Felix Nmecha","shirtNumber":23,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-19","familyName":"Sane","givenName":"Leroy","nameKo":"Leroy Sane","shirtNumber":19,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-10","familyName":"Musiala","givenName":"Jamal","nameKo":"Jamal Musiala","shirtNumber":10,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-17","familyName":"Wirtz","givenName":"Florian","nameKo":"Florian Wirtz","shirtNumber":17,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-7","familyName":"Havertz","givenName":"Kai","nameKo":"Kai Havertz","shirtNumber":7,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-GER-2","familyName":"Rudiger","givenName":"Antonio","nameKo":"Antonio Rudiger","shirtNumber":2,"position":"Centre Back","positionCode":"LCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-GER-20","familyName":"Amiri","givenName":"Nadiem","nameKo":"Nadiem Amiri","shirtNumber":20,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-GER-9","familyName":"Leweling","givenName":"Jamie","nameKo":"Jamie Leweling","shirtNumber":9,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-GER-26","familyName":"Undav","givenName":"Deniz","nameKo":"Deniz Undav","shirtNumber":26,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-GER-8","familyName":"Goretzka","givenName":"Leon","nameKo":"Leon Goretzka","shirtNumber":8,"position":"Striker","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CIV-1","familyName":"Fofana","givenName":"Yahia","nameKo":"Yahia Fofana","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-5","familyName":"Singo","givenName":"Wilfried","nameKo":"Wilfried Singo","shirtNumber":5,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-7","familyName":"Kossounou","givenName":"Odilon","nameKo":"Odilon Kossounou","shirtNumber":7,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-20","familyName":"Agbadou","givenName":"Emmanuel","nameKo":"Emmanuel Agbadou","shirtNumber":20,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-3","familyName":"Konan","givenName":"Ghislain","nameKo":"Ghislain Konan","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-18","familyName":"Sangare","givenName":"Ibrahim","nameKo":"Ibrahim Sangare","shirtNumber":18,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-8","familyName":"Kessie","givenName":"Franck","nameKo":"Franck Kessie","shirtNumber":8,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-26","familyName":"Oulai","givenName":"Cheick Inao","nameKo":"Cheick Inao Oulai","shirtNumber":26,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-11","familyName":"Diomande","givenName":"Yan","nameKo":"Yan Diomande","shirtNumber":11,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-15","familyName":"Diallo","givenName":"Amad","nameKo":"Amad Diallo","shirtNumber":15,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-9","familyName":"Bonny","givenName":"Ange-Yoan","nameKo":"Ange-Yoan Bonny","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-10","familyName":"Adingra","givenName":"Simon","nameKo":"Simon Adingra","shirtNumber":10,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-6","familyName":"Fofana","givenName":"Seko","nameKo":"Seko Fofana","shirtNumber":6,"position":"Defensive Midfield","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-22","familyName":"Guessand","givenName":"Evann","nameKo":"Evann Guessand","shirtNumber":22,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-17","familyName":"Doue","givenName":"Guela","nameKo":"Guela Doue","shirtNumber":17,"position":"Right Back","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-19","familyName":"Pepe","givenName":"Nicolas","nameKo":"Nicolas Pepe","shirtNumber":19,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":30,"playerId":"P-2026-CIV-8","nameKo":"Franck Kessie","teamId":"T-CIV","ownGoal":false,"penalty":false},
+    {"minute":68,"playerId":"P-2026-GER-26","nameKo":"Deniz Undav","teamId":"T-GER","ownGoal":false,"penalty":false},
+    {"minute":94,"playerId":"P-2026-GER-26","nameKo":"Deniz Undav","teamId":"T-GER","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-GER-2","offId":"P-2026-GER-15","teamId":"T-GER"},
+    {"minute":60,"onId":"P-2026-GER-20","offId":"P-2026-GER-5","teamId":"T-GER"},
+    {"minute":60,"onId":"P-2026-GER-9","offId":"P-2026-GER-19","teamId":"T-GER"},
+    {"minute":60,"onId":"P-2026-GER-26","offId":"P-2026-GER-10","teamId":"T-GER"},
+    {"minute":85,"onId":"P-2026-GER-8","offId":"P-2026-GER-7","teamId":"T-GER"},
+    {"minute":75,"onId":"P-2026-CIV-10","offId":"P-2026-CIV-15","teamId":"T-CIV"},
+    {"minute":75,"onId":"P-2026-CIV-6","offId":"P-2026-CIV-18","teamId":"T-CIV"},
+    {"minute":75,"onId":"P-2026-CIV-22","offId":"P-2026-CIV-9","teamId":"T-CIV"},
+    {"minute":82,"onId":"P-2026-CIV-17","offId":"P-2026-CIV-5","teamId":"T-CIV"},
+    {"minute":85,"onId":"P-2026-CIV-19","offId":"P-2026-CIV-11","teamId":"T-CIV"}
+  ]
+}

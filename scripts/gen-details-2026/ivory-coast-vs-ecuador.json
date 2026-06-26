@@ -1,0 +1,54 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-CIV-1","familyName":"Fofana","givenName":"Yahia","nameKo":"Yahia Fofana","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-5","familyName":"Singo","givenName":"Wilfried","nameKo":"Wilfried Singo","shirtNumber":5,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-20","familyName":"Agbadou","givenName":"Emmanuel","nameKo":"Emmanuel Agbadou","shirtNumber":20,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-24","familyName":"Touré","givenName":"Bazoumana","nameKo":"Bazoumana Toure","shirtNumber":24,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-3","familyName":"Konan","givenName":"Ghislain","nameKo":"Ghislain Konan","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-17","familyName":"Doué","givenName":"Guela","nameKo":"Guela Doue","shirtNumber":17,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-8","familyName":"Kessié","givenName":"Franck","nameKo":"Franck Kessie","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-6","familyName":"Fofana","givenName":"Seko","nameKo":"Seko Fofana","shirtNumber":6,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-11","familyName":"Diomande","givenName":"Yan","nameKo":"Yan Diomande","shirtNumber":11,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-19","familyName":"Pépé","givenName":"Nicolas","nameKo":"Nicolas Pepe","shirtNumber":19,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-12","familyName":"Wahi","givenName":"Elye","nameKo":"Elye Wahi","shirtNumber":12,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-9","familyName":"Bonny","givenName":"Ange","nameKo":"Ange Bonny","shirtNumber":9,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-14","familyName":"Diallo","givenName":"Amad","nameKo":"Amad Diallo","shirtNumber":14,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-13","familyName":"Oulaï","givenName":"Christ Inao","nameKo":"Christ Inao Oulai","shirtNumber":13,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-15","familyName":"Sangaré","givenName":"Ibrahim","nameKo":"Ibrahim Sangare","shirtNumber":15,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-4","familyName":"Kossounou","givenName":"Odilon","nameKo":"Odilon Kossounou","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-ECU-1","familyName":"Galíndez","givenName":"Hernán","nameKo":"Hernan Galindez","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-4","familyName":"Ordóñez","givenName":"Joel","nameKo":"Joel Ordonez","shirtNumber":4,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-6","familyName":"Pacho","givenName":"Willian","nameKo":"Willian Pacho","shirtNumber":6,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-21","familyName":"Franco","givenName":"Alan","nameKo":"Alan Franco","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-3","familyName":"Hincapié","givenName":"Piero","nameKo":"Piero Hincapie","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-9","familyName":"Yeboah","givenName":"John","nameKo":"John Yeboah","shirtNumber":9,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-23","familyName":"Caicedo","givenName":"Moisés","nameKo":"Moises Caicedo","shirtNumber":23,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-15","familyName":"Vite","givenName":"Pedro","nameKo":"Pedro Vite","shirtNumber":15,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-14","familyName":"Minda","givenName":"Alan","nameKo":"Alan Minda","shirtNumber":14,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-19","familyName":"Plata","givenName":"Gonzalo","nameKo":"Gonzalo Plata","shirtNumber":19,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-13","familyName":"Valencia","givenName":"Enner","nameKo":"Enner Valencia","shirtNumber":13,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-ECU-17","familyName":"Angulo","givenName":"Nilson","nameKo":"Nilson Angulo","shirtNumber":17,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ECU-5","familyName":"Porozo","givenName":"Jackson","nameKo":"Jackson Porozo","shirtNumber":5,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ECU-2","familyName":"Preciado","givenName":"Ángelo","nameKo":"Angelo Preciado","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ECU-11","familyName":"Rodríguez","givenName":"Kevin","nameKo":"Kevin Rodriguez","shirtNumber":11,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":90,"playerId":"P-2026-CIV-14","nameKo":"Amad Diallo","teamId":"T-CIV","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":56,"onId":"P-2026-CIV-9","offId":"P-2026-CIV-12","teamId":"T-CIV"},
+    {"minute":56,"onId":"P-2026-CIV-14","offId":"P-2026-CIV-24","teamId":"T-CIV"},
+    {"minute":77,"onId":"P-2026-CIV-13","offId":"P-2026-CIV-19","teamId":"T-CIV"},
+    {"minute":77,"onId":"P-2026-CIV-15","offId":"P-2026-CIV-6","teamId":"T-CIV"},
+    {"minute":89,"onId":"P-2026-CIV-4","offId":"P-2026-CIV-17","teamId":"T-CIV"},
+    {"minute":56,"onId":"P-2026-ECU-17","offId":"P-2026-ECU-14","teamId":"T-ECU"},
+    {"minute":62,"onId":"P-2026-ECU-5","offId":"P-2026-ECU-21","teamId":"T-ECU"},
+    {"minute":62,"onId":"P-2026-ECU-2","offId":"P-2026-ECU-9","teamId":"T-ECU"},
+    {"minute":77,"onId":"P-2026-ECU-11","offId":"P-2026-ECU-13","teamId":"T-ECU"}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-ENG-1","familyName":"Pickford","givenName":"Jordan","nameKo":"Jordan Pickford","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-24","familyName":"James","givenName":"Reece","nameKo":"Reece James","shirtNumber":24,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-2","familyName":"Konsa","givenName":"Ezri","nameKo":"Ezri Konsa","shirtNumber":2,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-5","familyName":"Stones","givenName":"John","nameKo":"John Stones","shirtNumber":5,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-3","familyName":"O'Reilly","givenName":"Nico","nameKo":"Nico O'Reilly","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-4","familyName":"Rice","givenName":"Declan","nameKo":"Declan Rice","shirtNumber":4,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-8","familyName":"Anderson","givenName":"Elliot","nameKo":"Elliot Anderson","shirtNumber":8,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-20","familyName":"Madueke","givenName":"Noni","nameKo":"Noni Madueke","shirtNumber":20,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-10","familyName":"Bellingham","givenName":"Jude","nameKo":"Jude Bellingham","shirtNumber":10,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-18","familyName":"Gordon","givenName":"Anthony","nameKo":"Anthony Gordon","shirtNumber":18,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-9","familyName":"Kane","givenName":"Harry","nameKo":"Harry Kane","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-17","familyName":"Rogers","givenName":"Morgan","nameKo":"Morgan Rogers","shirtNumber":17,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-11","familyName":"Rashford","givenName":"Marcus","nameKo":"Marcus Rashford","shirtNumber":11,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-7","familyName":"Saka","givenName":"Bukayo","nameKo":"Bukayo Saka","shirtNumber":7,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-25","familyName":"Spence","givenName":"Djed","nameKo":"Djed Spence","shirtNumber":25,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-6","familyName":"Guehi","givenName":"Marc","nameKo":"Marc Guehi","shirtNumber":6,"position":"Centre Back","positionCode":"CB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CRO-1","familyName":"Livakovic","givenName":"Dominik","nameKo":"Dominik Livakovic","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-6","familyName":"Sutalo","givenName":"Josip","nameKo":"Josip Sutalo","shirtNumber":6,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-4","familyName":"Gvardiol","givenName":"Josko","nameKo":"Josko Gvardiol","shirtNumber":4,"position":"Centre Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-22","familyName":"Vuskovic","givenName":"Luka","nameKo":"Luka Vuskovic","shirtNumber":22,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-2","familyName":"Stanisic","givenName":"Josip","nameKo":"Josip Stanisic","shirtNumber":2,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-15","familyName":"Pasalic","givenName":"Mario","nameKo":"Mario Pasalic","shirtNumber":15,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-10","familyName":"Modric","givenName":"Luka","nameKo":"Luka Modric","shirtNumber":10,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-14","familyName":"Perisic","givenName":"Ivan","nameKo":"Ivan Perisic","shirtNumber":14,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-17","familyName":"Sucic","givenName":"Petar","nameKo":"Petar Sucic","shirtNumber":17,"position":"Attacking Midfield","positionCode":"RF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-16","familyName":"Baturina","givenName":"Martin","nameKo":"Martin Baturina","shirtNumber":16,"position":"Attacking Midfield","positionCode":"LF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-26","familyName":"Musa","givenName":"Petar","nameKo":"Petar Musa","shirtNumber":26,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-8","familyName":"Kovacic","givenName":"Mateo","nameKo":"Mateo Kovacic","shirtNumber":8,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-20","familyName":"Matanovic","givenName":"Igor","nameKo":"Igor Matanovic","shirtNumber":20,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-24","familyName":"Pasalic","givenName":"Marco","nameKo":"Marco Pasalic","shirtNumber":24,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-9","familyName":"Kramaric","givenName":"Andrej","nameKo":"Andrej Kramaric","shirtNumber":9,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-13","familyName":"Vlasic","givenName":"Nikola","nameKo":"Nikola Vlasic","shirtNumber":13,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":12,"playerId":"P-2026-ENG-9","nameKo":"Harry Kane","teamId":"T-ENG","ownGoal":false,"penalty":true},
+    {"minute":36,"playerId":"P-2026-CRO-16","nameKo":"Martin Baturina","teamId":"T-CRO","ownGoal":false,"penalty":false},
+    {"minute":42,"playerId":"P-2026-ENG-9","nameKo":"Harry Kane","teamId":"T-ENG","ownGoal":false,"penalty":false},
+    {"minute":45,"playerId":"P-2026-CRO-26","nameKo":"Petar Musa","teamId":"T-CRO","ownGoal":false,"penalty":false},
+    {"minute":47,"playerId":"P-2026-ENG-10","nameKo":"Jude Bellingham","teamId":"T-ENG","ownGoal":false,"penalty":false},
+    {"minute":85,"playerId":"P-2026-ENG-11","nameKo":"Marcus Rashford","teamId":"T-ENG","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":58,"onId":"P-2026-CRO-8","offId":"P-2026-CRO-10","teamId":"T-CRO"},
+    {"minute":66,"onId":"P-2026-CRO-20","offId":"P-2026-CRO-26","teamId":"T-CRO"},
+    {"minute":66,"onId":"P-2026-CRO-24","offId":"P-2026-CRO-22","teamId":"T-CRO"},
+    {"minute":72,"onId":"P-2026-ENG-17","offId":"P-2026-ENG-18","teamId":"T-ENG"},
+    {"minute":72,"onId":"P-2026-ENG-11","offId":"P-2026-ENG-4","teamId":"T-ENG"},
+    {"minute":72,"onId":"P-2026-ENG-7","offId":"P-2026-ENG-20","teamId":"T-ENG"},
+    {"minute":78,"onId":"P-2026-CRO-9","offId":"P-2026-CRO-15","teamId":"T-CRO"},
+    {"minute":78,"onId":"P-2026-CRO-13","offId":"P-2026-CRO-16","teamId":"T-CRO"},
+    {"minute":80,"onId":"P-2026-ENG-25","offId":"P-2026-ENG-10","teamId":"T-ENG"},
+    {"minute":87,"onId":"P-2026-ENG-6","offId":"P-2026-ENG-5","teamId":"T-ENG"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-TUR-1","familyName":"Çakır","givenName":"Uğurcan","nameKo":"Ugurcan Cakir","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-2","familyName":"Çelik","givenName":"Zeki","nameKo":"Zeki Celik","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-15","familyName":"Kabak","givenName":"Ozan","nameKo":"Ozan Kabak","shirtNumber":15,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-14","familyName":"Bardakçı","givenName":"Abdülkerim","nameKo":"Abdulkerim Bardakci","shirtNumber":14,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-24","familyName":"Aydın","givenName":"Oğuz","nameKo":"Oguz Aydin","shirtNumber":24,"position":"Midfielder","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-5","familyName":"Özcan","givenName":"Salih","nameKo":"Salih Ozcan","shirtNumber":5,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-6","familyName":"Kökçü","givenName":"Orkun","nameKo":"Orkun Kokcu","shirtNumber":6,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-13","familyName":"Elmalı","givenName":"Eren","nameKo":"Eren Elmali","shirtNumber":13,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-8","familyName":"Güler","givenName":"Arda","nameKo":"Arda Guler","shirtNumber":8,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-11","familyName":"Yıldız","givenName":"Kenan","nameKo":"Kenan Yildiz","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-21","familyName":"Yılmaz","givenName":"Barış Alper","nameKo":"Baris Alper Yilmaz","shirtNumber":21,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-4","familyName":"Söyüncü","givenName":"Çağlar","nameKo":"Caglar Soyuncu","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-26","familyName":"Uzun","givenName":"Can","nameKo":"Can Uzun","shirtNumber":26,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-22","familyName":"Ayhan","givenName":"Kaan","nameKo":"Kaan Ayhan","shirtNumber":22,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-18","familyName":"Müldür","givenName":"Mert","nameKo":"Mert Muldur","shirtNumber":18,"position":"Defender","positionCode":"RWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-17","familyName":"Kahveci","givenName":"İrfan Can","nameKo":"Irfan Can Kahveci","shirtNumber":17,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-USA-1","familyName":"Turner","givenName":"Matt","nameKo":"Matt Turner","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-23","familyName":"Scally","givenName":"Joe","nameKo":"Joe Scally","shirtNumber":23,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-22","familyName":"McKenzie","givenName":"Mark","nameKo":"Mark McKenzie","shirtNumber":22,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-6","familyName":"Trusty","givenName":"Auston","nameKo":"Auston Trusty","shirtNumber":6,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-12","familyName":"Robinson","givenName":"Miles","nameKo":"Miles Robinson","shirtNumber":12,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-8","familyName":"McKennie","givenName":"Weston","nameKo":"Weston McKennie","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-14","familyName":"Berhalter","givenName":"Sebastian","nameKo":"Sebastian Berhalter","shirtNumber":14,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-7","familyName":"Reyna","givenName":"Giovanni","nameKo":"Giovanni Reyna","shirtNumber":7,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-21","familyName":"Weah","givenName":"Timothy","nameKo":"Timothy Weah","shirtNumber":21,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-9","familyName":"Pepi","givenName":"Ricardo","nameKo":"Ricardo Pepi","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-11","familyName":"Aaronson","givenName":"Brenden","nameKo":"Brenden Aaronson","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-USA-10","familyName":"Pulisic","givenName":"Christian","nameKo":"Christian Pulisic","shirtNumber":10,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-USA-2","familyName":"Dest","givenName":"Sergiño","nameKo":"Sergino Dest","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-USA-16","familyName":"Freeman","givenName":"Alex","nameKo":"Alex Freeman","shirtNumber":16,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-USA-26","familyName":"Zendejas","givenName":"Alejandro","nameKo":"Alejandro Zendejas","shirtNumber":26,"position":"Midfielder","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-USA-17","familyName":"Tillman","givenName":"Malik","nameKo":"Malik Tillman","shirtNumber":17,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":3,"playerId":"P-2026-USA-6","nameKo":"Auston Trusty","teamId":"T-USA","ownGoal":false,"penalty":false},
+    {"minute":10,"playerId":"P-2026-TUR-8","nameKo":"Arda Guler","teamId":"T-TUR","ownGoal":false,"penalty":false},
+    {"minute":31,"playerId":"P-2026-TUR-21","nameKo":"Baris Alper Yilmaz","teamId":"T-TUR","ownGoal":false,"penalty":false},
+    {"minute":49,"playerId":"P-2026-USA-14","nameKo":"Sebastian Berhalter","teamId":"T-USA","ownGoal":false,"penalty":false},
+    {"minute":98,"playerId":"P-2026-TUR-22","nameKo":"Kaan Ayhan","teamId":"T-TUR","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":58,"onId":"P-2026-USA-10","offId":"P-2026-USA-21","teamId":"T-USA"},
+    {"minute":76,"onId":"P-2026-USA-2","offId":"P-2026-USA-7","teamId":"T-USA"},
+    {"minute":77,"onId":"P-2026-USA-16","offId":"P-2026-USA-23","teamId":"T-USA"},
+    {"minute":77,"onId":"P-2026-USA-26","offId":"P-2026-USA-11","teamId":"T-USA"},
+    {"minute":86,"onId":"P-2026-USA-17","offId":"P-2026-USA-8","teamId":"T-USA"},
+    {"minute":84,"onId":"P-2026-TUR-4","offId":"P-2026-TUR-2","teamId":"T-TUR"},
+    {"minute":84,"onId":"P-2026-TUR-26","offId":"P-2026-TUR-11","teamId":"T-TUR"},
+    {"minute":88,"onId":"P-2026-TUR-22","offId":"P-2026-TUR-6","teamId":"T-TUR"},
+    {"minute":92,"onId":"P-2026-TUR-18","offId":"P-2026-TUR-24","teamId":"T-TUR"},
+    {"minute":92,"onId":"P-2026-TUR-17","offId":"P-2026-TUR-21","teamId":"T-TUR"}
+  ]
+}

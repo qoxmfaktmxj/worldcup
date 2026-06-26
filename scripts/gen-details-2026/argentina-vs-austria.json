@@ -1,0 +1,59 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-ARG-23","familyName":"Martínez","givenName":"Emiliano","nameKo":"Emiliano Martínez","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-26","familyName":"Molina","givenName":"Nahuel","nameKo":"Nahuel Molina","shirtNumber":26,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-13","familyName":"Romero","givenName":"Cristian","nameKo":"Cristian Romero","shirtNumber":13,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-6","familyName":"Martínez","givenName":"Lisandro","nameKo":"Lisandro Martínez","shirtNumber":6,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-25","familyName":"Medina","givenName":"Facundo","nameKo":"Facundo Medina","shirtNumber":25,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-20","familyName":"Mac Allister","givenName":"Alexis","nameKo":"Alexis Mac Allister","shirtNumber":20,"position":"Right Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-24","familyName":"Fernández","givenName":"Enzo","nameKo":"Enzo Fernández","shirtNumber":24,"position":"Central Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-7","familyName":"De Paul","givenName":"Rodrigo","nameKo":"Rodrigo De Paul","shirtNumber":7,"position":"Left Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-16","familyName":"Almada","givenName":"Thiago","nameKo":"Thiago Almada","shirtNumber":16,"position":"Right Wing","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-10","familyName":"Messi","givenName":"Lionel","nameKo":"Lionel Messi","shirtNumber":10,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-22","familyName":"Martínez","givenName":"Lautaro","nameKo":"Lautaro Martínez","shirtNumber":22,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-19","familyName":"Otamendi","givenName":"Nicolás","nameKo":"Nicolás Otamendi","shirtNumber":19,"position":"Center Back","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-9","familyName":"Álvarez","givenName":"Julián","nameKo":"Julián Álvarez","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-15","familyName":"González","givenName":"Nicolás","nameKo":"Nicolás González","shirtNumber":15,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-5","familyName":"Paredes","givenName":"Leandro","nameKo":"Leandro Paredes","shirtNumber":5,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-3","familyName":"Tagliafico","givenName":"Nicolás","nameKo":"Nicolás Tagliafico","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-AUT-1","familyName":"Schlager","givenName":"Alexander","nameKo":"Alexander Schlager","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-20","familyName":"Laimer","givenName":"Konrad","nameKo":"Konrad Laimer","shirtNumber":20,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-3","familyName":"Danso","givenName":"Kevin","nameKo":"Kevin Danso","shirtNumber":3,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-8","familyName":"Alaba","givenName":"David","nameKo":"David Alaba","shirtNumber":8,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-5","familyName":"Posch","givenName":"Stefan","nameKo":"Stefan Posch","shirtNumber":5,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-6","familyName":"Seiwald","givenName":"Nicolas","nameKo":"Nicolas Seiwald","shirtNumber":6,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-4","familyName":"Schlager","givenName":"Xaver","nameKo":"Xaver Schlager","shirtNumber":4,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-18","familyName":"Schmid","givenName":"Romano","nameKo":"Romano Schmid","shirtNumber":18,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-24","familyName":"Wanner","givenName":"Paul","nameKo":"Paul Wanner","shirtNumber":24,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-9","familyName":"Sabitzer","givenName":"Marcel","nameKo":"Marcel Sabitzer","shirtNumber":9,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-11","familyName":"Gregoritsch","givenName":"Michael","nameKo":"Michael Gregoritsch","shirtNumber":11,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUT-23","familyName":"Friedl","givenName":"Marco","nameKo":"Marco Friedl","shirtNumber":23,"position":"Center Back","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUT-7","familyName":"Arnautović","givenName":"Marko","nameKo":"Marko Arnautovic","shirtNumber":7,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUT-22","familyName":"Prass","givenName":"Alexander","nameKo":"Alexander Prass","shirtNumber":22,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUT-21","familyName":"Wimmer","givenName":"Patrick","nameKo":"Patrick Wimmer","shirtNumber":21,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUT-17","familyName":"Chukwuemeka","givenName":"Carney","nameKo":"Carney Chukwuemeka","shirtNumber":17,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":38,"playerId":"P-2026-ARG-10","nameKo":"Lionel Messi","teamId":"T-ARG","ownGoal":false,"penalty":false},
+    {"minute":95,"playerId":"P-2026-ARG-10","nameKo":"Lionel Messi","teamId":"T-ARG","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":92,"playerId":"P-2026-ARG-5","nameKo":"Leandro Paredes","teamId":"T-ARG","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":57,"onId":"P-2026-ARG-19","offId":"P-2026-ARG-13","teamId":"T-ARG"},
+    {"minute":64,"onId":"P-2026-ARG-9","offId":"P-2026-ARG-16","teamId":"T-ARG"},
+    {"minute":65,"onId":"P-2026-ARG-15","offId":"P-2026-ARG-22","teamId":"T-ARG"},
+    {"minute":82,"onId":"P-2026-ARG-5","offId":"P-2026-ARG-7","teamId":"T-ARG"},
+    {"minute":82,"onId":"P-2026-ARG-3","offId":"P-2026-ARG-25","teamId":"T-ARG"},
+    {"minute":67,"onId":"P-2026-AUT-23","offId":"P-2026-AUT-8","teamId":"T-AUT"},
+    {"minute":68,"onId":"P-2026-AUT-7","offId":"P-2026-AUT-24","teamId":"T-AUT"},
+    {"minute":68,"onId":"P-2026-AUT-22","offId":"P-2026-AUT-5","teamId":"T-AUT"},
+    {"minute":78,"onId":"P-2026-AUT-21","offId":"P-2026-AUT-18","teamId":"T-AUT"},
+    {"minute":85,"onId":"P-2026-AUT-17","offId":"P-2026-AUT-11","teamId":"T-AUT"}
+  ]
+}

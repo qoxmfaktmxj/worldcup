@@ -1,0 +1,465 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-AUT-1",
+        "familyName": "Schlager",
+        "givenName": "Alexander",
+        "nameKo": "Alexander Schlager",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-5",
+        "familyName": "Posch",
+        "givenName": "Stefan",
+        "nameKo": "Stefan Posch",
+        "shirtNumber": 5,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-15",
+        "familyName": "Lienhart",
+        "givenName": "Philipp",
+        "nameKo": "Philipp Lienhart",
+        "shirtNumber": 15,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-8",
+        "familyName": "Alaba",
+        "givenName": "David",
+        "nameKo": "David Alaba",
+        "shirtNumber": 8,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-16",
+        "familyName": "Mwene",
+        "givenName": "Phillipp",
+        "nameKo": "Phillipp Mwene",
+        "shirtNumber": 16,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-6",
+        "familyName": "Seiwald",
+        "givenName": "Nicolas",
+        "nameKo": "Nicolas Seiwald",
+        "shirtNumber": 6,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-4",
+        "familyName": "Schlager",
+        "givenName": "Xaver",
+        "nameKo": "Xaver Schlager",
+        "shirtNumber": 4,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-18",
+        "familyName": "Schmid",
+        "givenName": "Romano",
+        "nameKo": "Romano Schmid",
+        "shirtNumber": 18,
+        "position": "Right Midfield",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-20",
+        "familyName": "Laimer",
+        "givenName": "Konrad",
+        "nameKo": "Konrad Laimer",
+        "shirtNumber": 20,
+        "position": "Attacking Midfield",
+        "positionCode": "CAM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-9",
+        "familyName": "Sabitzer",
+        "givenName": "Marcel",
+        "nameKo": "Marcel Sabitzer",
+        "shirtNumber": 9,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-14",
+        "familyName": "Kalajdzic",
+        "givenName": "Sasa",
+        "nameKo": "Sasa Kalajdzic",
+        "shirtNumber": 14,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUT-7",
+        "familyName": "Arnautovic",
+        "givenName": "Marko",
+        "nameKo": "Marko Arnautovic",
+        "shirtNumber": 7,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUT-21",
+        "familyName": "Chukwuemeka",
+        "givenName": "Carney",
+        "nameKo": "Carney Chukwuemeka",
+        "shirtNumber": 21,
+        "position": "Central Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUT-2",
+        "familyName": "Danso",
+        "givenName": "Kevin",
+        "nameKo": "Kevin Danso",
+        "shirtNumber": 2,
+        "position": "Centre Back",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUT-19",
+        "familyName": "Wanner",
+        "givenName": "Paul",
+        "nameKo": "Paul Wanner",
+        "shirtNumber": 19,
+        "position": "Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUT-17",
+        "familyName": "Wimmer",
+        "givenName": "Patrick",
+        "nameKo": "Patrick Wimmer",
+        "shirtNumber": 17,
+        "position": "Midfield",
+        "positionCode": "RM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-JOR-1",
+        "familyName": "Abulaila",
+        "givenName": "Yazeed",
+        "nameKo": "Yazeed Abulaila",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-3",
+        "familyName": "Nasib",
+        "givenName": "Abdallah",
+        "nameKo": "Abdallah Nasib",
+        "shirtNumber": 3,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-5",
+        "familyName": "Al-Arab",
+        "givenName": "Yazan",
+        "nameKo": "Yazan Al-Arab",
+        "shirtNumber": 5,
+        "position": "Centre Back",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-16",
+        "familyName": "Abualnadi",
+        "givenName": "Mohammad",
+        "nameKo": "Mohammad Abualnadi",
+        "shirtNumber": 16,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-21",
+        "familyName": "Al-Rashdan",
+        "givenName": "Nizar",
+        "nameKo": "Nizar Al-Rashdan",
+        "shirtNumber": 21,
+        "position": "Right Wing Back",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-8",
+        "familyName": "Al-Rawabdeh",
+        "givenName": "Noor",
+        "nameKo": "Noor Al-Rawabdeh",
+        "shirtNumber": 8,
+        "position": "Left Wing Back",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-23",
+        "familyName": "Haddad",
+        "givenName": "Ehsan",
+        "nameKo": "Ehsan Haddad",
+        "shirtNumber": 23,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-20",
+        "familyName": "Abu Taha",
+        "givenName": "Mohannad",
+        "nameKo": "Mohannad Abu Taha",
+        "shirtNumber": 20,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-10",
+        "familyName": "Al-Tamari",
+        "givenName": "Mousa",
+        "nameKo": "Mousa Al-Tamari",
+        "shirtNumber": 10,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-11",
+        "familyName": "Fakhoury",
+        "givenName": "Odeh",
+        "nameKo": "Odeh Fakhoury",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-9",
+        "familyName": "Olwan",
+        "givenName": "Ali",
+        "nameKo": "Ali Olwan",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-JOR-15",
+        "familyName": "Obaid",
+        "givenName": "Saleem",
+        "nameKo": "Saleem Obaid",
+        "shirtNumber": 15,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-JOR-17",
+        "familyName": "Al-Mardi",
+        "givenName": "Mahmoud",
+        "nameKo": "Mahmoud Al-Mardi",
+        "shirtNumber": 17,
+        "position": "Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-JOR-4",
+        "familyName": "Al-Rosan",
+        "givenName": "Saed",
+        "nameKo": "Saed Al-Rosan",
+        "shirtNumber": 4,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-JOR-7",
+        "familyName": "Al-Daoud",
+        "givenName": "Mohammad",
+        "nameKo": "Mohammad Al-Daoud",
+        "shirtNumber": 7,
+        "position": "Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-JOR-14",
+        "familyName": "Azaizeh",
+        "givenName": "Ali",
+        "nameKo": "Ali Azaizeh",
+        "shirtNumber": 14,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 21,
+      "playerId": "P-2026-AUT-18",
+      "nameKo": "Romano Schmid",
+      "teamId": "T-AUT",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 50,
+      "playerId": "P-2026-JOR-9",
+      "nameKo": "Ali Olwan",
+      "teamId": "T-JOR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 76,
+      "playerId": "P-2026-JOR-5",
+      "nameKo": "Yazan Al-Arab",
+      "teamId": "T-AUT",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 90,
+      "playerId": "P-2026-AUT-7",
+      "nameKo": "Marko Arnautovic",
+      "teamId": "T-AUT",
+      "ownGoal": false,
+      "penalty": true
+    }
+  ],
+  "bookings": [
+    {
+      "minute": 77,
+      "playerId": "P-2026-AUT-9",
+      "nameKo": "Marcel Sabitzer",
+      "teamId": "T-AUT",
+      "card": "yellow"
+    }
+  ],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-AUT-7",
+      "offId": "P-2026-AUT-14",
+      "teamId": "T-AUT"
+    },
+    {
+      "minute": 59,
+      "onId": "P-2026-AUT-21",
+      "offId": "P-2026-AUT-4",
+      "teamId": "T-AUT"
+    },
+    {
+      "minute": 59,
+      "onId": "P-2026-AUT-2",
+      "offId": "P-2026-AUT-8",
+      "teamId": "T-AUT"
+    },
+    {
+      "minute": 59,
+      "onId": "P-2026-AUT-19",
+      "offId": "P-2026-AUT-16",
+      "teamId": "T-AUT"
+    },
+    {
+      "minute": 83,
+      "onId": "P-2026-AUT-17",
+      "offId": "P-2026-AUT-18",
+      "teamId": "T-AUT"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-JOR-15",
+      "offId": "P-2026-JOR-16",
+      "teamId": "T-JOR"
+    },
+    {
+      "minute": 81,
+      "onId": "P-2026-JOR-17",
+      "offId": "P-2026-JOR-23",
+      "teamId": "T-JOR"
+    },
+    {
+      "minute": 81,
+      "onId": "P-2026-JOR-4",
+      "offId": "P-2026-JOR-3",
+      "teamId": "T-JOR"
+    },
+    {
+      "minute": 88,
+      "onId": "P-2026-JOR-7",
+      "offId": "P-2026-JOR-10",
+      "teamId": "T-JOR"
+    },
+    {
+      "minute": 89,
+      "onId": "P-2026-JOR-14",
+      "offId": "P-2026-JOR-11",
+      "teamId": "T-JOR"
+    }
+  ]
+}

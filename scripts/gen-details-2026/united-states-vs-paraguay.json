@@ -1,0 +1,463 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-USA-24",
+        "familyName": "Freese",
+        "givenName": "Matt",
+        "nameKo": "Matt Freese",
+        "shirtNumber": 24,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-2",
+        "familyName": "Dest",
+        "givenName": "Sergiño",
+        "nameKo": "Sergino Dest",
+        "shirtNumber": 2,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-3",
+        "familyName": "Richards",
+        "givenName": "Chris",
+        "nameKo": "Chris Richards",
+        "shirtNumber": 3,
+        "position": "Right Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-13",
+        "familyName": "Ream",
+        "givenName": "Tim",
+        "nameKo": "Tim Ream",
+        "shirtNumber": 13,
+        "position": "Left Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-5",
+        "familyName": "Robinson",
+        "givenName": "Antonee",
+        "nameKo": "Antonee Robinson",
+        "shirtNumber": 5,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-4",
+        "familyName": "Adams",
+        "givenName": "Tyler",
+        "nameKo": "Tyler Adams",
+        "shirtNumber": 4,
+        "position": "Central Defensive Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-8",
+        "familyName": "McKennie",
+        "givenName": "Weston",
+        "nameKo": "Weston McKennie",
+        "shirtNumber": 8,
+        "position": "Central Midfielder",
+        "positionCode": "CM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-17",
+        "familyName": "Tillman",
+        "givenName": "Malik",
+        "nameKo": "Malik Tillman",
+        "shirtNumber": 17,
+        "position": "Right Midfielder",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-10",
+        "familyName": "Pulisic",
+        "givenName": "Christian",
+        "nameKo": "Christian Pulisic",
+        "shirtNumber": 10,
+        "position": "Central Attacking Midfielder",
+        "positionCode": "CAM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-16",
+        "familyName": "Freeman",
+        "givenName": "Alex",
+        "nameKo": "Alex Freeman",
+        "shirtNumber": 16,
+        "position": "Left Midfielder",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-20",
+        "familyName": "Balogun",
+        "givenName": "Folarin",
+        "nameKo": "Folarin Balogun",
+        "shirtNumber": 20,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-14",
+        "familyName": "Berhalter",
+        "givenName": "Sebastian",
+        "nameKo": "Sebastian Berhalter",
+        "shirtNumber": 14,
+        "position": "Central Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-9",
+        "familyName": "Pepi",
+        "givenName": "Ricardo",
+        "nameKo": "Ricardo Pepi",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-21",
+        "familyName": "Weah",
+        "givenName": "Tim",
+        "nameKo": "Tim Weah",
+        "shirtNumber": 21,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-7",
+        "familyName": "Reyna",
+        "givenName": "Giovanni",
+        "nameKo": "Giovanni Reyna",
+        "shirtNumber": 7,
+        "position": "Central Attacking Midfielder",
+        "positionCode": "CAM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-PAR-12",
+        "familyName": "Gill",
+        "givenName": "Orlando",
+        "nameKo": "Orlando Gill",
+        "shirtNumber": 12,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-4",
+        "familyName": "Cáceres",
+        "givenName": "Juan",
+        "nameKo": "Juan Caceres",
+        "shirtNumber": 4,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-15",
+        "familyName": "Gómez",
+        "givenName": "Gustavo",
+        "nameKo": "Gustavo Gomez",
+        "shirtNumber": 15,
+        "position": "Right Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-3",
+        "familyName": "Alderete",
+        "givenName": "Omar",
+        "nameKo": "Omar Alderete",
+        "shirtNumber": 3,
+        "position": "Left Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-6",
+        "familyName": "Alonso",
+        "givenName": "Júnior",
+        "nameKo": "Junior Alonso",
+        "shirtNumber": 6,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-19",
+        "familyName": "Enciso",
+        "givenName": "Julio",
+        "nameKo": "Julio Enciso",
+        "shirtNumber": 19,
+        "position": "Right Midfielder",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-14",
+        "familyName": "Cubas",
+        "givenName": "Andrés",
+        "nameKo": "Andres Cubas",
+        "shirtNumber": 14,
+        "position": "Central Defensive Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-16",
+        "familyName": "Bobadilla",
+        "givenName": "Damián",
+        "nameKo": "Damian Bobadilla",
+        "shirtNumber": 16,
+        "position": "Central Midfielder",
+        "positionCode": "CM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-8",
+        "familyName": "Gómez",
+        "givenName": "Diego",
+        "nameKo": "Diego Gomez",
+        "shirtNumber": 8,
+        "position": "Left Midfielder",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-10",
+        "familyName": "Almirón",
+        "givenName": "Miguel",
+        "nameKo": "Miguel Almiron",
+        "shirtNumber": 10,
+        "position": "Second Striker",
+        "positionCode": "SS",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-9",
+        "familyName": "Sanabria",
+        "givenName": "Antonio",
+        "nameKo": "Antonio Sanabria",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-PAR-11",
+        "familyName": "Maurício",
+        "givenName": "Maurício",
+        "nameKo": "Mauricio",
+        "shirtNumber": 11,
+        "position": "Central Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-PAR-18",
+        "familyName": "Arce",
+        "givenName": "Gabriel",
+        "nameKo": "Arce",
+        "shirtNumber": 18,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-PAR-7",
+        "familyName": "Sosa",
+        "givenName": "Ramón",
+        "nameKo": "Ramon Sosa",
+        "shirtNumber": 7,
+        "position": "Second Striker",
+        "positionCode": "SS",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-PAR-2",
+        "familyName": "Velázquez",
+        "givenName": "Gustavo",
+        "nameKo": "Gustavo Velazquez",
+        "shirtNumber": 2,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-PAR-17",
+        "familyName": "Romero Gamarra",
+        "givenName": "Ángel",
+        "nameKo": "Romero Gamarra",
+        "shirtNumber": 17,
+        "position": "Left Midfielder",
+        "positionCode": "LM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 7,
+      "playerId": "P-2026-PAR-16",
+      "nameKo": "Damian Bobadilla",
+      "teamId": "T-USA",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 31,
+      "playerId": "P-2026-USA-20",
+      "nameKo": "Folarin Balogun",
+      "teamId": "T-USA",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 50,
+      "playerId": "P-2026-USA-20",
+      "nameKo": "Folarin Balogun",
+      "teamId": "T-USA",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 73,
+      "playerId": "P-2026-PAR-11",
+      "nameKo": "Mauricio",
+      "teamId": "T-PAR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 98,
+      "playerId": "P-2026-USA-7",
+      "nameKo": "Giovanni Reyna",
+      "teamId": "T-USA",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [
+    {
+      "minute": 52,
+      "playerId": "P-2026-USA-13",
+      "nameKo": "Tim Ream",
+      "teamId": "T-USA",
+      "card": "yellow"
+    },
+    {
+      "minute": 52,
+      "playerId": "P-2026-PAR-10",
+      "nameKo": "Miguel Almiron",
+      "teamId": "T-PAR",
+      "card": "yellow"
+    }
+  ],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-USA-14",
+      "offId": "P-2026-USA-10",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-PAR-11",
+      "offId": "P-2026-PAR-16",
+      "teamId": "T-PAR"
+    },
+    {
+      "minute": 62,
+      "onId": "P-2026-PAR-18",
+      "offId": "P-2026-PAR-9",
+      "teamId": "T-PAR"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-USA-9",
+      "offId": "P-2026-USA-20",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-USA-21",
+      "offId": "P-2026-USA-2",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-PAR-7",
+      "offId": "P-2026-PAR-10",
+      "teamId": "T-PAR"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-PAR-2",
+      "offId": "P-2026-PAR-4",
+      "teamId": "T-PAR"
+    },
+    {
+      "minute": 80,
+      "onId": "P-2026-PAR-17",
+      "offId": "P-2026-PAR-8",
+      "teamId": "T-PAR"
+    },
+    {
+      "minute": 82,
+      "onId": "P-2026-USA-7",
+      "offId": "P-2026-USA-17",
+      "teamId": "T-USA"
+    }
+  ]
+}

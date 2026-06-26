@@ -1,0 +1,441 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-USA-24",
+        "familyName": "Freese",
+        "givenName": "Matt",
+        "nameKo": "Matt Freese",
+        "shirtNumber": 24,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-16",
+        "familyName": "Freeman",
+        "givenName": "Alex",
+        "nameKo": "Alex Freeman",
+        "shirtNumber": 16,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-3",
+        "familyName": "Richards",
+        "givenName": "Chris",
+        "nameKo": "Chris Richards",
+        "shirtNumber": 3,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-13",
+        "familyName": "Ream",
+        "givenName": "Tim",
+        "nameKo": "Tim Ream",
+        "shirtNumber": 13,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-2",
+        "familyName": "Dest",
+        "givenName": "Sergino",
+        "nameKo": "Sergino Dest",
+        "shirtNumber": 2,
+        "position": "Midfielder",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-4",
+        "familyName": "Adams",
+        "givenName": "Tyler",
+        "nameKo": "Tyler Adams",
+        "shirtNumber": 4,
+        "position": "Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-8",
+        "familyName": "McKennie",
+        "givenName": "Weston",
+        "nameKo": "Weston McKennie",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-17",
+        "familyName": "Tillman",
+        "givenName": "Malik",
+        "nameKo": "Malik Tillman",
+        "shirtNumber": 17,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-5",
+        "familyName": "Robinson",
+        "givenName": "Antonee",
+        "nameKo": "Antonee Robinson",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-9",
+        "familyName": "Pepi",
+        "givenName": "Ricardo",
+        "nameKo": "Ricardo Pepi",
+        "shirtNumber": 9,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-20",
+        "familyName": "Balogun",
+        "givenName": "Folarin",
+        "nameKo": "Folarin Balogun",
+        "shirtNumber": 20,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-USA-14",
+        "familyName": "Berhalter",
+        "givenName": "Sebastian",
+        "nameKo": "Sebastian Berhalter",
+        "shirtNumber": 14,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-23",
+        "familyName": "Scally",
+        "givenName": "Joe",
+        "nameKo": "Joe Scally",
+        "shirtNumber": 23,
+        "position": "Defender",
+        "positionCode": "RWB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-6",
+        "familyName": "Trusty",
+        "givenName": "Auston",
+        "nameKo": "Auston Trusty",
+        "shirtNumber": 6,
+        "position": "Defender",
+        "positionCode": "LWB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-7",
+        "familyName": "Reyna",
+        "givenName": "Gio",
+        "nameKo": "Gio Reyna",
+        "shirtNumber": 7,
+        "position": "Midfielder",
+        "positionCode": "CAM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-USA-19",
+        "familyName": "Wright",
+        "givenName": "Haji",
+        "nameKo": "Haji Wright",
+        "shirtNumber": 19,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-AUS-18",
+        "familyName": "Beach",
+        "givenName": "Patrick",
+        "nameKo": "Patrick Beach",
+        "shirtNumber": 18,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-3",
+        "familyName": "Circati",
+        "givenName": "Alessandro",
+        "nameKo": "Alessandro Circati",
+        "shirtNumber": 3,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-19",
+        "familyName": "Souttar",
+        "givenName": "Harry",
+        "nameKo": "Harry Souttar",
+        "shirtNumber": 19,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-21",
+        "familyName": "Burgess",
+        "givenName": "Cameron",
+        "nameKo": "Cameron Burgess",
+        "shirtNumber": 21,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-4",
+        "familyName": "Italiano",
+        "givenName": "Jacob",
+        "nameKo": "Jacob Italiano",
+        "shirtNumber": 4,
+        "position": "Defender",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-5",
+        "familyName": "Bos",
+        "givenName": "Jordan",
+        "nameKo": "Jordan Bos",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-13",
+        "familyName": "O'Neill",
+        "givenName": "Aiden",
+        "nameKo": "Aiden O'Neill",
+        "shirtNumber": 13,
+        "position": "Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-24",
+        "familyName": "Okon-Engstler",
+        "givenName": "Paul",
+        "nameKo": "Paul Okon-Engstler",
+        "shirtNumber": 24,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-7",
+        "familyName": "Leckie",
+        "givenName": "Mathew",
+        "nameKo": "Mathew Leckie",
+        "shirtNumber": 7,
+        "position": "Midfielder",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-23",
+        "familyName": "Velupillay",
+        "givenName": "Nishan",
+        "nameKo": "Nishan Velupillay",
+        "shirtNumber": 23,
+        "position": "Midfielder",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-9",
+        "familyName": "Toure",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Toure",
+        "shirtNumber": 9,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-AUS-6",
+        "familyName": "Geria",
+        "givenName": "Jason",
+        "nameKo": "Jason Geria",
+        "shirtNumber": 6,
+        "position": "Defender",
+        "positionCode": "RWB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUS-17",
+        "familyName": "Irankunda",
+        "givenName": "Nestory",
+        "nameKo": "Nestory Irankunda",
+        "shirtNumber": 17,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUS-8",
+        "familyName": "Metcalfe",
+        "givenName": "Connor",
+        "nameKo": "Connor Metcalfe",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "LM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUS-20",
+        "familyName": "Volpato",
+        "givenName": "Cristian",
+        "nameKo": "Cristian Volpato",
+        "shirtNumber": 20,
+        "position": "Midfielder",
+        "positionCode": "RM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-AUS-22",
+        "familyName": "Irvine",
+        "givenName": "Jackson",
+        "nameKo": "Jackson Irvine",
+        "shirtNumber": 22,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 11,
+      "playerId": "P-2026-AUS-21",
+      "nameKo": "Cameron Burgess",
+      "teamId": "T-USA",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 43,
+      "playerId": "P-2026-USA-16",
+      "nameKo": "Alex Freeman",
+      "teamId": "T-USA",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-AUS-6",
+      "offId": "P-2026-AUS-21",
+      "teamId": "T-AUS"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-AUS-17",
+      "offId": "P-2026-AUS-9",
+      "teamId": "T-AUS"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-AUS-8",
+      "offId": "P-2026-AUS-23",
+      "teamId": "T-AUS"
+    },
+    {
+      "minute": 61,
+      "onId": "P-2026-AUS-20",
+      "offId": "P-2026-AUS-7",
+      "teamId": "T-AUS"
+    },
+    {
+      "minute": 74,
+      "onId": "P-2026-USA-14",
+      "offId": "P-2026-USA-9",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 78,
+      "onId": "P-2026-AUS-22",
+      "offId": "P-2026-AUS-24",
+      "teamId": "T-AUS"
+    },
+    {
+      "minute": 80,
+      "onId": "P-2026-USA-23",
+      "offId": "P-2026-USA-2",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 80,
+      "onId": "P-2026-USA-6",
+      "offId": "P-2026-USA-5",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 96,
+      "onId": "P-2026-USA-7",
+      "offId": "P-2026-USA-8",
+      "teamId": "T-USA"
+    },
+    {
+      "minute": 96,
+      "onId": "P-2026-USA-19",
+      "offId": "P-2026-USA-20",
+      "teamId": "T-USA"
+    }
+  ]
+}

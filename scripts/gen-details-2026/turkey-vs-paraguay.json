@@ -1,0 +1,60 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-TUR-23","familyName":"Cakir","givenName":"Ugurcan","nameKo":"Ugurcan Cakir","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-18","familyName":"Muldur","givenName":"Mert","nameKo":"Mert Muldur","shirtNumber":18,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-3","familyName":"Demiral","givenName":"Merih","nameKo":"Merih Demiral","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-14","familyName":"Bardakci","givenName":"Abdulkerim","nameKo":"Abdulkerim Bardakci","shirtNumber":14,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-20","familyName":"Kadioglu","givenName":"Ferdi","nameKo":"Ferdi Kadioglu","shirtNumber":20,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-16","familyName":"Yuksek","givenName":"Ismail","nameKo":"Ismail Yuksek","shirtNumber":16,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-10","familyName":"Calhanoglu","givenName":"Hakan","nameKo":"Hakan Calhanoglu","shirtNumber":10,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-19","familyName":"Akgun","givenName":"Yunus","nameKo":"Yunus Akgun","shirtNumber":19,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-8","familyName":"Guler","givenName":"Arda","nameKo":"Arda Guler","shirtNumber":8,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-11","familyName":"Yildiz","givenName":"Kenan","nameKo":"Kenan Yildiz","shirtNumber":11,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-7","familyName":"Akturkoglu","givenName":"Kerem","nameKo":"Kerem Akturkoglu","shirtNumber":7,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-21","familyName":"Yilmaz","givenName":"Baris Alper","nameKo":"Baris Alper Yilmaz","shirtNumber":21,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-9","familyName":"Gul","givenName":"Deniz","nameKo":"Deniz Gul","shirtNumber":9,"position":"Winger","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-26","familyName":"Uzun","givenName":"Can","nameKo":"Can Uzun","shirtNumber":26,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-13","familyName":"Elmali","givenName":"Eren","nameKo":"Eren Elmali","shirtNumber":13,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-6","familyName":"Kokcu","givenName":"Orkun","nameKo":"Orkun Kokcu","shirtNumber":6,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-PAR-12","familyName":"Gil","givenName":"Orlando","nameKo":"Orlando Gil","shirtNumber":12,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-4","familyName":"Caceres","givenName":"Juan Jose","nameKo":"Juan Jose Caceres","shirtNumber":4,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-15","familyName":"Gomez","givenName":"Gustavo","nameKo":"Gustavo Gomez","shirtNumber":15,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-3","familyName":"Alderete","givenName":"Omar","nameKo":"Omar Alderete","shirtNumber":3,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-6","familyName":"Alonso","givenName":"Junior","nameKo":"Junior Alonso","shirtNumber":6,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-10","familyName":"Almiron","givenName":"Miguel","nameKo":"Miguel Almiron","shirtNumber":10,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-14","familyName":"Cubas","givenName":"Andres","nameKo":"Andres Cubas","shirtNumber":14,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-8","familyName":"Gomez","givenName":"Diego","nameKo":"Diego Gomez","shirtNumber":8,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-23","familyName":"Galarza","givenName":"Matias","nameKo":"Matias Galarza","shirtNumber":23,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-25","familyName":"Pitta","givenName":"Isidro","nameKo":"Isidro Pitta","shirtNumber":25,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-19","familyName":"Enciso","givenName":"Julio","nameKo":"Julio Enciso","shirtNumber":19,"position":"Striker","positionCode":"SS","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-16","familyName":"Bobadilla","givenName":"Damian","nameKo":"Damian Bobadilla","shirtNumber":16,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-2","familyName":"Velazquez","givenName":"Gustavo","nameKo":"Gustavo Velazquez","shirtNumber":2,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-26","familyName":"Maidana","givenName":"Alexandro","nameKo":"Alexandro Maidana","shirtNumber":26,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-13","familyName":"Canale","givenName":"Jose","nameKo":"Jose Canale","shirtNumber":13,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-21","familyName":"Avalos","givenName":"Gabriel","nameKo":"Gabriel Avalos","shirtNumber":21,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":2,"playerId":"P-2026-PAR-23","nameKo":"Matias Galarza","teamId":"T-PAR","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":4,"playerId":"P-2026-PAR-23","nameKo":"Matias Galarza","teamId":"T-PAR","card":"yellow"},
+    {"minute":48,"playerId":"P-2026-PAR-10","nameKo":"Miguel Almiron","teamId":"T-PAR","card":"red"},
+    {"minute":71,"playerId":"P-2026-TUR-13","nameKo":"Eren Elmali","teamId":"T-TUR","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-TUR-21","offId":"P-2026-TUR-7","teamId":"T-TUR"},
+    {"minute":60,"onId":"P-2026-TUR-9","offId":"P-2026-TUR-19","teamId":"T-TUR"},
+    {"minute":60,"onId":"P-2026-TUR-26","offId":"P-2026-TUR-16","teamId":"T-TUR"},
+    {"minute":70,"onId":"P-2026-TUR-13","offId":"P-2026-TUR-20","teamId":"T-TUR"},
+    {"minute":71,"onId":"P-2026-TUR-6","offId":"P-2026-TUR-14","teamId":"T-TUR"},
+    {"minute":45,"onId":"P-2026-PAR-16","offId":"P-2026-PAR-25","teamId":"T-PAR"},
+    {"minute":67,"onId":"P-2026-PAR-2","offId":"P-2026-PAR-15","teamId":"T-PAR"},
+    {"minute":81,"onId":"P-2026-PAR-26","offId":"P-2026-PAR-4","teamId":"T-PAR"},
+    {"minute":92,"onId":"P-2026-PAR-13","offId":"P-2026-PAR-23","teamId":"T-PAR"},
+    {"minute":92,"onId":"P-2026-PAR-21","offId":"P-2026-PAR-19","teamId":"T-PAR"}
+  ]
+}

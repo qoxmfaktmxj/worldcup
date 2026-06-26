@@ -1,0 +1,55 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-HAI-1","familyName":"Placide","givenName":"Johny","nameKo":"Johny Placide","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-2","familyName":"Arcus","givenName":"Carlens","nameKo":"Carlens Arcus","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-4","familyName":"Adé","givenName":"Ricardo","nameKo":"Ricardo Adé","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-5","familyName":"Delcroix","givenName":"Hannes","nameKo":"Hannes Delcroix","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-8","familyName":"Expérience","givenName":"Martin","nameKo":"Martin Expérience","shirtNumber":8,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-17","familyName":"Jean Jacques","givenName":"Danley","nameKo":"Danley Jean Jacques","shirtNumber":17,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-10","familyName":"Bellegarde","givenName":"Jean-Ricner","nameKo":"Jean-Ricner Bellegarde","shirtNumber":10,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-11","familyName":"Deedson","givenName":"Louicius","nameKo":"Louicius Deedson","shirtNumber":11,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-15","familyName":"Providence","givenName":"Ruben","nameKo":"Ruben Providence","shirtNumber":15,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-20","familyName":"Pierrot","givenName":"Frantzdy","nameKo":"Frantzdy Pierrot","shirtNumber":20,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-18","familyName":"Isidor","givenName":"Wilson","nameKo":"Wilson Isidor","shirtNumber":18,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-HAI-21","familyName":"Casimir","givenName":"Josue","nameKo":"Josue Casimir","shirtNumber":21,"position":"Midfielder","positionCode":"LCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-HAI-16","familyName":"Joseph","givenName":"Lenny","nameKo":"Lenny Joseph","shirtNumber":16,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-HAI-19","familyName":"Fortuné","givenName":"Yassin","nameKo":"Yassin Fortuné","shirtNumber":19,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-SCO-1","familyName":"Gunn","givenName":"Angus","nameKo":"Angus Gunn","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-2","familyName":"Hickey","givenName":"Aaron","nameKo":"Aaron Hickey","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-13","familyName":"Hendry","givenName":"Jack","nameKo":"Jack Hendry","shirtNumber":13,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-5","familyName":"Hanley","givenName":"Grant","nameKo":"Grant Hanley","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-3","familyName":"Robertson","givenName":"Andy","nameKo":"Andy Robertson","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-17","familyName":"Gannon-Doak","givenName":"Ben","nameKo":"Ben Gannon-Doak","shirtNumber":17,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-4","familyName":"McTominay","givenName":"Scott","nameKo":"Scott McTominay","shirtNumber":4,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-19","familyName":"Ferguson","givenName":"Lewis","nameKo":"Lewis Ferguson","shirtNumber":19,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-7","familyName":"McGinn","givenName":"John","nameKo":"John McGinn","shirtNumber":7,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-10","familyName":"Adams","givenName":"Che","nameKo":"Che Adams","shirtNumber":10,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-20","familyName":"Shankland","givenName":"Lawrence","nameKo":"Lawrence Shankland","shirtNumber":20,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-11","familyName":"Christie","givenName":"Ryan","nameKo":"Ryan Christie","shirtNumber":11,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-9","familyName":"Dykes","givenName":"Lyndon","nameKo":"Lyndon Dykes","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-22","familyName":"Patterson","givenName":"Nathan","nameKo":"Nathan Patterson","shirtNumber":22,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-25","familyName":"Curtis","givenName":"Findlay","nameKo":"Findlay Curtis","shirtNumber":25,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-23","familyName":"McLean","givenName":"Kenny","nameKo":"Kenny McLean","shirtNumber":23,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":28,"playerId":"P-2026-SCO-7","nameKo":"John McGinn","teamId":"T-SCO","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":91,"playerId":"P-2026-SCO-25","nameKo":"Findlay Curtis","teamId":"T-SCO","card":"yellow"},
+    {"minute":95,"playerId":"P-2026-SCO-23","nameKo":"Kenny McLean","teamId":"T-SCO","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":61,"onId":"P-2026-HAI-21","offId":"P-2026-HAI-11","teamId":"T-HAI"},
+    {"minute":76,"onId":"P-2026-HAI-16","offId":"P-2026-HAI-18","teamId":"T-HAI"},
+    {"minute":85,"onId":"P-2026-HAI-19","offId":"P-2026-HAI-15","teamId":"T-HAI"},
+    {"minute":75,"onId":"P-2026-SCO-11","offId":"P-2026-SCO-17","teamId":"T-SCO"},
+    {"minute":75,"onId":"P-2026-SCO-9","offId":"P-2026-SCO-10","teamId":"T-SCO"},
+    {"minute":75,"onId":"P-2026-SCO-22","offId":"P-2026-SCO-2","teamId":"T-SCO"},
+    {"minute":83,"onId":"P-2026-SCO-25","offId":"P-2026-SCO-7","teamId":"T-SCO"},
+    {"minute":83,"onId":"P-2026-SCO-23","offId":"P-2026-SCO-20","teamId":"T-SCO"}
+  ]
+}

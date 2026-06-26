@@ -1,0 +1,61 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-SWE-1","familyName":"Nordfeldt","givenName":"Kristoffer","nameKo":"Kristoffer Nordfeldt","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-2","familyName":"Lagerbielke","givenName":"Gustaf","nameKo":"Gustaf Lagerbielke","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-4","familyName":"Hien","givenName":"Isak","nameKo":"Isak Hien","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-3","familyName":"Lindelof","givenName":"Victor Nilsson","nameKo":"Victor Nilsson Lindelof","shirtNumber":3,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-21","familyName":"Bernhardsson","givenName":"Alexander","nameKo":"Alexander Bernhardsson","shirtNumber":21,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-16","familyName":"Karlstrom","givenName":"Jesper","nameKo":"Jesper Karlstrom","shirtNumber":16,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-18","familyName":"Ayari","givenName":"Yasin","nameKo":"Yasin Ayari","shirtNumber":18,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-5","familyName":"Gudmundsson","givenName":"Gabriel","nameKo":"Gabriel Gudmundsson","shirtNumber":5,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-10","familyName":"Nygren","givenName":"Benjamin","nameKo":"Benjamin Nygren","shirtNumber":10,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-17","familyName":"Gyokeres","givenName":"Viktor","nameKo":"Viktor Gyokeres","shirtNumber":17,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-9","familyName":"Isak","givenName":"Alexander","nameKo":"Alexander Isak","shirtNumber":9,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-15","familyName":"Bergvall","givenName":"Lucas","nameKo":"Lucas Bergvall","shirtNumber":15,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-6","familyName":"Stroud","givenName":"","nameKo":"Stroud","shirtNumber":6,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-19","familyName":"Svanberg","givenName":"Mattias","nameKo":"Mattias Svanberg","shirtNumber":19,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-11","familyName":"Elanga","givenName":"Anthony","nameKo":"Anthony Elanga","shirtNumber":11,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-7","familyName":"Svensson","givenName":"","nameKo":"Svensson","shirtNumber":7,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-TUN-1","familyName":"Chamakh","givenName":"Abdelmouhib","nameKo":"Abdelmouhib Chamakh","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-20","familyName":"Valery","givenName":"Yan","nameKo":"Yan Valery","shirtNumber":20,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-4","familyName":"Rekik","givenName":"Omar","nameKo":"Omar Rekik","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-3","familyName":"Talbi","givenName":"Montassar","nameKo":"Montassar Talbi","shirtNumber":3,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-21","familyName":"Ben Hamida","givenName":"Amine","nameKo":"Amine Ben Hamida","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-2","familyName":"Abdi","givenName":"Ali","nameKo":"Ali Abdi","shirtNumber":2,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-17","familyName":"Skhiri","givenName":"Ellyes","nameKo":"Ellyes Skhiri","shirtNumber":17,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-13","familyName":"Khedira","givenName":"Rani","nameKo":"Rani Khedira","shirtNumber":13,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-10","familyName":"Mejbri","givenName":"Hannibal","nameKo":"Hannibal Mejbri","shirtNumber":10,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-8","familyName":"Saad","givenName":"","nameKo":"Saad","shirtNumber":8,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-25","familyName":"Slimane","givenName":"","nameKo":"Slimane","shirtNumber":25,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUN-7","familyName":"Achouri","givenName":"","nameKo":"Achouri","shirtNumber":7,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUN-22","familyName":"Hadj Mahmoud","givenName":"","nameKo":"Hadj Mahmoud","shirtNumber":22,"position":"Defender","positionCode":"RWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUN-19","familyName":"Tounekti","givenName":"","nameKo":"Tounekti","shirtNumber":19,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUN-14","familyName":"Gharbi","givenName":"","nameKo":"Gharbi","shirtNumber":14,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUN-11","familyName":"Chaouat","givenName":"","nameKo":"Chaouat","shirtNumber":11,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":7,"playerId":"P-2026-SWE-18","nameKo":"Yasin Ayari","teamId":"T-SWE","ownGoal":false,"penalty":false},
+    {"minute":30,"playerId":"P-2026-SWE-9","nameKo":"Alexander Isak","teamId":"T-SWE","ownGoal":false,"penalty":false},
+    {"minute":43,"playerId":"P-2026-TUN-4","nameKo":"Omar Rekik","teamId":"T-TUN","ownGoal":false,"penalty":false},
+    {"minute":59,"playerId":"P-2026-SWE-17","nameKo":"Viktor Gyokeres","teamId":"T-SWE","ownGoal":false,"penalty":false},
+    {"minute":84,"playerId":"P-2026-SWE-19","nameKo":"Mattias Svanberg","teamId":"T-SWE","ownGoal":false,"penalty":false},
+    {"minute":96,"playerId":"P-2026-SWE-18","nameKo":"Yasin Ayari","teamId":"T-SWE","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":65,"onId":"P-2026-SWE-15","offId":"P-2026-SWE-10","teamId":"T-SWE"},
+    {"minute":65,"onId":"P-2026-SWE-6","offId":"P-2026-SWE-5","teamId":"T-SWE"},
+    {"minute":72,"onId":"P-2026-TUN-7","offId":"P-2026-TUN-17","teamId":"T-TUN"},
+    {"minute":72,"onId":"P-2026-TUN-22","offId":"P-2026-TUN-20","teamId":"T-TUN"},
+    {"minute":72,"onId":"P-2026-TUN-19","offId":"P-2026-TUN-8","teamId":"T-TUN"},
+    {"minute":83,"onId":"P-2026-TUN-14","offId":"P-2026-TUN-13","teamId":"T-TUN"},
+    {"minute":84,"onId":"P-2026-SWE-19","offId":"P-2026-SWE-16","teamId":"T-SWE"},
+    {"minute":84,"onId":"P-2026-TUN-11","offId":"P-2026-TUN-25","teamId":"T-TUN"},
+    {"minute":90,"onId":"P-2026-SWE-11","offId":"P-2026-SWE-9","teamId":"T-SWE"},
+    {"minute":91,"onId":"P-2026-SWE-7","offId":"P-2026-SWE-21","teamId":"T-SWE"}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-BEL-1","familyName":"Courtois","givenName":"Thibaut","nameKo":"Thibaut Courtois","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-15","familyName":"Meunier","givenName":"Thomas","nameKo":"Thomas Meunier","shirtNumber":15,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-25","familyName":"Ngoy","givenName":"Nathan","nameKo":"Nathan Ngoy","shirtNumber":25,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-4","familyName":"Mechele","givenName":"Brandon","nameKo":"Brandon Mechele","shirtNumber":4,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-5","familyName":"De Cuyper","givenName":"Maxim","nameKo":"Maxim De Cuyper","shirtNumber":5,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-23","familyName":"Raskin","givenName":"Nicolas","nameKo":"Nicolas Raskin","shirtNumber":23,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-8","familyName":"Tielemans","givenName":"Youri","nameKo":"Youri Tielemans","shirtNumber":8,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-22","familyName":"Saelemaekers","givenName":"Alexis","nameKo":"Alexis Saelemaekers","shirtNumber":22,"position":"Midfielder","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-7","familyName":"De Bruyne","givenName":"Kevin","nameKo":"Kevin De Bruyne","shirtNumber":7,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-10","familyName":"Trossard","givenName":"Leandro","nameKo":"Leandro Trossard","shirtNumber":10,"position":"Midfielder","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-9","familyName":"Lukaku","givenName":"Romelu","nameKo":"Romelu Lukaku","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-BEL-2","familyName":"Castagne","givenName":"Timothy","nameKo":"Timothy Castagne","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-BEL-11","familyName":"Lukebakio","givenName":"Dodi","nameKo":"Dodi Lukebakio","shirtNumber":11,"position":"Midfielder","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-BEL-6","familyName":"Vanaken","givenName":"Hans","nameKo":"Hans Vanaken","shirtNumber":6,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-BEL-3","familyName":"Theate","givenName":"Arthur","nameKo":"Arthur Theate","shirtNumber":3,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-BEL-26","familyName":"Fernandez-Pardo","givenName":"Matias","nameKo":"Matias Fernandez-Pardo","shirtNumber":26,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-IRN-1","familyName":"Beiranvand","givenName":"Alireza","nameKo":"Alireza Beiranvand","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-23","familyName":"Rezaeian","givenName":"Ramin","nameKo":"Ramin Rezaeian","shirtNumber":23,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-4","familyName":"Khalilzadeh","givenName":"Shoja","nameKo":"Shoja Khalilzadeh","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-19","familyName":"Nemati","givenName":"Ali","nameKo":"Ali Nemati","shirtNumber":19,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-13","familyName":"Kanani","givenName":"Hossein","nameKo":"Hossein Kanani","shirtNumber":13,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-2","familyName":"Hardani","givenName":"Saleh","nameKo":"Saleh Hardani","shirtNumber":2,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-6","familyName":"Ezatolahi","givenName":"Saeid","nameKo":"Saeid Ezatolahi","shirtNumber":6,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-8","familyName":"Mohebbi","givenName":"Mohammad","nameKo":"Mohammad Mohebbi","shirtNumber":8,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-14","familyName":"Ghoddos","givenName":"Saman","nameKo":"Saman Ghoddos","shirtNumber":14,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-3","familyName":"Hajsafi","givenName":"Ehsan","nameKo":"Ehsan Hajsafi","shirtNumber":3,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-9","familyName":"Taremi","givenName":"Mehdi","nameKo":"Mehdi Taremi","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-7","familyName":"Jahanbakhsh","givenName":"Alireza","nameKo":"Alireza Jahanbakhsh","shirtNumber":7,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-5","familyName":"Mohammadi","givenName":"Milad","nameKo":"Milad Mohammadi","shirtNumber":5,"position":"Defender","positionCode":"LWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-21","familyName":"Torabi","givenName":"Mehdi","nameKo":"Mehdi Torabi","shirtNumber":21,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-20","familyName":"Moghanloo","givenName":"Shahriyar","nameKo":"Shahriyar Moghanloo","shirtNumber":20,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-17","familyName":"Hosseinzadeh","givenName":"Ali","nameKo":"Ali Hosseinzadeh","shirtNumber":17,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [],
+  "bookings": [
+    {"minute":66,"playerId":"P-2026-BEL-25","nameKo":"Nathan Ngoy","teamId":"T-BEL","card":"red"}
+  ],
+  "subs": [
+    {"minute":58,"onId":"P-2026-BEL-2","offId":"P-2026-BEL-15","teamId":"T-BEL"},
+    {"minute":58,"onId":"P-2026-BEL-11","offId":"P-2026-BEL-22","teamId":"T-BEL"},
+    {"minute":58,"onId":"P-2026-BEL-6","offId":"P-2026-BEL-23","teamId":"T-BEL"},
+    {"minute":73,"onId":"P-2026-BEL-3","offId":"P-2026-BEL-9","teamId":"T-BEL"},
+    {"minute":87,"onId":"P-2026-BEL-26","offId":"P-2026-BEL-7","teamId":"T-BEL"},
+    {"minute":45,"onId":"P-2026-IRN-7","offId":"P-2026-IRN-2","teamId":"T-IRN"},
+    {"minute":66,"onId":"P-2026-IRN-5","offId":"P-2026-IRN-3","teamId":"T-IRN"},
+    {"minute":66,"onId":"P-2026-IRN-21","offId":"P-2026-IRN-8","teamId":"T-IRN"},
+    {"minute":79,"onId":"P-2026-IRN-20","offId":"P-2026-IRN-14","teamId":"T-IRN"},
+    {"minute":85,"onId":"P-2026-IRN-17","offId":"P-2026-IRN-6","teamId":"T-IRN"}
+  ]
+}

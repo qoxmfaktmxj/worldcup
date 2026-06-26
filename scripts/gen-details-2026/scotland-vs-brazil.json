@@ -1,0 +1,63 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-SCO-1","familyName":"Gunn","givenName":"Angus","nameKo":"Angus Gunn","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-22","familyName":"Patterson","givenName":"Nathan","nameKo":"Nathan Patterson","shirtNumber":22,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-13","familyName":"Hendry","givenName":"Jack","nameKo":"Jack Hendry","shirtNumber":13,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-26","familyName":"McKenna","givenName":"Scott","nameKo":"Scott McKenna","shirtNumber":26,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-3","familyName":"Robertson","givenName":"Andrew","nameKo":"Andrew Robertson","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-19","familyName":"Ferguson","givenName":"Lewis","nameKo":"Lewis Ferguson","shirtNumber":19,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-23","familyName":"McLean","givenName":"Kenny","nameKo":"Kenny McLean","shirtNumber":23,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-17","familyName":"Gannon-Doak","givenName":"Ben","nameKo":"Ben Gannon-Doak","shirtNumber":17,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-4","familyName":"McTominay","givenName":"Scott","nameKo":"Scott McTominay","shirtNumber":4,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-7","familyName":"McGinn","givenName":"John","nameKo":"John McGinn","shirtNumber":7,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-20","familyName":"Shankland","givenName":"Lawrence","nameKo":"Lawrence Shankland","shirtNumber":20,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-6","familyName":"Tierney","givenName":"Kieran","nameKo":"Kieran Tierney","shirtNumber":6,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-11","familyName":"Christie","givenName":"Ryan","nameKo":"Ryan Christie","shirtNumber":11,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-24","familyName":"Ralston","givenName":"Anthony","nameKo":"Anthony Ralston","shirtNumber":24,"position":"Right Back","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-10","familyName":"Adams","givenName":"Che","nameKo":"Che Adams","shirtNumber":10,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-25","familyName":"Curtis","givenName":"Findlay","nameKo":"Findlay Curtis","shirtNumber":25,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-BRA-1","familyName":"Becker","givenName":"Alisson","nameKo":"Alisson Becker","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-13","familyName":"Danilo","givenName":"Danilo","nameKo":"Danilo","shirtNumber":13,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-4","familyName":"Marquinhos","givenName":"Marquinhos","nameKo":"Marquinhos","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-3","familyName":"Magalhaes","givenName":"Gabriel","nameKo":"Gabriel Magalhaes","shirtNumber":3,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-16","familyName":"Santos","givenName":"Douglas","nameKo":"Douglas Santos","shirtNumber":16,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-8","familyName":"Guimaraes","givenName":"Bruno","nameKo":"Bruno Guimaraes","shirtNumber":8,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-5","familyName":"Casemiro","givenName":"Casemiro","nameKo":"Casemiro","shirtNumber":5,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-20","familyName":"Paqueta","givenName":"Lucas","nameKo":"Lucas Paqueta","shirtNumber":20,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-26","familyName":"Rayan","givenName":"Rayan","nameKo":"Rayan","shirtNumber":26,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-7","familyName":"Junior","givenName":"Vinicius","nameKo":"Vinicius Junior","shirtNumber":7,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-9","familyName":"Cunha","givenName":"Matheus","nameKo":"Matheus Cunha","shirtNumber":9,"position":"Striker","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-BRA-17","familyName":"Fabinho","givenName":"Fabinho","nameKo":"Fabinho","shirtNumber":17,"position":"Defensive Midfield","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-BRA-22","familyName":"Martinelli","givenName":"Gabriel","nameKo":"Gabriel Martinelli","shirtNumber":22,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-BRA-10","familyName":"Neymar","givenName":"Neymar","nameKo":"Neymar","shirtNumber":10,"position":"Striker","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-BRA-6","familyName":"Sandro","givenName":"Alex","nameKo":"Alex Sandro","shirtNumber":6,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-BRA-19","familyName":"Endrick","givenName":"Endrick","nameKo":"Endrick","shirtNumber":19,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":7,"playerId":"P-2026-BRA-7","nameKo":"Vinicius Junior","teamId":"T-BRA","ownGoal":false,"penalty":false},
+    {"minute":45,"playerId":"P-2026-BRA-7","nameKo":"Vinicius Junior","teamId":"T-BRA","ownGoal":false,"penalty":false},
+    {"minute":60,"playerId":"P-2026-BRA-9","nameKo":"Matheus Cunha","teamId":"T-BRA","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":45,"playerId":"P-2026-SCO-3","nameKo":"Andrew Robertson","teamId":"T-SCO","card":"yellow"},
+    {"minute":62,"playerId":"P-2026-BRA-13","nameKo":"Danilo","teamId":"T-BRA","card":"yellow"},
+    {"minute":82,"playerId":"P-2026-BRA-17","nameKo":"Fabinho","teamId":"T-BRA","card":"yellow"},
+    {"minute":82,"playerId":"P-2026-SCO-11","nameKo":"Ryan Christie","teamId":"T-SCO","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-SCO-6","offId":"P-2026-SCO-3","teamId":"T-SCO"},
+    {"minute":82,"onId":"P-2026-SCO-11","offId":"P-2026-SCO-17","teamId":"T-SCO"},
+    {"minute":82,"onId":"P-2026-SCO-24","offId":"P-2026-SCO-22","teamId":"T-SCO"},
+    {"minute":91,"onId":"P-2026-SCO-10","offId":"P-2026-SCO-20","teamId":"T-SCO"},
+    {"minute":91,"onId":"P-2026-SCO-25","offId":"P-2026-SCO-7","teamId":"T-SCO"},
+    {"minute":65,"onId":"P-2026-BRA-17","offId":"P-2026-BRA-5","teamId":"T-BRA"},
+    {"minute":66,"onId":"P-2026-BRA-22","offId":"P-2026-BRA-20","teamId":"T-BRA"},
+    {"minute":76,"onId":"P-2026-BRA-10","offId":"P-2026-BRA-9","teamId":"T-BRA"},
+    {"minute":82,"onId":"P-2026-BRA-6","offId":"P-2026-BRA-16","teamId":"T-BRA"},
+    {"minute":82,"onId":"P-2026-BRA-19","offId":"P-2026-BRA-26","teamId":"T-BRA"}
+  ]
+}

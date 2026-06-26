@@ -7,11 +7,30 @@
  * live tournament). Re-run with refreshed fixtures-2026.ts to update.
  */
 import { mkdir, writeFile } from "node:fs/promises";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { GroupStanding, Match, Standing, Venue } from "../lib/types";
 import { slugify, teamRef } from "../lib/pipeline/transform";
 import { kstDateKey } from "../lib/time";
 import { CODES_2026, FIXTURES_2026, VENUES_2026 } from "./fixtures-2026";
-import { DETAILS_2026 } from "./match-details-2026";
+import { DETAILS_2026, type MatchDetail } from "./match-details-2026";
+
+// Generated per-match detail (lineups/goals/subs/cards) collected from official
+// sources, one JSON per slug. Hand-curated DETAILS_2026 takes precedence.
+const GEN_DIR = join("scripts", "gen-details-2026");
+const genDetails: Record<string, MatchDetail> = {};
+if (existsSync(GEN_DIR)) {
+  for (const f of readdirSync(GEN_DIR)) {
+    if (!f.endsWith(".json")) continue;
+    const slug = f.replace(/\.json$/, "");
+    try {
+      genDetails[slug] = JSON.parse(readFileSync(join(GEN_DIR, f), "utf8")) as MatchDetail;
+    } catch {
+      console.warn(`skip malformed detail: ${f}`);
+    }
+  }
+}
+const detailFor = (slug: string): MatchDetail | undefined => DETAILS_2026[slug] ?? genDetails[slug];
 
 const ASOF = "2026-06-26";
 
@@ -28,7 +47,7 @@ const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
   const slug = slugify(`${home} vs ${away}`);
   // Verified per-match detail (lineups/goals/subs/cards), if collected. Matches
   // without an entry keep empty detail — a score-only snapshot, nothing fabricated.
-  const detail = DETAILS_2026[slug];
+  const detail = detailFor(slug);
 
   return {
     id: `M-2026-${String(i + 1).padStart(2, "0")}`,

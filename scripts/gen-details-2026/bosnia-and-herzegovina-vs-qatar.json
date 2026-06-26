@@ -1,0 +1,457 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-BIH-1",
+        "familyName": "Vasilj",
+        "givenName": "Nikola",
+        "nameKo": "Nikola Vasilj",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-24",
+        "familyName": "Malic",
+        "givenName": "Arjan",
+        "nameKo": "Arjan Malic",
+        "shirtNumber": 24,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-18",
+        "familyName": "Katic",
+        "givenName": "Nikola",
+        "nameKo": "Nikola Katic",
+        "shirtNumber": 18,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-21",
+        "familyName": "Radeljic",
+        "givenName": "Stjepan",
+        "nameKo": "Stjepan Radeljic",
+        "shirtNumber": 21,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-5",
+        "familyName": "Kolasinac",
+        "givenName": "Sead",
+        "nameKo": "Sead Kolasinac",
+        "shirtNumber": 5,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-20",
+        "familyName": "Bajraktarevic",
+        "givenName": "Esmir",
+        "nameKo": "Esmir Bajraktarevic",
+        "shirtNumber": 20,
+        "position": "Right Midfield",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-13",
+        "familyName": "Basic",
+        "givenName": "Ivan",
+        "nameKo": "Ivan Basic",
+        "shirtNumber": 13,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-14",
+        "familyName": "Sunjic",
+        "givenName": "Ivan",
+        "nameKo": "Ivan Sunjic",
+        "shirtNumber": 14,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-19",
+        "familyName": "Alajbegovic",
+        "givenName": "Kerim",
+        "nameKo": "Kerim Alajbegovic",
+        "shirtNumber": 19,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-10",
+        "familyName": "Demirovic",
+        "givenName": "Ermedin",
+        "nameKo": "Ermedin Demirovic",
+        "shirtNumber": 10,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-11",
+        "familyName": "Dzeko",
+        "givenName": "Edin",
+        "nameKo": "Edin Dzeko",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BIH-15",
+        "familyName": "Memic",
+        "givenName": "Amar",
+        "nameKo": "Amar Memic",
+        "shirtNumber": 15,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BIH-6",
+        "familyName": "Tahirovic",
+        "givenName": "Benjamin",
+        "nameKo": "Benjamin Tahirovic",
+        "shirtNumber": 6,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BIH-3",
+        "familyName": "Hadzikadunic",
+        "givenName": "Dennis",
+        "nameKo": "Dennis Hadzikadunic",
+        "shirtNumber": 3,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BIH-26",
+        "familyName": "Mahmic",
+        "givenName": "Ermin",
+        "nameKo": "Ermin Mahmic",
+        "shirtNumber": 26,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BIH-17",
+        "familyName": "Burnic",
+        "givenName": "Dzenis",
+        "nameKo": "Dzenis Burnic",
+        "shirtNumber": 17,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-QAT-1",
+        "familyName": "Abunada",
+        "givenName": "Mahmoud",
+        "nameKo": "Mahmoud Abunada",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-2",
+        "familyName": "Miguel",
+        "givenName": "Pedro",
+        "nameKo": "Pedro Miguel",
+        "shirtNumber": 2,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-4",
+        "familyName": "Laye",
+        "givenName": "Issa",
+        "nameKo": "Issa Laye",
+        "shirtNumber": 4,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-16",
+        "familyName": "Khoukhi",
+        "givenName": "Boualem",
+        "nameKo": "Boualem Khoukhi",
+        "shirtNumber": 16,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-18",
+        "familyName": "Al-Brake",
+        "givenName": "Sultan",
+        "nameKo": "Sultan Al-Brake",
+        "shirtNumber": 18,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-5",
+        "familyName": "Gaber",
+        "givenName": "Jassem",
+        "nameKo": "Jassem Gaber",
+        "shirtNumber": 5,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-12",
+        "familyName": "Boudiaf",
+        "givenName": "Karim",
+        "nameKo": "Karim Boudiaf",
+        "shirtNumber": 12,
+        "position": "Central Midfield",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-8",
+        "familyName": "Junior",
+        "givenName": "Edmilson",
+        "nameKo": "Edmilson Junior",
+        "shirtNumber": 8,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-10",
+        "familyName": "Al-Haydos",
+        "givenName": "Hassan",
+        "nameKo": "Hassan Al-Haydos",
+        "shirtNumber": 10,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-11",
+        "familyName": "Afif",
+        "givenName": "Akram",
+        "nameKo": "Akram Afif",
+        "shirtNumber": 11,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-20",
+        "familyName": "Fathy",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Fathy",
+        "shirtNumber": 20,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-6",
+        "familyName": "Hatem",
+        "givenName": "Abdulaziz",
+        "nameKo": "Abdulaziz Hatem",
+        "shirtNumber": 6,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-17",
+        "familyName": "Al-Ganehi",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Al-Ganehi",
+        "shirtNumber": 17,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-19",
+        "familyName": "Ali",
+        "givenName": "Almoez",
+        "nameKo": "Almoez Ali",
+        "shirtNumber": 19,
+        "position": "Central Midfield",
+        "positionCode": "CDM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-7",
+        "familyName": "Alaaeldin",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Alaaeldin",
+        "shirtNumber": 7,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-26",
+        "familyName": "Manai",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Manai",
+        "shirtNumber": 26,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 29,
+      "playerId": "P-2026-BIH-19",
+      "nameKo": "Kerim Alajbegovic",
+      "teamId": "T-BIH",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 34,
+      "playerId": "P-2026-QAT-1",
+      "nameKo": "Mahmoud Abunada",
+      "teamId": "T-BIH",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 42,
+      "playerId": "P-2026-QAT-10",
+      "nameKo": "Hassan Al-Haydos",
+      "teamId": "T-QAT",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 80,
+      "playerId": "P-2026-BIH-26",
+      "nameKo": "Ermin Mahmic",
+      "teamId": "T-BIH",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-BIH-15",
+      "offId": "P-2026-BIH-24",
+      "teamId": "T-BIH"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-BIH-6",
+      "offId": "P-2026-BIH-14",
+      "teamId": "T-BIH"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-QAT-6",
+      "offId": "P-2026-QAT-5",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 56,
+      "onId": "P-2026-QAT-17",
+      "offId": "P-2026-QAT-10",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 63,
+      "onId": "P-2026-BIH-3",
+      "offId": "P-2026-BIH-18",
+      "teamId": "T-BIH"
+    },
+    {
+      "minute": 64,
+      "onId": "P-2026-BIH-26",
+      "offId": "P-2026-BIH-11",
+      "teamId": "T-BIH"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-QAT-19",
+      "offId": "P-2026-QAT-12",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-QAT-7",
+      "offId": "P-2026-QAT-8",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-QAT-26",
+      "offId": "P-2026-QAT-20",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 82,
+      "onId": "P-2026-BIH-17",
+      "offId": "P-2026-BIH-19",
+      "teamId": "T-BIH"
+    }
+  ]
+}

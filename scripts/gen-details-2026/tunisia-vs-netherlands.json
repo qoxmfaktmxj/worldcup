@@ -1,0 +1,457 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-TUN-16",
+        "familyName": "Dahmen",
+        "givenName": "Aymen",
+        "nameKo": "Aymen Dahmen",
+        "shirtNumber": 16,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-2",
+        "familyName": "Abdi",
+        "givenName": "Ali",
+        "nameKo": "Ali Abdi",
+        "shirtNumber": 2,
+        "position": "Defender",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-3",
+        "familyName": "Talbi",
+        "givenName": "Montassar",
+        "nameKo": "Montassar Talbi",
+        "shirtNumber": 3,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-21",
+        "familyName": "Ben Hmida",
+        "givenName": "Mohamed Amine",
+        "nameKo": "Mohamed Amine Ben Hmida",
+        "shirtNumber": 21,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-20",
+        "familyName": "Valery",
+        "givenName": "Yan",
+        "nameKo": "Yan Valery",
+        "shirtNumber": 20,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-13",
+        "familyName": "Khedira",
+        "givenName": "Rani",
+        "nameKo": "Rani Khedira",
+        "shirtNumber": 13,
+        "position": "Midfielder",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-17",
+        "familyName": "Skhiri",
+        "givenName": "Ellyes",
+        "nameKo": "Ellyes Skhiri",
+        "shirtNumber": 17,
+        "position": "Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-10",
+        "familyName": "Mejbri",
+        "givenName": "Hannibal",
+        "nameKo": "Hannibal Mejbri",
+        "shirtNumber": 10,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-11",
+        "familyName": "Gharbi",
+        "givenName": "Ismael",
+        "nameKo": "Ismael Gharbi",
+        "shirtNumber": 11,
+        "position": "Midfielder",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-25",
+        "familyName": "Slimane",
+        "givenName": "Anis",
+        "nameKo": "Anis Slimane",
+        "shirtNumber": 25,
+        "position": "Midfielder",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-9",
+        "familyName": "Mastouri",
+        "givenName": "Hazem",
+        "nameKo": "Hazem Mastouri",
+        "shirtNumber": 9,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-TUN-15",
+        "familyName": "Hadj Mahmoud",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Hadj Mahmoud",
+        "shirtNumber": 15,
+        "position": "Defender",
+        "positionCode": "RWB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-TUN-7",
+        "familyName": "Achouri",
+        "givenName": "Elias",
+        "nameKo": "Elias Achouri",
+        "shirtNumber": 7,
+        "position": "Midfielder",
+        "positionCode": "RM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-TUN-4",
+        "familyName": "Ben Ouanes",
+        "givenName": "Mortadha",
+        "nameKo": "Mortadha Ben Ouanes",
+        "shirtNumber": 4,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-TUN-18",
+        "familyName": "Chaouat",
+        "givenName": "Firas",
+        "nameKo": "Firas Chaouat",
+        "shirtNumber": 18,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-TUN-22",
+        "familyName": "Tounekti",
+        "givenName": "Sebastian",
+        "nameKo": "Sebastian Tounekti",
+        "shirtNumber": 22,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-NED-1",
+        "familyName": "Verbruggen",
+        "givenName": "Bart",
+        "nameKo": "Bart Verbruggen",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-22",
+        "familyName": "Dumfries",
+        "givenName": "Denzel",
+        "nameKo": "Denzel Dumfries",
+        "shirtNumber": 22,
+        "position": "Defender",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-6",
+        "familyName": "van Hecke",
+        "givenName": "Jan Paul",
+        "nameKo": "Jan Paul van Hecke",
+        "shirtNumber": 6,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-4",
+        "familyName": "van Dijk",
+        "givenName": "Virgil",
+        "nameKo": "Virgil van Dijk",
+        "shirtNumber": 4,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-5",
+        "familyName": "Ake",
+        "givenName": "Nathan",
+        "nameKo": "Nathan Ake",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-8",
+        "familyName": "Gravenberch",
+        "givenName": "Ryan",
+        "nameKo": "Ryan Gravenberch",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-21",
+        "familyName": "de Jong",
+        "givenName": "Frenkie",
+        "nameKo": "Frenkie de Jong",
+        "shirtNumber": 21,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-14",
+        "familyName": "Reijnders",
+        "givenName": "Tijjani",
+        "nameKo": "Tijjani Reijnders",
+        "shirtNumber": 14,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-18",
+        "familyName": "Malen",
+        "givenName": "Donyell",
+        "nameKo": "Donyell Malen",
+        "shirtNumber": 18,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-19",
+        "familyName": "Brobbey",
+        "givenName": "Brian",
+        "nameKo": "Brian Brobbey",
+        "shirtNumber": 19,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-11",
+        "familyName": "Gakpo",
+        "givenName": "Cody",
+        "nameKo": "Cody Gakpo",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NED-7",
+        "familyName": "Kluivert",
+        "givenName": "Justin",
+        "nameKo": "Justin Kluivert",
+        "shirtNumber": 7,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NED-15",
+        "familyName": "Koopmeiners",
+        "givenName": "Teun",
+        "nameKo": "Teun Koopmeiners",
+        "shirtNumber": 15,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NED-26",
+        "familyName": "Summerville",
+        "givenName": "Crysencio",
+        "nameKo": "Crysencio Summerville",
+        "shirtNumber": 26,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NED-10",
+        "familyName": "Depay",
+        "givenName": "Memphis",
+        "nameKo": "Memphis Depay",
+        "shirtNumber": 10,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NED-17",
+        "familyName": "Lang",
+        "givenName": "Noa",
+        "nameKo": "Noa Lang",
+        "shirtNumber": 17,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 3,
+      "playerId": "P-2026-TUN-17",
+      "nameKo": "Ellyes Skhiri",
+      "teamId": "T-NED",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 7,
+      "playerId": "P-2026-NED-19",
+      "nameKo": "Brian Brobbey",
+      "teamId": "T-NED",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 54,
+      "playerId": "P-2026-TUN-9",
+      "nameKo": "Hazem Mastouri",
+      "teamId": "T-TUN",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 62,
+      "playerId": "P-2026-NED-6",
+      "nameKo": "Jan Paul van Hecke",
+      "teamId": "T-NED",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 67,
+      "onId": "P-2026-TUN-15",
+      "offId": "P-2026-TUN-13",
+      "teamId": "T-TUN"
+    },
+    {
+      "minute": 68,
+      "onId": "P-2026-TUN-7",
+      "offId": "P-2026-TUN-25",
+      "teamId": "T-TUN"
+    },
+    {
+      "minute": 68,
+      "onId": "P-2026-TUN-4",
+      "offId": "P-2026-TUN-21",
+      "teamId": "T-TUN"
+    },
+    {
+      "minute": 75,
+      "onId": "P-2026-TUN-18",
+      "offId": "P-2026-TUN-11",
+      "teamId": "T-TUN"
+    },
+    {
+      "minute": 90,
+      "onId": "P-2026-TUN-22",
+      "offId": "P-2026-TUN-9",
+      "teamId": "T-TUN"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-NED-7",
+      "offId": "P-2026-NED-14",
+      "teamId": "T-NED"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-NED-15",
+      "offId": "P-2026-NED-21",
+      "teamId": "T-NED"
+    },
+    {
+      "minute": 72,
+      "onId": "P-2026-NED-26",
+      "offId": "P-2026-NED-18",
+      "teamId": "T-NED"
+    },
+    {
+      "minute": 77,
+      "onId": "P-2026-NED-10",
+      "offId": "P-2026-NED-19",
+      "teamId": "T-NED"
+    },
+    {
+      "minute": 84,
+      "onId": "P-2026-NED-17",
+      "offId": "P-2026-NED-11",
+      "teamId": "T-NED"
+    }
+  ]
+}

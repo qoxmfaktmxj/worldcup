@@ -1,0 +1,18 @@
+{
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "goals": [
+    {
+      "minute": 63,
+      "playerId": "P-2026-RSA-0",
+      "nameKo": "Thapelo Maseko",
+      "teamId": "T-RSA",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": []
+}

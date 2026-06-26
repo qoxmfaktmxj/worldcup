@@ -1,0 +1,61 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-NED-1","familyName":"Verbruggen","givenName":"Bart","nameKo":"Bart Verbruggen","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-22","familyName":"Dumfries","givenName":"Denzel","nameKo":"Denzel Dumfries","shirtNumber":22,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-4","familyName":"van Dijk","givenName":"Virgil","nameKo":"Virgil van Dijk","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-6","familyName":"van Hecke","givenName":"Jan Paul","nameKo":"Jan Paul van Hecke","shirtNumber":6,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-15","familyName":"van de Ven","givenName":"Micky","nameKo":"Micky van de Ven","shirtNumber":15,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-8","familyName":"Gravenberch","givenName":"Ryan","nameKo":"Ryan Gravenberch","shirtNumber":8,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-21","familyName":"de Jong","givenName":"Frenkie","nameKo":"Frenkie de Jong","shirtNumber":21,"position":"Central Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-14","familyName":"Reijnders","givenName":"Tijjani","nameKo":"Tijjani Reijnders","shirtNumber":14,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-18","familyName":"Malen","givenName":"Donyell","nameKo":"Donyell Malen","shirtNumber":18,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-24","familyName":"Summerville","givenName":"Crysencio","nameKo":"Crysencio Summerville","shirtNumber":24,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-11","familyName":"Gakpo","givenName":"Cody","nameKo":"Cody Gakpo","shirtNumber":11,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-10","familyName":"Depay","givenName":"Memphis","nameKo":"Memphis Depay","shirtNumber":10,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-NED-20","familyName":"Koopmeiners","givenName":"Teun","nameKo":"Teun Koopmeiners","shirtNumber":20,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NED-26","familyName":"Timber","givenName":"Quinten","nameKo":"Quinten Timber","shirtNumber":26,"position":"Midfield","positionCode":"LCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NED-5","familyName":"Ake","givenName":"Nathan","nameKo":"Nathan Ake","shirtNumber":5,"position":"Defender","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NED-19","familyName":"Brobbey","givenName":"Brian","nameKo":"Brian Brobbey","shirtNumber":19,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-JPN-1","familyName":"Suzuki","givenName":"Zion","nameKo":"Zion Suzuki","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-16","familyName":"Watanabe","givenName":"Tsuyoshi","nameKo":"Tsuyoshi Watanabe","shirtNumber":16,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-3","familyName":"Taniguchi","givenName":"Shogo","nameKo":"Shogo Taniguchi","shirtNumber":3,"position":"Centre Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-21","familyName":"Ito","givenName":"Hiroki","nameKo":"Hiroki Ito","shirtNumber":21,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-24","familyName":"Sano","givenName":"Kaishu","nameKo":"Kaishu Sano","shirtNumber":24,"position":"Right Wing Back","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-15","familyName":"Kamada","givenName":"Daichi","nameKo":"Daichi Kamada","shirtNumber":15,"position":"Central Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-13","familyName":"Nakamura","givenName":"Keito","nameKo":"Keito Nakamura","shirtNumber":13,"position":"Left Wing Back","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-10","familyName":"Doan","givenName":"Ritsu","nameKo":"Ritsu Doan","shirtNumber":10,"position":"Attacking Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-8","familyName":"Kubo","givenName":"Takefusa","nameKo":"Takefusa Kubo","shirtNumber":8,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-11","familyName":"Maeda","givenName":"Daizen","nameKo":"Daizen Maeda","shirtNumber":11,"position":"Attacking Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-18","familyName":"Ueda","givenName":"Ayase","nameKo":"Ayase Ueda","shirtNumber":18,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-14","familyName":"Ito","givenName":"Junya","nameKo":"Junya Ito","shirtNumber":14,"position":"Forward","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-19","familyName":"Ogawa","givenName":"Koki","nameKo":"Koki Ogawa","shirtNumber":19,"position":"Forward","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-2","familyName":"Sugawara","givenName":"Yukinari","nameKo":"Yukinari Sugawara","shirtNumber":2,"position":"Defender","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-22","familyName":"Tomiyasu","givenName":"Takehiro","nameKo":"Takehiro Tomiyasu","shirtNumber":22,"position":"Defender","positionCode":"RCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-26","familyName":"Shiogai","givenName":"Kento","nameKo":"Kento Shiogai","shirtNumber":26,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":51,"playerId":"P-2026-NED-4","nameKo":"Virgil van Dijk","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":57,"playerId":"P-2026-JPN-13","nameKo":"Keito Nakamura","teamId":"T-JPN","ownGoal":false,"penalty":false},
+    {"minute":64,"playerId":"P-2026-NED-24","nameKo":"Crysencio Summerville","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":89,"playerId":"P-2026-JPN-15","nameKo":"Daichi Kamada","teamId":"T-JPN","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":90,"playerId":"P-2026-NED-15","nameKo":"Micky van de Ven","teamId":"T-NED","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":66,"onId":"P-2026-JPN-14","offId":"P-2026-JPN-11","teamId":"T-JPN"},
+    {"minute":70,"onId":"P-2026-NED-10","offId":"P-2026-NED-18","teamId":"T-NED"},
+    {"minute":70,"onId":"P-2026-NED-26","offId":"P-2026-NED-14","teamId":"T-NED"},
+    {"minute":70,"onId":"P-2026-NED-20","offId":"P-2026-NED-24","teamId":"T-NED"},
+    {"minute":75,"onId":"P-2026-JPN-19","offId":"P-2026-JPN-8","teamId":"T-JPN"},
+    {"minute":75,"onId":"P-2026-JPN-22","offId":"P-2026-JPN-16","teamId":"T-JPN"},
+    {"minute":75,"onId":"P-2026-JPN-2","offId":"P-2026-JPN-10","teamId":"T-JPN"},
+    {"minute":81,"onId":"P-2026-NED-5","offId":"P-2026-NED-8","teamId":"T-NED"},
+    {"minute":84,"onId":"P-2026-JPN-26","offId":"P-2026-JPN-18","teamId":"T-JPN"},
+    {"minute":85,"onId":"P-2026-NED-19","offId":"P-2026-NED-11","teamId":"T-NED"}
+  ]
+}

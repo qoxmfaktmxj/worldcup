@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-06-25). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-06-26). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -75,8 +75,8 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["D", "2026-06-14T04:00:00Z", "Australia", "Turkey", 2, 0, "vancouver"],
   ["D", "2026-06-19T19:00:00Z", "United States", "Australia", 2, 0, "seattle"],
   ["D", "2026-06-20T03:00:00Z", "Turkey", "Paraguay", 0, 1, "santaclara"],
-  ["D", "2026-06-26T02:00:00Z", "Turkey", "United States", null, null, "inglewood"],
-  ["D", "2026-06-26T02:00:00Z", "Paraguay", "Australia", null, null, "santaclara"],
+  ["D", "2026-06-26T02:00:00Z", "Turkey", "United States", 3, 2, "inglewood"],
+  ["D", "2026-06-26T02:00:00Z", "Paraguay", "Australia", 0, 0, "santaclara"],
   // Group E
   ["E", "2026-06-14T17:00:00Z", "Germany", "Curaçao", 7, 1, "houston"],
   ["E", "2026-06-14T23:00:00Z", "Ivory Coast", "Ecuador", 1, 0, "philadelphia"],
@@ -89,8 +89,8 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["F", "2026-06-15T02:00:00Z", "Sweden", "Tunisia", 5, 1, "bbva"],
   ["F", "2026-06-20T17:00:00Z", "Netherlands", "Sweden", 5, 1, "houston"],
   ["F", "2026-06-21T04:00:00Z", "Tunisia", "Japan", 0, 4, "bbva"],
-  ["F", "2026-06-25T23:00:00Z", "Japan", "Sweden", null, null, "arlington"],
-  ["F", "2026-06-25T23:00:00Z", "Tunisia", "Netherlands", null, null, "kansascity"],
+  ["F", "2026-06-25T23:00:00Z", "Japan", "Sweden", 1, 1, "arlington"],
+  ["F", "2026-06-25T23:00:00Z", "Tunisia", "Netherlands", 1, 3, "kansascity"],
   // Group G
   ["G", "2026-06-15T19:00:00Z", "Belgium", "Egypt", 1, 1, "seattle"],
   ["G", "2026-06-16T01:00:00Z", "Iran", "New Zealand", 2, 2, "inglewood"],

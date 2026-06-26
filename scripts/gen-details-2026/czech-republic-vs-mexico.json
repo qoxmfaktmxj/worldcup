@@ -1,0 +1,58 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-CZE-1","familyName":"Kovar","givenName":"Matej","nameKo":"Matej Kovar","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-3","familyName":"Holes","givenName":"Tomas","nameKo":"Tomas Holes","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-4","familyName":"Hranac","givenName":"Robin","nameKo":"Robin Hranac","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-5","familyName":"Coufal","givenName":"Vladimir","nameKo":"Vladimir Coufal","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-21","familyName":"Doudera","givenName":"David","nameKo":"David Doudera","shirtNumber":21,"position":"Midfielder","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-12","familyName":"Cerv","givenName":"Lukas","nameKo":"Lukas Cerv","shirtNumber":12,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-18","familyName":"Sadilek","givenName":"Michal","nameKo":"Michal Sadilek","shirtNumber":18,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-7","familyName":"Krejci","givenName":"Ladislav","nameKo":"Ladislav Krejci","shirtNumber":7,"position":"Midfielder","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-15","familyName":"Sulc","givenName":"Pavel","nameKo":"Pavel Sulc","shirtNumber":15,"position":"Forward","positionCode":"RF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-26","familyName":"Visinsky","givenName":"Denis","nameKo":"Denis Visinsky","shirtNumber":26,"position":"Forward","positionCode":"LF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-9","familyName":"Hlozek","givenName":"Adam","nameKo":"Adam Hlozek","shirtNumber":9,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-x1","familyName":"Prochazka","givenName":"Lukas","nameKo":"Lukas Prochazka","shirtNumber":0,"position":"Substitute","positionCode":"LF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-x2","familyName":"Schick","givenName":"Patrik","nameKo":"Patrik Schick","shirtNumber":0,"position":"Substitute","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-x3","familyName":"Soucek","givenName":"Tomas","nameKo":"Tomas Soucek","shirtNumber":0,"position":"Substitute","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-x4","familyName":"Chory","givenName":"Tomas","nameKo":"Tomas Chory","shirtNumber":0,"position":"Substitute","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-x5","familyName":"Sojka","givenName":"Alexandr","nameKo":"Alexandr Sojka","shirtNumber":0,"position":"Substitute","positionCode":"CM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-MEX-1","familyName":"Rangel","givenName":"Raul","nameKo":"Raul Rangel","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-2","familyName":"Sanchez","givenName":"Jorge","nameKo":"Jorge Sanchez","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-15","familyName":"Reyes","givenName":"Israel","nameKo":"Israel Reyes","shirtNumber":15,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-3","familyName":"Montes","givenName":"Cesar","nameKo":"Cesar Montes","shirtNumber":3,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-20","familyName":"Chavez","givenName":"Mateo","nameKo":"Mateo Chavez","shirtNumber":20,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-4","familyName":"Alvarez","givenName":"Edson","nameKo":"Edson Alvarez","shirtNumber":4,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-7","familyName":"Romo","givenName":"Luis","nameKo":"Luis Romo","shirtNumber":7,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-19","familyName":"Mora","givenName":"Gilberto","nameKo":"Gilberto Mora","shirtNumber":19,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-25","familyName":"Alvarado","givenName":"Roberto","nameKo":"Roberto Alvarado","shirtNumber":25,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-22","familyName":"Martinez","givenName":"Guillermo","nameKo":"Guillermo Martinez","shirtNumber":22,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-16","familyName":"Quinones","givenName":"Julian","nameKo":"Julian Quinones","shirtNumber":16,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-x1","familyName":"Gimenez","givenName":"Santiago","nameKo":"Santiago Gimenez","shirtNumber":0,"position":"Substitute","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-x2","familyName":"Vargas","givenName":"Obed","nameKo":"Obed Vargas","shirtNumber":0,"position":"Substitute","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-x3","familyName":"Fidalgo","givenName":"Alvaro","nameKo":"Alvaro Fidalgo","shirtNumber":0,"position":"Substitute","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-x4","familyName":"Gallardo","givenName":"Jesus","nameKo":"Jesus Gallardo","shirtNumber":0,"position":"Substitute","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-x5","familyName":"Ochoa","givenName":"Guillermo","nameKo":"Guillermo Ochoa","shirtNumber":0,"position":"Substitute","positionCode":"GK","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":55,"playerId":"P-2026-MEX-20","nameKo":"Mateo Chavez","teamId":"T-MEX","ownGoal":false,"penalty":false},
+    {"minute":61,"playerId":"P-2026-MEX-16","nameKo":"Julian Quinones","teamId":"T-MEX","ownGoal":false,"penalty":false},
+    {"minute":94,"playerId":"P-2026-MEX-x3","nameKo":"Alvaro Fidalgo","teamId":"T-MEX","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":56,"onId":"P-2026-CZE-x1","offId":"P-2026-CZE-26","teamId":"T-CZE"},
+    {"minute":64,"onId":"P-2026-CZE-x2","offId":"P-2026-CZE-9","teamId":"T-CZE"},
+    {"minute":64,"onId":"P-2026-CZE-x3","offId":"P-2026-CZE-3","teamId":"T-CZE"},
+    {"minute":87,"onId":"P-2026-CZE-x4","offId":"P-2026-CZE-12","teamId":"T-CZE"},
+    {"minute":87,"onId":"P-2026-CZE-x5","offId":"P-2026-CZE-x3","teamId":"T-CZE"},
+    {"minute":63,"onId":"P-2026-MEX-x1","offId":"P-2026-MEX-22","teamId":"T-MEX"},
+    {"minute":63,"onId":"P-2026-MEX-x2","offId":"P-2026-MEX-7","teamId":"T-MEX"},
+    {"minute":72,"onId":"P-2026-MEX-x3","offId":"P-2026-MEX-19","teamId":"T-MEX"},
+    {"minute":78,"onId":"P-2026-MEX-x4","offId":"P-2026-MEX-20","teamId":"T-MEX"},
+    {"minute":78,"onId":"P-2026-MEX-x5","offId":"P-2026-MEX-1","teamId":"T-MEX"}
+  ]
+}

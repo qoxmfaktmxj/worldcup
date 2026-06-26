@@ -1,0 +1,62 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-SUI-1","familyName":"Kobel","givenName":"Gregor","nameKo":"Gregor Kobel","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-3","familyName":"Rodríguez","givenName":"Ricardo","nameKo":"Ricardo Rodriguez","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-5","familyName":"Akanji","givenName":"Manuel","nameKo":"Manuel Akanji","shirtNumber":5,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-4","familyName":"Elvedi","givenName":"Nico","nameKo":"Nico Elvedi","shirtNumber":4,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-13","familyName":"Widmer","givenName":"Silvan","nameKo":"Silvan Widmer","shirtNumber":13,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-20","familyName":"Aebischer","givenName":"Michel","nameKo":"Michel Aebischer","shirtNumber":20,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-10","familyName":"Xhaka","givenName":"Granit","nameKo":"Granit Xhaka","shirtNumber":10,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-8","familyName":"Freuler","givenName":"Remo","nameKo":"Remo Freuler","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-22","familyName":"Rieder","givenName":"Fabian","nameKo":"Fabian Rieder","shirtNumber":22,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-7","familyName":"Embolo","givenName":"Breel","nameKo":"Breel Embolo","shirtNumber":7,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-11","familyName":"Ndoye","givenName":"Dan","nameKo":"Dan Ndoye","shirtNumber":11,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-17","familyName":"Sow","givenName":"Djibril","nameKo":"Djibril Sow","shirtNumber":17,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-9","familyName":"Vargas","givenName":"Rubén","nameKo":"Ruben Vargas","shirtNumber":9,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-15","familyName":"Manzambi","givenName":"Johan","nameKo":"Johan Manzambi","shirtNumber":15,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-2","familyName":"Jaquez","givenName":"Luca","nameKo":"Luca Jaquez","shirtNumber":2,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-19","familyName":"Itten","givenName":"Cédric","nameKo":"Cedric Itten","shirtNumber":19,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-BIH-1","familyName":"Vasilj","givenName":"Nikola","nameKo":"Nikola Vasilj","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-7","familyName":"Dedić","givenName":"Amar","nameKo":"Amar Dedic","shirtNumber":7,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-18","familyName":"Katić","givenName":"Nikola","nameKo":"Nikola Katic","shirtNumber":18,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-4","familyName":"Muharemović","givenName":"Tarik","nameKo":"Tarik Muharemovic","shirtNumber":4,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-5","familyName":"Kolašinac","givenName":"Sead","nameKo":"Sead Kolasinac","shirtNumber":5,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-19","familyName":"Alajbegović","givenName":"Kerim","nameKo":"Kerim Alajbegovic","shirtNumber":19,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-6","familyName":"Tahirović","givenName":"Benjamin","nameKo":"Benjamin Tahirovic","shirtNumber":6,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-14","familyName":"Šunjić","givenName":"Ivan","nameKo":"Ivan Sunjic","shirtNumber":14,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-15","familyName":"Memić","givenName":"Amar","nameKo":"Amar Memic","shirtNumber":15,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-10","familyName":"Demirović","givenName":"Ermedin","nameKo":"Ermedin Demirovic","shirtNumber":10,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-11","familyName":"Džeko","givenName":"Edin","nameKo":"Edin Dzeko","shirtNumber":11,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-BIH-8","familyName":"Bašić","givenName":"Ivan","nameKo":"Ivan Basic","shirtNumber":8,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-BIH-9","familyName":"Bajraktarević","givenName":"Esmir","nameKo":"Esmir Bajraktarevic","shirtNumber":9,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-BIH-16","familyName":"Hadžiahmetović","givenName":"Amir","nameKo":"Amir Hadziahmetovic","shirtNumber":16,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-BIH-17","familyName":"Lukić","givenName":"Jovo","nameKo":"Jovo Lukic","shirtNumber":17,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-BIH-20","familyName":"Mahmić","givenName":"Ermin","nameKo":"Ermin Mahmic","shirtNumber":20,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":74,"playerId":"P-2026-SUI-15","nameKo":"Johan Manzambi","teamId":"T-SUI","ownGoal":false,"penalty":false},
+    {"minute":84,"playerId":"P-2026-SUI-9","nameKo":"Ruben Vargas","teamId":"T-SUI","ownGoal":false,"penalty":false},
+    {"minute":90,"playerId":"P-2026-SUI-15","nameKo":"Johan Manzambi","teamId":"T-SUI","ownGoal":false,"penalty":false},
+    {"minute":93,"playerId":"P-2026-BIH-20","nameKo":"Ermin Mahmic","teamId":"T-BIH","ownGoal":false,"penalty":false},
+    {"minute":97,"playerId":"P-2026-SUI-10","nameKo":"Granit Xhaka","teamId":"T-SUI","ownGoal":false,"penalty":true}
+  ],
+  "bookings": [
+    {"minute":80,"playerId":"P-2026-BIH-4","nameKo":"Tarik Muharemovic","teamId":"T-BIH","card":"red"}
+  ],
+  "subs": [
+    {"minute":63,"onId":"P-2026-BIH-8","offId":"P-2026-BIH-6","teamId":"T-BIH"},
+    {"minute":64,"onId":"P-2026-BIH-9","offId":"P-2026-BIH-11","teamId":"T-BIH"},
+    {"minute":71,"onId":"P-2026-SUI-17","offId":"P-2026-SUI-20","teamId":"T-SUI"},
+    {"minute":71,"onId":"P-2026-SUI-9","offId":"P-2026-SUI-22","teamId":"T-SUI"},
+    {"minute":71,"onId":"P-2026-SUI-15","offId":"P-2026-SUI-11","teamId":"T-SUI"},
+    {"minute":84,"onId":"P-2026-SUI-2","offId":"P-2026-SUI-13","teamId":"T-SUI"},
+    {"minute":86,"onId":"P-2026-SUI-19","offId":"P-2026-SUI-7","teamId":"T-SUI"},
+    {"minute":86,"onId":"P-2026-BIH-16","offId":"P-2026-BIH-14","teamId":"T-BIH"},
+    {"minute":86,"onId":"P-2026-BIH-17","offId":"P-2026-BIH-10","teamId":"T-BIH"},
+    {"minute":91,"onId":"P-2026-BIH-20","offId":"P-2026-BIH-19","teamId":"T-BIH"}
+  ]
+}

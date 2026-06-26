@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-JPN-1","familyName":"Suzuki","givenName":"Zion","nameKo":"Zion Suzuki","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-20","familyName":"Seko","givenName":"Ayumu","nameKo":"Ayumu Seko","shirtNumber":20,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-4","familyName":"Itakura","givenName":"Ko","nameKo":"Ko Itakura","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-21","familyName":"Ito","givenName":"Hiroki","nameKo":"Hiroki Ito","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-2","familyName":"Sugawara","givenName":"Yukinari","nameKo":"Yukinari Sugawara","shirtNumber":2,"position":"Midfielder","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-7","familyName":"Tanaka","givenName":"Ao","nameKo":"Ao Tanaka","shirtNumber":7,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-15","familyName":"Kamada","givenName":"Daichi","nameKo":"Daichi Kamada","shirtNumber":15,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-13","familyName":"Nakamura","givenName":"Keito","nameKo":"Keito Nakamura","shirtNumber":13,"position":"Midfielder","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-10","familyName":"Doan","givenName":"Ritsu","nameKo":"Ritsu Doan","shirtNumber":10,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-11","familyName":"Maeda","givenName":"Daizen","nameKo":"Daizen Maeda","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-18","familyName":"Ueda","givenName":"Ayase","nameKo":"Ayase Ueda","shirtNumber":18,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-JPN-3","familyName":"Taniguchi","givenName":"Shogo","nameKo":"Shogo Taniguchi","shirtNumber":3,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-19","familyName":"Ogawa","givenName":"Koki","nameKo":"Koki Ogawa","shirtNumber":19,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-14","familyName":"Ito","givenName":"Junya","nameKo":"Junya Ito","shirtNumber":14,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-5","familyName":"Nagatomo","givenName":"Yuto","nameKo":"Yuto Nagatomo","shirtNumber":5,"position":"Defender","positionCode":"LWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-JPN-16","familyName":"Watanabe","givenName":"Tsuyoshi","nameKo":"Tsuyoshi Watanabe","shirtNumber":16,"position":"Defender","positionCode":"RCB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-SWE-1","familyName":"Widell Zetterstrom","givenName":"Jacob","nameKo":"Jacob Widell Zetterstrom","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-2","familyName":"Lagerbielke","givenName":"Gustaf","nameKo":"Gustaf Lagerbielke","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-4","familyName":"Hien","givenName":"Isak","nameKo":"Isak Hien","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-5","familyName":"Gudmundsson","givenName":"Gabriel","nameKo":"Gabriel Gudmundsson","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-21","familyName":"Bernhardsson","givenName":"Alexander","nameKo":"Alexander Bernhardsson","shirtNumber":21,"position":"Midfielder","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-18","familyName":"Ayari","givenName":"Yasin","nameKo":"Yasin Ayari","shirtNumber":18,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-24","familyName":"Stroud","givenName":"Elliot","nameKo":"Elliot Stroud","shirtNumber":24,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-3","familyName":"Lindelof","givenName":"Victor","nameKo":"Victor Lindelof","shirtNumber":3,"position":"Midfielder","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-11","familyName":"Elanga","givenName":"Anthony","nameKo":"Anthony Elanga","shirtNumber":11,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-9","familyName":"Isak","givenName":"Alexander","nameKo":"Alexander Isak","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-17","familyName":"Gyokeres","givenName":"Viktor","nameKo":"Viktor Gyokeres","shirtNumber":17,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-7","familyName":"Bergvall","givenName":"Lucas","nameKo":"Lucas Bergvall","shirtNumber":7,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-13","familyName":"Sema","givenName":"Ken","nameKo":"Ken Sema","shirtNumber":13,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-8","familyName":"Svensson","givenName":"Daniel","nameKo":"Daniel Svensson","shirtNumber":8,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-15","familyName":"Starfelt","givenName":"Carl","nameKo":"Carl Starfelt","shirtNumber":15,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-10","familyName":"Nygren","givenName":"Benjamin","nameKo":"Benjamin Nygren","shirtNumber":10,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":56,"playerId":"P-2026-JPN-11","nameKo":"Daizen Maeda","teamId":"T-JPN","ownGoal":false,"penalty":false},
+    {"minute":62,"playerId":"P-2026-SWE-11","nameKo":"Anthony Elanga","teamId":"T-SWE","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":39,"onId":"P-2026-JPN-3","offId":"P-2026-JPN-4","teamId":"T-JPN"},
+    {"minute":66,"onId":"P-2026-JPN-19","offId":"P-2026-JPN-18","teamId":"T-JPN"},
+    {"minute":67,"onId":"P-2026-JPN-14","offId":"P-2026-JPN-10","teamId":"T-JPN"},
+    {"minute":75,"onId":"P-2026-JPN-5","offId":"P-2026-JPN-13","teamId":"T-JPN"},
+    {"minute":75,"onId":"P-2026-JPN-16","offId":"P-2026-JPN-20","teamId":"T-JPN"},
+    {"minute":37,"onId":"P-2026-SWE-7","offId":"P-2026-SWE-4","teamId":"T-SWE"},
+    {"minute":75,"onId":"P-2026-SWE-13","offId":"P-2026-SWE-24","teamId":"T-SWE"},
+    {"minute":75,"onId":"P-2026-SWE-8","offId":"P-2026-SWE-21","teamId":"T-SWE"},
+    {"minute":87,"onId":"P-2026-SWE-15","offId":"P-2026-SWE-3","teamId":"T-SWE"},
+    {"minute":88,"onId":"P-2026-SWE-10","offId":"P-2026-SWE-5","teamId":"T-SWE"}
+  ]
+}

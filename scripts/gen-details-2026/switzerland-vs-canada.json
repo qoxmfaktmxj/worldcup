@@ -1,0 +1,62 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-SUI-1","familyName":"Kobel","givenName":"Gregor","nameKo":"Gregor Kobel","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-4","familyName":"Elvedi","givenName":"Nico","nameKo":"Nico Elvedi","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-5","familyName":"Akanji","givenName":"Manuel","nameKo":"Manuel Akanji","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-25","familyName":"Jaquez","givenName":"Luca","nameKo":"Luca Jaquez","shirtNumber":25,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-13","familyName":"Rodriguez","givenName":"Ricardo","nameKo":"Ricardo Rodriguez","shirtNumber":13,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-8","familyName":"Freuler","givenName":"Remo","nameKo":"Remo Freuler","shirtNumber":8,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-10","familyName":"Xhaka","givenName":"Granit","nameKo":"Granit Xhaka","shirtNumber":10,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-15","familyName":"Sow","givenName":"Djibril","nameKo":"Djibril Sow","shirtNumber":15,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-9","familyName":"Manzambi","givenName":"Johan","nameKo":"Johan Manzambi","shirtNumber":9,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-17","familyName":"Vargas","givenName":"Ruben","nameKo":"Ruben Vargas","shirtNumber":17,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-7","familyName":"Embolo","givenName":"Breel","nameKo":"Breel Embolo","shirtNumber":7,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SUI-20","familyName":"Aebischer","givenName":"Michel","nameKo":"Michel Aebischer","shirtNumber":20,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-3","familyName":"Widmer","givenName":"Silvan","nameKo":"Silvan Widmer","shirtNumber":3,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-11","familyName":"Ndoye","givenName":"Dan","nameKo":"Dan Ndoye","shirtNumber":11,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-16","familyName":"Fassnacht","givenName":"Christian","nameKo":"Christian Fassnacht","shirtNumber":16,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SUI-26","familyName":"Itten","givenName":"Cedric","nameKo":"Cedric Itten","shirtNumber":26,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CAN-16","familyName":"Crepeau","givenName":"Maxime","nameKo":"Maxime Crepeau","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-22","familyName":"Laryea","givenName":"Richie","nameKo":"Richie Laryea","shirtNumber":22,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-13","familyName":"Cornelius","givenName":"Derek","nameKo":"Derek Cornelius","shirtNumber":13,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-4","familyName":"de Fougerolles","givenName":"Luc","nameKo":"Luc de Fougerolles","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-2","familyName":"Johnston","givenName":"Alistair","nameKo":"Alistair Johnston","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-17","familyName":"Buchanan","givenName":"Tajon","nameKo":"Tajon Buchanan","shirtNumber":17,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-6","familyName":"Choiniere","givenName":"Mathieu","nameKo":"Mathieu Choiniere","shirtNumber":6,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-25","familyName":"Saliba","givenName":"Nathan","nameKo":"Nathan Saliba","shirtNumber":25,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-20","familyName":"Ahmed","givenName":"Ali","nameKo":"Ali Ahmed","shirtNumber":20,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-9","familyName":"Larin","givenName":"Cyle","nameKo":"Cyle Larin","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-10","familyName":"David","givenName":"Jonathan","nameKo":"Jonathan David","shirtNumber":10,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CAN-7","familyName":"Eustaquio","givenName":"Stephen","nameKo":"Stephen Eustaquio","shirtNumber":7,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CAN-11","familyName":"Millar","givenName":"Liam","nameKo":"Liam Millar","shirtNumber":11,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CAN-12","familyName":"Oluwaseyi","givenName":"Tani","nameKo":"Tani Oluwaseyi","shirtNumber":12,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CAN-24","familyName":"David","givenName":"Promise","nameKo":"Promise David","shirtNumber":24,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CAN-14","familyName":"Shaffelburg","givenName":"Jacob","nameKo":"Jacob Shaffelburg","shirtNumber":14,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":46,"playerId":"P-2026-SUI-17","nameKo":"Ruben Vargas","teamId":"T-SUI","ownGoal":false,"penalty":false},
+    {"minute":57,"playerId":"P-2026-SUI-9","nameKo":"Johan Manzambi","teamId":"T-SUI","ownGoal":false,"penalty":false},
+    {"minute":76,"playerId":"P-2026-CAN-24","nameKo":"Promise David","teamId":"T-CAN","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":31,"playerId":"P-2026-SUI-10","nameKo":"Granit Xhaka","teamId":"T-SUI","card":"yellow"},
+    {"minute":31,"playerId":"P-2026-CAN-9","nameKo":"Cyle Larin","teamId":"T-CAN","card":"yellow"},
+    {"minute":87,"playerId":"P-2026-CAN-11","nameKo":"Liam Millar","teamId":"T-CAN","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":58,"onId":"P-2026-CAN-7","offId":"P-2026-CAN-6","teamId":"T-CAN"},
+    {"minute":58,"onId":"P-2026-CAN-11","offId":"P-2026-CAN-20","teamId":"T-CAN"},
+    {"minute":58,"onId":"P-2026-CAN-12","offId":"P-2026-CAN-9","teamId":"T-CAN"},
+    {"minute":74,"onId":"P-2026-SUI-20","offId":"P-2026-SUI-15","teamId":"T-SUI"},
+    {"minute":74,"onId":"P-2026-SUI-3","offId":"P-2026-SUI-25","teamId":"T-SUI"},
+    {"minute":74,"onId":"P-2026-CAN-24","offId":"P-2026-CAN-17","teamId":"T-CAN"},
+    {"minute":80,"onId":"P-2026-SUI-11","offId":"P-2026-SUI-17","teamId":"T-SUI"},
+    {"minute":83,"onId":"P-2026-CAN-14","offId":"P-2026-CAN-22","teamId":"T-CAN"},
+    {"minute":85,"onId":"P-2026-SUI-16","offId":"P-2026-SUI-9","teamId":"T-SUI"},
+    {"minute":85,"onId":"P-2026-SUI-26","offId":"P-2026-SUI-7","teamId":"T-SUI"}
+  ]
+}

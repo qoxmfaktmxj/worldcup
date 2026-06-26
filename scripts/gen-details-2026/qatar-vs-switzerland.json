@@ -1,0 +1,441 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-QAT-1",
+        "familyName": "Abunada",
+        "givenName": "Mahmoud",
+        "nameKo": "Mahmoud Abunada",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-2",
+        "familyName": "Pedro Miguel",
+        "givenName": "Pedro",
+        "nameKo": "Pedro Miguel",
+        "shirtNumber": 2,
+        "position": "Defender",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-16",
+        "familyName": "Khoukhi",
+        "givenName": "Boualem",
+        "nameKo": "Boualem Khoukhi",
+        "shirtNumber": 16,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-5",
+        "familyName": "Gaber",
+        "givenName": "Jassem",
+        "nameKo": "Jassem Gaber",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-13",
+        "familyName": "Al-Oui",
+        "givenName": "Ayoub",
+        "nameKo": "Ayoub Al-Oui",
+        "shirtNumber": 13,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-23",
+        "familyName": "Madibo",
+        "givenName": "Assim",
+        "nameKo": "Assim Madibo",
+        "shirtNumber": 23,
+        "position": "Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-8",
+        "familyName": "Edmilson Junior",
+        "givenName": "Edmilson",
+        "nameKo": "Edmilson Junior",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-14",
+        "familyName": "Ahmed",
+        "givenName": "Homam",
+        "nameKo": "Homam Ahmed",
+        "shirtNumber": 14,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-15",
+        "familyName": "Abdurisag",
+        "givenName": "Yusuf",
+        "nameKo": "Yusuf Abdurisag",
+        "shirtNumber": 15,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-11",
+        "familyName": "Afif",
+        "givenName": "Akram",
+        "nameKo": "Akram Afif",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-4",
+        "familyName": "Laye",
+        "givenName": "Issa",
+        "nameKo": "Issa Laye",
+        "shirtNumber": 4,
+        "position": "left midfield",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-7",
+        "familyName": "Alaaeldin",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Alaaeldin",
+        "shirtNumber": 7,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-12",
+        "familyName": "Boudiaf",
+        "givenName": "Karim",
+        "nameKo": "Karim Boudiaf",
+        "shirtNumber": 12,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-20",
+        "familyName": "Fathy",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Fathy",
+        "shirtNumber": 20,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-26",
+        "familyName": "Manai",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Manai",
+        "shirtNumber": 26,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-10",
+        "familyName": "Al-Haydos",
+        "givenName": "Hassan",
+        "nameKo": "Hassan Al-Haydos",
+        "shirtNumber": 10,
+        "position": "Midfielder",
+        "positionCode": "CAM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-SUI-1",
+        "familyName": "Kobel",
+        "givenName": "Gregor",
+        "nameKo": "Gregor Kobel",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-4",
+        "familyName": "Elvedi",
+        "givenName": "Nico",
+        "nameKo": "Nico Elvedi",
+        "shirtNumber": 4,
+        "position": "Defender",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-5",
+        "familyName": "Akanji",
+        "givenName": "Manuel",
+        "nameKo": "Manuel Akanji",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-6",
+        "familyName": "Zakaria",
+        "givenName": "Denis",
+        "nameKo": "Denis Zakaria",
+        "shirtNumber": 6,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-13",
+        "familyName": "Rodriguez",
+        "givenName": "Ricardo",
+        "nameKo": "Ricardo Rodriguez",
+        "shirtNumber": 13,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-8",
+        "familyName": "Freuler",
+        "givenName": "Remo",
+        "nameKo": "Remo Freuler",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-10",
+        "familyName": "Xhaka",
+        "givenName": "Granit",
+        "nameKo": "Granit Xhaka",
+        "shirtNumber": 10,
+        "position": "Midfielder",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-20",
+        "familyName": "Aebischer",
+        "givenName": "Michel",
+        "nameKo": "Michel Aebischer",
+        "shirtNumber": 20,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-7",
+        "familyName": "Embolo",
+        "givenName": "Breel",
+        "nameKo": "Breel Embolo",
+        "shirtNumber": 7,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-11",
+        "familyName": "Ndoye",
+        "givenName": "Dan",
+        "nameKo": "Dan Ndoye",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-17",
+        "familyName": "Vargas",
+        "givenName": "Ruben",
+        "nameKo": "Ruben Vargas",
+        "shirtNumber": 17,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-SUI-9",
+        "familyName": "Manzambi",
+        "givenName": "Johan",
+        "nameKo": "Johan Manzambi",
+        "shirtNumber": 9,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-SUI-22",
+        "familyName": "Rieder",
+        "givenName": "Fabian",
+        "nameKo": "Fabian Rieder",
+        "shirtNumber": 22,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-SUI-23",
+        "familyName": "Amdouni",
+        "givenName": "Zeki",
+        "nameKo": "Zeki Amdouni",
+        "shirtNumber": 23,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-SUI-14",
+        "familyName": "Jashari",
+        "givenName": "Ardon",
+        "nameKo": "Ardon Jashari",
+        "shirtNumber": 14,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-SUI-2",
+        "familyName": "Muheim",
+        "givenName": "Miro",
+        "nameKo": "Miro Muheim",
+        "shirtNumber": 2,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 17,
+      "playerId": "P-2026-SUI-7",
+      "nameKo": "Breel Embolo",
+      "teamId": "T-SUI",
+      "ownGoal": false,
+      "penalty": true
+    },
+    {
+      "minute": 94,
+      "playerId": "P-2026-SUI-2",
+      "nameKo": "Miro Muheim",
+      "teamId": "T-QAT",
+      "ownGoal": true,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 60,
+      "onId": "P-2026-QAT-7",
+      "offId": "P-2026-QAT-15",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 60,
+      "onId": "P-2026-QAT-12",
+      "offId": "P-2026-QAT-5",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 60,
+      "onId": "P-2026-QAT-20",
+      "offId": "P-2026-QAT-13",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-QAT-26",
+      "offId": "P-2026-QAT-23",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 88,
+      "onId": "P-2026-QAT-10",
+      "offId": "P-2026-QAT-8",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 65,
+      "onId": "P-2026-SUI-9",
+      "offId": "P-2026-SUI-11",
+      "teamId": "T-SUI"
+    },
+    {
+      "minute": 65,
+      "onId": "P-2026-SUI-22",
+      "offId": "P-2026-SUI-20",
+      "teamId": "T-SUI"
+    },
+    {
+      "minute": 79,
+      "onId": "P-2026-SUI-23",
+      "offId": "P-2026-SUI-17",
+      "teamId": "T-SUI"
+    },
+    {
+      "minute": 89,
+      "onId": "P-2026-SUI-14",
+      "offId": "P-2026-SUI-8",
+      "teamId": "T-SUI"
+    },
+    {
+      "minute": 89,
+      "onId": "P-2026-SUI-2",
+      "offId": "P-2026-SUI-13",
+      "teamId": "T-SUI"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-GHA-1","familyName":"Ati Zigi","givenName":"Lawrence","nameKo":"Lawrence Ati Zigi","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-26","familyName":"Senaya","givenName":"Marvin","nameKo":"Marvin Senaya","shirtNumber":26,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-4","familyName":"Adjetey","givenName":"Jonas","nameKo":"Jonas Adjetey","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-18","familyName":"Opoku","givenName":"Jerome","nameKo":"Jerome Opoku","shirtNumber":18,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-14","familyName":"Mensah","givenName":"Gideon","nameKo":"Gideon Mensah","shirtNumber":14,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-15","familyName":"Owusu","givenName":"Elisha","nameKo":"Elisha Owusu","shirtNumber":15,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-3","familyName":"Yirenkyi","givenName":"Caleb","nameKo":"Caleb Yirenkyi","shirtNumber":3,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-22","familyName":"Sulemana","givenName":"Kamaldeen","nameKo":"Kamaldeen Sulemana","shirtNumber":22,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-24","familyName":"Nuamah","givenName":"Ernest","nameKo":"Ernest Nuamah","shirtNumber":24,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-11","familyName":"Semenyo","givenName":"Antoine","nameKo":"Antoine Semenyo","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-9","familyName":"Ayew","givenName":"Jordan","nameKo":"Jordan Ayew","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-16","familyName":"Asare","givenName":"Benjamin","nameKo":"Benjamin Asare","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-7","familyName":"Issahaku","givenName":"Abdul Fatawu","nameKo":"Abdul Fatawu Issahaku","shirtNumber":7,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-10","familyName":"Thomas-Asante","givenName":"Brandon","nameKo":"Brandon Thomas-Asante","shirtNumber":10,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-8","familyName":"Sibo","givenName":"Kwasi","nameKo":"Kwasi Sibo","shirtNumber":8,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-25","familyName":"Adu","givenName":"Prince","nameKo":"Prince Adu","shirtNumber":25,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-PAN-22","familyName":"Mosquera","givenName":"Orlando","nameKo":"Orlando Mosquera","shirtNumber":22,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-3","familyName":"Cordoba","givenName":"Jose","nameKo":"Jose Cordoba","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-6","familyName":"Martinez","givenName":"Cristian","nameKo":"Cristian Martinez","shirtNumber":6,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-16","familyName":"Andrade","givenName":"Andres","nameKo":"Andres Andrade","shirtNumber":16,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-23","familyName":"Murillo","givenName":"Amir","nameKo":"Amir Murillo","shirtNumber":23,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-14","familyName":"Harvey","givenName":"Carlos","nameKo":"Carlos Harvey","shirtNumber":14,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-11","familyName":"Barcenas","givenName":"Edgar","nameKo":"Edgar Barcenas","shirtNumber":11,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-2","familyName":"Blackman","givenName":"Cesar","nameKo":"Cesar Blackman","shirtNumber":2,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-7","familyName":"Rodriguez","givenName":"Jose Luis","nameKo":"Jose Luis Rodriguez","shirtNumber":7,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-18","familyName":"Waterman","givenName":"Cecilio","nameKo":"Cecilio Waterman","shirtNumber":18,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-13","familyName":"Ramos","givenName":"Jiovany","nameKo":"Jiovany Ramos","shirtNumber":13,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-17","familyName":"Fajardo","givenName":"Jose","nameKo":"Jose Fajardo","shirtNumber":17,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-24","familyName":"Londono","givenName":"Azarias","nameKo":"Azarias Londono","shirtNumber":24,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-10","familyName":"Diaz","givenName":"Ismael","nameKo":"Ismael Diaz","shirtNumber":10,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-20","familyName":"Godoy","givenName":"Anibal","nameKo":"Anibal Godoy","shirtNumber":20,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":95,"playerId":"P-2026-GHA-3","nameKo":"Caleb Yirenkyi","teamId":"T-GHA","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":16,"playerId":"P-2026-GHA-3","nameKo":"Caleb Yirenkyi","teamId":"T-GHA","card":"yellow"},
+    {"minute":89,"playerId":"P-2026-PAN-2","nameKo":"Cesar Blackman","teamId":"T-PAN","card":"yellow"},
+    {"minute":99,"playerId":"P-2026-PAN-14","nameKo":"Carlos Harvey","teamId":"T-PAN","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-GHA-16","offId":"P-2026-GHA-1","teamId":"T-GHA"},
+    {"minute":58,"onId":"P-2026-GHA-7","offId":"P-2026-GHA-24","teamId":"T-GHA"},
+    {"minute":58,"onId":"P-2026-GHA-10","offId":"P-2026-GHA-22","teamId":"T-GHA"},
+    {"minute":78,"onId":"P-2026-GHA-8","offId":"P-2026-GHA-15","teamId":"T-GHA"},
+    {"minute":87,"onId":"P-2026-GHA-25","offId":"P-2026-GHA-9","teamId":"T-GHA"},
+    {"minute":63,"onId":"P-2026-PAN-17","offId":"P-2026-PAN-18","teamId":"T-PAN"},
+    {"minute":63,"onId":"P-2026-PAN-24","offId":"P-2026-PAN-6","teamId":"T-PAN"},
+    {"minute":74,"onId":"P-2026-PAN-10","offId":"P-2026-PAN-7","teamId":"T-PAN"},
+    {"minute":90,"onId":"P-2026-PAN-20","offId":"P-2026-PAN-2","teamId":"T-PAN"}
+  ]
+}

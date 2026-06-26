@@ -1,0 +1,59 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-MEX-1","familyName":"Rangel","givenName":"Jose","nameKo":"Jose Rangel","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-23","familyName":"Gallardo","givenName":"Jesus","nameKo":"Jesus Gallardo","shirtNumber":23,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-5","familyName":"Vasquez","givenName":"Johan","nameKo":"Johan Vasquez","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-3","familyName":"Montes","givenName":"Cesar","nameKo":"Cesar Montes","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-15","familyName":"Reyes","givenName":"Israel","nameKo":"Israel Reyes","shirtNumber":15,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-6","familyName":"Lira","givenName":"Erik","nameKo":"Erik Lira","shirtNumber":6,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-8","familyName":"Fidalgo","givenName":"Alvaro","nameKo":"Alvaro Fidalgo","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-26","familyName":"Gutierrez","givenName":"Brian","nameKo":"Brian Gutierrez","shirtNumber":26,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-25","familyName":"Alvarado","givenName":"Roberto","nameKo":"Roberto Alvarado","shirtNumber":25,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-16","familyName":"Quinones","givenName":"Julian","nameKo":"Julian Quinones","shirtNumber":16,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-9","familyName":"Jimenez","givenName":"Raul","nameKo":"Raul Jimenez","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-MEX-24","familyName":"Chavez","givenName":"Luis","nameKo":"Luis Chavez","shirtNumber":24,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-19","familyName":"Mora","givenName":"Gilberto","nameKo":"Gilberto Mora","shirtNumber":19,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-14","familyName":"Gonzalez","givenName":"Armando","nameKo":"Armando Gonzalez","shirtNumber":14,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-4","familyName":"Alvarez","givenName":"Edson","nameKo":"Edson Alvarez","shirtNumber":4,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-MEX-10","familyName":"Vega","givenName":"Alexis","nameKo":"Alexis Vega","shirtNumber":10,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-RSA-1","familyName":"Williams","givenName":"Ronwen","nameKo":"Ronwen Williams","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-20","familyName":"Mudau","givenName":"Khuliso","nameKo":"Khuliso Mudau","shirtNumber":20,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-19","familyName":"Sibisi","givenName":"Nkosinathi","nameKo":"Nkosinathi Sibisi","shirtNumber":19,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-21","familyName":"Okon","givenName":"Ime","nameKo":"Ime Okon","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-6","familyName":"Modiba","givenName":"Aubrey","nameKo":"Aubrey Modiba","shirtNumber":6,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-14","familyName":"Mbokazi","givenName":"Mbekezeli","nameKo":"Mbekezeli Mbokazi","shirtNumber":14,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-13","familyName":"Sithole","givenName":"Sphephelo","nameKo":"Sphephelo Sithole","shirtNumber":13,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-4","familyName":"Mokoena","givenName":"Teboho","nameKo":"Teboho Mokoena","shirtNumber":4,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-23","familyName":"Adams","givenName":"Jayden","nameKo":"Jayden Adams","shirtNumber":23,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-15","familyName":"Rayners","givenName":"Iqraam","nameKo":"Iqraam Rayners","shirtNumber":15,"position":"Forward","positionCode":"RF","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-9","familyName":"Foster","givenName":"Lyle","nameKo":"Lyle Foster","shirtNumber":9,"position":"Forward","positionCode":"LF","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-5","familyName":"Mbatha","givenName":"Thalente","nameKo":"Thalente Mbatha","shirtNumber":5,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-RSA-11","familyName":"Zwane","givenName":"Themba","nameKo":"Themba Zwane","shirtNumber":11,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-RSA-17","familyName":"Makgopa","givenName":"Evidence","nameKo":"Evidence Makgopa","shirtNumber":17,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-RSA-7","familyName":"Appollis","givenName":"Oswin","nameKo":"Oswin Appollis","shirtNumber":7,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":9,"playerId":"P-2026-MEX-16","nameKo":"Julian Quinones","teamId":"T-MEX","ownGoal":false,"penalty":false},
+    {"minute":67,"playerId":"P-2026-MEX-9","nameKo":"Raul Jimenez","teamId":"T-MEX","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":49,"playerId":"P-2026-RSA-13","nameKo":"Sphephelo Sithole","teamId":"T-RSA","card":"red"},
+    {"minute":84,"playerId":"P-2026-RSA-11","nameKo":"Themba Zwane","teamId":"T-RSA","card":"red"},
+    {"minute":92,"playerId":"P-2026-MEX-3","nameKo":"Cesar Montes","teamId":"T-MEX","card":"red"}
+  ],
+  "subs": [
+    {"minute":56,"onId":"P-2026-RSA-5","offId":"P-2026-RSA-9","teamId":"T-RSA"},
+    {"minute":61,"onId":"P-2026-RSA-11","offId":"P-2026-RSA-23","teamId":"T-RSA"},
+    {"minute":66,"onId":"P-2026-MEX-24","offId":"P-2026-MEX-26","teamId":"T-MEX"},
+    {"minute":66,"onId":"P-2026-MEX-19","offId":"P-2026-MEX-8","teamId":"T-MEX"},
+    {"minute":76,"onId":"P-2026-RSA-17","offId":"P-2026-RSA-15","teamId":"T-RSA"},
+    {"minute":76,"onId":"P-2026-MEX-14","offId":"P-2026-MEX-9","teamId":"T-MEX"},
+    {"minute":76,"onId":"P-2026-MEX-4","offId":"P-2026-MEX-6","teamId":"T-MEX"},
+    {"minute":77,"onId":"P-2026-RSA-7","offId":"P-2026-RSA-6","teamId":"T-RSA"},
+    {"minute":79,"onId":"P-2026-MEX-10","offId":"P-2026-MEX-16","teamId":"T-MEX"}
+  ]
+}

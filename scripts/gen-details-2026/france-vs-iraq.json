@@ -1,0 +1,58 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-FRA-16","familyName":"Maignan","givenName":"Mike","nameKo":"Mike Maignan","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-5","familyName":"Koundé","givenName":"Jules","nameKo":"Jules Koundé","shirtNumber":5,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-17","familyName":"Saliba","givenName":"William","nameKo":"William Saliba","shirtNumber":17,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-4","familyName":"Upamecano","givenName":"Dayot","nameKo":"Dayot Upamecano","shirtNumber":4,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-3","familyName":"Digne","givenName":"Lucas","nameKo":"Lucas Digne","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-6","familyName":"Koné","givenName":"Manu","nameKo":"Manu Koné","shirtNumber":6,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-14","familyName":"Rabiot","givenName":"Adrien","nameKo":"Adrien Rabiot","shirtNumber":14,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-11","familyName":"Olise","givenName":"Michael","nameKo":"Michael Olise","shirtNumber":11,"position":"Midfielder","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-7","familyName":"Dembélé","givenName":"Ousmane","nameKo":"Ousmane Dembélé","shirtNumber":7,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-12","familyName":"Barcola","givenName":"Bradley","nameKo":"Bradley Barcola","shirtNumber":12,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-10","familyName":"Mbappé","givenName":"Kylian","nameKo":"Kylian Mbappé","shirtNumber":10,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-24","familyName":"Cherki","givenName":"Rayan","nameKo":"Rayan Cherki","shirtNumber":24,"position":"Midfielder","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-FRA-20","familyName":"Doué","givenName":"Désiré","nameKo":"Désiré Doué","shirtNumber":20,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-FRA-25","familyName":"Akliouche","givenName":"Maghnes","nameKo":"Maghnes Akliouche","shirtNumber":25,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-FRA-2","familyName":"Gusto","givenName":"Malo","nameKo":"Malo Gusto","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-FRA-9","familyName":"Thuram","givenName":"Marcus","nameKo":"Marcus Thuram","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-IRQ-22","familyName":"Basil","givenName":"Ahmed","nameKo":"Ahmed Basil","shirtNumber":22,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-5","familyName":"Hashim","givenName":"Akam","nameKo":"Akam Hashim","shirtNumber":5,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-4","familyName":"Tahseen","givenName":"Zaid","nameKo":"Zaid Tahseen","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-3","familyName":"Ali","givenName":"Hussein","nameKo":"Hussein Ali","shirtNumber":3,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-23","familyName":"Doski","givenName":"Merchas","nameKo":"Merchas Doski","shirtNumber":23,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-16","familyName":"Al-Ammari","givenName":"Amir","nameKo":"Amir Al-Ammari","shirtNumber":16,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-24","familyName":"Ismael","givenName":"Zaid","nameKo":"Zaid Ismael","shirtNumber":24,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-14","familyName":"Iqbal","givenName":"Zidane","nameKo":"Zidane Iqbal","shirtNumber":14,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-11","familyName":"Qasim","givenName":"Ahmed","nameKo":"Ahmed Qasim","shirtNumber":11,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-8","familyName":"Bayesh","givenName":"Ibrahim","nameKo":"Ibrahim Bayesh","shirtNumber":8,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-18","familyName":"Hussein","givenName":"Aymen","nameKo":"Aymen Hussein","shirtNumber":18,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRQ-9","familyName":"Al-Hamadi","givenName":"Ali","nameKo":"Ali Al-Hamadi","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRQ-7","familyName":"Amyn","givenName":"Youssef","nameKo":"Youssef Amyn","shirtNumber":7,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRQ-2","familyName":"Sulaka","givenName":"Rebin","nameKo":"Rebin Sulaka","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRQ-20","familyName":"Sher","givenName":"Aimar","nameKo":"Aimar Sher","shirtNumber":20,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRQ-21","familyName":"Farji","givenName":"Marko","nameKo":"Marko Farji","shirtNumber":21,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":14,"playerId":"P-2026-FRA-10","nameKo":"Kylian Mbappé","teamId":"T-FRA","ownGoal":false,"penalty":false},
+    {"minute":54,"playerId":"P-2026-FRA-10","nameKo":"Kylian Mbappé","teamId":"T-FRA","ownGoal":false,"penalty":false},
+    {"minute":66,"playerId":"P-2026-FRA-7","nameKo":"Ousmane Dembélé","teamId":"T-FRA","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":26,"onId":"P-2026-IRQ-9","offId":"P-2026-IRQ-18","teamId":"T-IRQ"},
+    {"minute":60,"onId":"P-2026-IRQ-7","offId":"P-2026-IRQ-24","teamId":"T-IRQ"},
+    {"minute":60,"onId":"P-2026-IRQ-2","offId":"P-2026-IRQ-4","teamId":"T-IRQ"},
+    {"minute":68,"onId":"P-2026-FRA-24","offId":"P-2026-FRA-11","teamId":"T-FRA"},
+    {"minute":68,"onId":"P-2026-FRA-20","offId":"P-2026-FRA-7","teamId":"T-FRA"},
+    {"minute":68,"onId":"P-2026-IRQ-20","offId":"P-2026-IRQ-16","teamId":"T-IRQ"},
+    {"minute":69,"onId":"P-2026-IRQ-21","offId":"P-2026-IRQ-8","teamId":"T-IRQ"},
+    {"minute":83,"onId":"P-2026-FRA-25","offId":"P-2026-FRA-12","teamId":"T-FRA"},
+    {"minute":83,"onId":"P-2026-FRA-2","offId":"P-2026-FRA-5","teamId":"T-FRA"},
+    {"minute":91,"onId":"P-2026-FRA-9","offId":"P-2026-FRA-10","teamId":"T-FRA"}
+  ]
+}

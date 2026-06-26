@@ -1,0 +1,56 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-PAN-22","familyName":"Mosquera","givenName":"Orlando","nameKo":"Orlando Mosquera","shirtNumber":22,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-2","familyName":"Blackman","givenName":"Cesar","nameKo":"Cesar Blackman","shirtNumber":2,"position":"Right Wing Back","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-3","familyName":"Cordoba","givenName":"Jose","nameKo":"Jose Cordoba","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-6","familyName":"Martinez","givenName":"Cristian","nameKo":"Cristian Martinez","shirtNumber":6,"position":"Centre Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-16","familyName":"Andrade","givenName":"Andres","nameKo":"Andres Andrade","shirtNumber":16,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-23","familyName":"Murillo","givenName":"Amir","nameKo":"Amir Murillo","shirtNumber":23,"position":"Left Wing Back","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-14","familyName":"Harvey","givenName":"Carlos","nameKo":"Carlos Harvey","shirtNumber":14,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-7","familyName":"Rodriguez","givenName":"Jose Luis","nameKo":"Jose Luis Rodriguez","shirtNumber":7,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-11","familyName":"Barcenas","givenName":"Edgar Yoel","nameKo":"Edgar Yoel Barcenas","shirtNumber":11,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-17","familyName":"Fajardo","givenName":"Jose","nameKo":"Jose Fajardo","shirtNumber":17,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-13","familyName":"Ramos","givenName":"Jiovany","nameKo":"Jiovany Ramos","shirtNumber":13,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAN-18","familyName":"Waterman","givenName":"Cecilio","nameKo":"Cecilio Waterman","shirtNumber":18,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-24","familyName":"Londono","givenName":"Azarias","nameKo":"Azarias Londono","shirtNumber":24,"position":"Left Midfield","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-15","familyName":"Davis","givenName":"Eric","nameKo":"Eric Davis","shirtNumber":15,"position":"Left Wing Back","positionCode":"LWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAN-9","familyName":"Rodriguez","givenName":"Tomas","nameKo":"Tomas Rodriguez","shirtNumber":9,"position":"Right Midfield","positionCode":"RM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CRO-1","familyName":"Livakovic","givenName":"Dominik","nameKo":"Dominik Livakovic","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-2","familyName":"Stanisic","givenName":"Josip","nameKo":"Josip Stanisic","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-3","familyName":"Pongracic","givenName":"Marin","nameKo":"Marin Pongracic","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-6","familyName":"Sutalo","givenName":"Josip","nameKo":"Josip Sutalo","shirtNumber":6,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-4","familyName":"Gvardiol","givenName":"Josko","nameKo":"Josko Gvardiol","shirtNumber":4,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-8","familyName":"Kovacic","givenName":"Mateo","nameKo":"Mateo Kovacic","shirtNumber":8,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-10","familyName":"Modric","givenName":"Luka","nameKo":"Luka Modric","shirtNumber":10,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-16","familyName":"Baturina","givenName":"Martin","nameKo":"Martin Baturina","shirtNumber":16,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-24","familyName":"Pasalic","givenName":"Marco","nameKo":"Marco Pasalic","shirtNumber":24,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-14","familyName":"Perisic","givenName":"Ivan","nameKo":"Ivan Perisic","shirtNumber":14,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-26","familyName":"Musa","givenName":"Petar","nameKo":"Petar Musa","shirtNumber":26,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CRO-11","familyName":"Budimir","givenName":"Ante","nameKo":"Ante Budimir","shirtNumber":11,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-9","familyName":"Kramaric","givenName":"Andrej","nameKo":"Andrej Kramaric","shirtNumber":9,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-17","familyName":"Sucic","givenName":"Petar","nameKo":"Petar Sucic","shirtNumber":17,"position":"Defensive Midfield","positionCode":"RDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-21","familyName":"Sucic","givenName":"Luka","nameKo":"Luka Sucic","shirtNumber":21,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CRO-15","familyName":"Pasalic","givenName":"Mario","nameKo":"Mario Pasalic","shirtNumber":15,"position":"Defensive Midfield","positionCode":"LDM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":54,"playerId":"P-2026-CRO-11","nameKo":"Ante Budimir","teamId":"T-CRO","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":90,"playerId":"P-2026-CRO-17","nameKo":"Petar Sucic","teamId":"T-CRO","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":77,"onId":"P-2026-PAN-18","offId":"P-2026-PAN-13","teamId":"T-PAN"},
+    {"minute":83,"onId":"P-2026-PAN-24","offId":"P-2026-PAN-17","teamId":"T-PAN"},
+    {"minute":90,"onId":"P-2026-PAN-15","offId":"P-2026-PAN-2","teamId":"T-PAN"},
+    {"minute":90,"onId":"P-2026-PAN-9","offId":"P-2026-PAN-11","teamId":"T-PAN"},
+    {"minute":45,"onId":"P-2026-CRO-11","offId":"P-2026-CRO-26","teamId":"T-CRO"},
+    {"minute":45,"onId":"P-2026-CRO-9","offId":"P-2026-CRO-4","teamId":"T-CRO"},
+    {"minute":72,"onId":"P-2026-CRO-17","offId":"P-2026-CRO-8","teamId":"T-CRO"},
+    {"minute":72,"onId":"P-2026-CRO-21","offId":"P-2026-CRO-24","teamId":"T-CRO"},
+    {"minute":81,"onId":"P-2026-CRO-15","offId":"P-2026-CRO-10","teamId":"T-CRO"}
+  ]
+}

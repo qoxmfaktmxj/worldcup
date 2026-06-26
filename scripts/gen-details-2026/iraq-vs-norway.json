@@ -1,0 +1,465 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-IRQ-12",
+        "familyName": "Hassan",
+        "givenName": "Jalal",
+        "nameKo": "Jalal Hassan",
+        "shirtNumber": 12,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-3",
+        "familyName": "Ali",
+        "givenName": "Hussein",
+        "nameKo": "Hussein Ali",
+        "shirtNumber": 3,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-4",
+        "familyName": "Tahseen",
+        "givenName": "Zaid",
+        "nameKo": "Zaid Tahseen",
+        "shirtNumber": 4,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-5",
+        "familyName": "Hashim",
+        "givenName": "Akam",
+        "nameKo": "Akam Hashim",
+        "shirtNumber": 5,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-8",
+        "familyName": "Bayesh",
+        "givenName": "Ibrahim",
+        "nameKo": "Ibrahim Bayesh",
+        "shirtNumber": 8,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-23",
+        "familyName": "Doski",
+        "givenName": "Merchas",
+        "nameKo": "Merchas Doski",
+        "shirtNumber": 23,
+        "position": "Right Midfield",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-16",
+        "familyName": "Al-Ammari",
+        "givenName": "Amir",
+        "nameKo": "Amir Al-Ammari",
+        "shirtNumber": 16,
+        "position": "Centre Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-24",
+        "familyName": "Ismael",
+        "givenName": "Zaid",
+        "nameKo": "Zaid Ismael",
+        "shirtNumber": 24,
+        "position": "Centre Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-17",
+        "familyName": "Jasim",
+        "givenName": "Ali",
+        "nameKo": "Ali Jasim",
+        "shirtNumber": 17,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-18",
+        "familyName": "Hussein",
+        "givenName": "Aymen",
+        "nameKo": "Aymen Hussein",
+        "shirtNumber": 18,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-9",
+        "familyName": "Al-Hamadi",
+        "givenName": "Ali",
+        "nameKo": "Ali Al-Hamadi",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-IRQ-21",
+        "familyName": "Farji",
+        "givenName": "Marko",
+        "nameKo": "Marko Farji",
+        "shirtNumber": 21,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-IRQ-14",
+        "familyName": "Iqbal",
+        "givenName": "Zidane",
+        "nameKo": "Zidane Iqbal",
+        "shirtNumber": 14,
+        "position": "Centre Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-IRQ-11",
+        "familyName": "Qasim",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Qasim",
+        "shirtNumber": 11,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-IRQ-25",
+        "familyName": "Saadoon",
+        "givenName": "Mustafa",
+        "nameKo": "Mustafa Saadoon",
+        "shirtNumber": 25,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-IRQ-10",
+        "familyName": "Ali",
+        "givenName": "Mohanad",
+        "nameKo": "Mohanad Ali",
+        "shirtNumber": 10,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-NOR-1",
+        "familyName": "Nyland",
+        "givenName": "Orjan",
+        "nameKo": "Orjan Nyland",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-26",
+        "familyName": "Ryerson",
+        "givenName": "Julian",
+        "nameKo": "Julian Ryerson",
+        "shirtNumber": 26,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-3",
+        "familyName": "Ajer",
+        "givenName": "Kristoffer",
+        "nameKo": "Kristoffer Ajer",
+        "shirtNumber": 3,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-17",
+        "familyName": "Heggem",
+        "givenName": "Torbjorn",
+        "nameKo": "Torbjorn Heggem",
+        "shirtNumber": 17,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-5",
+        "familyName": "Moller Wolfe",
+        "givenName": "David",
+        "nameKo": "David Moller Wolfe",
+        "shirtNumber": 5,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-8",
+        "familyName": "Berge",
+        "givenName": "Sander",
+        "nameKo": "Sander Berge",
+        "shirtNumber": 8,
+        "position": "Centre Midfield",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-10",
+        "familyName": "Odegaard",
+        "givenName": "Martin",
+        "nameKo": "Martin Odegaard",
+        "shirtNumber": 10,
+        "position": "Centre Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-14",
+        "familyName": "Aursnes",
+        "givenName": "Fredrik",
+        "nameKo": "Fredrik Aursnes",
+        "shirtNumber": 14,
+        "position": "Centre Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-20",
+        "familyName": "Nusa",
+        "givenName": "Antonio",
+        "nameKo": "Antonio Nusa",
+        "shirtNumber": 20,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-9",
+        "familyName": "Haaland",
+        "givenName": "Erling",
+        "nameKo": "Erling Haaland",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-7",
+        "familyName": "Sorloth",
+        "givenName": "Alexander",
+        "nameKo": "Alexander Sorloth",
+        "shirtNumber": 7,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-NOR-22",
+        "familyName": "Bobb",
+        "givenName": "Oscar",
+        "nameKo": "Oscar Bobb",
+        "shirtNumber": 22,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NOR-21",
+        "familyName": "Schjelderup",
+        "givenName": "Andreas",
+        "nameKo": "Andreas Schjelderup",
+        "shirtNumber": 21,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NOR-18",
+        "familyName": "Thorstvedt",
+        "givenName": "Kristian",
+        "nameKo": "Kristian Thorstvedt",
+        "shirtNumber": 18,
+        "position": "Centre Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NOR-4",
+        "familyName": "Ostigard",
+        "givenName": "Leo",
+        "nameKo": "Leo Ostigard",
+        "shirtNumber": 4,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-NOR-6",
+        "familyName": "Berg",
+        "givenName": "Patrick",
+        "nameKo": "Patrick Berg",
+        "shirtNumber": 6,
+        "position": "Centre Midfield",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 29,
+      "playerId": "P-2026-NOR-9",
+      "nameKo": "Erling Haaland",
+      "teamId": "T-NOR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 39,
+      "playerId": "P-2026-IRQ-18",
+      "nameKo": "Aymen Hussein",
+      "teamId": "T-IRQ",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 43,
+      "playerId": "P-2026-NOR-9",
+      "nameKo": "Erling Haaland",
+      "teamId": "T-NOR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 76,
+      "playerId": "P-2026-NOR-4",
+      "nameKo": "Leo Ostigard",
+      "teamId": "T-NOR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 96,
+      "playerId": "P-2026-IRQ-18",
+      "nameKo": "Aymen Hussein",
+      "teamId": "T-NOR",
+      "ownGoal": true,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 59,
+      "onId": "P-2026-IRQ-21",
+      "offId": "P-2026-IRQ-9",
+      "teamId": "T-IRQ"
+    },
+    {
+      "minute": 59,
+      "onId": "P-2026-IRQ-14",
+      "offId": "P-2026-IRQ-24",
+      "teamId": "T-IRQ"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-IRQ-11",
+      "offId": "P-2026-IRQ-17",
+      "teamId": "T-IRQ"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-IRQ-25",
+      "offId": "P-2026-IRQ-3",
+      "teamId": "T-IRQ"
+    },
+    {
+      "minute": 78,
+      "onId": "P-2026-IRQ-10",
+      "offId": "P-2026-IRQ-8",
+      "teamId": "T-IRQ"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-NOR-22",
+      "offId": "P-2026-NOR-7",
+      "teamId": "T-NOR"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-NOR-21",
+      "offId": "P-2026-NOR-20",
+      "teamId": "T-NOR"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-NOR-18",
+      "offId": "P-2026-NOR-14",
+      "teamId": "T-NOR"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-NOR-4",
+      "offId": "P-2026-NOR-5",
+      "teamId": "T-NOR"
+    },
+    {
+      "minute": 81,
+      "onId": "P-2026-NOR-6",
+      "offId": "P-2026-NOR-10",
+      "teamId": "T-NOR"
+    }
+  ]
+}

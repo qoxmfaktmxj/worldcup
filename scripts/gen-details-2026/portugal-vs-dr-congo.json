@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-POR-1","familyName":"Costa","givenName":"Diogo","nameKo":"Diogo Costa","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-4","familyName":"Araujo","givenName":"Tomas","nameKo":"Tomas Araujo","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-13","familyName":"Veiga","givenName":"Renato","nameKo":"Renato Veiga","shirtNumber":13,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-20","familyName":"Cancelo","givenName":"Joao","nameKo":"Joao Cancelo","shirtNumber":20,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-25","familyName":"Mendes","givenName":"Nuno","nameKo":"Nuno Mendes","shirtNumber":25,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-15","familyName":"Neves","givenName":"Joao","nameKo":"Joao Neves","shirtNumber":15,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-23","familyName":"Vitinha","givenName":"Vitinha","nameKo":"Vitinha","shirtNumber":23,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-10","familyName":"Silva","givenName":"Bernardo","nameKo":"Bernardo Silva","shirtNumber":10,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-8","familyName":"Fernandes","givenName":"Bruno","nameKo":"Bruno Fernandes","shirtNumber":8,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-18","familyName":"Neto","givenName":"Pedro","nameKo":"Pedro Neto","shirtNumber":18,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-7","familyName":"Ronaldo","givenName":"Cristiano","nameKo":"Cristiano Ronaldo","shirtNumber":7,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-POR-26","familyName":"Conceicao","givenName":"Francisco","nameKo":"Francisco Conceicao","shirtNumber":26,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-POR-17","familyName":"Leao","givenName":"Rafael","nameKo":"Rafael Leao","shirtNumber":17,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-POR-2","familyName":"Semedo","givenName":"Nelson","nameKo":"Nelson Semedo","shirtNumber":2,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-POR-9","familyName":"Ramos","givenName":"Goncalo","nameKo":"Goncalo Ramos","shirtNumber":9,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-COD-1","familyName":"Mpasi","givenName":"Lionel","nameKo":"Lionel Mpasi","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-2","familyName":"Wan-Bissaka","givenName":"Aaron","nameKo":"Aaron Wan-Bissaka","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-4","familyName":"Tuanzebe","givenName":"Axel","nameKo":"Axel Tuanzebe","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-22","familyName":"Mbemba","givenName":"Chancel","nameKo":"Chancel Mbemba","shirtNumber":22,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-3","familyName":"Kapuadi","givenName":"Steve","nameKo":"Steve Kapuadi","shirtNumber":3,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-26","familyName":"Masuaku","givenName":"Arthur","nameKo":"Arthur Masuaku","shirtNumber":26,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-8","familyName":"Moutoussamy","givenName":"Samuel","nameKo":"Samuel Moutoussamy","shirtNumber":8,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-25","familyName":"Kayembe","givenName":"Edo","nameKo":"Edo Kayembe","shirtNumber":25,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-6","familyName":"Mukau","givenName":"Ngalayel","nameKo":"Ngalayel Mukau","shirtNumber":6,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-20","familyName":"Wissa","givenName":"Yoane","nameKo":"Yoane Wissa","shirtNumber":20,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-17","familyName":"Bakambu","givenName":"Cedric","nameKo":"Cedric Bakambu","shirtNumber":17,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-COD-14","familyName":"Sadiki","givenName":"Noah","nameKo":"Noah Sadiki","shirtNumber":14,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-COD-12","familyName":"Kayembe","givenName":"Joris","nameKo":"Joris Kayembe","shirtNumber":12,"position":"Defender","positionCode":"LWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-COD-18","familyName":"Pickel","givenName":"Charles","nameKo":"Charles Pickel","shirtNumber":18,"position":"Midfielder","positionCode":"CDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-COD-23","familyName":"Banza","givenName":"Simon","nameKo":"Simon Banza","shirtNumber":23,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-COD-24","familyName":"Kalulu","givenName":"Gedeon","nameKo":"Gedeon Kalulu","shirtNumber":24,"position":"Defender","positionCode":"RWB","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":6,"playerId":"P-2026-POR-15","nameKo":"Joao Neves","teamId":"T-POR","ownGoal":false,"penalty":false},
+    {"minute":50,"playerId":"P-2026-COD-20","nameKo":"Yoane Wissa","teamId":"T-COD","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":92,"playerId":"P-2026-POR-4","nameKo":"Tomas Araujo","teamId":"T-POR","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-POR-26","offId":"P-2026-POR-10","teamId":"T-POR"},
+    {"minute":71,"onId":"P-2026-POR-17","offId":"P-2026-POR-18","teamId":"T-POR"},
+    {"minute":72,"onId":"P-2026-POR-2","offId":"P-2026-POR-25","teamId":"T-POR"},
+    {"minute":88,"onId":"P-2026-POR-9","offId":"P-2026-POR-23","teamId":"T-POR"},
+    {"minute":57,"onId":"P-2026-COD-14","offId":"P-2026-COD-6","teamId":"T-COD"},
+    {"minute":74,"onId":"P-2026-COD-12","offId":"P-2026-COD-26","teamId":"T-COD"},
+    {"minute":74,"onId":"P-2026-COD-18","offId":"P-2026-COD-25","teamId":"T-COD"},
+    {"minute":85,"onId":"P-2026-COD-23","offId":"P-2026-COD-17","teamId":"T-COD"},
+    {"minute":85,"onId":"P-2026-COD-24","offId":"P-2026-COD-2","teamId":"T-COD"}
+  ]
+}

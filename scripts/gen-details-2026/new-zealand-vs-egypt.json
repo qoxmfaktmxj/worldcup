@@ -1,0 +1,65 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-NZL-1","familyName":"Crocombe","givenName":"Max","nameKo":"Max Crocombe","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-2","familyName":"Payne","givenName":"Tim","nameKo":"Tim Payne","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-5","familyName":"Boxall","givenName":"Michael","nameKo":"Michael Boxall","shirtNumber":5,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-6","familyName":"Bell","givenName":"Joe","nameKo":"Joe Bell","shirtNumber":6,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-13","familyName":"Cacace","givenName":"Liberato","nameKo":"Liberato Cacace","shirtNumber":13,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-8","familyName":"Stamenic","givenName":"Marko","nameKo":"Marko Stamenic","shirtNumber":8,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-16","familyName":"Surman","givenName":"Finn","nameKo":"Finn Surman","shirtNumber":16,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-20","familyName":"McCowatt","givenName":"Callum","nameKo":"Callum McCowatt","shirtNumber":20,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-10","familyName":"Singh","givenName":"Sarpreet","nameKo":"Sarpreet Singh","shirtNumber":10,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-11","familyName":"Just","givenName":"Elijah","nameKo":"Elijah Just","shirtNumber":11,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-9","familyName":"Wood","givenName":"Chris","nameKo":"Chris Wood","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-19","familyName":"Old","givenName":"Ben","nameKo":"Ben Old","shirtNumber":19,"position":"Midfield","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-23","familyName":"Thomas","givenName":"Ryan","nameKo":"Ryan Thomas","shirtNumber":23,"position":"Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-21","familyName":"Randall","givenName":"Jesse","nameKo":"Jesse Randall","shirtNumber":21,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-3","familyName":"de Vries","givenName":"Francis","nameKo":"Francis de Vries","shirtNumber":3,"position":"Defender","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-4","familyName":"Bindon","givenName":"Tyler","nameKo":"Tyler Bindon","shirtNumber":4,"position":"Defender","positionCode":"RB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-EGY-23","familyName":"Shobeir","givenName":"Mostafa","nameKo":"Mostafa Shobeir","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-3","familyName":"Hany","givenName":"Mohamed","nameKo":"Mohamed Hany","shirtNumber":3,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-2","familyName":"Ibrahim","givenName":"Yasser","nameKo":"Yasser Ibrahim","shirtNumber":2,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-14","familyName":"Fathi","givenName":"Hamdi","nameKo":"Hamdi Fathi","shirtNumber":14,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-13","familyName":"Abou El Fotouh","givenName":"Ahmed","nameKo":"Ahmed Abou El Fotouh","shirtNumber":13,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-19","familyName":"Ateya","givenName":"Marwan","nameKo":"Marwan Ateya","shirtNumber":19,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-17","familyName":"Lasheen","givenName":"Mohanad","nameKo":"Mohanad Lasheen","shirtNumber":17,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-11","familyName":"Zico","givenName":"Mostafa","nameKo":"Mostafa Zico","shirtNumber":11,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-10","familyName":"Salah","givenName":"Mohamed","nameKo":"Mohamed Salah","shirtNumber":10,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-8","familyName":"Ashour","givenName":"Emam","nameKo":"Emam Ashour","shirtNumber":8,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-22","familyName":"Marmoush","givenName":"Omar","nameKo":"Omar Marmoush","shirtNumber":22,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-EGY-5","familyName":"Rabia","givenName":"Ramy","nameKo":"Ramy Rabia","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-EGY-7","familyName":"Trezeguet","givenName":"Mahmoud","nameKo":"Mahmoud Trezeguet","shirtNumber":7,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-EGY-9","familyName":"Abdelkarim","givenName":"Hamza","nameKo":"Hamza Abdelkarim","shirtNumber":9,"position":"Midfield","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-EGY-4","familyName":"Abdelmaguid","givenName":"Hossam","nameKo":"Hossam Abdelmaguid","shirtNumber":4,"position":"Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-EGY-25","familyName":"Zizo","givenName":"Zizo","nameKo":"Zizo","shirtNumber":25,"position":"Midfield","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-EGY-6","familyName":"Abdelmonem","givenName":"Mohamed","nameKo":"Mohamed Abdelmonem","shirtNumber":6,"position":"Defender","positionCode":"LCB","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":15,"playerId":"P-2026-NZL-16","nameKo":"Finn Surman","teamId":"T-NZL","ownGoal":false,"penalty":false},
+    {"minute":58,"playerId":"P-2026-EGY-11","nameKo":"Mostafa Zico","teamId":"T-EGY","ownGoal":false,"penalty":false},
+    {"minute":67,"playerId":"P-2026-EGY-10","nameKo":"Mohamed Salah","teamId":"T-EGY","ownGoal":false,"penalty":false},
+    {"minute":82,"playerId":"P-2026-EGY-7","nameKo":"Mahmoud Trezeguet","teamId":"T-EGY","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":17,"playerId":"P-2026-EGY-17","nameKo":"Mohanad Lasheen","teamId":"T-EGY","card":"yellow"},
+    {"minute":20,"playerId":"P-2026-NZL-10","nameKo":"Sarpreet Singh","teamId":"T-NZL","card":"yellow"},
+    {"minute":34,"playerId":"P-2026-NZL-20","nameKo":"Callum McCowatt","teamId":"T-NZL","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":41,"onId":"P-2026-EGY-5","offId":"P-2026-EGY-14","teamId":"T-EGY"},
+    {"minute":66,"onId":"P-2026-NZL-19","offId":"P-2026-NZL-20","teamId":"T-NZL"},
+    {"minute":76,"onId":"P-2026-NZL-23","offId":"P-2026-NZL-10","teamId":"T-NZL"},
+    {"minute":76,"onId":"P-2026-NZL-21","offId":"P-2026-NZL-13","teamId":"T-NZL"},
+    {"minute":76,"onId":"P-2026-EGY-7","offId":"P-2026-EGY-22","teamId":"T-EGY"},
+    {"minute":76,"onId":"P-2026-EGY-9","offId":"P-2026-EGY-11","teamId":"T-EGY"},
+    {"minute":85,"onId":"P-2026-NZL-3","offId":"P-2026-NZL-11","teamId":"T-NZL"},
+    {"minute":85,"onId":"P-2026-NZL-4","offId":"P-2026-NZL-2","teamId":"T-NZL"},
+    {"minute":85,"onId":"P-2026-EGY-4","offId":"P-2026-EGY-10","teamId":"T-EGY"},
+    {"minute":85,"onId":"P-2026-EGY-25","offId":"P-2026-EGY-8","teamId":"T-EGY"},
+    {"minute":90,"onId":"P-2026-EGY-6","offId":"P-2026-EGY-4","teamId":"T-EGY"}
+  ]
+}

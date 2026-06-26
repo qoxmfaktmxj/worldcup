@@ -1,0 +1,53 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-FRA-16","familyName":"Maignan","givenName":"Mike","nameKo":"Mike Maignan","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-5","familyName":"Kounde","givenName":"Jules","nameKo":"Jules Kounde","shirtNumber":5,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-4","familyName":"Upamecano","givenName":"Dayot","nameKo":"Dayot Upamecano","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-17","familyName":"Saliba","givenName":"William","nameKo":"William Saliba","shirtNumber":17,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-19","familyName":"Hernandez","givenName":"Theo","nameKo":"Theo Hernandez","shirtNumber":19,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-8","familyName":"Tchouameni","givenName":"Aurelien","nameKo":"Aurelien Tchouameni","shirtNumber":8,"position":"Centre Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-14","familyName":"Rabiot","givenName":"Adrien","nameKo":"Adrien Rabiot","shirtNumber":14,"position":"Centre Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-11","familyName":"Olise","givenName":"Michael","nameKo":"Michael Olise","shirtNumber":11,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-7","familyName":"Dembele","givenName":"Ousmane","nameKo":"Ousmane Dembele","shirtNumber":7,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-20","familyName":"Doue","givenName":"Desire","nameKo":"Desire Doue","shirtNumber":20,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-10","familyName":"Mbappe","givenName":"Kylian","nameKo":"Kylian Mbappe","shirtNumber":10,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-FRA-12","familyName":"Barcola","givenName":"Bradley","nameKo":"Bradley Barcola","shirtNumber":12,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-FRA-24","familyName":"Cherki","givenName":"Rayan","nameKo":"Rayan Cherki","shirtNumber":24,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-SEN-16","familyName":"Mendy","givenName":"Edouard","nameKo":"Edouard Mendy","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-15","familyName":"Diatta","givenName":"Krepin","nameKo":"Krepin Diatta","shirtNumber":15,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-3","familyName":"Koulibaly","givenName":"Kalidou","nameKo":"Kalidou Koulibaly","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-19","familyName":"Niakhate","givenName":"Moussa","nameKo":"Moussa Niakhate","shirtNumber":19,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-25","familyName":"Diouf","givenName":"El Hadji Malick","nameKo":"El Hadji Malick Diouf","shirtNumber":25,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-5","familyName":"Gueye","givenName":"Idrissa","nameKo":"Idrissa Gueye","shirtNumber":5,"position":"Centre Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-8","familyName":"Camara","givenName":"Lamine","nameKo":"Lamine Camara","shirtNumber":8,"position":"Centre Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-26","familyName":"Gueye","givenName":"Pape","nameKo":"Pape Gueye","shirtNumber":26,"position":"Centre Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-18","familyName":"Sarr","givenName":"Ismaila","nameKo":"Ismaila Sarr","shirtNumber":18,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-11","familyName":"Jackson","givenName":"Nicolas","nameKo":"Nicolas Jackson","shirtNumber":11,"position":"Striker","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-10","familyName":"Mane","givenName":"Sadio","nameKo":"Sadio Mane","shirtNumber":10,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-SEN-20","familyName":"Mbaye","givenName":"Ibrahim","nameKo":"Ibrahim Mbaye","shirtNumber":20,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-SEN-21","familyName":"Diarra","givenName":"Habib","nameKo":"Habib Diarra","shirtNumber":21,"position":"Centre Midfield","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SEN-9","familyName":"Dieng","givenName":"Bamba","nameKo":"Bamba Dieng","shirtNumber":9,"position":"Striker","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-SEN-13","familyName":"Ndiaye","givenName":"Iliman","nameKo":"Iliman Ndiaye","shirtNumber":13,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SEN-6","familyName":"Ciss","givenName":"Pathe","nameKo":"Pathe Ciss","shirtNumber":6,"position":"Centre Midfield","positionCode":"CDM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":66,"playerId":"P-2026-FRA-10","nameKo":"Kylian Mbappe","teamId":"T-FRA","ownGoal":false,"penalty":false},
+    {"minute":82,"playerId":"P-2026-FRA-12","nameKo":"Bradley Barcola","teamId":"T-FRA","ownGoal":false,"penalty":false},
+    {"minute":95,"playerId":"P-2026-SEN-20","nameKo":"Ibrahim Mbaye","teamId":"T-SEN","ownGoal":false,"penalty":false},
+    {"minute":96,"playerId":"P-2026-FRA-10","nameKo":"Kylian Mbappe","teamId":"T-FRA","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":76,"onId":"P-2026-SEN-21","offId":"P-2026-SEN-8","teamId":"T-SEN"},
+    {"minute":80,"onId":"P-2026-FRA-12","offId":"P-2026-FRA-7","teamId":"T-FRA"},
+    {"minute":82,"onId":"P-2026-SEN-9","offId":"P-2026-SEN-11","teamId":"T-SEN"},
+    {"minute":83,"onId":"P-2026-SEN-13","offId":"P-2026-SEN-26","teamId":"T-SEN"},
+    {"minute":87,"onId":"P-2026-FRA-24","offId":"P-2026-FRA-20","teamId":"T-FRA"},
+    {"minute":75,"onId":"P-2026-SEN-20","offId":"P-2026-SEN-18","teamId":"T-SEN"},
+    {"minute":88,"onId":"P-2026-SEN-6","offId":"P-2026-SEN-5","teamId":"T-SEN"}
+  ]
+}

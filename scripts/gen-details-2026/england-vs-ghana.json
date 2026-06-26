@@ -1,0 +1,52 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-ENG-1","familyName":"Pickford","givenName":"Jordan","nameKo":"Jordan Pickford","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-24","familyName":"James","givenName":"Reece","nameKo":"Reece James","shirtNumber":24,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-2","familyName":"Konsa","givenName":"Ezri","nameKo":"Ezri Konsa","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-6","familyName":"Guehi","givenName":"Marc","nameKo":"Marc Guehi","shirtNumber":6,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-25","familyName":"Spence","givenName":"Djed","nameKo":"Djed Spence","shirtNumber":25,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-4","familyName":"Rice","givenName":"Declan","nameKo":"Declan Rice","shirtNumber":4,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-8","familyName":"Anderson","givenName":"Elliot","nameKo":"Elliot Anderson","shirtNumber":8,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-20","familyName":"Madueke","givenName":"Noni","nameKo":"Noni Madueke","shirtNumber":20,"position":"Midfielder","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-10","familyName":"Bellingham","givenName":"Jude","nameKo":"Jude Bellingham","shirtNumber":10,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-18","familyName":"Gordon","givenName":"Anthony","nameKo":"Anthony Gordon","shirtNumber":18,"position":"Midfielder","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-9","familyName":"Kane","givenName":"Harry","nameKo":"Harry Kane","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ENG-7","familyName":"Saka","givenName":"Bukayo","nameKo":"Bukayo Saka","shirtNumber":7,"position":"Midfielder","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-3","familyName":"O'Reilly","givenName":"Rico","nameKo":"Rico O'Reilly","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-17","familyName":"Rogers","givenName":"Morgan","nameKo":"Morgan Rogers","shirtNumber":17,"position":"Midfielder","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-21","familyName":"Eze","givenName":"Eberechi","nameKo":"Eberechi Eze","shirtNumber":21,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ENG-11","familyName":"Rashford","givenName":"Marcus","nameKo":"Marcus Rashford","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-GHA-16","familyName":"Asare","givenName":"Benjamin","nameKo":"Benjamin Asare","shirtNumber":16,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-26","familyName":"Senaya","givenName":"Marvin","nameKo":"Marvin Senaya","shirtNumber":26,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-4","familyName":"Adjetey","givenName":"Jonas","nameKo":"Jonas Adjetey","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-18","familyName":"Opoku","givenName":"Jerome","nameKo":"Jerome Opoku","shirtNumber":18,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-14","familyName":"Mensah","givenName":"Gideon","nameKo":"Gideon Mensah","shirtNumber":14,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-5","familyName":"Partey","givenName":"Thomas","nameKo":"Thomas Partey","shirtNumber":5,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-19","familyName":"Williams","givenName":"Inaki","nameKo":"Inaki Williams","shirtNumber":19,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-8","familyName":"Sibo","givenName":"Kwasi","nameKo":"Kwasi Sibo","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-3","familyName":"Yirenkyi","givenName":"Caleb","nameKo":"Caleb Yirenkyi","shirtNumber":3,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-11","familyName":"Semenyo","givenName":"Antoine","nameKo":"Antoine Semenyo","shirtNumber":11,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-9","familyName":"Ayew","givenName":"Jordan","nameKo":"Jordan Ayew","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-GHA-7","familyName":"Issahaku","givenName":"Abdul Fatawu","nameKo":"Abdul Fatawu Issahaku","shirtNumber":7,"position":"Midfielder","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-25","familyName":"Adu","givenName":"Brandon","nameKo":"Brandon Adu","shirtNumber":25,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-21","familyName":"Oppong","givenName":"Forster","nameKo":"Forster Oppong","shirtNumber":21,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-GHA-17","familyName":"Rahman","givenName":"Baba","nameKo":"Baba Rahman","shirtNumber":17,"position":"Defender","positionCode":"LB","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [],
+  "bookings": [],
+  "subs": [
+    {"minute":65,"onId":"P-2026-ENG-7","offId":"P-2026-ENG-18","teamId":"T-ENG"},
+    {"minute":66,"onId":"P-2026-ENG-3","offId":"P-2026-ENG-25","teamId":"T-ENG"},
+    {"minute":73,"onId":"P-2026-ENG-17","offId":"P-2026-ENG-10","teamId":"T-ENG"},
+    {"minute":74,"onId":"P-2026-ENG-21","offId":"P-2026-ENG-8","teamId":"T-ENG"},
+    {"minute":83,"onId":"P-2026-ENG-11","offId":"P-2026-ENG-20","teamId":"T-ENG"},
+    {"minute":66,"onId":"P-2026-GHA-7","offId":"P-2026-GHA-19","teamId":"T-GHA"},
+    {"minute":67,"onId":"P-2026-GHA-25","offId":"P-2026-GHA-9","teamId":"T-GHA"},
+    {"minute":87,"onId":"P-2026-GHA-21","offId":"P-2026-GHA-26","teamId":"T-GHA"},
+    {"minute":95,"onId":"P-2026-GHA-17","offId":"P-2026-GHA-25","teamId":"T-GHA"}
+  ]
+}

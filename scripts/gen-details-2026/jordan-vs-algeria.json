@@ -1,0 +1,58 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-JOR-1","familyName":"Abulaila","givenName":"Yazeed","nameKo":"Yazeed Abulaila","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-3","familyName":"Nasib","givenName":"Abdallah","nameKo":"Abdallah Nasib","shirtNumber":3,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-4","familyName":"Abu Dahab","givenName":"Husam","nameKo":"Husam Abu Dahab","shirtNumber":4,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-5","familyName":"Al-Arab","givenName":"Yazan","nameKo":"Yazan Al-Arab","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-23","familyName":"Haddad","givenName":"Ehsan","nameKo":"Ehsan Haddad","shirtNumber":23,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-8","familyName":"Al-Rawabdeh","givenName":"Noor","nameKo":"Noor Al-Rawabdeh","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-21","familyName":"Al-Rashdan","givenName":"Nizar","nameKo":"Nizar Al-Rashdan","shirtNumber":21,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-20","familyName":"Abu Taha","givenName":"Mohannad","nameKo":"Mohannad Abu Taha","shirtNumber":20,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-10","familyName":"Al-Tamari","givenName":"Mousa","nameKo":"Mousa Al-Tamari","shirtNumber":10,"position":"Forward","positionCode":"RF","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-13","familyName":"Al-Mardi","givenName":"Mahmoud","nameKo":"Mahmoud Al-Mardi","shirtNumber":13,"position":"Forward","positionCode":"LF","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-9","familyName":"Olwan","givenName":"Ali","nameKo":"Ali Olwan","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-JOR-19","familyName":"Fakhoury","givenName":"Odeh","nameKo":"Odeh Fakhoury","shirtNumber":19,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-JOR-7","familyName":"Azaizeh","givenName":"Ali","nameKo":"Ali Azaizeh","shirtNumber":7,"position":"Forward","positionCode":"RF","starter":false,"substitute":true},
+      {"playerId":"P-2026-JOR-16","familyName":"Abu Hasheesh","givenName":"Mohammad","nameKo":"Mohammad Abu Hasheesh","shirtNumber":16,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-JOR-2","familyName":"Obaid","givenName":"Saleem","nameKo":"Saleem Obaid","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-JOR-11","familyName":"Abu Zraiq","givenName":"Mohammed","nameKo":"Mohammed Abu Zraiq","shirtNumber":11,"position":"Forward","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-ALG-1","familyName":"Zidane","givenName":"Luca","nameKo":"Luca Zidane","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-17","familyName":"Belghali","givenName":"Rafik","nameKo":"Rafik Belghali","shirtNumber":17,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-2","familyName":"Mandi","givenName":"Aissa","nameKo":"Aissa Mandi","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-21","familyName":"Bensebaini","givenName":"Ramy","nameKo":"Ramy Bensebaini","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-15","familyName":"Aït-Nouri","givenName":"Rayan","nameKo":"Rayan Ait-Nouri","shirtNumber":15,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-6","familyName":"Zerrouki","givenName":"Ramiz","nameKo":"Ramiz Zerrouki","shirtNumber":6,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-14","familyName":"Boudaoui","givenName":"Hicham","nameKo":"Hicham Boudaoui","shirtNumber":14,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-7","familyName":"Mahrez","givenName":"Riyad","nameKo":"Riyad Mahrez","shirtNumber":7,"position":"Midfielder","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-22","familyName":"Maza","givenName":"Ibrahim","nameKo":"Ibrahim Maza","shirtNumber":22,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-10","familyName":"Chaïbi","givenName":"Fares","nameKo":"Fares Chaibi","shirtNumber":10,"position":"Midfielder","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-9","familyName":"Gouiri","givenName":"Amine","nameKo":"Amine Gouiri","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-8","familyName":"Bentaleb","givenName":"Nabil","nameKo":"Nabil Bentaleb","shirtNumber":8,"position":"Midfielder","positionCode":"RDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-18","familyName":"Benbouali","givenName":"Nadhir","nameKo":"Nadhir Benbouali","shirtNumber":18,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-19","familyName":"Hadj Moussa","givenName":"Anis","nameKo":"Anis Hadj Moussa","shirtNumber":19,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-3","familyName":"Hadjam","givenName":"Jaouen","nameKo":"Jaouen Hadjam","shirtNumber":3,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-4","familyName":"Belaïd","givenName":"Zineddine","nameKo":"Zineddine Belaid","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":36,"playerId":"P-2026-JOR-21","nameKo":"Nizar Al-Rashdan","teamId":"T-JOR","ownGoal":false,"penalty":false},
+    {"minute":69,"playerId":"P-2026-ALG-18","nameKo":"Nadhir Benbouali","teamId":"T-ALG","ownGoal":false,"penalty":false},
+    {"minute":82,"playerId":"P-2026-ALG-9","nameKo":"Amine Gouiri","teamId":"T-ALG","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-ALG-8","offId":"P-2026-ALG-6","teamId":"T-ALG"},
+    {"minute":45,"onId":"P-2026-ALG-18","offId":"P-2026-ALG-14","teamId":"T-ALG"},
+    {"minute":76,"onId":"P-2026-JOR-19","offId":"P-2026-JOR-13","teamId":"T-JOR"},
+    {"minute":76,"onId":"P-2026-ALG-19","offId":"P-2026-ALG-7","teamId":"T-ALG"},
+    {"minute":84,"onId":"P-2026-JOR-7","offId":"P-2026-JOR-10","teamId":"T-JOR"},
+    {"minute":85,"onId":"P-2026-JOR-16","offId":"P-2026-JOR-20","teamId":"T-JOR"},
+    {"minute":85,"onId":"P-2026-ALG-3","offId":"P-2026-ALG-15","teamId":"T-ALG"},
+    {"minute":86,"onId":"P-2026-ALG-4","offId":"P-2026-ALG-9","teamId":"T-ALG"},
+    {"minute":91,"onId":"P-2026-JOR-2","offId":"P-2026-JOR-4","teamId":"T-JOR"},
+    {"minute":92,"onId":"P-2026-JOR-11","offId":"P-2026-JOR-9","teamId":"T-JOR"}
+  ]
+}

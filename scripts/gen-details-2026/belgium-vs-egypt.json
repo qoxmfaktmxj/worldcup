@@ -1,0 +1,441 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-BEL-1",
+        "familyName": "Courtois",
+        "givenName": "Thibaut",
+        "nameKo": "Thibaut Courtois",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-15",
+        "familyName": "Meunier",
+        "givenName": "Thomas",
+        "nameKo": "Thomas Meunier",
+        "shirtNumber": 15,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-25",
+        "familyName": "Ngoy",
+        "givenName": "Nathan",
+        "nameKo": "Nathan Ngoy",
+        "shirtNumber": 25,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-4",
+        "familyName": "Mechele",
+        "givenName": "Brandon",
+        "nameKo": "Brandon Mechele",
+        "shirtNumber": 4,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-21",
+        "familyName": "Castagne",
+        "givenName": "Timothy",
+        "nameKo": "Timothy Castagne",
+        "shirtNumber": 21,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-24",
+        "familyName": "Onana",
+        "givenName": "Amadou",
+        "nameKo": "Amadou Onana",
+        "shirtNumber": 24,
+        "position": "Defensive Midfield",
+        "positionCode": "RDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-8",
+        "familyName": "Tielemans",
+        "givenName": "Youri",
+        "nameKo": "Youri Tielemans",
+        "shirtNumber": 8,
+        "position": "Defensive Midfield",
+        "positionCode": "LDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-11",
+        "familyName": "Doku",
+        "givenName": "Jeremy",
+        "nameKo": "Jeremy Doku",
+        "shirtNumber": 11,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-7",
+        "familyName": "De Bruyne",
+        "givenName": "Kevin",
+        "nameKo": "Kevin De Bruyne",
+        "shirtNumber": 7,
+        "position": "Attacking Midfield",
+        "positionCode": "CAM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-10",
+        "familyName": "Trossard",
+        "givenName": "Leandro",
+        "nameKo": "Leandro Trossard",
+        "shirtNumber": 10,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-17",
+        "familyName": "De Ketelaere",
+        "givenName": "Charles",
+        "nameKo": "Charles De Ketelaere",
+        "shirtNumber": 17,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-BEL-5",
+        "familyName": "De Cuyper",
+        "givenName": "Maxim",
+        "nameKo": "Maxim De Cuyper",
+        "shirtNumber": 5,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BEL-23",
+        "familyName": "Raskin",
+        "givenName": "Nicolas",
+        "nameKo": "Nicolas Raskin",
+        "shirtNumber": 23,
+        "position": "Defensive Midfield",
+        "positionCode": "CDM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BEL-9",
+        "familyName": "Lukaku",
+        "givenName": "Romelu",
+        "nameKo": "Romelu Lukaku",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BEL-26",
+        "familyName": "Fernandez-Pardo",
+        "givenName": "Matias",
+        "nameKo": "Matias Fernandez-Pardo",
+        "shirtNumber": 26,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-BEL-20",
+        "familyName": "Vanaken",
+        "givenName": "Hans",
+        "nameKo": "Hans Vanaken",
+        "shirtNumber": 20,
+        "position": "Attacking Midfield",
+        "positionCode": "CAM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-EGY-23",
+        "familyName": "Shoubir",
+        "givenName": "Mostafa",
+        "nameKo": "Mostafa Shoubir",
+        "shirtNumber": 23,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-3",
+        "familyName": "Hany",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Hany",
+        "shirtNumber": 3,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-2",
+        "familyName": "Ibrahim",
+        "givenName": "Yasser",
+        "nameKo": "Yasser Ibrahim",
+        "shirtNumber": 2,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-14",
+        "familyName": "Fathy",
+        "givenName": "Hamdy",
+        "nameKo": "Hamdy Fathy",
+        "shirtNumber": 14,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-13",
+        "familyName": "Fatouh",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Fatouh",
+        "shirtNumber": 13,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-19",
+        "familyName": "Attia",
+        "givenName": "Marwan",
+        "nameKo": "Marwan Attia",
+        "shirtNumber": 19,
+        "position": "Defensive Midfield",
+        "positionCode": "RDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-17",
+        "familyName": "Lashin",
+        "givenName": "Mohanad",
+        "nameKo": "Mohanad Lashin",
+        "shirtNumber": 17,
+        "position": "Defensive Midfield",
+        "positionCode": "LDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-11",
+        "familyName": "Zico",
+        "givenName": "Mostafa",
+        "nameKo": "Mostafa Zico",
+        "shirtNumber": 11,
+        "position": "Attacking Midfield",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-8",
+        "familyName": "Ashour",
+        "givenName": "Emam",
+        "nameKo": "Emam Ashour",
+        "shirtNumber": 8,
+        "position": "Attacking Midfield",
+        "positionCode": "CAM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-22",
+        "familyName": "Marmoush",
+        "givenName": "Omar",
+        "nameKo": "Omar Marmoush",
+        "shirtNumber": 22,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-10",
+        "familyName": "Salah",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Salah",
+        "shirtNumber": 10,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-EGY-5",
+        "familyName": "Rabia",
+        "givenName": "Ramy",
+        "nameKo": "Ramy Rabia",
+        "shirtNumber": 5,
+        "position": "Centre Back",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-EGY-9",
+        "familyName": "Abdelkarim",
+        "givenName": "Hamza",
+        "nameKo": "Hamza Abdelkarim",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-EGY-25",
+        "familyName": "Zizo",
+        "givenName": "Zizo",
+        "nameKo": "Zizo",
+        "shirtNumber": 25,
+        "position": "Attacking Midfield",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-EGY-20",
+        "familyName": "Adel",
+        "givenName": "Ibrahim",
+        "nameKo": "Ibrahim Adel",
+        "shirtNumber": 20,
+        "position": "Attacking Midfield",
+        "positionCode": "CAM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-EGY-15",
+        "familyName": "Hafez",
+        "givenName": "Karim",
+        "nameKo": "Karim Hafez",
+        "shirtNumber": 15,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "playerId": "P-2026-EGY-8",
+      "nameKo": "Emam Ashour",
+      "teamId": "T-EGY",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 66,
+      "playerId": "P-2026-EGY-3",
+      "nameKo": "Mohamed Hany",
+      "teamId": "T-BEL",
+      "ownGoal": true,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 56,
+      "onId": "P-2026-BEL-5",
+      "offId": "P-2026-BEL-21",
+      "teamId": "T-BEL"
+    },
+    {
+      "minute": 56,
+      "onId": "P-2026-BEL-23",
+      "offId": "P-2026-BEL-24",
+      "teamId": "T-BEL"
+    },
+    {
+      "minute": 66,
+      "onId": "P-2026-BEL-9",
+      "offId": "P-2026-BEL-17",
+      "teamId": "T-BEL"
+    },
+    {
+      "minute": 86,
+      "onId": "P-2026-BEL-26",
+      "offId": "P-2026-BEL-11",
+      "teamId": "T-BEL"
+    },
+    {
+      "minute": 86,
+      "onId": "P-2026-BEL-20",
+      "offId": "P-2026-BEL-7",
+      "teamId": "T-BEL"
+    },
+    {
+      "minute": 71,
+      "onId": "P-2026-EGY-5",
+      "offId": "P-2026-EGY-8",
+      "teamId": "T-EGY"
+    },
+    {
+      "minute": 76,
+      "onId": "P-2026-EGY-9",
+      "offId": "P-2026-EGY-10",
+      "teamId": "T-EGY"
+    },
+    {
+      "minute": 76,
+      "onId": "P-2026-EGY-25",
+      "offId": "P-2026-EGY-11",
+      "teamId": "T-EGY"
+    },
+    {
+      "minute": 88,
+      "onId": "P-2026-EGY-20",
+      "offId": "P-2026-EGY-14",
+      "teamId": "T-EGY"
+    },
+    {
+      "minute": 88,
+      "onId": "P-2026-EGY-15",
+      "offId": "P-2026-EGY-13",
+      "teamId": "T-EGY"
+    }
+  ]
+}

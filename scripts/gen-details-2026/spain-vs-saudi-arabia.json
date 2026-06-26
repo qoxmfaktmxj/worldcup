@@ -1,0 +1,472 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-ESP-23",
+        "familyName": "Simón",
+        "givenName": "Unai",
+        "nameKo": "Unai Simón",
+        "shirtNumber": 23,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-12",
+        "familyName": "Porro",
+        "givenName": "Pedro",
+        "nameKo": "Pedro Porro",
+        "shirtNumber": 12,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-22",
+        "familyName": "Cubarsí",
+        "givenName": "Pau",
+        "nameKo": "Pau Cubarsí",
+        "shirtNumber": 22,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-14",
+        "familyName": "Laporte",
+        "givenName": "Aymeric",
+        "nameKo": "Aymeric Laporte",
+        "shirtNumber": 14,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-24",
+        "familyName": "Cucurella",
+        "givenName": "Marc",
+        "nameKo": "Marc Cucurella",
+        "shirtNumber": 24,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-16",
+        "familyName": "Hernández",
+        "givenName": "Rodri",
+        "nameKo": "Rodri",
+        "shirtNumber": 16,
+        "position": "Defensive Midfield",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-20",
+        "familyName": "González",
+        "givenName": "Pedri",
+        "nameKo": "Pedri",
+        "shirtNumber": 20,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-15",
+        "familyName": "Baena",
+        "givenName": "Álex",
+        "nameKo": "Álex Baena",
+        "shirtNumber": 15,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-19",
+        "familyName": "Yamal",
+        "givenName": "Lamine",
+        "nameKo": "Lamine Yamal",
+        "shirtNumber": 19,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-21",
+        "familyName": "Oyarzabal",
+        "givenName": "Mikel",
+        "nameKo": "Mikel Oyarzabal",
+        "shirtNumber": 21,
+        "position": "Centre Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-10",
+        "familyName": "Olmo",
+        "givenName": "Dani",
+        "nameKo": "Dani Olmo",
+        "shirtNumber": 10,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-ESP-7",
+        "familyName": "Pino",
+        "givenName": "Yeremy",
+        "nameKo": "Yeremy Pino",
+        "shirtNumber": 7,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-ESP-11",
+        "familyName": "Torres",
+        "givenName": "Ferran",
+        "nameKo": "Ferran Torres",
+        "shirtNumber": 11,
+        "position": "Centre Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-ESP-18",
+        "familyName": "Merino",
+        "givenName": "Mikel",
+        "nameKo": "Mikel Merino",
+        "shirtNumber": 18,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-ESP-17",
+        "familyName": "Williams",
+        "givenName": "Nico",
+        "nameKo": "Nico Williams",
+        "shirtNumber": 17,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-ESP-8",
+        "familyName": "Ruiz",
+        "givenName": "Fabián",
+        "nameKo": "Fabián Ruiz",
+        "shirtNumber": 8,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-KSA-21",
+        "familyName": "Al-Owais",
+        "givenName": "Mohammed",
+        "nameKo": "Mohammed Al-Owais",
+        "shirtNumber": 21,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-12",
+        "familyName": "Abdulhamid",
+        "givenName": "Saud",
+        "nameKo": "Saud Abdulhamid",
+        "shirtNumber": 12,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-4",
+        "familyName": "Al-Amri",
+        "givenName": "Abdulelah",
+        "nameKo": "Abdulelah Al-Amri",
+        "shirtNumber": 4,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-5",
+        "familyName": "Al-Tambakti",
+        "givenName": "Hassan",
+        "nameKo": "Hassan Al-Tambakti",
+        "shirtNumber": 5,
+        "position": "Centre Back",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-3",
+        "familyName": "Lajami",
+        "givenName": "Ali",
+        "nameKo": "Ali Lajami",
+        "shirtNumber": 3,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-24",
+        "familyName": "Al-Harbi",
+        "givenName": "Moteb",
+        "nameKo": "Moteb Al-Harbi",
+        "shirtNumber": 24,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-7",
+        "familyName": "Al-Juwayr",
+        "givenName": "Musab",
+        "nameKo": "Musab Al-Juwayr",
+        "shirtNumber": 7,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-6",
+        "familyName": "Al-Dawsari",
+        "givenName": "Nasser",
+        "nameKo": "Nasser Al-Dawsari",
+        "shirtNumber": 6,
+        "position": "Central Midfield",
+        "positionCode": "CM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-15",
+        "familyName": "Al-Khaibari",
+        "givenName": "Abdullah",
+        "nameKo": "Abdullah Al-Khaibari",
+        "shirtNumber": 15,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-10",
+        "familyName": "Al-Dawsari",
+        "givenName": "Salem",
+        "nameKo": "Salem Al-Dawsari",
+        "shirtNumber": 10,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-9",
+        "familyName": "Al-Brikan",
+        "givenName": "Feras",
+        "nameKo": "Feras Al-Brikan",
+        "shirtNumber": 9,
+        "position": "Centre Forward",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KSA-19",
+        "familyName": "Al-Hamdan",
+        "givenName": "Abdullah",
+        "nameKo": "Abdullah Al-Hamdan",
+        "shirtNumber": 19,
+        "position": "Centre Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KSA-14",
+        "familyName": "Kanno",
+        "givenName": "Mohamed",
+        "nameKo": "Mohamed Kanno",
+        "shirtNumber": 14,
+        "position": "Central Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KSA-18",
+        "familyName": "Abu Alshamat",
+        "givenName": "Mohammed",
+        "nameKo": "Mohammed Abu Alshamat",
+        "shirtNumber": 18,
+        "position": "Centre Forward",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KSA-13",
+        "familyName": "Al-Hajji",
+        "givenName": "Alaa",
+        "nameKo": "Alaa Al-Hajji",
+        "shirtNumber": 13,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KSA-20",
+        "familyName": "Alghannam",
+        "givenName": "Khalid",
+        "nameKo": "Khalid Alghannam",
+        "shirtNumber": 20,
+        "position": "Central Midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 10,
+      "playerId": "P-2026-ESP-19",
+      "nameKo": "Lamine Yamal",
+      "teamId": "T-ESP",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 21,
+      "playerId": "P-2026-ESP-21",
+      "nameKo": "Mikel Oyarzabal",
+      "teamId": "T-ESP",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 24,
+      "playerId": "P-2026-ESP-21",
+      "nameKo": "Mikel Oyarzabal",
+      "teamId": "T-ESP",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 49,
+      "playerId": "P-2026-KSA-5",
+      "nameKo": "Hassan Al-Tambakti",
+      "teamId": "T-ESP",
+      "ownGoal": true,
+      "penalty": false
+    }
+  ],
+  "bookings": [
+    {
+      "minute": 30,
+      "playerId": "P-2026-KSA-10",
+      "nameKo": "Salem Al-Dawsari",
+      "teamId": "T-KSA",
+      "card": "yellow"
+    },
+    {
+      "minute": 60,
+      "playerId": "P-2026-KSA-14",
+      "nameKo": "Mohamed Kanno",
+      "teamId": "T-KSA",
+      "card": "yellow"
+    }
+  ],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-ESP-7",
+      "offId": "P-2026-ESP-19",
+      "teamId": "T-ESP"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-ESP-11",
+      "offId": "P-2026-ESP-21",
+      "teamId": "T-ESP"
+    },
+    {
+      "minute": 61,
+      "onId": "P-2026-ESP-18",
+      "offId": "P-2026-ESP-10",
+      "teamId": "T-ESP"
+    },
+    {
+      "minute": 61,
+      "onId": "P-2026-ESP-17",
+      "offId": "P-2026-ESP-15",
+      "teamId": "T-ESP"
+    },
+    {
+      "minute": 70,
+      "onId": "P-2026-ESP-8",
+      "offId": "P-2026-ESP-20",
+      "teamId": "T-ESP"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-KSA-19",
+      "offId": "P-2026-KSA-7",
+      "teamId": "T-KSA"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-KSA-14",
+      "offId": "P-2026-KSA-15",
+      "teamId": "T-KSA"
+    },
+    {
+      "minute": 60,
+      "onId": "P-2026-KSA-18",
+      "offId": "P-2026-KSA-9",
+      "teamId": "T-KSA"
+    },
+    {
+      "minute": 60,
+      "onId": "P-2026-KSA-13",
+      "offId": "P-2026-KSA-4",
+      "teamId": "T-KSA"
+    },
+    {
+      "minute": 90,
+      "onId": "P-2026-KSA-20",
+      "offId": "P-2026-KSA-6",
+      "teamId": "T-KSA"
+    }
+  ]
+}

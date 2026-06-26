@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-CUW-1","familyName":"Room","givenName":"Eloy","nameKo":"Eloy Room","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-20","familyName":"Brenet","givenName":"Joshua","nameKo":"Joshua Brenet","shirtNumber":20,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-3","familyName":"Gaari","givenName":"Jurien","nameKo":"Jurien Gaari","shirtNumber":3,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-18","familyName":"Obispo","givenName":"Armando","nameKo":"Armando Obispo","shirtNumber":18,"position":"Center Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-5","familyName":"Floranus","givenName":"Sherel","nameKo":"Sherel Floranus","shirtNumber":5,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-24","familyName":"Fonville","givenName":"Deveron","nameKo":"Deveron Fonville","shirtNumber":24,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-21","familyName":"Chong","givenName":"Tahith","nameKo":"Tahith Chong","shirtNumber":21,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-8","familyName":"Comenencia","givenName":"Livano","nameKo":"Livano Comenencia","shirtNumber":8,"position":"Right Center Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-10","familyName":"Bacuna","givenName":"Leandro","nameKo":"Leandro Bacuna","shirtNumber":10,"position":"Left Center Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-7","familyName":"Bacuna","givenName":"Juninho","nameKo":"Juninho Bacuna","shirtNumber":7,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-9","familyName":"Locadia","givenName":"Jurgen","nameKo":"Jurgen Locadia","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CUW-11","familyName":"Antonisse","givenName":"Jeremy","nameKo":"Jeremy Antonisse","shirtNumber":11,"position":"Center Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CUW-19","familyName":"Kastaneer","givenName":"Gervane","nameKo":"Gervane Kastaneer","shirtNumber":19,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-CUW-13","familyName":"Noslin","givenName":"Tyrese","nameKo":"Tyrese Noslin","shirtNumber":13,"position":"Right Center Back","positionCode":"RCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-CUW-17","familyName":"Kuwas","givenName":"Brandley","nameKo":"Brandley Kuwas","shirtNumber":17,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CUW-2","familyName":"Sambo","givenName":"Shurandy","nameKo":"Shurandy Sambo","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CIV-1","familyName":"Fofana","givenName":"Yahia","nameKo":"Yahia Fofana","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-13","familyName":"Operi","givenName":"Christopher","nameKo":"Christopher Operi","shirtNumber":13,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-7","familyName":"Kossounou","givenName":"Odilon","nameKo":"Odilon Kossounou","shirtNumber":7,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-2","familyName":"Diomande","givenName":"Ousmane","nameKo":"Ousmane Diomande","shirtNumber":2,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-17","familyName":"Doue","givenName":"Guela","nameKo":"Guela Doue","shirtNumber":17,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-18","familyName":"Sangare","givenName":"Ibrahim","nameKo":"Ibrahim Sangare","shirtNumber":18,"position":"Right Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-8","familyName":"Kessie","givenName":"Franck","nameKo":"Franck Kessie","shirtNumber":8,"position":"Left Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-15","familyName":"Diallo","givenName":"Amad","nameKo":"Amad Diallo","shirtNumber":15,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-19","familyName":"Pepe","givenName":"Nicolas","nameKo":"Nicolas Pepe","shirtNumber":19,"position":"Central Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-11","familyName":"Diomande","givenName":"Yan","nameKo":"Yan Diomande","shirtNumber":11,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-9","familyName":"Bonny","givenName":"Ange-Yoan","nameKo":"Ange-Yoan Bonny","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CIV-26","familyName":"Oulai","givenName":"Christ-Inao","nameKo":"Christ-Inao Oulai","shirtNumber":26,"position":"Right Midfield","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-14","familyName":"Diakite","givenName":"Oumar","nameKo":"Oumar Diakite","shirtNumber":14,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-24","familyName":"Toure","givenName":"Bazoumana","nameKo":"Bazoumana Toure","shirtNumber":24,"position":"Left Midfield","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-12","familyName":"Wahi","givenName":"Elye","nameKo":"Elye Wahi","shirtNumber":12,"position":"Central Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CIV-4","familyName":"Seri","givenName":"Jean-Michael","nameKo":"Jean-Michael Seri","shirtNumber":4,"position":"Left Defensive Midfield","positionCode":"LDM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":7,"playerId":"P-2026-CIV-19","nameKo":"Nicolas Pepe","teamId":"T-CIV","ownGoal":false,"penalty":false},
+    {"minute":64,"playerId":"P-2026-CIV-19","nameKo":"Nicolas Pepe","teamId":"T-CIV","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":61,"onId":"P-2026-CUW-11","offId":"P-2026-CUW-8","teamId":"T-CUW"},
+    {"minute":77,"onId":"P-2026-CUW-19","offId":"P-2026-CUW-24","teamId":"T-CUW"},
+    {"minute":77,"onId":"P-2026-CUW-13","offId":"P-2026-CUW-3","teamId":"T-CUW"},
+    {"minute":90,"onId":"P-2026-CUW-17","offId":"P-2026-CUW-9","teamId":"T-CUW"},
+    {"minute":90,"onId":"P-2026-CUW-2","offId":"P-2026-CUW-20","teamId":"T-CUW"},
+    {"minute":45,"onId":"P-2026-CIV-26","offId":"P-2026-CIV-15","teamId":"T-CIV"},
+    {"minute":67,"onId":"P-2026-CIV-14","offId":"P-2026-CIV-9","teamId":"T-CIV"},
+    {"minute":67,"onId":"P-2026-CIV-24","offId":"P-2026-CIV-11","teamId":"T-CIV"},
+    {"minute":67,"onId":"P-2026-CIV-12","offId":"P-2026-CIV-19","teamId":"T-CIV"},
+    {"minute":77,"onId":"P-2026-CIV-4","offId":"P-2026-CIV-8","teamId":"T-CIV"}
+  ]
+}

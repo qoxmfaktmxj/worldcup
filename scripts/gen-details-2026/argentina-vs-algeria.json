@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-ARG-1","familyName":"Martinez","givenName":"Emiliano","nameKo":"Emiliano Martinez","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-2","familyName":"Montiel","givenName":"Gonzalo","nameKo":"Gonzalo Montiel","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-3","familyName":"Romero","givenName":"Cristian","nameKo":"Cristian Romero","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-4","familyName":"Martinez","givenName":"Lisandro","nameKo":"Lisandro Martinez","shirtNumber":4,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-5","familyName":"Medina","givenName":"Facundo","nameKo":"Facundo Medina","shirtNumber":5,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-8","familyName":"De Paul","givenName":"Rodrigo","nameKo":"Rodrigo De Paul","shirtNumber":8,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-6","familyName":"Mac Allister","givenName":"Alexis","nameKo":"Alexis Mac Allister","shirtNumber":6,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-7","familyName":"Fernandez","givenName":"Enzo","nameKo":"Enzo Fernandez","shirtNumber":7,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-9","familyName":"Almada","givenName":"Thiago","nameKo":"Thiago Almada","shirtNumber":9,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-10","familyName":"Messi","givenName":"Lionel","nameKo":"Lionel Messi","shirtNumber":10,"position":"Forward","positionCode":"RF","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-11","familyName":"Martinez","givenName":"Lautaro","nameKo":"Lautaro Martinez","shirtNumber":11,"position":"Forward","positionCode":"LF","starter":true,"substitute":false},
+      {"playerId":"P-2026-ARG-26","familyName":"Molina","givenName":"Nahuel","nameKo":"Nahuel Molina","shirtNumber":26,"position":"Right Back","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-15","familyName":"Gonzalez","givenName":"Nico","nameKo":"Nico Gonzalez","shirtNumber":15,"position":"Left Midfield","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-19","familyName":"Alvarez","givenName":"Julian","nameKo":"Julian Alvarez","shirtNumber":19,"position":"Forward","positionCode":"LF","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-13","familyName":"Otamendi","givenName":"Nicolas","nameKo":"Nicolas Otamendi","shirtNumber":13,"position":"Centre Back","positionCode":"RCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-ARG-23","familyName":"Paz","givenName":"Nico","nameKo":"Nico Paz","shirtNumber":23,"position":"Forward","positionCode":"RF","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-ALG-1","familyName":"Zidane","givenName":"Luca","nameKo":"Luca Zidane","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-5","familyName":"Ait-Nouri","givenName":"Rayan","nameKo":"Rayan Ait-Nouri","shirtNumber":5,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-4","familyName":"Belghali","givenName":"Rafik","nameKo":"Rafik Belghali","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-2","familyName":"Mandi","givenName":"Aissa","nameKo":"Aissa Mandi","shirtNumber":2,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-3","familyName":"Bensebaini","givenName":"Ramy","nameKo":"Ramy Bensebaini","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-6","familyName":"Boudaoui","givenName":"Hicham","nameKo":"Hicham Boudaoui","shirtNumber":6,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-8","familyName":"Bentaleb","givenName":"Nabil","nameKo":"Nabil Bentaleb","shirtNumber":8,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-7","familyName":"Maza","givenName":"Ibrahim","nameKo":"Ibrahim Maza","shirtNumber":7,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-11","familyName":"Hadj Moussa","givenName":"Anis","nameKo":"Anis Hadj Moussa","shirtNumber":11,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-10","familyName":"Chaibi","givenName":"Fares","nameKo":"Fares Chaibi","shirtNumber":10,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-9","familyName":"Gouiri","givenName":"Amine","nameKo":"Amine Gouiri","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ALG-18","familyName":"Amoura","givenName":"Mohamed","nameKo":"Mohamed Amoura","shirtNumber":18,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-14","familyName":"Aouar","givenName":"Houssem","nameKo":"Houssem Aouar","shirtNumber":14,"position":"Central Midfield","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-17","familyName":"Mahrez","givenName":"Riyad","nameKo":"Riyad Mahrez","shirtNumber":17,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-20","familyName":"Boulbina","givenName":"Adil","nameKo":"Adil Boulbina","shirtNumber":20,"position":"Attacking Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ALG-13","familyName":"Zerrouki","givenName":"Ramiz","nameKo":"Ramiz Zerrouki","shirtNumber":13,"position":"Defensive Midfield","positionCode":"CDM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":17,"playerId":"P-2026-ARG-10","nameKo":"Lionel Messi","teamId":"T-ARG","ownGoal":false,"penalty":false},
+    {"minute":60,"playerId":"P-2026-ARG-10","nameKo":"Lionel Messi","teamId":"T-ARG","ownGoal":false,"penalty":false},
+    {"minute":76,"playerId":"P-2026-ARG-10","nameKo":"Lionel Messi","teamId":"T-ARG","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-ARG-26","offId":"P-2026-ARG-2","teamId":"T-ARG"},
+    {"minute":55,"onId":"P-2026-ARG-15","offId":"P-2026-ARG-9","teamId":"T-ARG"},
+    {"minute":55,"onId":"P-2026-ARG-19","offId":"P-2026-ARG-11","teamId":"T-ARG"},
+    {"minute":80,"onId":"P-2026-ARG-13","offId":"P-2026-ARG-3","teamId":"T-ARG"},
+    {"minute":80,"onId":"P-2026-ARG-23","offId":"P-2026-ARG-10","teamId":"T-ARG"},
+    {"minute":64,"onId":"P-2026-ALG-18","offId":"P-2026-ALG-9","teamId":"T-ALG"},
+    {"minute":64,"onId":"P-2026-ALG-14","offId":"P-2026-ALG-6","teamId":"T-ALG"},
+    {"minute":64,"onId":"P-2026-ALG-17","offId":"P-2026-ALG-11","teamId":"T-ALG"},
+    {"minute":81,"onId":"P-2026-ALG-20","offId":"P-2026-ALG-8","teamId":"T-ALG"}
+  ]
+}

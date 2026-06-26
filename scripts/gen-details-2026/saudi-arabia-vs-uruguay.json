@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-KSA-21","familyName":"Al-Owais","givenName":"Mohammed","nameKo":"Mohammed Al-Owais","shirtNumber":21,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-12","familyName":"Abdulhamid","givenName":"Saud","nameKo":"Saud Abdulhamid","shirtNumber":12,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-4","familyName":"Al-Amri","givenName":"Abdulelah","nameKo":"Abdulelah Al-Amri","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-5","familyName":"Al-Tambakti","givenName":"Hassan","nameKo":"Hassan Al-Tambakti","shirtNumber":5,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-15","familyName":"Al-Khaibari","givenName":"Abdullah","nameKo":"Abdullah Al-Khaibari","shirtNumber":15,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-24","familyName":"Al-Harbi","givenName":"Moteb","nameKo":"Moteb Al-Harbi","shirtNumber":24,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-23","familyName":"Kanno","givenName":"Mohamed","nameKo":"Mohamed Kanno","shirtNumber":23,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-7","familyName":"Al-Juwayr","givenName":"Musab","nameKo":"Musab Al-Juwayr","shirtNumber":7,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-10","familyName":"Al-Dawsari","givenName":"Salem","nameKo":"Salem Al-Dawsari","shirtNumber":10,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-9","familyName":"Al-Brikan","givenName":"Feras","nameKo":"Feras Al-Brikan","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-26","familyName":"Abu Al-Shamat","givenName":"Mohammed","nameKo":"Mohammed Abu Al-Shamat","shirtNumber":26,"position":"Striker","positionCode":"SS","starter":true,"substitute":false},
+      {"playerId":"P-2026-KSA-6","familyName":"Al-Dawsari","givenName":"Nasser","nameKo":"Nasser Al-Dawsari","shirtNumber":6,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-KSA-13","familyName":"Boushal","givenName":"Nawaf","nameKo":"Nawaf Boushal","shirtNumber":13,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-KSA-18","familyName":"Al-Hajji","givenName":"Ala","nameKo":"Ala Al-Hajji","shirtNumber":18,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-KSA-19","familyName":"Al-Hamdan","givenName":"Abdullah","nameKo":"Abdullah Al-Hamdan","shirtNumber":19,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-KSA-3","familyName":"Lajami","givenName":"Ali","nameKo":"Ali Lajami","shirtNumber":3,"position":"Defender","positionCode":"CB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-URU-23","familyName":"Muslera","givenName":"Fernando","nameKo":"Fernando Muslera","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-13","familyName":"Varela","givenName":"Guillermo","nameKo":"Guillermo Varela","shirtNumber":13,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-3","familyName":"Caceres","givenName":"Sebastian","nameKo":"Sebastian Caceres","shirtNumber":3,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-16","familyName":"Olivera","givenName":"Mathias","nameKo":"Mathias Olivera","shirtNumber":16,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-17","familyName":"Vina","givenName":"Matias","nameKo":"Matias Vina","shirtNumber":17,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-5","familyName":"Ugarte","givenName":"Manuel","nameKo":"Manuel Ugarte","shirtNumber":5,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-6","familyName":"Bentancur","givenName":"Rodrigo","nameKo":"Rodrigo Bentancur","shirtNumber":6,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-8","familyName":"Valverde","givenName":"Federico","nameKo":"Federico Valverde","shirtNumber":8,"position":"Right Attacking Midfield","positionCode":"RAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-21","familyName":"Vinas","givenName":"Federico","nameKo":"Federico Vinas","shirtNumber":21,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-20","familyName":"Araujo","givenName":"Maxi","nameKo":"Maxi Araujo","shirtNumber":20,"position":"Left Attacking Midfield","positionCode":"LAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-9","familyName":"Nunez","givenName":"Darwin","nameKo":"Darwin Nunez","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-URU-14","familyName":"Canobbio","givenName":"Agustin","nameKo":"Agustin Canobbio","shirtNumber":14,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-URU-25","familyName":"Sanabria","givenName":"Juan Manuel","nameKo":"Juan Manuel Sanabria","shirtNumber":25,"position":"Left Back","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-URU-7","familyName":"De la Cruz","givenName":"Nicolas","nameKo":"Nicolas De la Cruz","shirtNumber":7,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-URU-18","familyName":"Rodriguez","givenName":"Brian","nameKo":"Brian Rodriguez","shirtNumber":18,"position":"Winger","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-URU-19","familyName":"Aguirre","givenName":"Rodrigo","nameKo":"Rodrigo Aguirre","shirtNumber":19,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":41,"playerId":"P-2026-KSA-4","nameKo":"Abdulelah Al-Amri","teamId":"T-KSA","ownGoal":false,"penalty":false},
+    {"minute":80,"playerId":"P-2026-URU-20","nameKo":"Maxi Araujo","teamId":"T-URU","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-URU-14","offId":"P-2026-URU-9","teamId":"T-URU"},
+    {"minute":45,"onId":"P-2026-URU-25","offId":"P-2026-URU-17","teamId":"T-URU"},
+    {"minute":63,"onId":"P-2026-KSA-6","offId":"P-2026-KSA-7","teamId":"T-KSA"},
+    {"minute":72,"onId":"P-2026-URU-7","offId":"P-2026-URU-5","teamId":"T-URU"},
+    {"minute":81,"onId":"P-2026-KSA-13","offId":"P-2026-KSA-26","teamId":"T-KSA"},
+    {"minute":81,"onId":"P-2026-URU-18","offId":"P-2026-URU-20","teamId":"T-URU"},
+    {"minute":90,"onId":"P-2026-URU-19","offId":"P-2026-URU-21","teamId":"T-URU"},
+    {"minute":93,"onId":"P-2026-KSA-18","offId":"P-2026-KSA-9","teamId":"T-KSA"},
+    {"minute":93,"onId":"P-2026-KSA-19","offId":"P-2026-KSA-24","teamId":"T-KSA"},
+    {"minute":93,"onId":"P-2026-KSA-3","offId":"P-2026-KSA-12","teamId":"T-KSA"}
+  ]
+}

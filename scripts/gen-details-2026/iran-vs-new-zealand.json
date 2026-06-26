@@ -1,0 +1,59 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-IRN-1","familyName":"Beiranvand","givenName":"Alireza","nameKo":"Alireza Beiranvand","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-23","familyName":"Rezaeian","givenName":"Ramin","nameKo":"Ramin Rezaeian","shirtNumber":23,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-4","familyName":"Khalilzadeh","givenName":"Shojae","nameKo":"Shojae Khalilzadeh","shirtNumber":4,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-19","familyName":"Nemati","givenName":"Aref","nameKo":"Aref Nemati","shirtNumber":19,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-5","familyName":"Mohammadi","givenName":"Milad","nameKo":"Milad Mohammadi","shirtNumber":5,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-20","familyName":"Moghanloo","givenName":"Shahab","nameKo":"Shahab Moghanloo","shirtNumber":20,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-6","familyName":"Ezatolahi","givenName":"Saeid","nameKo":"Saeid Ezatolahi","shirtNumber":6,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-14","familyName":"Ghoddos","givenName":"Saman","nameKo":"Saman Ghoddos","shirtNumber":14,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-17","familyName":"Yousefi","givenName":"Ali","nameKo":"Ali Yousefi","shirtNumber":17,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-8","familyName":"Mohebbi","givenName":"Mohammad","nameKo":"Mohammad Mohebbi","shirtNumber":8,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-9","familyName":"Taremi","givenName":"Mehdi","nameKo":"Mehdi Taremi","shirtNumber":9,"position":"Striker","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-IRN-10","familyName":"Ghayedi","givenName":"Mehdi","nameKo":"Mehdi Ghayedi","shirtNumber":10,"position":"Midfield","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-11","familyName":"Alipour","givenName":"Ali","nameKo":"Ali Alipour","shirtNumber":11,"position":"Forward","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-3","familyName":"Hajsafi","givenName":"Ehsan","nameKo":"Ehsan Hajsafi","shirtNumber":3,"position":"Midfield","positionCode":"LCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-IRN-18","familyName":"Hosseinzadeh","givenName":"Amirhossein","nameKo":"Amirhossein Hosseinzadeh","shirtNumber":18,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-NZL-1","familyName":"Crocombe","givenName":"Max","nameKo":"Max Crocombe","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-2","familyName":"Payne","givenName":"Tim","nameKo":"Tim Payne","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-16","familyName":"Surman","givenName":"Finn","nameKo":"Finn Surman","shirtNumber":16,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-5","familyName":"Boxall","givenName":"Michael","nameKo":"Michael Boxall","shirtNumber":5,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-13","familyName":"Cacace","givenName":"Liberato","nameKo":"Liberato Cacace","shirtNumber":13,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-6","familyName":"Bell","givenName":"Joe","nameKo":"Joe Bell","shirtNumber":6,"position":"Central Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-8","familyName":"Stamenic","givenName":"Marko","nameKo":"Marko Stamenic","shirtNumber":8,"position":"Central Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-10","familyName":"Singh","givenName":"Sarpreet","nameKo":"Sarpreet Singh","shirtNumber":10,"position":"Attacking Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-20","familyName":"McCowatt","givenName":"Ben","nameKo":"Ben McCowatt","shirtNumber":20,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-11","familyName":"Just","givenName":"Elijah","nameKo":"Elijah Just","shirtNumber":11,"position":"Attacking Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-9","familyName":"Wood","givenName":"Chris","nameKo":"Chris Wood","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-NZL-19","familyName":"Old","givenName":"Ben","nameKo":"Ben Old","shirtNumber":19,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-23","familyName":"Thomas","givenName":"Ryan","nameKo":"Ryan Thomas","shirtNumber":23,"position":"Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-24","familyName":"Elliot","givenName":"Callan","nameKo":"Callan Elliot","shirtNumber":24,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-4","familyName":"Bindon","givenName":"Tyler","nameKo":"Tyler Bindon","shirtNumber":4,"position":"Midfield","positionCode":"LDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-NZL-21","familyName":"Randall","givenName":"Jesse","nameKo":"Jesse Randall","shirtNumber":21,"position":"Midfield","positionCode":"RM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":7,"playerId":"P-2026-NZL-11","nameKo":"Elijah Just","teamId":"T-NZL","ownGoal":false,"penalty":false},
+    {"minute":32,"playerId":"P-2026-IRN-23","nameKo":"Ramin Rezaeian","teamId":"T-IRN","ownGoal":false,"penalty":false},
+    {"minute":54,"playerId":"P-2026-NZL-11","nameKo":"Elijah Just","teamId":"T-NZL","ownGoal":false,"penalty":false},
+    {"minute":64,"playerId":"P-2026-IRN-8","nameKo":"Mohammad Mohebbi","teamId":"T-IRN","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":89,"playerId":"P-2026-IRN-3","nameKo":"Ehsan Hajsafi","teamId":"T-IRN","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-IRN-10","offId":"P-2026-IRN-17","teamId":"T-IRN"},
+    {"minute":53,"onId":"P-2026-IRN-11","offId":"P-2026-IRN-20","teamId":"T-IRN"},
+    {"minute":65,"onId":"P-2026-IRN-3","offId":"P-2026-IRN-14","teamId":"T-IRN"},
+    {"minute":80,"onId":"P-2026-IRN-18","offId":"P-2026-IRN-9","teamId":"T-IRN"},
+    {"minute":68,"onId":"P-2026-NZL-19","offId":"P-2026-NZL-13","teamId":"T-NZL"},
+    {"minute":68,"onId":"P-2026-NZL-23","offId":"P-2026-NZL-20","teamId":"T-NZL"},
+    {"minute":78,"onId":"P-2026-NZL-24","offId":"P-2026-NZL-2","teamId":"T-NZL"},
+    {"minute":92,"onId":"P-2026-NZL-4","offId":"P-2026-NZL-8","teamId":"T-NZL"},
+    {"minute":92,"onId":"P-2026-NZL-21","offId":"P-2026-NZL-10","teamId":"T-NZL"}
+  ]
+}

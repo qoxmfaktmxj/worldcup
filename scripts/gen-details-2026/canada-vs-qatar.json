@@ -1,0 +1,488 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-CAN-1",
+        "familyName": "Crépeau",
+        "givenName": "Maxime",
+        "nameKo": "Maxime Crépeau",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-2",
+        "familyName": "Johnston",
+        "givenName": "Alistair",
+        "nameKo": "Alistair Johnston",
+        "shirtNumber": 2,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-13",
+        "familyName": "Cornelius",
+        "givenName": "Derek",
+        "nameKo": "Derek Cornelius",
+        "shirtNumber": 13,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-4",
+        "familyName": "de Fougerolles",
+        "givenName": "Luc",
+        "nameKo": "Luc de Fougerolles",
+        "shirtNumber": 4,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-22",
+        "familyName": "Laryea",
+        "givenName": "Richie",
+        "nameKo": "Richie Laryea",
+        "shirtNumber": 22,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-17",
+        "familyName": "Buchanan",
+        "givenName": "Tajon",
+        "nameKo": "Tajon Buchanan",
+        "shirtNumber": 17,
+        "position": "Right Midfield",
+        "positionCode": "RM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-7",
+        "familyName": "Eustáquio",
+        "givenName": "Stephen",
+        "nameKo": "Stephen Eustáquio",
+        "shirtNumber": 7,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-8",
+        "familyName": "Koné",
+        "givenName": "Ismaël",
+        "nameKo": "Ismaël Koné",
+        "shirtNumber": 8,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-20",
+        "familyName": "Ahmed",
+        "givenName": "Ali",
+        "nameKo": "Ali Ahmed",
+        "shirtNumber": 20,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-9",
+        "familyName": "Larin",
+        "givenName": "Cyle",
+        "nameKo": "Cyle Larin",
+        "shirtNumber": 9,
+        "position": "Striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-10",
+        "familyName": "David",
+        "givenName": "Jonathan",
+        "nameKo": "Jonathan David",
+        "shirtNumber": 10,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-CAN-15",
+        "familyName": "Bombito",
+        "givenName": "Moïse",
+        "nameKo": "Moïse Bombito",
+        "shirtNumber": 15,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-CAN-25",
+        "familyName": "Saliba",
+        "givenName": "Nathan",
+        "nameKo": "Nathan Saliba",
+        "shirtNumber": 25,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-CAN-12",
+        "familyName": "Oluwaseyi",
+        "givenName": "Promise",
+        "nameKo": "Promise Oluwaseyi",
+        "shirtNumber": 12,
+        "position": "Left Midfield",
+        "positionCode": "LM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-CAN-14",
+        "familyName": "Shaffelburg",
+        "givenName": "Jacob",
+        "nameKo": "Jacob Shaffelburg",
+        "shirtNumber": 14,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-CAN-23",
+        "familyName": "Sigur",
+        "givenName": "Mathieu",
+        "nameKo": "Mathieu Sigur",
+        "shirtNumber": 23,
+        "position": "Right Midfield",
+        "positionCode": "RM",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-QAT-1",
+        "familyName": "Abunada",
+        "givenName": "Salah",
+        "nameKo": "Salah Abunada",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-2",
+        "familyName": "Miguel",
+        "givenName": "Pedro",
+        "nameKo": "Pedro Miguel",
+        "shirtNumber": 2,
+        "position": "Right Back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-16",
+        "familyName": "Khoukhi",
+        "givenName": "Boualem",
+        "nameKo": "Boualem Khoukhi",
+        "shirtNumber": 16,
+        "position": "Centre Back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-5",
+        "familyName": "Gaber",
+        "givenName": "Tarek Salman",
+        "nameKo": "Tarek Salman",
+        "shirtNumber": 5,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-14",
+        "familyName": "Ahmed",
+        "givenName": "Homam",
+        "nameKo": "Homam Ahmed",
+        "shirtNumber": 14,
+        "position": "Left Back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-23",
+        "familyName": "Madibo",
+        "givenName": "Assim",
+        "nameKo": "Assim Madibo",
+        "shirtNumber": 23,
+        "position": "Defensive Midfield",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-13",
+        "familyName": "Al-Oui",
+        "givenName": "Abdulaziz",
+        "nameKo": "Abdulaziz Al-Oui",
+        "shirtNumber": 13,
+        "position": "Central Midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-8",
+        "familyName": "Edmílson Junior",
+        "givenName": "Edmílson",
+        "nameKo": "Edmilson Junior",
+        "shirtNumber": 8,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-11",
+        "familyName": "Afif",
+        "givenName": "Akram",
+        "nameKo": "Akram Afif",
+        "shirtNumber": 11,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-15",
+        "familyName": "Abdurisag",
+        "givenName": "Ahmed",
+        "nameKo": "Ahmed Abdurisag",
+        "shirtNumber": 15,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-20",
+        "familyName": "Laye",
+        "givenName": "",
+        "nameKo": "Laye",
+        "shirtNumber": 20,
+        "position": "Left Wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-QAT-18",
+        "familyName": "Al-Brake",
+        "givenName": "",
+        "nameKo": "Al-Brake",
+        "shirtNumber": 18,
+        "position": "Striker",
+        "positionCode": "CF",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-20b",
+        "familyName": "Fathy",
+        "givenName": "",
+        "nameKo": "Fathy",
+        "shirtNumber": 20,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-26",
+        "familyName": "Manai",
+        "givenName": "Mohammed",
+        "nameKo": "Mohammed Al Mannai",
+        "shirtNumber": 26,
+        "position": "Centre Back",
+        "positionCode": "LCB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-25",
+        "familyName": "Al-Hussain",
+        "givenName": "",
+        "nameKo": "Al-Hussain",
+        "shirtNumber": 25,
+        "position": "Right Wing",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-QAT-3",
+        "familyName": "Mendes",
+        "givenName": "",
+        "nameKo": "Mendes",
+        "shirtNumber": 3,
+        "position": "Central Midfield",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 16,
+      "playerId": "P-2026-CAN-9",
+      "nameKo": "Cyle Larin",
+      "teamId": "T-CAN",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 29,
+      "playerId": "P-2026-CAN-10",
+      "nameKo": "Jonathan David",
+      "teamId": "T-CAN",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 48,
+      "playerId": "P-2026-CAN-10",
+      "nameKo": "Jonathan David",
+      "teamId": "T-CAN",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 64,
+      "playerId": "P-2026-CAN-25",
+      "nameKo": "Nathan Saliba",
+      "teamId": "T-CAN",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 75,
+      "playerId": "P-2026-QAT-26",
+      "nameKo": "Mohammed Al Mannai",
+      "teamId": "T-CAN",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 92,
+      "playerId": "P-2026-CAN-10",
+      "nameKo": "Jonathan David",
+      "teamId": "T-CAN",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [
+    {
+      "minute": 33,
+      "playerId": "P-2026-QAT-14",
+      "nameKo": "Homam Ahmed",
+      "teamId": "T-QAT",
+      "card": "red"
+    },
+    {
+      "minute": 53,
+      "playerId": "P-2026-QAT-23",
+      "nameKo": "Assim Madibo",
+      "teamId": "T-QAT",
+      "card": "red"
+    }
+  ],
+  "subs": [
+    {
+      "minute": 40,
+      "onId": "P-2026-QAT-18",
+      "offId": "P-2026-QAT-15",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-QAT-20b",
+      "offId": "P-2026-QAT-8",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-QAT-26",
+      "offId": "P-2026-QAT-5",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-CAN-15",
+      "offId": "P-2026-CAN-13",
+      "teamId": "T-CAN"
+    },
+    {
+      "minute": 57,
+      "onId": "P-2026-CAN-25",
+      "offId": "P-2026-CAN-8",
+      "teamId": "T-CAN"
+    },
+    {
+      "minute": 59,
+      "onId": "P-2026-QAT-25",
+      "offId": "P-2026-QAT-11",
+      "teamId": "T-QAT"
+    },
+    {
+      "minute": 71,
+      "onId": "P-2026-CAN-12",
+      "offId": "P-2026-CAN-20",
+      "teamId": "T-CAN"
+    },
+    {
+      "minute": 71,
+      "onId": "P-2026-CAN-14",
+      "offId": "P-2026-CAN-4",
+      "teamId": "T-CAN"
+    },
+    {
+      "minute": 83,
+      "onId": "P-2026-CAN-23",
+      "offId": "P-2026-CAN-17",
+      "teamId": "T-CAN"
+    },
+    {
+      "minute": 87,
+      "onId": "P-2026-QAT-3",
+      "offId": "P-2026-QAT-20b",
+      "teamId": "T-QAT"
+    }
+  ]
+}

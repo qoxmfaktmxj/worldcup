@@ -1,0 +1,53 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-CZE-1","familyName":"Kovar","givenName":"Matej","nameKo":"Matej Kovar","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-3","familyName":"Holes","givenName":"Tomas","nameKo":"Tomas Holes","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-4","familyName":"Hranac","givenName":"Robin","nameKo":"Robin Hranac","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-5","familyName":"Coufal","givenName":"Vladimir","nameKo":"Vladimir Coufal","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-7","familyName":"Krejci","givenName":"Ladislav","nameKo":"Ladislav Krejci","shirtNumber":7,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-8","familyName":"Darida","givenName":"Vladimir","nameKo":"Vladimir Darida","shirtNumber":8,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-12","familyName":"Cerv","givenName":"Lukas","nameKo":"Lukas Cerv","shirtNumber":12,"position":"Midfielder","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-18","familyName":"Sadilek","givenName":"Michal","nameKo":"Michal Sadilek","shirtNumber":18,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-24","familyName":"Sojka","givenName":"Alexandr","nameKo":"Alexandr Sojka","shirtNumber":24,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-9","familyName":"Hlozek","givenName":"Adam","nameKo":"Adam Hlozek","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-10","familyName":"Schick","givenName":"Patrik","nameKo":"Patrik Schick","shirtNumber":10,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CZE-15","familyName":"Sulc","givenName":"Pavel","nameKo":"Pavel Sulc","shirtNumber":15,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-20","familyName":"Zeleny","givenName":"Jan","nameKo":"Jan Zeleny","shirtNumber":20,"position":"Midfielder","positionCode":"LM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-17","familyName":"Provod","givenName":"Lukas","nameKo":"Lukas Provod","shirtNumber":17,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-22","familyName":"Soucek","givenName":"Tomas","nameKo":"Tomas Soucek","shirtNumber":22,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CZE-2","familyName":"Zima","givenName":"David","nameKo":"David Zima","shirtNumber":2,"position":"Defender","positionCode":"CB","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-RSA-1","familyName":"Williams","givenName":"Ronwen","nameKo":"Ronwen Williams","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-20","familyName":"Mudau","givenName":"Khuliso","nameKo":"Khuliso Mudau","shirtNumber":20,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-6","familyName":"Modiba","givenName":"Aubrey","nameKo":"Aubrey Modiba","shirtNumber":6,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-5","familyName":"Mbatha","givenName":"Mbekezeli","nameKo":"Mbekezeli Mbatha","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-14","familyName":"Mbokazi","givenName":"Mbekezeli","nameKo":"Mbokazi","shirtNumber":14,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-4","familyName":"Mokoena","givenName":"Teboho","nameKo":"Teboho Mokoena","shirtNumber":4,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-23","familyName":"Adams","givenName":"Patrick","nameKo":"Adams","shirtNumber":23,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-12","familyName":"Maseko","givenName":"Thapelo","nameKo":"Thapelo Maseko","shirtNumber":12,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-7","familyName":"Appollis","givenName":"Oswin","nameKo":"Oswin Appollis","shirtNumber":7,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-15","familyName":"Rayners","givenName":"Iqraam","nameKo":"Iqraam Rayners","shirtNumber":15,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-21","familyName":"Okon","givenName":"Ime","nameKo":"Okon","shirtNumber":21,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-RSA-10","familyName":"Mofokeng","givenName":"Relebohile","nameKo":"Relebohile Mofokeng","shirtNumber":10,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-RSA-17","familyName":"Makgopa","givenName":"Evidence","nameKo":"Evidence Makgopa","shirtNumber":17,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-RSA-25","familyName":"Sebelebele","givenName":"Kamogelo","nameKo":"Kamogelo Sebelebele","shirtNumber":25,"position":"Midfielder","positionCode":"LCM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":6,"playerId":"P-2026-CZE-18","nameKo":"Michal Sadilek","teamId":"T-CZE","ownGoal":false,"penalty":false},
+    {"minute":83,"playerId":"P-2026-RSA-4","nameKo":"Teboho Mokoena","teamId":"T-RSA","ownGoal":false,"penalty":true}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":55,"onId":"P-2026-CZE-15","offId":"P-2026-CZE-8","teamId":"T-CZE"},
+    {"minute":55,"onId":"P-2026-CZE-20","offId":"P-2026-CZE-24","teamId":"T-CZE"},
+    {"minute":67,"onId":"P-2026-CZE-17","offId":"P-2026-CZE-9","teamId":"T-CZE"},
+    {"minute":67,"onId":"P-2026-CZE-22","offId":"P-2026-CZE-18","teamId":"T-CZE"},
+    {"minute":78,"onId":"P-2026-CZE-2","offId":"P-2026-CZE-12","teamId":"T-CZE"},
+    {"minute":45,"onId":"P-2026-RSA-10","offId":"P-2026-RSA-23","teamId":"T-RSA"},
+    {"minute":66,"onId":"P-2026-RSA-17","offId":"P-2026-RSA-15","teamId":"T-RSA"},
+    {"minute":84,"onId":"P-2026-RSA-25","offId":"P-2026-RSA-12","teamId":"T-RSA"}
+  ]
+}

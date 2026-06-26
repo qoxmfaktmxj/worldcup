@@ -1,0 +1,53 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-NED-1","familyName":"Verbruggen","givenName":"Bart","nameKo":"Bart Verbruggen","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-2","familyName":"Dumfries","givenName":"Denzel","nameKo":"Denzel Dumfries","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-3","familyName":"van Hecke","givenName":"Jan Paul","nameKo":"Jan Paul van Hecke","shirtNumber":3,"position":"Right Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-4","familyName":"van Dijk","givenName":"Virgil","nameKo":"Virgil van Dijk","shirtNumber":4,"position":"Centre Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-5","familyName":"van de Ven","givenName":"Micky","nameKo":"Micky van de Ven","shirtNumber":5,"position":"Left Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-6","familyName":"Gravenberch","givenName":"Ryan","nameKo":"Ryan Gravenberch","shirtNumber":6,"position":"Central Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-7","familyName":"de Jong","givenName":"Frenkie","nameKo":"Frenkie de Jong","shirtNumber":7,"position":"Central Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-8","familyName":"Reijnders","givenName":"Tijjani","nameKo":"Tijjani Reijnders","shirtNumber":8,"position":"Central Midfield","positionCode":"CM","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-9","familyName":"Malen","givenName":"Donyell","nameKo":"Donyell Malen","shirtNumber":9,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-10","familyName":"Brobbey","givenName":"Brian","nameKo":"Brian Brobbey","shirtNumber":10,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-11","familyName":"Gakpo","givenName":"Cody","nameKo":"Cody Gakpo","shirtNumber":11,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-NED-24","familyName":"Summerville","givenName":"Crysencio","nameKo":"Crysencio Summerville","shirtNumber":24,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-NED-17","familyName":"Koopmeiners","givenName":"Teun","nameKo":"Teun Koopmeiners","shirtNumber":17,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-SWE-1","familyName":"Nordfeldt","givenName":"Kristoffer","nameKo":"Kristoffer Nordfeldt","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-2","familyName":"Lagerbielke","givenName":"Gustaf","nameKo":"Gustaf Lagerbielke","shirtNumber":2,"position":"Right Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-3","familyName":"Lindelof","givenName":"Victor","nameKo":"Victor Lindelof","shirtNumber":3,"position":"Centre Back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-4","familyName":"Hien","givenName":"Isak","nameKo":"Isak Hien","shirtNumber":4,"position":"Left Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-5","familyName":"Gudmundsson","givenName":"Gabriel","nameKo":"Gabriel Gudmundsson","shirtNumber":5,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-16","familyName":"Karlstrom","givenName":"Jesper","nameKo":"Jesper Karlstrom","shirtNumber":16,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-18","familyName":"Ayari","givenName":"Yasin","nameKo":"Yasin Ayari","shirtNumber":18,"position":"Right Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-10","familyName":"Nygren","givenName":"Benjamin","nameKo":"Benjamin Nygren","shirtNumber":10,"position":"Left Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-21","familyName":"Bernhardsson","givenName":"Anton","nameKo":"Anton Bernhardsson","shirtNumber":21,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-17","familyName":"Gyokeres","givenName":"Viktor","nameKo":"Viktor Gyokeres","shirtNumber":17,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-9","familyName":"Isak","givenName":"Alexander","nameKo":"Alexander Isak","shirtNumber":9,"position":"Striker","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-SWE-11","familyName":"Elanga","givenName":"Anthony","nameKo":"Anthony Elanga","shirtNumber":11,"position":"Right Midfield","positionCode":"RM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SWE-7","familyName":"Bergvall","givenName":"Lucas","nameKo":"Lucas Bergvall","shirtNumber":7,"position":"Left Central Midfield","positionCode":"LCM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":5,"playerId":"P-2026-NED-10","nameKo":"Brian Brobbey","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":17,"playerId":"P-2026-NED-10","nameKo":"Brian Brobbey","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":47,"playerId":"P-2026-NED-11","nameKo":"Cody Gakpo","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":54,"playerId":"P-2026-NED-11","nameKo":"Cody Gakpo","teamId":"T-NED","ownGoal":false,"penalty":false},
+    {"minute":59,"playerId":"P-2026-SWE-11","nameKo":"Anthony Elanga","teamId":"T-SWE","ownGoal":false,"penalty":false},
+    {"minute":89,"playerId":"P-2026-NED-24","nameKo":"Crysencio Summerville","teamId":"T-NED","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [
+    {"minute":53,"playerId":"P-2026-SWE-5","nameKo":"Gabriel Gudmundsson","teamId":"T-SWE","card":"yellow"},
+    {"minute":75,"playerId":"P-2026-SWE-18","nameKo":"Yasin Ayari","teamId":"T-SWE","card":"yellow"},
+    {"minute":80,"playerId":"P-2026-SWE-7","nameKo":"Lucas Bergvall","teamId":"T-SWE","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":45,"onId":"P-2026-NED-24","offId":"P-2026-NED-9","teamId":"T-NED"},
+    {"minute":59,"onId":"P-2026-NED-17","offId":"P-2026-NED-7","teamId":"T-NED"},
+    {"minute":55,"onId":"P-2026-SWE-11","offId":"P-2026-SWE-21","teamId":"T-SWE"},
+    {"minute":56,"onId":"P-2026-SWE-7","offId":"P-2026-SWE-10","teamId":"T-SWE"}
+  ]
+}

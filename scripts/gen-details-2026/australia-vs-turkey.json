@@ -1,0 +1,57 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-AUS-18","familyName":"Beach","givenName":"Patrick","nameKo":"Patrick Beach","shirtNumber":18,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-3","familyName":"Circati","givenName":"Alessandro","nameKo":"Alessandro Circati","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-19","familyName":"Souttar","givenName":"Harry","nameKo":"Harry Souttar","shirtNumber":19,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-21","familyName":"Burgess","givenName":"Cameron","nameKo":"Cameron Burgess","shirtNumber":21,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-4","familyName":"Italiano","givenName":"Jacob","nameKo":"Jacob Italiano","shirtNumber":4,"position":"Defender","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-5","familyName":"Bos","givenName":"Jordan","nameKo":"Jordan Bos","shirtNumber":5,"position":"Defender","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-8","familyName":"Metcalfe","givenName":"Connor","nameKo":"Connor Metcalfe","shirtNumber":8,"position":"Midfielder","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-24","familyName":"Okon-Engstler","givenName":"Paul","nameKo":"Paul Okon-Engstler","shirtNumber":24,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-13","familyName":"O'Neill","givenName":"Aiden","nameKo":"Aiden O'Neill","shirtNumber":13,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-17","familyName":"Irankunda","givenName":"Nestory","nameKo":"Nestory Irankunda","shirtNumber":17,"position":"Midfielder","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-9","familyName":"Toure","givenName":"Mohamed","nameKo":"Mohamed Toure","shirtNumber":9,"position":"Forward","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-23","familyName":"Velupillay","givenName":"Nishan","nameKo":"Nishan Velupillay","shirtNumber":23,"position":"Forward","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-6","familyName":"Geria","givenName":"Jason","nameKo":"Jason Geria","shirtNumber":6,"position":"Defender","positionCode":"RWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-26","familyName":"Yengi","givenName":"Tete","nameKo":"Tete Yengi","shirtNumber":26,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-16","familyName":"Behich","givenName":"Aziz","nameKo":"Aziz Behich","shirtNumber":16,"position":"Defender","positionCode":"LWB","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-22","familyName":"Irvine","givenName":"Jackson","nameKo":"Jackson Irvine","shirtNumber":22,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-TUR-23","familyName":"Çakır","givenName":"Uğurcan","nameKo":"Ugurcan Cakir","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-2","familyName":"Çelik","givenName":"Zeki","nameKo":"Zeki Celik","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-3","familyName":"Demiral","givenName":"Merih","nameKo":"Merih Demiral","shirtNumber":3,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-14","familyName":"Bardakçı","givenName":"Abdülkerim","nameKo":"Abdulkerim Bardakci","shirtNumber":14,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-20","familyName":"Kadıoğlu","givenName":"Ferdi","nameKo":"Ferdi Kadioglu","shirtNumber":20,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-16","familyName":"Yüksek","givenName":"İsmail","nameKo":"Ismail Yuksek","shirtNumber":16,"position":"Midfielder","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-6","familyName":"Kökçü","givenName":"Orkun","nameKo":"Orkun Kokcu","shirtNumber":6,"position":"Midfielder","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-8","familyName":"Güler","givenName":"Arda","nameKo":"Arda Guler","shirtNumber":8,"position":"Midfielder","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-7","familyName":"Aktürkoğlu","givenName":"Kerem","nameKo":"Kerem Akturkoglu","shirtNumber":7,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-21","familyName":"Yılmaz","givenName":"Barış Alper","nameKo":"Baris Alper Yilmaz","shirtNumber":21,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-10","familyName":"Çalhanoğlu","givenName":"Hakan","nameKo":"Hakan Calhanoglu","shirtNumber":10,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-TUR-11","familyName":"Yıldız","givenName":"Kenan","nameKo":"Kenan Yildiz","shirtNumber":11,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-19","familyName":"Akgün","givenName":"Yunus","nameKo":"Yunus Akgun","shirtNumber":19,"position":"Midfielder","positionCode":"LDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-18","familyName":"Müldür","givenName":"Mert","nameKo":"Mert Muldur","shirtNumber":18,"position":"Defender","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-5","familyName":"Özcan","givenName":"Salih","nameKo":"Salih Ozcan","shirtNumber":5,"position":"Midfielder","positionCode":"RDM","starter":false,"substitute":true},
+      {"playerId":"P-2026-TUR-9","familyName":"Gül","givenName":"Deniz","nameKo":"Deniz Gul","shirtNumber":9,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":27,"playerId":"P-2026-AUS-17","nameKo":"Nestory Irankunda","teamId":"T-AUS","ownGoal":false,"penalty":false},
+    {"minute":75,"playerId":"P-2026-AUS-8","nameKo":"Connor Metcalfe","teamId":"T-AUS","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-TUR-11","offId":"P-2026-TUR-21","teamId":"T-TUR"},
+    {"minute":61,"onId":"P-2026-AUS-23","offId":"P-2026-AUS-17","teamId":"T-AUS"},
+    {"minute":62,"onId":"P-2026-TUR-19","offId":"P-2026-TUR-6","teamId":"T-TUR"},
+    {"minute":74,"onId":"P-2026-AUS-6","offId":"P-2026-AUS-4","teamId":"T-AUS"},
+    {"minute":74,"onId":"P-2026-AUS-26","offId":"P-2026-AUS-9","teamId":"T-AUS"},
+    {"minute":81,"onId":"P-2026-TUR-18","offId":"P-2026-TUR-2","teamId":"T-TUR"},
+    {"minute":81,"onId":"P-2026-TUR-5","offId":"P-2026-TUR-16","teamId":"T-TUR"},
+    {"minute":84,"onId":"P-2026-AUS-16","offId":"P-2026-AUS-5","teamId":"T-AUS"},
+    {"minute":84,"onId":"P-2026-AUS-22","offId":"P-2026-AUS-24","teamId":"T-AUS"},
+    {"minute":85,"onId":"P-2026-TUR-9","offId":"P-2026-TUR-7","teamId":"T-TUR"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-ESP-23","familyName":"Simón","givenName":"Unai","nameKo":"Unai Simón","shirtNumber":23,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-5","familyName":"Llorente","givenName":"Marcos","nameKo":"Marcos Llorente","shirtNumber":5,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-22","familyName":"Cubarsí","givenName":"Pau","nameKo":"Pau Cubarsí","shirtNumber":22,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-14","familyName":"Laporte","givenName":"Aymeric","nameKo":"Aymeric Laporte","shirtNumber":14,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-24","familyName":"Cucurella","givenName":"Marc","nameKo":"Marc Cucurella","shirtNumber":24,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-16","familyName":"Rodri","givenName":"Rodri","nameKo":"Rodri","shirtNumber":16,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-8","familyName":"Ruiz","givenName":"Fabián","nameKo":"Fabián Ruiz","shirtNumber":8,"position":"Right Center Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-20","familyName":"Pedri","givenName":"Pedri","nameKo":"Pedri","shirtNumber":20,"position":"Left Center Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-7","familyName":"Torres","givenName":"Ferran","nameKo":"Ferran Torres","shirtNumber":7,"position":"Right Wing","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-21","familyName":"Oyarzabal","givenName":"Mikel","nameKo":"Mikel Oyarzabal","shirtNumber":21,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-9","familyName":"Gavi","givenName":"Gavi","nameKo":"Gavi","shirtNumber":9,"position":"Left Wing","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-ESP-6","familyName":"Merino","givenName":"Mikel","nameKo":"Mikel Merino","shirtNumber":6,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ESP-10","familyName":"Olmo","givenName":"Dani","nameKo":"Dani Olmo","shirtNumber":10,"position":"Midfield","positionCode":"CAM","starter":false,"substitute":true},
+      {"playerId":"P-2026-ESP-19","familyName":"Yamal","givenName":"Lamine","nameKo":"Lamine Yamal","shirtNumber":19,"position":"Right Wing","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-ESP-17","familyName":"Williams","givenName":"Nico","nameKo":"Nico Williams","shirtNumber":17,"position":"Left Wing","positionCode":"LW","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-CPV-1","familyName":"Vozinha","givenName":"Vozinha","nameKo":"Vozinha","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-22","familyName":"Moreira","givenName":"Steven","nameKo":"Steven Moreira","shirtNumber":22,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-4","familyName":"Lopes","givenName":"Pico","nameKo":"Pico Lopes","shirtNumber":4,"position":"Right Center Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-3","familyName":"Borges","givenName":"Diney","nameKo":"Diney Borges","shirtNumber":3,"position":"Left Center Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-13","familyName":"Lopes Cabral","givenName":"Sidny","nameKo":"Sidny Lopes Cabral","shirtNumber":13,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-6","familyName":"Pina","givenName":"Kevin","nameKo":"Kevin Pina","shirtNumber":6,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-15","familyName":"Duarte","givenName":"Laros","nameKo":"Laros Duarte","shirtNumber":15,"position":"Right Center Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-10","familyName":"Monteiro","givenName":"Jamiro","nameKo":"Jamiro Monteiro","shirtNumber":10,"position":"Left Center Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-20","familyName":"Mendes","givenName":"Ryan","nameKo":"Ryan Mendes","shirtNumber":20,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-19","familyName":"Livramento","givenName":"Dailon","nameKo":"Dailon Livramento","shirtNumber":19,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-7","familyName":"Cabral","givenName":"Jovane","nameKo":"Jovane Cabral","shirtNumber":7,"position":"Striker","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-CPV-14","familyName":"Duarte","givenName":"Deroy","nameKo":"Deroy Duarte","shirtNumber":14,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-CPV-17","familyName":"Semedo","givenName":"Willy","nameKo":"Willy Semedo","shirtNumber":17,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CPV-21","familyName":"da Costa","givenName":"Nuno","nameKo":"Nuno da Costa","shirtNumber":21,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-CPV-8","familyName":"Paulo","givenName":"João","nameKo":"João Paulo","shirtNumber":8,"position":"Defender","positionCode":"LB","starter":false,"substitute":true},
+      {"playerId":"P-2026-CPV-18","familyName":"Arcanjo","givenName":"Telmo","nameKo":"Telmo Arcanjo","shirtNumber":18,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [],
+  "bookings": [
+    {"minute":16,"playerId":"P-2026-CPV-13","nameKo":"Sidny Lopes Cabral","teamId":"T-CPV","card":"yellow"},
+    {"minute":93,"playerId":"P-2026-ESP-20","nameKo":"Pedri","teamId":"T-ESP","card":"yellow"}
+  ],
+  "subs": [
+    {"minute":61,"onId":"P-2026-CPV-14","offId":"P-2026-CPV-15","teamId":"T-CPV"},
+    {"minute":61,"onId":"P-2026-CPV-17","offId":"P-2026-CPV-7","teamId":"T-CPV"},
+    {"minute":61,"onId":"P-2026-CPV-21","offId":"P-2026-CPV-19","teamId":"T-CPV"},
+    {"minute":71,"onId":"P-2026-ESP-6","offId":"P-2026-ESP-9","teamId":"T-ESP"},
+    {"minute":71,"onId":"P-2026-ESP-10","offId":"P-2026-ESP-8","teamId":"T-ESP"},
+    {"minute":76,"onId":"P-2026-CPV-8","offId":"P-2026-CPV-13","teamId":"T-CPV"},
+    {"minute":79,"onId":"P-2026-CPV-18","offId":"P-2026-CPV-10","teamId":"T-CPV"},
+    {"minute":81,"onId":"P-2026-ESP-19","offId":"P-2026-ESP-7","teamId":"T-ESP"},
+    {"minute":87,"onId":"P-2026-ESP-17","offId":"P-2026-ESP-16","teamId":"T-ESP"}
+  ]
+}

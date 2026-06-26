@@ -1,0 +1,465 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-POR-1",
+        "familyName": "Costa",
+        "givenName": "Diogo",
+        "nameKo": "Diogo Costa",
+        "shirtNumber": 1,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-20",
+        "familyName": "Cancelo",
+        "givenName": "João",
+        "nameKo": "João Cancelo",
+        "shirtNumber": 20,
+        "position": "Defender",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-3",
+        "familyName": "Dias",
+        "givenName": "Rúben",
+        "nameKo": "Rúben Dias",
+        "shirtNumber": 3,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-13",
+        "familyName": "Veiga",
+        "givenName": "Renato",
+        "nameKo": "Renato Veiga",
+        "shirtNumber": 13,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-25",
+        "familyName": "Mendes",
+        "givenName": "Nuno",
+        "nameKo": "Nuno Mendes",
+        "shirtNumber": 25,
+        "position": "Defender",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-15",
+        "familyName": "Neves",
+        "givenName": "João",
+        "nameKo": "João Neves",
+        "shirtNumber": 15,
+        "position": "Midfielder",
+        "positionCode": "RDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-23",
+        "familyName": "Vitinha",
+        "givenName": "Vitinha",
+        "nameKo": "Vitinha",
+        "shirtNumber": 23,
+        "position": "Midfielder",
+        "positionCode": "LDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-18",
+        "familyName": "Neto",
+        "givenName": "Pedro",
+        "nameKo": "Pedro Neto",
+        "shirtNumber": 18,
+        "position": "Midfielder",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-8",
+        "familyName": "Fernandes",
+        "givenName": "Bruno",
+        "nameKo": "Bruno Fernandes",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "CAM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-11",
+        "familyName": "Félix",
+        "givenName": "João",
+        "nameKo": "João Félix",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-7",
+        "familyName": "Ronaldo",
+        "givenName": "Cristiano",
+        "nameKo": "Cristiano Ronaldo",
+        "shirtNumber": 7,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-POR-17",
+        "familyName": "Conceição",
+        "givenName": "Francisco",
+        "nameKo": "Francisco Conceição",
+        "shirtNumber": 17,
+        "position": "Midfielder",
+        "positionCode": "RW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-POR-2",
+        "familyName": "Semedo",
+        "givenName": "Nelson",
+        "nameKo": "Nelson Semedo",
+        "shirtNumber": 2,
+        "position": "Defender",
+        "positionCode": "RB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-POR-21",
+        "familyName": "Trincão",
+        "givenName": "Francisco",
+        "nameKo": "Francisco Trincão",
+        "shirtNumber": 21,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-POR-10",
+        "familyName": "Silva",
+        "givenName": "Bernardo",
+        "nameKo": "Bernardo Silva",
+        "shirtNumber": 10,
+        "position": "Midfielder",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-POR-16",
+        "familyName": "Leão",
+        "givenName": "Rafael",
+        "nameKo": "Rafael Leão",
+        "shirtNumber": 16,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-UZB-12",
+        "familyName": "Nematov",
+        "givenName": "Abduvohid",
+        "nameKo": "Abduvohid Nematov",
+        "shirtNumber": 12,
+        "position": "Goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-2",
+        "familyName": "Khusanov",
+        "givenName": "Abdukodir",
+        "nameKo": "Abdukodir Khusanov",
+        "shirtNumber": 2,
+        "position": "Defender",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-5",
+        "familyName": "Ashurmatov",
+        "givenName": "Rustam",
+        "nameKo": "Rustam Ashurmatov",
+        "shirtNumber": 5,
+        "position": "Defender",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-18",
+        "familyName": "Abdullaev",
+        "givenName": "Abdulla",
+        "nameKo": "Abdulla Abdullaev",
+        "shirtNumber": 18,
+        "position": "Defender",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-24",
+        "familyName": "Karimov",
+        "givenName": "Behruzjon",
+        "nameKo": "Behruzjon Karimov",
+        "shirtNumber": 24,
+        "position": "Midfielder",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-9",
+        "familyName": "Xamrobekov",
+        "givenName": "Odiljon",
+        "nameKo": "Odiljon Xamrobekov",
+        "shirtNumber": 9,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-7",
+        "familyName": "Shukurov",
+        "givenName": "Otabek",
+        "nameKo": "Otabek Shukurov",
+        "shirtNumber": 7,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-13",
+        "familyName": "Nasrullaev",
+        "givenName": "Sherzod",
+        "nameKo": "Sherzod Nasrullaev",
+        "shirtNumber": 13,
+        "position": "Midfielder",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-19",
+        "familyName": "Ganiev",
+        "givenName": "Azizjon",
+        "nameKo": "Azizjon Ganiev",
+        "shirtNumber": 19,
+        "position": "Forward",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-22",
+        "familyName": "Fayzullaev",
+        "givenName": "Abbosbek",
+        "nameKo": "Abbosbek Fayzullaev",
+        "shirtNumber": 22,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-14",
+        "familyName": "Shomurodov",
+        "givenName": "Eldor",
+        "nameKo": "Eldor Shomurodov",
+        "shirtNumber": 14,
+        "position": "Forward",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-UZB-4",
+        "familyName": "Alijonov",
+        "givenName": "Khojiakbar",
+        "nameKo": "Khojiakbar Alijonov",
+        "shirtNumber": 4,
+        "position": "Midfielder",
+        "positionCode": "LWB",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-UZB-8",
+        "familyName": "Mozgovoy",
+        "givenName": "Akmal",
+        "nameKo": "Akmal Mozgovoy",
+        "shirtNumber": 8,
+        "position": "Midfielder",
+        "positionCode": "RCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-UZB-11",
+        "familyName": "Sergeev",
+        "givenName": "Igor",
+        "nameKo": "Igor Sergeev",
+        "shirtNumber": 11,
+        "position": "Forward",
+        "positionCode": "LW",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-UZB-23",
+        "familyName": "Esanov",
+        "givenName": "Sherzod",
+        "nameKo": "Sherzod Esanov",
+        "shirtNumber": 23,
+        "position": "Midfielder",
+        "positionCode": "LCM",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-UZB-3",
+        "familyName": "Jiyanov",
+        "givenName": "Ruslanbek",
+        "nameKo": "Ruslanbek Jiyanov",
+        "shirtNumber": 3,
+        "position": "Defender",
+        "positionCode": "RWB",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 6,
+      "playerId": "P-2026-POR-7",
+      "nameKo": "Cristiano Ronaldo",
+      "teamId": "T-POR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 17,
+      "playerId": "P-2026-POR-25",
+      "nameKo": "Nuno Mendes",
+      "teamId": "T-POR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 39,
+      "playerId": "P-2026-POR-7",
+      "nameKo": "Cristiano Ronaldo",
+      "teamId": "T-POR",
+      "ownGoal": false,
+      "penalty": false
+    },
+    {
+      "minute": 60,
+      "playerId": "P-2026-UZB-12",
+      "nameKo": "Abduvohid Nematov",
+      "teamId": "T-POR",
+      "ownGoal": true,
+      "penalty": false
+    },
+    {
+      "minute": 87,
+      "playerId": "P-2026-POR-16",
+      "nameKo": "Rafael Leão",
+      "teamId": "T-POR",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 45,
+      "onId": "P-2026-POR-17",
+      "offId": "P-2026-POR-18",
+      "teamId": "T-POR"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-POR-2",
+      "offId": "P-2026-POR-20",
+      "teamId": "T-POR"
+    },
+    {
+      "minute": 63,
+      "onId": "P-2026-POR-21",
+      "offId": "P-2026-POR-11",
+      "teamId": "T-POR"
+    },
+    {
+      "minute": 76,
+      "onId": "P-2026-POR-10",
+      "offId": "P-2026-POR-15",
+      "teamId": "T-POR"
+    },
+    {
+      "minute": 83,
+      "onId": "P-2026-POR-16",
+      "offId": "P-2026-POR-23",
+      "teamId": "T-POR"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-UZB-4",
+      "offId": "P-2026-UZB-13",
+      "teamId": "T-UZB"
+    },
+    {
+      "minute": 45,
+      "onId": "P-2026-UZB-8",
+      "offId": "P-2026-UZB-9",
+      "teamId": "T-UZB"
+    },
+    {
+      "minute": 73,
+      "onId": "P-2026-UZB-11",
+      "offId": "P-2026-UZB-22",
+      "teamId": "T-UZB"
+    },
+    {
+      "minute": 92,
+      "onId": "P-2026-UZB-23",
+      "offId": "P-2026-UZB-7",
+      "teamId": "T-UZB"
+    },
+    {
+      "minute": 92,
+      "onId": "P-2026-UZB-3",
+      "offId": "P-2026-UZB-24",
+      "teamId": "T-UZB"
+    }
+  ]
+}

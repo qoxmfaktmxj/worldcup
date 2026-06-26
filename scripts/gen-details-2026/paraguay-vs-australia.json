@@ -1,0 +1,50 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-PAR-12","familyName":"Gill","givenName":"Orlando","nameKo":"Orlando Gill","shirtNumber":12,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-2","familyName":"Velazquez","givenName":"Gustavo","nameKo":"Gustavo Velazquez","shirtNumber":2,"position":"Right Wing-back","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-15","familyName":"Gomez","givenName":"Gustavo","nameKo":"Gustavo Gomez","shirtNumber":15,"position":"Right Centre-back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-3","familyName":"Alderete","givenName":"Omar","nameKo":"Omar Alderete","shirtNumber":3,"position":"Centre-back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-4","familyName":"Caceres","givenName":"Juan Jose","nameKo":"Juan Jose Caceres","shirtNumber":4,"position":"Left Centre-back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-26","familyName":"Maidana","givenName":"Alexandro","nameKo":"Alexandro Maidana","shirtNumber":26,"position":"Left Wing-back","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-8","familyName":"Gomez","givenName":"Diego","nameKo":"Diego Gomez","shirtNumber":8,"position":"Right Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-14","familyName":"Cubas","givenName":"Andres","nameKo":"Andres Cubas","shirtNumber":14,"position":"Defensive Midfield","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-23","familyName":"Galarza","givenName":"Matias","nameKo":"Matias Galarza","shirtNumber":23,"position":"Left Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-21","familyName":"Avalos","givenName":"Gabriel","nameKo":"Gabriel Avalos","shirtNumber":21,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-19","familyName":"Enciso","givenName":"Julio","nameKo":"Julio Enciso","shirtNumber":19,"position":"Second Striker","positionCode":"SS","starter":true,"substitute":false},
+      {"playerId":"P-2026-PAR-11","familyName":"Mauricio","givenName":"Mauricio","nameKo":"Mauricio","shirtNumber":11,"position":"Midfield","positionCode":"LCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-18","familyName":"Arce","givenName":"Alex","nameKo":"Alex Arce","shirtNumber":18,"position":"Forward","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-13","familyName":"Canale","givenName":"Jose","nameKo":"Jose Canale","shirtNumber":13,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-6","familyName":"Alonso","givenName":"Junior","nameKo":"Junior Alonso","shirtNumber":6,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-PAR-16","familyName":"Bobadilla","givenName":"Damian","nameKo":"Damian Bobadilla","shirtNumber":16,"position":"Midfield","positionCode":"CM","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-AUS-18","familyName":"Beach","givenName":"Patrick","nameKo":"Patrick Beach","shirtNumber":18,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-3","familyName":"Circati","givenName":"Alessandro","nameKo":"Alessandro Circati","shirtNumber":3,"position":"Right Centre-back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-19","familyName":"Souttar","givenName":"Harry","nameKo":"Harry Souttar","shirtNumber":19,"position":"Centre-back","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-25","familyName":"Herrington","givenName":"Lucas","nameKo":"Lucas Herrington","shirtNumber":25,"position":"Left Centre-back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-5","familyName":"Bos","givenName":"Jordan","nameKo":"Jordan Bos","shirtNumber":5,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-22","familyName":"Irvine","givenName":"Jackson","nameKo":"Jackson Irvine","shirtNumber":22,"position":"Right Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-13","familyName":"O'Neill","givenName":"Aiden","nameKo":"Aiden O'Neill","shirtNumber":13,"position":"Left Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-16","familyName":"Behich","givenName":"Aziz","nameKo":"Aziz Behich","shirtNumber":16,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-20","familyName":"Volpato","givenName":"Cristian","nameKo":"Cristian Volpato","shirtNumber":20,"position":"Right Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-8","familyName":"Metcalfe","givenName":"Connor","nameKo":"Connor Metcalfe","shirtNumber":8,"position":"Left Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-17","familyName":"Irankunda","givenName":"Nestory","nameKo":"Nestory Irankunda","shirtNumber":17,"position":"Centre-forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-AUS-10","familyName":"Hrustic","givenName":"Ajdin","nameKo":"Ajdin Hrustic","shirtNumber":10,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-24","familyName":"Okon-Engstler","givenName":"Paul","nameKo":"Paul Okon-Engstler","shirtNumber":24,"position":"Midfield","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-AUS-26","familyName":"Yengi","givenName":"Kusini","nameKo":"Kusini Yengi","shirtNumber":26,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-PAR-11","offId":"P-2026-PAR-26","teamId":"T-PAR"},
+    {"minute":67,"onId":"P-2026-PAR-18","offId":"P-2026-PAR-21","teamId":"T-PAR"},
+    {"minute":84,"onId":"P-2026-PAR-13","offId":"P-2026-PAR-3","teamId":"T-PAR"},
+    {"minute":92,"onId":"P-2026-PAR-6","offId":"P-2026-PAR-23","teamId":"T-PAR"},
+    {"minute":92,"onId":"P-2026-PAR-16","offId":"P-2026-PAR-8","teamId":"T-PAR"},
+    {"minute":58,"onId":"P-2026-AUS-10","offId":"P-2026-AUS-20","teamId":"T-AUS"},
+    {"minute":84,"onId":"P-2026-AUS-24","offId":"P-2026-AUS-22","teamId":"T-AUS"},
+    {"minute":84,"onId":"P-2026-AUS-26","offId":"P-2026-AUS-17","teamId":"T-AUS"}
+  ]
+}

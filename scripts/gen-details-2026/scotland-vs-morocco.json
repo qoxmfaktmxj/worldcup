@@ -1,0 +1,54 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-SCO-1","familyName":"Gunn","givenName":"Angus","nameKo":"Angus Gunn","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-22","familyName":"Patterson","givenName":"Nathan","nameKo":"Nathan Patterson","shirtNumber":22,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-5","familyName":"Hanley","givenName":"Grant","nameKo":"Grant Hanley","shirtNumber":5,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-13","familyName":"Hendry","givenName":"Jack","nameKo":"Jack Hendry","shirtNumber":13,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-3","familyName":"Robertson","givenName":"Andy","nameKo":"Andy Robertson","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-7","familyName":"McGinn","givenName":"John","nameKo":"John McGinn","shirtNumber":7,"position":"Right Midfield","positionCode":"RM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-11","familyName":"Christie","givenName":"Ryan","nameKo":"Ryan Christie","shirtNumber":11,"position":"Central Midfield","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-19","familyName":"Ferguson","givenName":"Lewis","nameKo":"Lewis Ferguson","shirtNumber":19,"position":"Central Midfield","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-6","familyName":"Tierney","givenName":"Kieran","nameKo":"Kieran Tierney","shirtNumber":6,"position":"Left Midfield","positionCode":"LM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-4","familyName":"McTominay","givenName":"Scott","nameKo":"Scott McTominay","shirtNumber":4,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-10","familyName":"Adams","givenName":"Che","nameKo":"Che Adams","shirtNumber":10,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-SCO-16","familyName":"Gannon-Doak","givenName":"Ben","nameKo":"Ben Gannon-Doak","shirtNumber":16,"position":"Winger","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-9","familyName":"Dykes","givenName":"Lyndon","nameKo":"Lyndon Dykes","shirtNumber":9,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-8","familyName":"McLean","givenName":"Kenny","nameKo":"Kenny McLean","shirtNumber":8,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-2","familyName":"Ralston","givenName":"Anthony","nameKo":"Anthony Ralston","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":false,"substitute":true},
+      {"playerId":"P-2026-SCO-20","familyName":"Stewart","givenName":"Ross","nameKo":"Ross Stewart","shirtNumber":20,"position":"Striker","positionCode":"ST","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-MAR-1","familyName":"Bounou","givenName":"Yassine","nameKo":"Yassine Bounou","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-2","familyName":"Hakimi","givenName":"Achraf","nameKo":"Achraf Hakimi","shirtNumber":2,"position":"Right Back","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-14","familyName":"Diop","givenName":"Issa","nameKo":"Issa Diop","shirtNumber":14,"position":"Centre Back","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-18","familyName":"Riad","givenName":"Chadi","nameKo":"Chadi Riad","shirtNumber":18,"position":"Centre Back","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-3","familyName":"Mazraoui","givenName":"Noussair","nameKo":"Noussair Mazraoui","shirtNumber":3,"position":"Left Back","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-6","familyName":"Bouaddi","givenName":"Ayyoub","nameKo":"Ayyoub Bouaddi","shirtNumber":6,"position":"Defensive Midfield","positionCode":"RDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-23","familyName":"El Khannouss","givenName":"Bilal","nameKo":"Bilal El Khannouss","shirtNumber":23,"position":"Defensive Midfield","positionCode":"LDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-10","familyName":"Diaz","givenName":"Brahim","nameKo":"Brahim Diaz","shirtNumber":10,"position":"Right Winger","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-8","familyName":"Ounahi","givenName":"Azzedine","nameKo":"Azzedine Ounahi","shirtNumber":8,"position":"Attacking Midfield","positionCode":"CAM","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-24","familyName":"El Aynaoui","givenName":"Neil","nameKo":"Neil El Aynaoui","shirtNumber":24,"position":"Left Winger","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-11","familyName":"Saibari","givenName":"Ismael","nameKo":"Ismael Saibari","shirtNumber":11,"position":"Striker","positionCode":"ST","starter":true,"substitute":false},
+      {"playerId":"P-2026-MAR-7","familyName":"Amaimouni","givenName":"Ayoube","nameKo":"Ayoube Amaimouni","shirtNumber":7,"position":"Winger","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-MAR-19","familyName":"Rahimi","givenName":"Soufiane","nameKo":"Soufiane Rahimi","shirtNumber":19,"position":"Striker","positionCode":"ST","starter":false,"substitute":true},
+      {"playerId":"P-2026-MAR-17","familyName":"Talbi","givenName":"Chemsdine","nameKo":"Chemsdine Talbi","shirtNumber":17,"position":"Winger","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-MAR-15","familyName":"El Mourabet","givenName":"Samir","nameKo":"Samir El Mourabet","shirtNumber":15,"position":"Central Midfield","positionCode":"CM","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":2,"playerId":"P-2026-MAR-11","nameKo":"Ismael Saibari","teamId":"T-MAR","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":60,"onId":"P-2026-SCO-16","offId":"P-2026-SCO-6","teamId":"T-SCO"},
+    {"minute":71,"onId":"P-2026-SCO-9","offId":"P-2026-SCO-10","teamId":"T-SCO"},
+    {"minute":71,"onId":"P-2026-SCO-8","offId":"P-2026-SCO-11","teamId":"T-SCO"},
+    {"minute":89,"onId":"P-2026-SCO-2","offId":"P-2026-SCO-22","teamId":"T-SCO"},
+    {"minute":89,"onId":"P-2026-SCO-20","offId":"P-2026-SCO-7","teamId":"T-SCO"},
+    {"minute":84,"onId":"P-2026-MAR-7","offId":"P-2026-MAR-10","teamId":"T-MAR"},
+    {"minute":84,"onId":"P-2026-MAR-19","offId":"P-2026-MAR-11","teamId":"T-MAR"},
+    {"minute":84,"onId":"P-2026-MAR-17","offId":"P-2026-MAR-23","teamId":"T-MAR"},
+    {"minute":90,"onId":"P-2026-MAR-15","offId":"P-2026-MAR-8","teamId":"T-MAR"}
+  ]
+}

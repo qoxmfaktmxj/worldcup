@@ -1,0 +1,331 @@
+{
+  "lineups": {
+    "home": [
+      {
+        "playerId": "P-2026-MEX-1",
+        "familyName": "Rangel",
+        "givenName": "Raúl",
+        "nameKo": "Raúl Rangel",
+        "shirtNumber": 1,
+        "position": "goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-2",
+        "familyName": "Sánchez",
+        "givenName": "Jorge",
+        "nameKo": "Jorge Sánchez",
+        "shirtNumber": 2,
+        "position": "right back",
+        "positionCode": "RB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-4",
+        "familyName": "Álvarez",
+        "givenName": "Edson",
+        "nameKo": "Edson Álvarez",
+        "shirtNumber": 4,
+        "position": "right center back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-5",
+        "familyName": "Vásquez",
+        "givenName": "Johan",
+        "nameKo": "Johan Vásquez",
+        "shirtNumber": 5,
+        "position": "left center back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-23",
+        "familyName": "Gallardo",
+        "givenName": "Jesús",
+        "nameKo": "Jesús Gallardo",
+        "shirtNumber": 23,
+        "position": "left back",
+        "positionCode": "LB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-6",
+        "familyName": "Lira",
+        "givenName": "Erik",
+        "nameKo": "Erik Lira",
+        "shirtNumber": 6,
+        "position": "defensive midfield",
+        "positionCode": "CDM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-7",
+        "familyName": "Romo",
+        "givenName": "Luis",
+        "nameKo": "Luis Romo",
+        "shirtNumber": 7,
+        "position": "right central midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-26",
+        "familyName": "Gutiérrez",
+        "givenName": "Brian",
+        "nameKo": "Brian Gutiérrez",
+        "shirtNumber": 26,
+        "position": "left central midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-25",
+        "familyName": "Alvarado",
+        "givenName": "Roberto",
+        "nameKo": "Roberto Alvarado",
+        "shirtNumber": 25,
+        "position": "right wing",
+        "positionCode": "RW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-9",
+        "familyName": "Jiménez",
+        "givenName": "Raúl",
+        "nameKo": "Raúl Jiménez",
+        "shirtNumber": 9,
+        "position": "striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-16",
+        "familyName": "Quiñones",
+        "givenName": "Julián",
+        "nameKo": "Julián Quiñones",
+        "shirtNumber": 16,
+        "position": "left wing",
+        "positionCode": "LW",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-MEX-15",
+        "familyName": "Reyes",
+        "givenName": "Israel",
+        "nameKo": "Israel Reyes",
+        "shirtNumber": 15,
+        "position": "defender",
+        "positionCode": "CB",
+        "starter": false,
+        "substitute": true
+      }
+    ],
+    "away": [
+      {
+        "playerId": "P-2026-KOR-1",
+        "familyName": "Kim",
+        "givenName": "Seung-gyu",
+        "nameKo": "김승규",
+        "shirtNumber": 1,
+        "position": "goalkeeper",
+        "positionCode": "GK",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-2",
+        "familyName": "Lee",
+        "givenName": "Han-beom",
+        "nameKo": "이한범",
+        "shirtNumber": 2,
+        "position": "right center back",
+        "positionCode": "RCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-3",
+        "familyName": "Lee",
+        "givenName": "Gi-hyuk",
+        "nameKo": "이기혁",
+        "shirtNumber": 3,
+        "position": "center back",
+        "positionCode": "CB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-4",
+        "familyName": "Kim",
+        "givenName": "Min-jae",
+        "nameKo": "김민재",
+        "shirtNumber": 4,
+        "position": "left center back",
+        "positionCode": "LCB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-22",
+        "familyName": "Seol",
+        "givenName": "Young-woo",
+        "nameKo": "설영우",
+        "shirtNumber": 22,
+        "position": "right wing back",
+        "positionCode": "RWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-6",
+        "familyName": "Hwang",
+        "givenName": "In-beom",
+        "nameKo": "황인범",
+        "shirtNumber": 6,
+        "position": "right central midfield",
+        "positionCode": "RCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-8",
+        "familyName": "Paik",
+        "givenName": "Seung-ho",
+        "nameKo": "백승호",
+        "shirtNumber": 8,
+        "position": "left central midfield",
+        "positionCode": "LCM",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-15",
+        "familyName": "Kim",
+        "givenName": "Moon-hwan",
+        "nameKo": "김문환",
+        "shirtNumber": 15,
+        "position": "left wing back",
+        "positionCode": "LWB",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-19",
+        "familyName": "Lee",
+        "givenName": "Kang-in",
+        "nameKo": "이강인",
+        "shirtNumber": 19,
+        "position": "right forward",
+        "positionCode": "RF",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-10",
+        "familyName": "Lee",
+        "givenName": "Jae-sung",
+        "nameKo": "이재성",
+        "shirtNumber": 10,
+        "position": "second striker",
+        "positionCode": "SS",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-7",
+        "familyName": "Son",
+        "givenName": "Heung-min",
+        "nameKo": "손흥민",
+        "shirtNumber": 7,
+        "position": "striker",
+        "positionCode": "ST",
+        "starter": true,
+        "substitute": false
+      },
+      {
+        "playerId": "P-2026-KOR-11",
+        "familyName": "Hwang",
+        "givenName": "Hee-chan",
+        "nameKo": "황희찬",
+        "shirtNumber": 11,
+        "position": "forward",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KOR-18",
+        "familyName": "Oh",
+        "givenName": "Hyeon-gyu",
+        "nameKo": "오현규",
+        "shirtNumber": 18,
+        "position": "striker",
+        "positionCode": "ST",
+        "starter": false,
+        "substitute": true
+      },
+      {
+        "playerId": "P-2026-KOR-25",
+        "familyName": "Eom",
+        "givenName": "Ji-sung",
+        "nameKo": "엄지성",
+        "shirtNumber": 25,
+        "position": "midfield",
+        "positionCode": "CM",
+        "starter": false,
+        "substitute": true
+      }
+    ]
+  },
+  "goals": [
+    {
+      "minute": 50,
+      "playerId": "P-2026-MEX-7",
+      "nameKo": "Luis Romo",
+      "teamId": "T-MEX",
+      "ownGoal": false,
+      "penalty": false
+    }
+  ],
+  "bookings": [],
+  "subs": [
+    {
+      "minute": 80,
+      "onId": "P-2026-MEX-15",
+      "offId": "P-2026-MEX-25",
+      "teamId": "T-MEX"
+    },
+    {
+      "minute": 57,
+      "onId": "P-2026-KOR-11",
+      "offId": "P-2026-KOR-10",
+      "teamId": "T-KOR"
+    },
+    {
+      "minute": 57,
+      "onId": "P-2026-KOR-18",
+      "offId": "P-2026-KOR-7",
+      "teamId": "T-KOR"
+    },
+    {
+      "minute": 71,
+      "onId": "P-2026-KOR-25",
+      "offId": "P-2026-KOR-15",
+      "teamId": "T-KOR"
+    }
+  ]
+}

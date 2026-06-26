@@ -1,0 +1,59 @@
+{
+  "lineups": {
+    "home": [
+      {"playerId":"P-2026-UZB-1","familyName":"Yusupov","givenName":"Utkir","nameKo":"Utkir Yusupov","shirtNumber":1,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-2","familyName":"Khusanov","givenName":"Abdukodir","nameKo":"Abdukodir Khusanov","shirtNumber":2,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-13","familyName":"Nasrullaev","givenName":"Sherzod","nameKo":"Sherzod Nasrullaev","shirtNumber":13,"position":"Defender","positionCode":"CB","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-5","familyName":"Ashurmatov","givenName":"Rustam","nameKo":"Rustam Ashurmatov","shirtNumber":5,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-7","familyName":"Shukurov","givenName":"Otabek","nameKo":"Otabek Shukurov","shirtNumber":7,"position":"Midfielder","positionCode":"RWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-6","familyName":"Mozgovoy","givenName":"Akmal","nameKo":"Akmal Mozgovoy","shirtNumber":6,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-24","familyName":"Karimov","givenName":"Behruzjon","nameKo":"Behruzjon Karimov","shirtNumber":24,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-18","familyName":"Abdullaev","givenName":"Abdulla","nameKo":"Abdulla Abdullaev","shirtNumber":18,"position":"Midfielder","positionCode":"LWB","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-22","familyName":"Fayzullaev","givenName":"Abbosbek","nameKo":"Abbosbek Fayzullaev","shirtNumber":22,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-11","familyName":"Urunov","givenName":"Oston","nameKo":"Oston Urunov","shirtNumber":11,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-14","familyName":"Shomurodov","givenName":"Eldor","nameKo":"Eldor Shomurodov","shirtNumber":14,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-UZB-17","familyName":"Khamdamov","givenName":"Dostonbek","nameKo":"Dostonbek Khamdamov","shirtNumber":17,"position":"Midfielder","positionCode":"LW","starter":false,"substitute":true},
+      {"playerId":"P-2026-UZB-4","familyName":"Sayfiev","givenName":"Farrukh","nameKo":"Farrukh Sayfiev","shirtNumber":4,"position":"Defender","positionCode":"CB","starter":false,"substitute":true},
+      {"playerId":"P-2026-UZB-20","familyName":"Amonov","givenName":"Azizbek","nameKo":"Azizbek Amonov","shirtNumber":20,"position":"Midfielder","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-UZB-26","familyName":"Urozov","givenName":"Jakhongir","nameKo":"Jakhongir Urozov","shirtNumber":26,"position":"Defender","positionCode":"LCB","starter":false,"substitute":true},
+      {"playerId":"P-2026-UZB-21","familyName":"Sergeev","givenName":"Igor","nameKo":"Igor Sergeev","shirtNumber":21,"position":"Forward","positionCode":"CF","starter":false,"substitute":true}
+    ],
+    "away": [
+      {"playerId":"P-2026-COL-12","familyName":"Vargas","givenName":"Camilo","nameKo":"Camilo Vargas","shirtNumber":12,"position":"Goalkeeper","positionCode":"GK","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-2","familyName":"Muñoz","givenName":"Daniel","nameKo":"Daniel Munoz","shirtNumber":2,"position":"Defender","positionCode":"RB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-23","familyName":"Sánchez","givenName":"Davinson","nameKo":"Davinson Sanchez","shirtNumber":23,"position":"Defender","positionCode":"RCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-3","familyName":"Lucumí","givenName":"Jhon","nameKo":"Jhon Lucumi","shirtNumber":3,"position":"Defender","positionCode":"LCB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-17","familyName":"Mojica","givenName":"Johan","nameKo":"Johan Mojica","shirtNumber":17,"position":"Defender","positionCode":"LB","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-16","familyName":"Lerma","givenName":"Jefferson","nameKo":"Jefferson Lerma","shirtNumber":16,"position":"Midfielder","positionCode":"CDM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-14","familyName":"Puerta","givenName":"Gustavo","nameKo":"Gustavo Puerta","shirtNumber":14,"position":"Midfielder","positionCode":"RCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-10","familyName":"Rodríguez","givenName":"James","nameKo":"James Rodriguez","shirtNumber":10,"position":"Midfielder","positionCode":"LCM","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-11","familyName":"Arias","givenName":"Jhon","nameKo":"Jhon Arias","shirtNumber":11,"position":"Forward","positionCode":"RW","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-25","familyName":"Suárez","givenName":"Luis","nameKo":"Luis Suarez","shirtNumber":25,"position":"Forward","positionCode":"CF","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-7","familyName":"Díaz","givenName":"Luis","nameKo":"Luis Diaz","shirtNumber":7,"position":"Forward","positionCode":"LW","starter":true,"substitute":false},
+      {"playerId":"P-2026-COL-21","familyName":"Campaz","givenName":"Jáminton","nameKo":"Jaminton Campaz","shirtNumber":21,"position":"Forward","positionCode":"RW","starter":false,"substitute":true},
+      {"playerId":"P-2026-COL-19","familyName":"Hernández","givenName":"Cucho","nameKo":"Cucho Hernandez","shirtNumber":19,"position":"Forward","positionCode":"CF","starter":false,"substitute":true},
+      {"playerId":"P-2026-COL-6","familyName":"Ríos","givenName":"Richard","nameKo":"Richard Rios","shirtNumber":6,"position":"Midfielder","positionCode":"RCM","starter":false,"substitute":true},
+      {"playerId":"P-2026-COL-5","familyName":"Castaño","givenName":"Kevin","nameKo":"Kevin Castano","shirtNumber":5,"position":"Midfielder","positionCode":"CM","starter":false,"substitute":true},
+      {"playerId":"P-2026-COL-26","familyName":"Gómez","givenName":"Andrés","nameKo":"Andres Gomez","shirtNumber":26,"position":"Forward","positionCode":"LW","starter":false,"substitute":true}
+    ]
+  },
+  "goals": [
+    {"minute":40,"playerId":"P-2026-COL-2","nameKo":"Daniel Munoz","teamId":"T-COL","ownGoal":false,"penalty":false},
+    {"minute":60,"playerId":"P-2026-UZB-22","nameKo":"Abbosbek Fayzullaev","teamId":"T-UZB","ownGoal":false,"penalty":false},
+    {"minute":65,"playerId":"P-2026-COL-7","nameKo":"Luis Diaz","teamId":"T-COL","ownGoal":false,"penalty":false},
+    {"minute":99,"playerId":"P-2026-COL-21","nameKo":"Jaminton Campaz","teamId":"T-COL","ownGoal":false,"penalty":false}
+  ],
+  "bookings": [],
+  "subs": [
+    {"minute":45,"onId":"P-2026-UZB-17","offId":"P-2026-UZB-11","teamId":"T-UZB"},
+    {"minute":45,"onId":"P-2026-UZB-4","offId":"P-2026-UZB-13","teamId":"T-UZB"},
+    {"minute":77,"onId":"P-2026-UZB-20","offId":"P-2026-UZB-22","teamId":"T-UZB"},
+    {"minute":77,"onId":"P-2026-UZB-26","offId":"P-2026-UZB-5","teamId":"T-UZB"},
+    {"minute":93,"onId":"P-2026-UZB-21","offId":"P-2026-UZB-14","teamId":"T-UZB"},
+    {"minute":72,"onId":"P-2026-COL-21","offId":"P-2026-COL-10","teamId":"T-COL"},
+    {"minute":80,"onId":"P-2026-COL-19","offId":"P-2026-COL-25","teamId":"T-COL"},
+    {"minute":80,"onId":"P-2026-COL-6","offId":"P-2026-COL-14","teamId":"T-COL"},
+    {"minute":93,"onId":"P-2026-COL-5","offId":"P-2026-COL-11","teamId":"T-COL"},
+    {"minute":93,"onId":"P-2026-COL-26","offId":"P-2026-COL-7","teamId":"T-COL"}
+  ]
+}
