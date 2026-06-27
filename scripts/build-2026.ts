@@ -32,7 +32,7 @@ if (existsSync(GEN_DIR)) {
 }
 const detailFor = (slug: string): MatchDetail | undefined => DETAILS_2026[slug] ?? genDetails[slug];
 
-const ASOF = "2026-06-26";
+const ASOF = "2026-06-27";
 
 const ref = (name: string) => teamRef(`T-${CODES_2026[name]}`, name, CODES_2026[name], {});
 

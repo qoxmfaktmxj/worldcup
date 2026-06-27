@@ -21722,7 +21722,7 @@
   {
     "id": "M-2026-53",
     "slug": "norway-vs-france",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-26T19:00:00Z",
@@ -21745,12 +21745,12 @@
       "code": "FRA",
       "nameKo": "프랑스"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 4,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -21763,7 +21763,7 @@
   {
     "id": "M-2026-54",
     "slug": "senegal-vs-iraq",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-26T19:00:00Z",
@@ -21786,12 +21786,12 @@
       "code": "IRQ",
       "nameKo": "이라크"
     },
-    "homeScore": 0,
+    "homeScore": 5,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
