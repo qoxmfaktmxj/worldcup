@@ -18186,7 +18186,7 @@
   {
     "id": "M-2026-41",
     "slug": "egypt-vs-iran",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-27T03:00:00Z",
@@ -18209,8 +18209,8 @@
       "code": "IRN",
       "nameKo": "이란"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
@@ -18227,7 +18227,7 @@
   {
     "id": "M-2026-42",
     "slug": "new-zealand-vs-belgium",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-27T03:00:00Z",
@@ -18250,12 +18250,12 @@
       "code": "BEL",
       "nameKo": "벨기에"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 5,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -20183,7 +20183,7 @@
   {
     "id": "M-2026-47",
     "slug": "cape-verde-vs-saudi-arabia",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-27T00:00:00Z",
@@ -20224,7 +20224,7 @@
   {
     "id": "M-2026-48",
     "slug": "uruguay-vs-spain",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-27",
     "time": "",
     "kickoffUtc": "2026-06-27T00:00:00Z",
@@ -20248,11 +20248,11 @@
       "nameKo": "스페인"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -27668,7 +27668,7 @@
   {
     "id": "M-2026-71",
     "slug": "panama-vs-england",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-27T21:00:00Z",
@@ -27692,11 +27692,11 @@
       "nameKo": "잉글랜드"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -27709,7 +27709,7 @@
   {
     "id": "M-2026-72",
     "slug": "croatia-vs-ghana",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-27T21:00:00Z",
@@ -27732,12 +27732,12 @@
       "code": "GHA",
       "nameKo": "가나"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
