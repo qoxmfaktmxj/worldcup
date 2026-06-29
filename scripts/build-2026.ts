@@ -12,7 +12,7 @@ import { join } from "node:path";
 import type { GroupStanding, Match, Standing, Venue } from "../lib/types";
 import { slugify, teamRef } from "../lib/pipeline/transform";
 import { kstDateKey } from "../lib/time";
-import { CODES_2026, FIXTURES_2026, VENUES_2026 } from "./fixtures-2026";
+import { CODES_2026, FIXTURES_2026, KNOCKOUT_2026, VENUES_2026 } from "./fixtures-2026";
 import { DETAILS_2026, type MatchDetail } from "./match-details-2026";
 
 // Generated per-match detail (lineups/goals/subs/cards) collected from official
@@ -32,7 +32,7 @@ if (existsSync(GEN_DIR)) {
 }
 const detailFor = (slug: string): MatchDetail | undefined => DETAILS_2026[slug] ?? genDetails[slug];
 
-const ASOF = "2026-06-29";
+const ASOF = "2026-06-30";
 
 const ref = (name: string) => teamRef(`T-${CODES_2026[name]}`, name, CODES_2026[name], {});
 
@@ -79,6 +79,52 @@ const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
   } satisfies Match;
 });
 
+// Knockout matches (group_name = not applicable so the UI shows the round).
+// A penalty shootout keeps the regulation score; result reflects who advances.
+const knockout: Match[] = KNOCKOUT_2026.map((k, i) => {
+  const finished = k.homeScore !== null && k.awayScore !== null;
+  const hs = finished ? (k.homeScore as number) : 0;
+  const as = finished ? (k.awayScore as number) : 0;
+  const pens = k.homePens !== undefined && k.awayPens !== undefined;
+  // Advancing side: penalties decide a level regulation score.
+  const homeAdv = pens ? (k.homePens as number) > (k.awayPens as number) : hs > as;
+  const result = finished ? (hs === as && pens ? (homeAdv ? "win" : "loss") : hs > as ? "win" : hs < as ? "loss" : "draw") : "draw";
+  const venue: Venue | undefined = VENUES_2026.find((v) => v.id === k.venueId);
+  const slug = slugify(`${k.home} vs ${k.away}`);
+  const detail = detailFor(slug);
+
+  return {
+    id: `M-2026-K${String(i + 1).padStart(2, "0")}`,
+    slug,
+    status: finished ? ("finished" as const) : ("scheduled" as const),
+    date: kstDateKey(k.kickoffUtc),
+    time: "",
+    kickoffUtc: k.kickoffUtc,
+    venueId: k.venueId,
+    stadium: venue?.commonName ?? venue?.fifaName ?? "",
+    city: venue?.city ?? "",
+    country: venue?.country ?? "",
+    group: "not applicable",
+    stage: k.stage,
+    groupStage: false,
+    home: ref(k.home),
+    away: ref(k.away),
+    homeScore: hs,
+    awayScore: as,
+    penaltyShootout: pens,
+    homePenalties: pens ? (k.homePens as number) : 0,
+    awayPenalties: pens ? (k.awayPens as number) : 0,
+    result,
+    lineups: detail?.lineups ?? { home: [], away: [] },
+    goals: detail?.goals ?? [],
+    bookings: detail?.bookings ?? [],
+    subs: detail?.subs ?? [],
+    shootout: [],
+  } satisfies Match;
+});
+
+matches.push(...knockout);
+
 // Recompute standings from FINISHED fixtures only
 const groupTeams = new Map<string, Set<string>>();
 for (const [g, , home, away] of FIXTURES_2026) {
@@ -94,7 +140,7 @@ for (const [, teamName] of [...groupTeams.values()].flatMap((s) => [...s].map((n
   teamStats.set(teamName as string, { w: 0, d: 0, l: 0, gf: 0, ga: 0 });
 }
 
-for (const m of matches.filter((m) => m.status === "finished")) {
+for (const m of matches.filter((m) => m.status === "finished" && m.groupStage)) {
   const hName = m.home.name;
   const aName = m.away.name;
   const hs = m.homeScore;

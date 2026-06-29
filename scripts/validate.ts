@@ -52,8 +52,11 @@ async function main() {
   const standings = await json<GroupStanding[]>(`data/generated/${YEAR}/standings.json`)
 
   if (YEAR === '2026') {
-    // 2026-specific checks
-    assert(matches.length === 72, `expected 72 matches, got ${matches.length}`)
+    // 2026-specific checks. Group stage = 72 fixtures; knockout grows as rounds
+    // are added (round of 32 = 16, etc.).
+    const group = matches.filter((m) => m.groupStage)
+    const knockout = matches.filter((m) => !m.groupStage)
+    assert(group.length === 72, `expected 72 group matches, got ${group.length}`)
 
     // Every match must have kickoffUtc (parseable) and venueId
     for (const m of matches) {
@@ -75,9 +78,9 @@ async function main() {
       )
     }
 
-    // Each team appears in exactly 3 group matches
+    // Each team appears in exactly 3 GROUP matches (knockout is single-elim)
     const appearances = new Map<string, number>()
-    for (const m of matches) {
+    for (const m of group) {
       appearances.set(m.home.code, (appearances.get(m.home.code) ?? 0) + 1)
       appearances.set(m.away.code, (appearances.get(m.away.code) ?? 0) + 1)
     }
@@ -85,10 +88,18 @@ async function main() {
       assert(count === 3, `team ${code}: expected 3 group matches, got ${count}`)
     }
 
+    // A penalty-shootout knockout match must record both penalty tallies
+    for (const m of knockout.filter((x) => x.penaltyShootout)) {
+      assert(
+        m.homePenalties + m.awayPenalties > 0,
+        `${m.id} ${m.slug}: penalty shootout but no penalty tally`,
+      )
+    }
+
     const finished = matches.filter((m) => m.status === 'finished').length
     const groups = standings.length
     if (process.exitCode !== 1) {
-      console.log(`Validation OK (2026): ${matches.length} matches, ${finished} finished, ${groups} groups — all 2026 checks passed`)
+      console.log(`Validation OK (2026): ${group.length} group + ${knockout.length} knockout, ${finished} finished, ${groups} groups — all 2026 checks passed`)
     } else {
       console.error('Validation FAILED')
       process.exit(1)

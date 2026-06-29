@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-06-26). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-06-30). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -133,4 +133,40 @@ export const FIXTURES_2026: FixtureTuple[] = [
   ["L", "2026-06-23T23:00:00Z", "Panama", "Croatia", 0, 1, "toronto"],
   ["L", "2026-06-27T21:00:00Z", "Panama", "England", 0, 2, "eastrutherford"],
   ["L", "2026-06-27T21:00:00Z", "Croatia", "Ghana", 2, 1, "philadelphia"],
+];
+
+// Knockout fixtures (group_name = not applicable). Scores null until played; a
+// penalty shootout carries homePens/awayPens (regulation score stays in
+// homeScore/awayScore). Verified from official sources, asOf 2026-06-30.
+export interface KnockoutFixture {
+  stage: string;
+  kickoffUtc: string;
+  home: string;
+  away: string;
+  homeScore: number | null;
+  awayScore: number | null;
+  venueId: string;
+  homePens?: number;
+  awayPens?: number;
+}
+
+export const KNOCKOUT_2026: KnockoutFixture[] = [
+  // Round of 32 (6/28–7/3)
+  { stage: "round of 32", kickoffUtc: "2026-06-28T19:00:00Z", home: "Canada", away: "South Africa", homeScore: 1, awayScore: 0, venueId: "inglewood" },
+  { stage: "round of 32", kickoffUtc: "2026-06-29T17:00:00Z", home: "Brazil", away: "Japan", homeScore: 2, awayScore: 1, venueId: "houston" },
+  // Germany 1-1 Paraguay (Paraguay advance 4-3 on penalties)
+  { stage: "round of 32", kickoffUtc: "2026-06-29T20:30:00Z", home: "Germany", away: "Paraguay", homeScore: 1, awayScore: 1, venueId: "foxborough", homePens: 3, awayPens: 4 },
+  { stage: "round of 32", kickoffUtc: "2026-06-30T01:00:00Z", home: "Netherlands", away: "Morocco", homeScore: null, awayScore: null, venueId: "bbva" },
+  { stage: "round of 32", kickoffUtc: "2026-06-30T17:00:00Z", home: "Ivory Coast", away: "Norway", homeScore: null, awayScore: null, venueId: "arlington" },
+  { stage: "round of 32", kickoffUtc: "2026-06-30T21:00:00Z", home: "France", away: "Sweden", homeScore: null, awayScore: null, venueId: "eastrutherford" },
+  { stage: "round of 32", kickoffUtc: "2026-07-01T01:00:00Z", home: "Mexico", away: "Ecuador", homeScore: null, awayScore: null, venueId: "azteca" },
+  { stage: "round of 32", kickoffUtc: "2026-07-01T16:00:00Z", home: "England", away: "DR Congo", homeScore: null, awayScore: null, venueId: "atlanta" },
+  { stage: "round of 32", kickoffUtc: "2026-07-01T20:00:00Z", home: "Belgium", away: "Senegal", homeScore: null, awayScore: null, venueId: "seattle" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T00:00:00Z", home: "United States", away: "Bosnia and Herzegovina", homeScore: null, awayScore: null, venueId: "santaclara" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T19:00:00Z", home: "Spain", away: "Austria", homeScore: null, awayScore: null, venueId: "inglewood" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T23:00:00Z", home: "Portugal", away: "Croatia", homeScore: null, awayScore: null, venueId: "toronto" },
+  { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: null, awayScore: null, venueId: "vancouver" },
+  { stage: "round of 32", kickoffUtc: "2026-07-03T18:00:00Z", home: "Australia", away: "Egypt", homeScore: null, awayScore: null, venueId: "arlington" },
+  { stage: "round of 32", kickoffUtc: "2026-07-03T22:00:00Z", home: "Argentina", away: "Cape Verde", homeScore: null, awayScore: null, venueId: "miami" },
+  { stage: "round of 32", kickoffUtc: "2026-07-04T01:30:00Z", home: "Colombia", away: "Ghana", homeScore: null, awayScore: null, venueId: "kansascity" },
 ];

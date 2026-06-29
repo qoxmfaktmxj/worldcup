@@ -27746,5 +27746,661 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K01",
+    "slug": "canada-vs-south-africa",
+    "status": "finished",
+    "date": "2026-06-29",
+    "time": "",
+    "kickoffUtc": "2026-06-28T19:00:00Z",
+    "venueId": "inglewood",
+    "stadium": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-CAN",
+      "name": "Canada",
+      "code": "CAN",
+      "nameKo": "캐나다"
+    },
+    "away": {
+      "id": "T-RSA",
+      "name": "South Africa",
+      "code": "RSA",
+      "nameKo": "남아프리카공화국"
+    },
+    "homeScore": 1,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K02",
+    "slug": "brazil-vs-japan",
+    "status": "finished",
+    "date": "2026-06-30",
+    "time": "",
+    "kickoffUtc": "2026-06-29T17:00:00Z",
+    "venueId": "houston",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-BRA",
+      "name": "Brazil",
+      "code": "BRA",
+      "nameKo": "브라질"
+    },
+    "away": {
+      "id": "T-JPN",
+      "name": "Japan",
+      "code": "JPN",
+      "nameKo": "일본"
+    },
+    "homeScore": 2,
+    "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K03",
+    "slug": "germany-vs-paraguay",
+    "status": "finished",
+    "date": "2026-06-30",
+    "time": "",
+    "kickoffUtc": "2026-06-29T20:30:00Z",
+    "venueId": "foxborough",
+    "stadium": "Gillette Stadium",
+    "city": "Foxborough",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-GER",
+      "name": "Germany",
+      "code": "GER",
+      "nameKo": "독일"
+    },
+    "away": {
+      "id": "T-PAR",
+      "name": "Paraguay",
+      "code": "PAR",
+      "nameKo": "파라과이"
+    },
+    "homeScore": 1,
+    "awayScore": 1,
+    "penaltyShootout": true,
+    "homePenalties": 3,
+    "awayPenalties": 4,
+    "result": "loss",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K04",
+    "slug": "netherlands-vs-morocco",
+    "status": "scheduled",
+    "date": "2026-06-30",
+    "time": "",
+    "kickoffUtc": "2026-06-30T01:00:00Z",
+    "venueId": "bbva",
+    "stadium": "Estadio BBVA",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-NED",
+      "name": "Netherlands",
+      "code": "NED",
+      "nameKo": "네덜란드"
+    },
+    "away": {
+      "id": "T-MAR",
+      "name": "Morocco",
+      "code": "MAR",
+      "nameKo": "모로코"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K05",
+    "slug": "ivory-coast-vs-norway",
+    "status": "scheduled",
+    "date": "2026-07-01",
+    "time": "",
+    "kickoffUtc": "2026-06-30T17:00:00Z",
+    "venueId": "arlington",
+    "stadium": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-CIV",
+      "name": "Ivory Coast",
+      "code": "CIV",
+      "nameKo": "코트디부아르"
+    },
+    "away": {
+      "id": "T-NOR",
+      "name": "Norway",
+      "code": "NOR",
+      "nameKo": "노르웨이"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K06",
+    "slug": "france-vs-sweden",
+    "status": "scheduled",
+    "date": "2026-07-01",
+    "time": "",
+    "kickoffUtc": "2026-06-30T21:00:00Z",
+    "venueId": "eastrutherford",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-FRA",
+      "name": "France",
+      "code": "FRA",
+      "nameKo": "프랑스"
+    },
+    "away": {
+      "id": "T-SWE",
+      "name": "Sweden",
+      "code": "SWE",
+      "nameKo": "스웨덴"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K07",
+    "slug": "mexico-vs-ecuador",
+    "status": "scheduled",
+    "date": "2026-07-01",
+    "time": "",
+    "kickoffUtc": "2026-07-01T01:00:00Z",
+    "venueId": "azteca",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-MEX",
+      "name": "Mexico",
+      "code": "MEX",
+      "nameKo": "멕시코"
+    },
+    "away": {
+      "id": "T-ECU",
+      "name": "Ecuador",
+      "code": "ECU",
+      "nameKo": "에콰도르"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K08",
+    "slug": "england-vs-dr-congo",
+    "status": "scheduled",
+    "date": "2026-07-02",
+    "time": "",
+    "kickoffUtc": "2026-07-01T16:00:00Z",
+    "venueId": "atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-ENG",
+      "name": "England",
+      "code": "ENG",
+      "nameKo": "잉글랜드"
+    },
+    "away": {
+      "id": "T-COD",
+      "name": "DR Congo",
+      "code": "COD",
+      "nameKo": "콩고민주공화국"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K09",
+    "slug": "belgium-vs-senegal",
+    "status": "scheduled",
+    "date": "2026-07-02",
+    "time": "",
+    "kickoffUtc": "2026-07-01T20:00:00Z",
+    "venueId": "seattle",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-BEL",
+      "name": "Belgium",
+      "code": "BEL",
+      "nameKo": "벨기에"
+    },
+    "away": {
+      "id": "T-SEN",
+      "name": "Senegal",
+      "code": "SEN",
+      "nameKo": "세네갈"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K10",
+    "slug": "united-states-vs-bosnia-and-herzegovina",
+    "status": "scheduled",
+    "date": "2026-07-02",
+    "time": "",
+    "kickoffUtc": "2026-07-02T00:00:00Z",
+    "venueId": "santaclara",
+    "stadium": "Levi's Stadium",
+    "city": "Santa Clara",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-USA",
+      "name": "United States",
+      "code": "USA",
+      "nameKo": "미국"
+    },
+    "away": {
+      "id": "T-BIH",
+      "name": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "nameKo": "보스니아 헤르체고비나"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K11",
+    "slug": "spain-vs-austria",
+    "status": "scheduled",
+    "date": "2026-07-03",
+    "time": "",
+    "kickoffUtc": "2026-07-02T19:00:00Z",
+    "venueId": "inglewood",
+    "stadium": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-ESP",
+      "name": "Spain",
+      "code": "ESP",
+      "nameKo": "스페인"
+    },
+    "away": {
+      "id": "T-AUT",
+      "name": "Austria",
+      "code": "AUT",
+      "nameKo": "오스트리아"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K12",
+    "slug": "portugal-vs-croatia",
+    "status": "scheduled",
+    "date": "2026-07-03",
+    "time": "",
+    "kickoffUtc": "2026-07-02T23:00:00Z",
+    "venueId": "toronto",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-POR",
+      "name": "Portugal",
+      "code": "POR",
+      "nameKo": "포르투갈"
+    },
+    "away": {
+      "id": "T-CRO",
+      "name": "Croatia",
+      "code": "CRO",
+      "nameKo": "크로아티아"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K13",
+    "slug": "switzerland-vs-algeria",
+    "status": "scheduled",
+    "date": "2026-07-03",
+    "time": "",
+    "kickoffUtc": "2026-07-03T03:00:00Z",
+    "venueId": "vancouver",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-SUI",
+      "name": "Switzerland",
+      "code": "SUI",
+      "nameKo": "스위스"
+    },
+    "away": {
+      "id": "T-ALG",
+      "name": "Algeria",
+      "code": "ALG",
+      "nameKo": "알제리"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K14",
+    "slug": "australia-vs-egypt",
+    "status": "scheduled",
+    "date": "2026-07-04",
+    "time": "",
+    "kickoffUtc": "2026-07-03T18:00:00Z",
+    "venueId": "arlington",
+    "stadium": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-AUS",
+      "name": "Australia",
+      "code": "AUS",
+      "nameKo": "호주"
+    },
+    "away": {
+      "id": "T-EGY",
+      "name": "Egypt",
+      "code": "EGY",
+      "nameKo": "이집트"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K15",
+    "slug": "argentina-vs-cape-verde",
+    "status": "scheduled",
+    "date": "2026-07-04",
+    "time": "",
+    "kickoffUtc": "2026-07-03T22:00:00Z",
+    "venueId": "miami",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami Gardens",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-ARG",
+      "name": "Argentina",
+      "code": "ARG",
+      "nameKo": "아르헨티나"
+    },
+    "away": {
+      "id": "T-CPV",
+      "name": "Cape Verde",
+      "code": "CPV",
+      "nameKo": "카보베르데"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K16",
+    "slug": "colombia-vs-ghana",
+    "status": "scheduled",
+    "date": "2026-07-04",
+    "time": "",
+    "kickoffUtc": "2026-07-04T01:30:00Z",
+    "venueId": "kansascity",
+    "stadium": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 32",
+    "groupStage": false,
+    "home": {
+      "id": "T-COL",
+      "name": "Colombia",
+      "code": "COL",
+      "nameKo": "콜롬비아"
+    },
+    "away": {
+      "id": "T-GHA",
+      "name": "Ghana",
+      "code": "GHA",
+      "nameKo": "가나"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]

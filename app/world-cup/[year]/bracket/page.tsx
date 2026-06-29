@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getMatches } from "@/lib/data";
 import { teamPrimary } from "@/lib/teamColors";
 import { stageKo } from "@/lib/stages";
+import { toKstLabel } from "@/lib/time";
 import { availableYears } from "@/lib/tournaments";
 import type { Match, TeamRef } from "@/lib/types";
 
@@ -9,7 +10,7 @@ export function generateStaticParams() {
   return availableYears().map((year) => ({ year: String(year) }));
 }
 
-function TeamRow({ team, score, win }: { team: TeamRef; score: number; win: boolean }) {
+function TeamRow({ team, score, win, scheduled }: { team: TeamRef; score: number; win: boolean; scheduled?: boolean }) {
   return (
     <div className="flex items-center gap-1.5 font-display text-sm">
       <span
@@ -17,8 +18,8 @@ function TeamRow({ team, score, win }: { team: TeamRef; score: number; win: bool
         style={{ background: teamPrimary(team.name) }}
         aria-hidden
       />
-      <span className={`flex-1 truncate ${win ? "text-white" : "text-muted-dim"}`}>{team.nameKo}</span>
-      <span className={`tabular-nums shrink-0 ${win ? "text-korea" : "text-muted-dim"}`}>{score}</span>
+      <span className={`flex-1 truncate ${scheduled ? "text-white" : win ? "text-white" : "text-muted-dim"}`}>{team.nameKo}</span>
+      {!scheduled && <span className={`tabular-nums shrink-0 ${win ? "text-korea" : "text-muted-dim"}`}>{score}</span>}
     </div>
   );
 }
@@ -61,8 +62,9 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
             </h2>
             <div className="space-y-2.5">
               {matches.map((m, matchIdx) => {
-                const homeWin = m.result === "win";
-                const awayWin = m.result === "loss";
+                const scheduled = m.status === "scheduled";
+                const homeWin = !scheduled && m.result === "win";
+                const awayWin = !scheduled && m.result === "loss";
                 const penNote = m.penaltyShootout
                   ? ` · 승부차기 ${m.result === "win" ? m.homePenalties : m.awayPenalties}-${
                       m.result === "win" ? m.awayPenalties : m.homePenalties
@@ -75,12 +77,11 @@ export default async function BracketPage({ params }: { params: Promise<{ year: 
                     className="kx-slide block rounded-lg border border-line bg-panel p-2.5 transition-colors hover:border-korea"
                     style={{ animationDelay: `${(roundIdx * matches.length + matchIdx) * 0.05}s` }}
                   >
-                    <TeamRow team={m.home} score={m.homeScore} win={homeWin} />
+                    <TeamRow team={m.home} score={m.homeScore} win={homeWin} scheduled={scheduled} />
                     <div className="my-1 border-t border-line" />
-                    <TeamRow team={m.away} score={m.awayScore} win={awayWin} />
+                    <TeamRow team={m.away} score={m.awayScore} win={awayWin} scheduled={scheduled} />
                     <p className="text-muted-dim text-[11px] mt-1.5 leading-tight">
-                      {m.date}
-                      {penNote}
+                      {scheduled && m.kickoffUtc ? `${toKstLabel(m.kickoffUtc)} · 예정` : `${m.date}${penNote}`}
                     </p>
                   </Link>
                 );
