@@ -23738,7 +23738,7 @@
   {
     "id": "M-2026-59",
     "slug": "algeria-vs-austria",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-28T02:00:00Z",
@@ -23761,8 +23761,8 @@
       "code": "AUT",
       "nameKo": "오스트리아"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 3,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
@@ -23779,7 +23779,7 @@
   {
     "id": "M-2026-60",
     "slug": "jordan-vs-argentina",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-28T02:00:00Z",
@@ -23802,12 +23802,12 @@
       "code": "ARG",
       "nameKo": "아르헨티나"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 3,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -25716,7 +25716,7 @@
   {
     "id": "M-2026-65",
     "slug": "colombia-vs-portugal",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-27T23:30:00Z",
@@ -25757,7 +25757,7 @@
   {
     "id": "M-2026-66",
     "slug": "dr-congo-vs-uzbekistan",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-28",
     "time": "",
     "kickoffUtc": "2026-06-27T23:30:00Z",
@@ -25780,12 +25780,12 @@
       "code": "UZB",
       "nameKo": "우즈베키스탄"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
