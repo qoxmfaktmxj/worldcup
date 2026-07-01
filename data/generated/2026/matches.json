@@ -27873,7 +27873,7 @@
   {
     "id": "M-2026-K04",
     "slug": "netherlands-vs-morocco",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-06-30",
     "time": "",
     "kickoffUtc": "2026-06-30T01:00:00Z",
@@ -27896,12 +27896,12 @@
       "code": "MAR",
       "nameKo": "모로코"
     },
-    "homeScore": 0,
-    "awayScore": 0,
-    "penaltyShootout": false,
-    "homePenalties": 0,
-    "awayPenalties": 0,
-    "result": "draw",
+    "homeScore": 1,
+    "awayScore": 1,
+    "penaltyShootout": true,
+    "homePenalties": 2,
+    "awayPenalties": 3,
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -27914,7 +27914,7 @@
   {
     "id": "M-2026-K05",
     "slug": "ivory-coast-vs-norway",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-01",
     "time": "",
     "kickoffUtc": "2026-06-30T17:00:00Z",
@@ -27937,12 +27937,12 @@
       "code": "NOR",
       "nameKo": "노르웨이"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
@@ -27955,7 +27955,7 @@
   {
     "id": "M-2026-K06",
     "slug": "france-vs-sweden",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-01",
     "time": "",
     "kickoffUtc": "2026-06-30T21:00:00Z",
@@ -27978,12 +27978,12 @@
       "code": "SWE",
       "nameKo": "스웨덴"
     },
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []

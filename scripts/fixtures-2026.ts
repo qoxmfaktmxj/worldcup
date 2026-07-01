@@ -156,9 +156,10 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 32", kickoffUtc: "2026-06-29T17:00:00Z", home: "Brazil", away: "Japan", homeScore: 2, awayScore: 1, venueId: "houston" },
   // Germany 1-1 Paraguay (Paraguay advance 4-3 on penalties)
   { stage: "round of 32", kickoffUtc: "2026-06-29T20:30:00Z", home: "Germany", away: "Paraguay", homeScore: 1, awayScore: 1, venueId: "foxborough", homePens: 3, awayPens: 4 },
-  { stage: "round of 32", kickoffUtc: "2026-06-30T01:00:00Z", home: "Netherlands", away: "Morocco", homeScore: null, awayScore: null, venueId: "bbva" },
-  { stage: "round of 32", kickoffUtc: "2026-06-30T17:00:00Z", home: "Ivory Coast", away: "Norway", homeScore: null, awayScore: null, venueId: "arlington" },
-  { stage: "round of 32", kickoffUtc: "2026-06-30T21:00:00Z", home: "France", away: "Sweden", homeScore: null, awayScore: null, venueId: "eastrutherford" },
+  // Netherlands 1-1 Morocco (Morocco advance 3-2 on penalties)
+  { stage: "round of 32", kickoffUtc: "2026-06-30T01:00:00Z", home: "Netherlands", away: "Morocco", homeScore: 1, awayScore: 1, venueId: "bbva", homePens: 2, awayPens: 3 },
+  { stage: "round of 32", kickoffUtc: "2026-06-30T17:00:00Z", home: "Ivory Coast", away: "Norway", homeScore: 1, awayScore: 2, venueId: "arlington" },
+  { stage: "round of 32", kickoffUtc: "2026-06-30T21:00:00Z", home: "France", away: "Sweden", homeScore: 3, awayScore: 0, venueId: "eastrutherford" },
   { stage: "round of 32", kickoffUtc: "2026-07-01T01:00:00Z", home: "Mexico", away: "Ecuador", homeScore: null, awayScore: null, venueId: "azteca" },
   { stage: "round of 32", kickoffUtc: "2026-07-01T16:00:00Z", home: "England", away: "DR Congo", homeScore: null, awayScore: null, venueId: "atlanta" },
   { stage: "round of 32", kickoffUtc: "2026-07-01T20:00:00Z", home: "Belgium", away: "Senegal", homeScore: null, awayScore: null, venueId: "seattle" },
