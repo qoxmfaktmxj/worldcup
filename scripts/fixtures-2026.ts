@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-06-30). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-07-02). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -137,7 +137,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
 
 // Knockout fixtures (group_name = not applicable). Scores null until played; a
 // penalty shootout carries homePens/awayPens (regulation score stays in
-// homeScore/awayScore). Verified from official sources, asOf 2026-06-30.
+// homeScore/awayScore). Verified from official sources, asOf 2026-07-02.
 export interface KnockoutFixture {
   stage: string;
   kickoffUtc: string;
@@ -164,7 +164,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 32", kickoffUtc: "2026-07-01T16:00:00Z", home: "England", away: "DR Congo", homeScore: 2, awayScore: 1, venueId: "atlanta" },
   // Belgium 3-2 Senegal (AET; Tielemans penalty in 125' won it, no shootout)
   { stage: "round of 32", kickoffUtc: "2026-07-01T20:00:00Z", home: "Belgium", away: "Senegal", homeScore: 3, awayScore: 2, venueId: "seattle" },
-  { stage: "round of 32", kickoffUtc: "2026-07-02T00:00:00Z", home: "United States", away: "Bosnia and Herzegovina", homeScore: null, awayScore: null, venueId: "santaclara" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T00:00:00Z", home: "United States", away: "Bosnia and Herzegovina", homeScore: 2, awayScore: 0, venueId: "santaclara" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T19:00:00Z", home: "Spain", away: "Austria", homeScore: null, awayScore: null, venueId: "inglewood" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T23:00:00Z", home: "Portugal", away: "Croatia", homeScore: null, awayScore: null, venueId: "toronto" },
   { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: null, awayScore: null, venueId: "vancouver" },

@@ -28119,7 +28119,7 @@
   {
     "id": "M-2026-K10",
     "slug": "united-states-vs-bosnia-and-herzegovina",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-02",
     "time": "",
     "kickoffUtc": "2026-07-02T00:00:00Z",
@@ -28142,12 +28142,12 @@
       "code": "BIH",
       "nameKo": "보스니아 헤르체고비나"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
