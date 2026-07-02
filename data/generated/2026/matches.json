@@ -27996,7 +27996,7 @@
   {
     "id": "M-2026-K07",
     "slug": "mexico-vs-ecuador",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-01",
     "time": "",
     "kickoffUtc": "2026-07-01T01:00:00Z",
@@ -28019,12 +28019,12 @@
       "code": "ECU",
       "nameKo": "에콰도르"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -28037,7 +28037,7 @@
   {
     "id": "M-2026-K08",
     "slug": "england-vs-dr-congo",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-02",
     "time": "",
     "kickoffUtc": "2026-07-01T16:00:00Z",
@@ -28060,12 +28060,12 @@
       "code": "COD",
       "nameKo": "콩고민주공화국"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -28078,7 +28078,7 @@
   {
     "id": "M-2026-K09",
     "slug": "belgium-vs-senegal",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-02",
     "time": "",
     "kickoffUtc": "2026-07-01T20:00:00Z",
@@ -28101,12 +28101,12 @@
       "code": "SEN",
       "nameKo": "세네갈"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
