@@ -165,7 +165,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   // Belgium 3-2 Senegal (AET; Tielemans penalty in 125' won it, no shootout)
   { stage: "round of 32", kickoffUtc: "2026-07-01T20:00:00Z", home: "Belgium", away: "Senegal", homeScore: 3, awayScore: 2, venueId: "seattle" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T00:00:00Z", home: "United States", away: "Bosnia and Herzegovina", homeScore: 2, awayScore: 0, venueId: "santaclara" },
-  { stage: "round of 32", kickoffUtc: "2026-07-02T19:00:00Z", home: "Spain", away: "Austria", homeScore: null, awayScore: null, venueId: "inglewood" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T19:00:00Z", home: "Spain", away: "Austria", homeScore: 3, awayScore: 0, venueId: "inglewood" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T23:00:00Z", home: "Portugal", away: "Croatia", homeScore: null, awayScore: null, venueId: "toronto" },
   { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: null, awayScore: null, venueId: "vancouver" },
   { stage: "round of 32", kickoffUtc: "2026-07-03T18:00:00Z", home: "Australia", away: "Egypt", homeScore: null, awayScore: null, venueId: "arlington" },

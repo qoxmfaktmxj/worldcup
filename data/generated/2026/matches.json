@@ -28160,7 +28160,7 @@
   {
     "id": "M-2026-K11",
     "slug": "spain-vs-austria",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-03",
     "time": "",
     "kickoffUtc": "2026-07-02T19:00:00Z",
@@ -28183,12 +28183,12 @@
       "code": "AUT",
       "nameKo": "오스트리아"
     },
-    "homeScore": 0,
+    "homeScore": 3,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
