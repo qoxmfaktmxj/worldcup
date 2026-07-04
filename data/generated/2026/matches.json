@@ -28201,7 +28201,7 @@
   {
     "id": "M-2026-K12",
     "slug": "portugal-vs-croatia",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-03",
     "time": "",
     "kickoffUtc": "2026-07-02T23:00:00Z",
@@ -28224,12 +28224,12 @@
       "code": "CRO",
       "nameKo": "크로아티아"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -28242,7 +28242,7 @@
   {
     "id": "M-2026-K13",
     "slug": "switzerland-vs-algeria",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-03",
     "time": "",
     "kickoffUtc": "2026-07-03T03:00:00Z",
@@ -28265,12 +28265,12 @@
       "code": "ALG",
       "nameKo": "알제리"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -28283,7 +28283,7 @@
   {
     "id": "M-2026-K14",
     "slug": "australia-vs-egypt",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-04",
     "time": "",
     "kickoffUtc": "2026-07-03T18:00:00Z",
@@ -28306,12 +28306,12 @@
       "code": "EGY",
       "nameKo": "이집트"
     },
-    "homeScore": 0,
-    "awayScore": 0,
-    "penaltyShootout": false,
-    "homePenalties": 0,
-    "awayPenalties": 0,
-    "result": "draw",
+    "homeScore": 1,
+    "awayScore": 1,
+    "penaltyShootout": true,
+    "homePenalties": 2,
+    "awayPenalties": 4,
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []

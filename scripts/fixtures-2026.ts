@@ -166,9 +166,10 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 32", kickoffUtc: "2026-07-01T20:00:00Z", home: "Belgium", away: "Senegal", homeScore: 3, awayScore: 2, venueId: "seattle" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T00:00:00Z", home: "United States", away: "Bosnia and Herzegovina", homeScore: 2, awayScore: 0, venueId: "santaclara" },
   { stage: "round of 32", kickoffUtc: "2026-07-02T19:00:00Z", home: "Spain", away: "Austria", homeScore: 3, awayScore: 0, venueId: "inglewood" },
-  { stage: "round of 32", kickoffUtc: "2026-07-02T23:00:00Z", home: "Portugal", away: "Croatia", homeScore: null, awayScore: null, venueId: "toronto" },
-  { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: null, awayScore: null, venueId: "vancouver" },
-  { stage: "round of 32", kickoffUtc: "2026-07-03T18:00:00Z", home: "Australia", away: "Egypt", homeScore: null, awayScore: null, venueId: "arlington" },
+  { stage: "round of 32", kickoffUtc: "2026-07-02T23:00:00Z", home: "Portugal", away: "Croatia", homeScore: 2, awayScore: 1, venueId: "toronto" },
+  { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: 2, awayScore: 0, venueId: "vancouver" },
+  // Australia 1-1 Egypt (Egypt advance 4-2 on penalties)
+  { stage: "round of 32", kickoffUtc: "2026-07-03T18:00:00Z", home: "Australia", away: "Egypt", homeScore: 1, awayScore: 1, venueId: "arlington", homePens: 2, awayPens: 4 },
   { stage: "round of 32", kickoffUtc: "2026-07-03T22:00:00Z", home: "Argentina", away: "Cape Verde", homeScore: null, awayScore: null, venueId: "miami" },
   { stage: "round of 32", kickoffUtc: "2026-07-04T01:30:00Z", home: "Colombia", away: "Ghana", homeScore: null, awayScore: null, venueId: "kansascity" },
 ];
