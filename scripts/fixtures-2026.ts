@@ -170,6 +170,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 32", kickoffUtc: "2026-07-03T03:00:00Z", home: "Switzerland", away: "Algeria", homeScore: 2, awayScore: 0, venueId: "vancouver" },
   // Australia 1-1 Egypt (Egypt advance 4-2 on penalties)
   { stage: "round of 32", kickoffUtc: "2026-07-03T18:00:00Z", home: "Australia", away: "Egypt", homeScore: 1, awayScore: 1, venueId: "arlington", homePens: 2, awayPens: 4 },
-  { stage: "round of 32", kickoffUtc: "2026-07-03T22:00:00Z", home: "Argentina", away: "Cape Verde", homeScore: null, awayScore: null, venueId: "miami" },
-  { stage: "round of 32", kickoffUtc: "2026-07-04T01:30:00Z", home: "Colombia", away: "Ghana", homeScore: null, awayScore: null, venueId: "kansascity" },
+  // Argentina 3-2 Cape Verde (AET; Romero header won it, no shootout)
+  { stage: "round of 32", kickoffUtc: "2026-07-03T22:00:00Z", home: "Argentina", away: "Cape Verde", homeScore: 3, awayScore: 2, venueId: "miami" },
+  { stage: "round of 32", kickoffUtc: "2026-07-04T01:30:00Z", home: "Colombia", away: "Ghana", homeScore: 1, awayScore: 0, venueId: "kansascity" },
 ];

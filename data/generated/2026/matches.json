@@ -28324,7 +28324,7 @@
   {
     "id": "M-2026-K15",
     "slug": "argentina-vs-cape-verde",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-04",
     "time": "",
     "kickoffUtc": "2026-07-03T22:00:00Z",
@@ -28347,12 +28347,12 @@
       "code": "CPV",
       "nameKo": "카보베르데"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
@@ -28365,7 +28365,7 @@
   {
     "id": "M-2026-K16",
     "slug": "colombia-vs-ghana",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-04",
     "time": "",
     "kickoffUtc": "2026-07-04T01:30:00Z",
@@ -28388,12 +28388,12 @@
       "code": "GHA",
       "nameKo": "가나"
     },
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
