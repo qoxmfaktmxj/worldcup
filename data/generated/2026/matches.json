@@ -28402,5 +28402,87 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K17",
+    "slug": "morocco-vs-canada",
+    "status": "finished",
+    "date": "2026-07-05",
+    "time": "",
+    "kickoffUtc": "2026-07-04T17:00:00Z",
+    "venueId": "houston",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-MAR",
+      "name": "Morocco",
+      "code": "MAR",
+      "nameKo": "모로코"
+    },
+    "away": {
+      "id": "T-CAN",
+      "name": "Canada",
+      "code": "CAN",
+      "nameKo": "캐나다"
+    },
+    "homeScore": 3,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K18",
+    "slug": "france-vs-paraguay",
+    "status": "finished",
+    "date": "2026-07-05",
+    "time": "",
+    "kickoffUtc": "2026-07-04T21:00:00Z",
+    "venueId": "philadelphia",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-FRA",
+      "name": "France",
+      "code": "FRA",
+      "nameKo": "프랑스"
+    },
+    "away": {
+      "id": "T-PAR",
+      "name": "Paraguay",
+      "code": "PAR",
+      "nameKo": "파라과이"
+    },
+    "homeScore": 1,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]

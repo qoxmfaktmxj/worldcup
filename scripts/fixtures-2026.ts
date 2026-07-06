@@ -173,4 +173,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   // Argentina 3-2 Cape Verde (AET; Romero header won it, no shootout)
   { stage: "round of 32", kickoffUtc: "2026-07-03T22:00:00Z", home: "Argentina", away: "Cape Verde", homeScore: 3, awayScore: 2, venueId: "miami" },
   { stage: "round of 32", kickoffUtc: "2026-07-04T01:30:00Z", home: "Colombia", away: "Ghana", homeScore: 1, awayScore: 0, venueId: "kansascity" },
+  // Round of 16 (7/4–7/7)
+  { stage: "round of 16", kickoffUtc: "2026-07-04T17:00:00Z", home: "Morocco", away: "Canada", homeScore: 3, awayScore: 0, venueId: "houston" },
+  { stage: "round of 16", kickoffUtc: "2026-07-04T21:00:00Z", home: "France", away: "Paraguay", homeScore: 1, awayScore: 0, venueId: "philadelphia" },
 ];
