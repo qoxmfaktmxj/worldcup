@@ -176,4 +176,6 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   // Round of 16 (7/4–7/7)
   { stage: "round of 16", kickoffUtc: "2026-07-04T17:00:00Z", home: "Morocco", away: "Canada", homeScore: 3, awayScore: 0, venueId: "houston" },
   { stage: "round of 16", kickoffUtc: "2026-07-04T21:00:00Z", home: "France", away: "Paraguay", homeScore: 1, awayScore: 0, venueId: "philadelphia" },
+  { stage: "round of 16", kickoffUtc: "2026-07-05T20:00:00Z", home: "Brazil", away: "Norway", homeScore: 1, awayScore: 2, venueId: "eastrutherford" },
+  { stage: "round of 16", kickoffUtc: "2026-07-06T00:00:00Z", home: "Mexico", away: "England", homeScore: 2, awayScore: 3, venueId: "azteca" },
 ];

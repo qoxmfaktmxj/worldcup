@@ -28484,5 +28484,87 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K19",
+    "slug": "brazil-vs-norway",
+    "status": "finished",
+    "date": "2026-07-06",
+    "time": "",
+    "kickoffUtc": "2026-07-05T20:00:00Z",
+    "venueId": "eastrutherford",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-BRA",
+      "name": "Brazil",
+      "code": "BRA",
+      "nameKo": "브라질"
+    },
+    "away": {
+      "id": "T-NOR",
+      "name": "Norway",
+      "code": "NOR",
+      "nameKo": "노르웨이"
+    },
+    "homeScore": 1,
+    "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "loss",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K20",
+    "slug": "mexico-vs-england",
+    "status": "finished",
+    "date": "2026-07-06",
+    "time": "",
+    "kickoffUtc": "2026-07-06T00:00:00Z",
+    "venueId": "azteca",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-MEX",
+      "name": "Mexico",
+      "code": "MEX",
+      "nameKo": "멕시코"
+    },
+    "away": {
+      "id": "T-ENG",
+      "name": "England",
+      "code": "ENG",
+      "nameKo": "잉글랜드"
+    },
+    "homeScore": 2,
+    "awayScore": 3,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "loss",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]
