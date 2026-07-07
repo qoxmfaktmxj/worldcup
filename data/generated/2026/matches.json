@@ -28566,5 +28566,87 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K21",
+    "slug": "portugal-vs-spain",
+    "status": "finished",
+    "date": "2026-07-07",
+    "time": "",
+    "kickoffUtc": "2026-07-06T19:00:00Z",
+    "venueId": "arlington",
+    "stadium": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-POR",
+      "name": "Portugal",
+      "code": "POR",
+      "nameKo": "포르투갈"
+    },
+    "away": {
+      "id": "T-ESP",
+      "name": "Spain",
+      "code": "ESP",
+      "nameKo": "스페인"
+    },
+    "homeScore": 0,
+    "awayScore": 1,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "loss",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K22",
+    "slug": "united-states-vs-belgium",
+    "status": "finished",
+    "date": "2026-07-07",
+    "time": "",
+    "kickoffUtc": "2026-07-07T00:00:00Z",
+    "venueId": "seattle",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-USA",
+      "name": "United States",
+      "code": "USA",
+      "nameKo": "미국"
+    },
+    "away": {
+      "id": "T-BEL",
+      "name": "Belgium",
+      "code": "BEL",
+      "nameKo": "벨기에"
+    },
+    "homeScore": 1,
+    "awayScore": 4,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "loss",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]
