@@ -1,6 +1,6 @@
 /**
  * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-07-02). 12 groups × 6 = 72 fixtures.
+ * official sources, asOf 2026-07-08). 12 groups × 6 = 72 fixtures.
  * Knockout (round of 32+) is omitted while teams are undetermined (group stage
  * in progress). Re-run collection to refresh scores / add knockout once known.
  *
@@ -137,7 +137,7 @@ export const FIXTURES_2026: FixtureTuple[] = [
 
 // Knockout fixtures (group_name = not applicable). Scores null until played; a
 // penalty shootout carries homePens/awayPens (regulation score stays in
-// homeScore/awayScore). Verified from official sources, asOf 2026-07-02.
+// homeScore/awayScore). Verified from official sources, asOf 2026-07-08.
 export interface KnockoutFixture {
   stage: string;
   kickoffUtc: string;
@@ -183,4 +183,9 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 16", kickoffUtc: "2026-07-07T16:00:00Z", home: "Argentina", away: "Egypt", homeScore: 3, awayScore: 2, venueId: "atlanta" },
   // Switzerland 0-0 Colombia (Switzerland advance 4-3 on penalties)
   { stage: "round of 16", kickoffUtc: "2026-07-07T20:00:00Z", home: "Switzerland", away: "Colombia", homeScore: 0, awayScore: 0, venueId: "vancouver", homePens: 4, awayPens: 3 },
+  // Quarter-finals (7/9–7/11) — bracket pairs R16 winners
+  { stage: "quarter-finals", kickoffUtc: "2026-07-09T20:00:00Z", home: "France", away: "Morocco", homeScore: null, awayScore: null, venueId: "foxborough" },
+  { stage: "quarter-finals", kickoffUtc: "2026-07-10T19:00:00Z", home: "Spain", away: "Belgium", homeScore: null, awayScore: null, venueId: "inglewood" },
+  { stage: "quarter-finals", kickoffUtc: "2026-07-11T21:00:00Z", home: "England", away: "Norway", homeScore: null, awayScore: null, venueId: "miami" },
+  { stage: "quarter-finals", kickoffUtc: "2026-07-12T01:00:00Z", home: "Argentina", away: "Switzerland", homeScore: null, awayScore: null, venueId: "kansascity" },
 ];

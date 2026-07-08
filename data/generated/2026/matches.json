@@ -28730,5 +28730,169 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K25",
+    "slug": "france-vs-morocco",
+    "status": "scheduled",
+    "date": "2026-07-10",
+    "time": "",
+    "kickoffUtc": "2026-07-09T20:00:00Z",
+    "venueId": "foxborough",
+    "stadium": "Gillette Stadium",
+    "city": "Foxborough",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "quarter-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-FRA",
+      "name": "France",
+      "code": "FRA",
+      "nameKo": "프랑스"
+    },
+    "away": {
+      "id": "T-MAR",
+      "name": "Morocco",
+      "code": "MAR",
+      "nameKo": "모로코"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K26",
+    "slug": "spain-vs-belgium",
+    "status": "scheduled",
+    "date": "2026-07-11",
+    "time": "",
+    "kickoffUtc": "2026-07-10T19:00:00Z",
+    "venueId": "inglewood",
+    "stadium": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "quarter-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-ESP",
+      "name": "Spain",
+      "code": "ESP",
+      "nameKo": "스페인"
+    },
+    "away": {
+      "id": "T-BEL",
+      "name": "Belgium",
+      "code": "BEL",
+      "nameKo": "벨기에"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K27",
+    "slug": "england-vs-norway",
+    "status": "scheduled",
+    "date": "2026-07-12",
+    "time": "",
+    "kickoffUtc": "2026-07-11T21:00:00Z",
+    "venueId": "miami",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami Gardens",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "quarter-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-ENG",
+      "name": "England",
+      "code": "ENG",
+      "nameKo": "잉글랜드"
+    },
+    "away": {
+      "id": "T-NOR",
+      "name": "Norway",
+      "code": "NOR",
+      "nameKo": "노르웨이"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K28",
+    "slug": "argentina-vs-switzerland",
+    "status": "scheduled",
+    "date": "2026-07-12",
+    "time": "",
+    "kickoffUtc": "2026-07-12T01:00:00Z",
+    "venueId": "kansascity",
+    "stadium": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "quarter-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-ARG",
+      "name": "Argentina",
+      "code": "ARG",
+      "nameKo": "아르헨티나"
+    },
+    "away": {
+      "id": "T-SUI",
+      "name": "Switzerland",
+      "code": "SUI",
+      "nameKo": "스위스"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]
