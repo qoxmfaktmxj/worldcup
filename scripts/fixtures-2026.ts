@@ -180,4 +180,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "round of 16", kickoffUtc: "2026-07-06T00:00:00Z", home: "Mexico", away: "England", homeScore: 2, awayScore: 3, venueId: "azteca" },
   { stage: "round of 16", kickoffUtc: "2026-07-06T19:00:00Z", home: "Portugal", away: "Spain", homeScore: 0, awayScore: 1, venueId: "arlington" },
   { stage: "round of 16", kickoffUtc: "2026-07-07T00:00:00Z", home: "United States", away: "Belgium", homeScore: 1, awayScore: 4, venueId: "seattle" },
+  { stage: "round of 16", kickoffUtc: "2026-07-07T16:00:00Z", home: "Argentina", away: "Egypt", homeScore: 3, awayScore: 2, venueId: "atlanta" },
+  // Switzerland 0-0 Colombia (Switzerland advance 4-3 on penalties)
+  { stage: "round of 16", kickoffUtc: "2026-07-07T20:00:00Z", home: "Switzerland", away: "Colombia", homeScore: 0, awayScore: 0, venueId: "vancouver", homePens: 4, awayPens: 3 },
 ];

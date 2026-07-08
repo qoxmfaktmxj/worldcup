@@ -28648,5 +28648,87 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K23",
+    "slug": "argentina-vs-egypt",
+    "status": "finished",
+    "date": "2026-07-08",
+    "time": "",
+    "kickoffUtc": "2026-07-07T16:00:00Z",
+    "venueId": "atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-ARG",
+      "name": "Argentina",
+      "code": "ARG",
+      "nameKo": "아르헨티나"
+    },
+    "away": {
+      "id": "T-EGY",
+      "name": "Egypt",
+      "code": "EGY",
+      "nameKo": "이집트"
+    },
+    "homeScore": 3,
+    "awayScore": 2,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K24",
+    "slug": "switzerland-vs-colombia",
+    "status": "finished",
+    "date": "2026-07-08",
+    "time": "",
+    "kickoffUtc": "2026-07-07T20:00:00Z",
+    "venueId": "vancouver",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "group": "not applicable",
+    "stage": "round of 16",
+    "groupStage": false,
+    "home": {
+      "id": "T-SUI",
+      "name": "Switzerland",
+      "code": "SUI",
+      "nameKo": "스위스"
+    },
+    "away": {
+      "id": "T-COL",
+      "name": "Colombia",
+      "code": "COL",
+      "nameKo": "콜롬비아"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": true,
+    "homePenalties": 4,
+    "awayPenalties": 3,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]
