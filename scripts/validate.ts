@@ -78,6 +78,21 @@ async function main() {
       )
     }
 
+    const expectedQuarterFinals = [
+      ['2026-07-09T20:00:00Z', 'France', 'Morocco'],
+      ['2026-07-10T19:00:00Z', 'Spain', 'Belgium'],
+      ['2026-07-11T21:00:00Z', 'Norway', 'England'],
+      ['2026-07-12T01:00:00Z', 'Argentina', 'Switzerland'],
+    ] as const
+    for (const [kickoffUtc, home, away] of expectedQuarterFinals) {
+      const qf = knockout.find((m) => m.stage === 'quarter-finals' && m.kickoffUtc === kickoffUtc)
+      assert(!!qf, `quarter-final ${kickoffUtc}: missing fixture`)
+      assert(
+        qf?.home.name === home && qf?.away.name === away,
+        `quarter-final ${kickoffUtc}: expected ${home} vs ${away}, got ${qf?.home.name} vs ${qf?.away.name}`,
+      )
+    }
+
     // Each team appears in exactly 3 GROUP matches (knockout is single-elim)
     const appearances = new Map<string, number>()
     for (const m of group) {

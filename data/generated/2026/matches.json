@@ -28815,7 +28815,7 @@
   },
   {
     "id": "M-2026-K27",
-    "slug": "england-vs-norway",
+    "slug": "norway-vs-england",
     "status": "scheduled",
     "date": "2026-07-12",
     "time": "",
@@ -28828,16 +28828,16 @@
     "stage": "quarter-finals",
     "groupStage": false,
     "home": {
-      "id": "T-ENG",
-      "name": "England",
-      "code": "ENG",
-      "nameKo": "잉글랜드"
-    },
-    "away": {
       "id": "T-NOR",
       "name": "Norway",
       "code": "NOR",
       "nameKo": "노르웨이"
+    },
+    "away": {
+      "id": "T-ENG",
+      "name": "England",
+      "code": "ENG",
+      "nameKo": "잉글랜드"
     },
     "homeScore": 0,
     "awayScore": 0,
