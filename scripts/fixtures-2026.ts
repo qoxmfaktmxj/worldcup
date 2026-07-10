@@ -184,7 +184,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   // Switzerland 0-0 Colombia (Switzerland advance 4-3 on penalties)
   { stage: "round of 16", kickoffUtc: "2026-07-07T20:00:00Z", home: "Switzerland", away: "Colombia", homeScore: 0, awayScore: 0, venueId: "vancouver", homePens: 4, awayPens: 3 },
   // Quarter-finals (7/9–7/11) — bracket pairs R16 winners
-  { stage: "quarter-finals", kickoffUtc: "2026-07-09T20:00:00Z", home: "France", away: "Morocco", homeScore: null, awayScore: null, venueId: "foxborough" },
+  { stage: "quarter-finals", kickoffUtc: "2026-07-09T20:00:00Z", home: "France", away: "Morocco", homeScore: 2, awayScore: 0, venueId: "foxborough" },
   { stage: "quarter-finals", kickoffUtc: "2026-07-10T19:00:00Z", home: "Spain", away: "Belgium", homeScore: null, awayScore: null, venueId: "inglewood" },
   { stage: "quarter-finals", kickoffUtc: "2026-07-11T21:00:00Z", home: "Norway", away: "England", homeScore: null, awayScore: null, venueId: "miami" },
   { stage: "quarter-finals", kickoffUtc: "2026-07-12T01:00:00Z", home: "Argentina", away: "Switzerland", homeScore: null, awayScore: null, venueId: "kansascity" },

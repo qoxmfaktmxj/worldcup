@@ -28734,7 +28734,7 @@
   {
     "id": "M-2026-K25",
     "slug": "france-vs-morocco",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-10",
     "time": "",
     "kickoffUtc": "2026-07-09T20:00:00Z",
@@ -28757,12 +28757,12 @@
       "code": "MAR",
       "nameKo": "모로코"
     },
-    "homeScore": 0,
+    "homeScore": 2,
     "awayScore": 0,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
