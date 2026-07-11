@@ -28775,7 +28775,7 @@
   {
     "id": "M-2026-K26",
     "slug": "spain-vs-belgium",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-11",
     "time": "",
     "kickoffUtc": "2026-07-10T19:00:00Z",
@@ -28798,12 +28798,12 @@
       "code": "BEL",
       "nameKo": "벨기에"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 2,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
