@@ -28816,7 +28816,7 @@
   {
     "id": "M-2026-K27",
     "slug": "norway-vs-england",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-12",
     "time": "",
     "kickoffUtc": "2026-07-11T21:00:00Z",
@@ -28839,12 +28839,12 @@
       "code": "ENG",
       "nameKo": "잉글랜드"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
