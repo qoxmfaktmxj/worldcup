@@ -28857,7 +28857,7 @@
   {
     "id": "M-2026-K28",
     "slug": "argentina-vs-switzerland",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-12",
     "time": "",
     "kickoffUtc": "2026-07-12T01:00:00Z",
@@ -28880,12 +28880,12 @@
       "code": "SUI",
       "nameKo": "스위스"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 3,
+    "awayScore": 1,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "win",
     "lineups": {
       "home": [],
       "away": []
