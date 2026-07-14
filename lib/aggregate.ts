@@ -182,14 +182,29 @@ export function getPlayer(matches: Match[], slug: string): Player | undefined {
   return buildPlayers(matches).find((p) => p.slug === slug);
 }
 
+// Non-contiguous tiers leave room for both 64-team (2002~2022) and 48-team
+// (2026, knockout from a round of 32) formats. "4강" only appears while a
+// third-place match is missing (mid-tournament) — complete archives resolve
+// SF losers to 3위/4위 via the third-place match.
 const FINISH: Record<number, string> = {
-  7: "우승",
-  6: "준우승",
-  5: "3위",
-  4: "4위",
-  3: "8강",
-  2: "16강",
+  10: "우승",
+  9: "준우승",
+  8: "3위",
+  7: "4위",
+  6: "4강",
+  5: "8강",
+  4: "16강",
+  3: "32강",
   1: "조별리그",
+};
+
+// Deepest knockout stage reached → tier (for teams not resolved by the final
+// or third-place match).
+const STAGE_TIER: Record<string, number> = {
+  "semi-finals": 6,
+  "quarter-finals": 5,
+  "round of 16": 4,
+  "round of 32": 3,
 };
 
 export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
@@ -204,7 +219,9 @@ export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
     return a;
   };
   // Per-match aggregate. Penalty-decided knockout games count as draws (FIFA convention).
+  // Scheduled matches carry placeholder 0:0 — never count them.
   for (const m of matches) {
+    if (m.status !== "finished") continue;
     const h = get(m.home);
     const a = get(m.away);
     h.played++; a.played++;
@@ -221,12 +238,9 @@ export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
   const tier = new Map<string, number>();
   const finalM = matches.find((m) => m.stage === "final");
   const thirdM = matches.find((m) => m.stage === "third-place match");
-  if (finalM) { tier.set(winnerOf(finalM).id, 7); tier.set(loserOf(finalM).id, 6); }
-  if (thirdM) { tier.set(winnerOf(thirdM).id, 5); tier.set(loserOf(thirdM).id, 4); }
+  if (finalM) { tier.set(winnerOf(finalM).id, 10); tier.set(loserOf(finalM).id, 9); }
+  if (thirdM) { tier.set(winnerOf(thirdM).id, 8); tier.set(loserOf(thirdM).id, 7); }
 
-  const stageRank: Record<string, number> = {
-    final: 5, "semi-finals": 4, "quarter-finals": 3, "round of 16": 2,
-  };
   const koByTeam = new Map<string, Match[]>();
   for (const m of matches) {
     if (m.groupStage) continue;
@@ -240,8 +254,8 @@ export function buildFinalRanking(matches: Match[]): FinalRankRow[] {
     if (tier.has(id)) continue;
     const ko = koByTeam.get(id);
     if (!ko?.length) { tier.set(id, 1); continue; }
-    const deepest = ko.reduce((d, m) => ((stageRank[m.stage] ?? 0) > (stageRank[d.stage] ?? 0) ? m : d), ko[0]);
-    tier.set(id, deepest.stage === "quarter-finals" ? 3 : 2);
+    const deepest = ko.reduce((d, m) => ((STAGE_TIER[m.stage] ?? 0) > (STAGE_TIER[d.stage] ?? 0) ? m : d), ko[0]);
+    tier.set(id, STAGE_TIER[deepest.stage] ?? 1);
   }
 
   const rows = [...agg.values()].map((a) => ({

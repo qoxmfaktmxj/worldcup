@@ -18,7 +18,7 @@
         "ga": 0,
         "gd": 6,
         "points": 9,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -36,7 +36,7 @@
         "ga": 3,
         "gd": -1,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -95,7 +95,7 @@
         "ga": 3,
         "gd": 4,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -113,7 +113,7 @@
         "ga": 3,
         "gd": 5,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -131,7 +131,7 @@
         "ga": 6,
         "gd": -1,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -172,7 +172,7 @@
         "ga": 1,
         "gd": 6,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -190,7 +190,7 @@
         "ga": 3,
         "gd": 2,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -249,7 +249,7 @@
         "ga": 4,
         "gd": 4,
         "points": 6,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -267,7 +267,7 @@
         "ga": 2,
         "gd": 0,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -285,7 +285,7 @@
         "ga": 4,
         "gd": -2,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -326,7 +326,7 @@
         "ga": 4,
         "gd": 6,
         "points": 6,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -344,7 +344,7 @@
         "ga": 2,
         "gd": 2,
         "points": 6,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -362,7 +362,7 @@
         "ga": 2,
         "gd": 0,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -403,7 +403,7 @@
         "ga": 4,
         "gd": 6,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -421,7 +421,7 @@
         "ga": 3,
         "gd": 4,
         "points": 5,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -439,7 +439,7 @@
         "ga": 7,
         "gd": 0,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -480,7 +480,7 @@
         "ga": 2,
         "gd": 4,
         "points": 5,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -498,7 +498,7 @@
         "ga": 3,
         "gd": 2,
         "points": 5,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -557,7 +557,7 @@
         "ga": 0,
         "gd": 5,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -575,7 +575,7 @@
         "ga": 2,
         "gd": 0,
         "points": 3,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -634,7 +634,7 @@
         "ga": 2,
         "gd": 8,
         "points": 9,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -652,7 +652,7 @@
         "ga": 7,
         "gd": 1,
         "points": 6,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -670,7 +670,7 @@
         "ga": 6,
         "gd": 2,
         "points": 3,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -711,7 +711,7 @@
         "ga": 1,
         "gd": 7,
         "points": 9,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -729,7 +729,7 @@
         "ga": 6,
         "gd": 0,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -747,7 +747,7 @@
         "ga": 7,
         "gd": -2,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -788,7 +788,7 @@
         "ga": 1,
         "gd": 3,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -806,7 +806,7 @@
         "ga": 1,
         "gd": 5,
         "points": 5,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -824,7 +824,7 @@
         "ga": 3,
         "gd": 1,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,
@@ -865,7 +865,7 @@
         "ga": 2,
         "gd": 4,
         "points": 7,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 2,
@@ -883,7 +883,7 @@
         "ga": 5,
         "gd": 0,
         "points": 6,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 3,
@@ -901,7 +901,7 @@
         "ga": 2,
         "gd": 0,
         "points": 4,
-        "advanced": false
+        "advanced": true
       },
       {
         "position": 4,

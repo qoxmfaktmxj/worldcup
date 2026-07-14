@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { teamSlug, groupSlug, playerSlug, buildPlayers, buildTeamView, buildSearchIndex } from "./aggregate";
+import { teamSlug, groupSlug, playerSlug, buildPlayers, buildTeamView, buildSearchIndex, buildFinalRanking } from "./aggregate";
 import type { Match } from "./types";
 
 const team = (id: string, name: string, code: string) => ({ id, name, nameKo: name, code });
@@ -117,5 +117,88 @@ describe("buildSearchIndex — finished match", () => {
   const matchDoc = docs.find((d) => d.type === "match")!;
   it("keeps the scoreline", () => {
     expect(matchDoc.title).toBe("South Korea 2:0 Poland");
+  });
+});
+
+// 48-team (2026) format: knockout starts at a round of 32, so the final-ranking
+// tiers must label a round-of-32 exit as "32강" — not fall back to "16강".
+const T = (c: string) => team(`T-${c}`, c, c);
+function ko(stage: string, home: string, away: string, hs: number, as: number, opts: Partial<Match> = {}): Match {
+  return {
+    ...m,
+    id: `M-${stage}-${home}-${away}`,
+    slug: `${home}-vs-${away}-${stage}`.toLowerCase(),
+    stage,
+    group: "not applicable",
+    groupStage: stage === "group stage",
+    home: T(home),
+    away: T(away),
+    homeScore: hs,
+    awayScore: as,
+    result: hs > as ? "win" : hs < as ? "loss" : "draw",
+    lineups: { home: [], away: [] },
+    goals: [],
+    ...opts,
+  };
+}
+
+describe("buildFinalRanking — 48-team knockout tiers", () => {
+  const matches: Match[] = [
+    ko("group stage", "H", "G", 0, 1, { group: "Group A", groupStage: true }),
+    ko("round of 32", "G", "F", 0, 1),
+    ko("round of 16", "F", "E", 0, 1),
+    ko("quarter-finals", "E", "A", 0, 1),
+    ko("semi-finals", "A", "C", 1, 0),
+    ko("semi-finals", "B", "D", 1, 0),
+    ko("third-place match", "C", "D", 1, 0),
+    ko("final", "A", "B", 1, 0),
+  ];
+  const rows = buildFinalRanking(matches);
+  const finish = (code: string) => rows.find((r) => r.team.code === code)?.finish;
+
+  it("labels every exit round distinctly", () => {
+    expect(finish("A")).toBe("우승");
+    expect(finish("B")).toBe("준우승");
+    expect(finish("C")).toBe("3위");
+    expect(finish("D")).toBe("4위");
+    expect(finish("E")).toBe("8강");
+    expect(finish("F")).toBe("16강");
+    expect(finish("G")).toBe("32강");
+    expect(finish("H")).toBe("조별리그");
+  });
+
+  it("ranks a round-of-32 exit below a round-of-16 exit", () => {
+    const pos = (code: string) => rows.find((r) => r.team.code === code)!.position;
+    expect(pos("G")).toBeGreaterThan(pos("F"));
+  });
+});
+
+describe("buildFinalRanking — scheduled matches excluded", () => {
+  const matches: Match[] = [
+    ko("group stage", "A", "B", 2, 0, { group: "Group A", groupStage: true }),
+    // placeholder 0:0 draw that has not been played — must not count
+    ko("group stage", "A", "B", 0, 0, { group: "Group A", groupStage: true, status: "scheduled" }),
+  ];
+  const rows = buildFinalRanking(matches);
+  it("ignores scheduled placeholder draws", () => {
+    const a = rows.find((r) => r.team.code === "A")!;
+    expect(a.played).toBe(1);
+    expect(a.draws).toBe(0);
+  });
+});
+
+describe("buildFinalRanking — semi-final loser without third-place data", () => {
+  // Mid-tournament: SF played but the third-place match not yet — both SF
+  // losers should read 4강, not fall to 16강.
+  const matches: Match[] = [
+    ko("semi-finals", "A", "C", 1, 0),
+    ko("semi-finals", "B", "D", 1, 0),
+    ko("final", "A", "B", 1, 0),
+  ];
+  const rows = buildFinalRanking(matches);
+  const finish = (code: string) => rows.find((r) => r.team.code === code)?.finish;
+  it("labels SF losers 4강 when no third-place match exists", () => {
+    expect(finish("C")).toBe("4강");
+    expect(finish("D")).toBe("4강");
   });
 });

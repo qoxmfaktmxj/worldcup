@@ -1,8 +1,8 @@
 /**
- * 2026 FIFA World Cup — group-stage fixtures snapshot (manually verified from
- * official sources, asOf 2026-07-08). 12 groups × 6 = 72 fixtures.
- * Knockout (round of 32+) is omitted while teams are undetermined (group stage
- * in progress). Re-run collection to refresh scores / add knockout once known.
+ * 2026 FIFA World Cup — fixtures snapshot (manually verified from official
+ * sources, asOf 2026-07-13). Group stage: 12 groups × 6 = 72 fixtures.
+ * Knockout lives in KNOCKOUT_2026 below and grows round by round as pairings
+ * are confirmed (round of 32 → final).
  *
  * Nothing fabricated: scheduled matches carry no score; only matches with a
  * published final result are status 'finished'.
@@ -189,4 +189,7 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "quarter-finals", kickoffUtc: "2026-07-11T21:00:00Z", home: "Norway", away: "England", homeScore: 1, awayScore: 2, venueId: "miami" },
   // Argentina 3-1 Switzerland (AET; 1-1 at 90', Álvarez 112' & L. Martínez in ET, no shootout)
   { stage: "quarter-finals", kickoffUtc: "2026-07-12T01:00:00Z", home: "Argentina", away: "Switzerland", homeScore: 3, awayScore: 1, venueId: "kansascity" },
+  // Semi-finals (7/14–7/15) — QF winners
+  { stage: "semi-finals", kickoffUtc: "2026-07-14T19:00:00Z", home: "France", away: "Spain", homeScore: null, awayScore: null, venueId: "arlington" },
+  { stage: "semi-finals", kickoffUtc: "2026-07-15T19:00:00Z", home: "England", away: "Argentina", homeScore: null, awayScore: null, venueId: "atlanta" },
 ];

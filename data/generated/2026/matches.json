@@ -28894,5 +28894,87 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K29",
+    "slug": "france-vs-spain",
+    "status": "scheduled",
+    "date": "2026-07-15",
+    "time": "",
+    "kickoffUtc": "2026-07-14T19:00:00Z",
+    "venueId": "arlington",
+    "stadium": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "semi-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-FRA",
+      "name": "France",
+      "code": "FRA",
+      "nameKo": "프랑스"
+    },
+    "away": {
+      "id": "T-ESP",
+      "name": "Spain",
+      "code": "ESP",
+      "nameKo": "스페인"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
+  },
+  {
+    "id": "M-2026-K30",
+    "slug": "england-vs-argentina",
+    "status": "scheduled",
+    "date": "2026-07-16",
+    "time": "",
+    "kickoffUtc": "2026-07-15T19:00:00Z",
+    "venueId": "atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "semi-finals",
+    "groupStage": false,
+    "home": {
+      "id": "T-ENG",
+      "name": "England",
+      "code": "ENG",
+      "nameKo": "잉글랜드"
+    },
+    "away": {
+      "id": "T-ARG",
+      "name": "Argentina",
+      "code": "ARG",
+      "nameKo": "아르헨티나"
+    },
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "draw",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]

@@ -8,8 +8,10 @@ const FINISH_STYLE: Record<string, string> = {
   준우승: "bg-[#c4c8d0] text-[#23262f]",
   "3위": "bg-[#cd7f32] text-[#2a1600]",
   "4위": "border border-line text-muted",
+  "4강": "border border-line text-muted",
   "8강": "border border-line text-muted",
   "16강": "border border-line text-muted",
+  "32강": "border border-line text-muted",
   조별리그: "text-muted-dim",
 };
 

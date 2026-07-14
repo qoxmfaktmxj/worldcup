@@ -26,13 +26,15 @@ if (existsSync(GEN_DIR)) {
     try {
       genDetails[slug] = JSON.parse(readFileSync(join(GEN_DIR, f), "utf8")) as MatchDetail;
     } catch {
-      console.warn(`skip malformed detail: ${f}`);
+      // A malformed detail silently dropping a whole lineup must fail the build.
+      console.error(`FATAL: malformed detail JSON: ${f}`);
+      process.exit(1);
     }
   }
 }
 const detailFor = (slug: string): MatchDetail | undefined => DETAILS_2026[slug] ?? genDetails[slug];
 
-const ASOF = "2026-07-13";
+const ASOF = "2026-07-14";
 
 const ref = (name: string) => teamRef(`T-${CODES_2026[name]}`, name, CODES_2026[name], {});
 
@@ -81,6 +83,9 @@ const matches: Match[] = FIXTURES_2026.map((tuple, i) => {
 
 // Knockout matches (group_name = not applicable so the UI shows the round).
 // A penalty shootout keeps the regulation score; result reflects who advances.
+// Slugs must stay unique per year: a knockout rematch of a group fixture (or an
+// earlier round) would otherwise shadow it in getMatch/find — append the stage.
+const usedSlugs = new Set(matches.map((m) => m.slug));
 const knockout: Match[] = KNOCKOUT_2026.map((k, i) => {
   const finished = k.homeScore !== null && k.awayScore !== null;
   const hs = finished ? (k.homeScore as number) : 0;
@@ -90,7 +95,9 @@ const knockout: Match[] = KNOCKOUT_2026.map((k, i) => {
   const homeAdv = pens ? (k.homePens as number) > (k.awayPens as number) : hs > as;
   const result = finished ? (hs === as && pens ? (homeAdv ? "win" : "loss") : hs > as ? "win" : hs < as ? "loss" : "draw") : "draw";
   const venue: Venue | undefined = VENUES_2026.find((v) => v.id === k.venueId);
-  const slug = slugify(`${k.home} vs ${k.away}`);
+  const baseSlug = slugify(`${k.home} vs ${k.away}`);
+  const slug = usedSlugs.has(baseSlug) ? slugify(`${k.home} vs ${k.away} ${k.stage}`) : baseSlug;
+  usedSlugs.add(slug);
   const detail = detailFor(slug);
 
   return {
@@ -169,6 +176,12 @@ for (const m of matches.filter((m) => m.status === "finished" && m.groupStage)) 
   teamStats.set(aName, aStat);
 }
 
+// Advancing teams derived from the CONFIRMED round-of-32 bracket — no
+// tie-breaker guesswork. Empty until the knockout draw exists.
+const r32Teams = new Set(
+  KNOCKOUT_2026.filter((k) => k.stage === "round of 32").flatMap((k) => [k.home, k.away]),
+);
+
 const standings: GroupStanding[] = [...groupTeams.entries()]
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([grp, teams]) => {
@@ -188,7 +201,9 @@ const standings: GroupStanding[] = [...groupTeams.entries()]
         ga: s.ga,
         gd,
         points,
-        advanced: false, // group stage in progress
+        // True once the team's place in the round of 32 is confirmed by the
+        // actual bracket (derived, not computed from tie-breakers).
+        advanced: r32Teams.has(name),
       };
     });
 
