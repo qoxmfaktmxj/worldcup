@@ -28898,7 +28898,7 @@
   {
     "id": "M-2026-K29",
     "slug": "france-vs-spain",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-15",
     "time": "",
     "kickoffUtc": "2026-07-14T19:00:00Z",
@@ -28922,11 +28922,11 @@
       "nameKo": "스페인"
     },
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []
