@@ -28939,7 +28939,7 @@
   {
     "id": "M-2026-K30",
     "slug": "england-vs-argentina",
-    "status": "scheduled",
+    "status": "finished",
     "date": "2026-07-16",
     "time": "",
     "kickoffUtc": "2026-07-15T19:00:00Z",
@@ -28962,12 +28962,12 @@
       "code": "ARG",
       "nameKo": "아르헨티나"
     },
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 2,
     "penaltyShootout": false,
     "homePenalties": 0,
     "awayPenalties": 0,
-    "result": "draw",
+    "result": "loss",
     "lineups": {
       "home": [],
       "away": []

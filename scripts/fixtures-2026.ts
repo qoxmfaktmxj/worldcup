@@ -191,5 +191,5 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   { stage: "quarter-finals", kickoffUtc: "2026-07-12T01:00:00Z", home: "Argentina", away: "Switzerland", homeScore: 3, awayScore: 1, venueId: "kansascity" },
   // Semi-finals (7/14–7/15) — QF winners
   { stage: "semi-finals", kickoffUtc: "2026-07-14T19:00:00Z", home: "France", away: "Spain", homeScore: 0, awayScore: 2, venueId: "arlington" },
-  { stage: "semi-finals", kickoffUtc: "2026-07-15T19:00:00Z", home: "England", away: "Argentina", homeScore: null, awayScore: null, venueId: "atlanta" },
+  { stage: "semi-finals", kickoffUtc: "2026-07-15T19:00:00Z", home: "England", away: "Argentina", homeScore: 1, awayScore: 2, venueId: "atlanta" },
 ];
