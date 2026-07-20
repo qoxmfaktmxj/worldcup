@@ -25,6 +25,7 @@ function tomorrowKst(now: Date): string {
 
 export function Live2026Strip({ matches, asOf }: Props) {
   const [dateKeys, setDateKeys] = useState<{ today: string; tomorrow: string } | null>(null);
+  const isConcluded = matches.length > 0 && matches.every((m) => m.status === "finished");
 
   useEffect(() => {
     const tick = () => {
@@ -81,7 +82,7 @@ export function Live2026Strip({ matches, asOf }: Props) {
           2026 FIFA 월드컵
         </h2>
         <p className="text-sm text-muted">
-          북중미 · 진행 중
+          북중미 · {isConcluded ? "대회 종료" : "진행 중"}
           {asOf ? <span className="text-korea"> ({asOf} 기준)</span> : ""}
         </p>
       </div>

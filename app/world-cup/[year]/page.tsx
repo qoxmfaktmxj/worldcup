@@ -11,10 +11,16 @@ export function generateStaticParams() {
 export default async function TournamentPage({ params }: { params: Promise<{ year: string }> }) {
   const { year } = await params;
   const y = Number(year);
-  const [t, standings, ranking] = await Promise.all([getTournament(y), getStandings(y), getFinalRanking(y)]);
+  const [t, standings, ranking, matches] = await Promise.all([
+    getTournament(y),
+    getStandings(y),
+    getFinalRanking(y),
+    getMatches(y),
+  ]);
   // 녹아웃 경기가 있으면 토너먼트 nav 노출(없으면 브래킷이 빈 상태이므로 숨김).
-  const hasKnockout = (await getMatches(y)).some((m) => !m.groupStage);
+  const hasKnockout = matches.some((m) => !m.groupStage);
   const tournamentExtra = hasKnockout ? [{ label: "토너먼트", href: `/world-cup/${y}/bracket` }] : [];
+  const isConcluded = matches.length > 0 && matches.every((m) => m.status === "finished");
 
   return (
     <main className="mx-auto max-w-5xl p-6">
@@ -28,7 +34,9 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
             </h1>
             <p className="text-muted mt-1">
               {t.host}
-              {t.asOf ? <span className="text-korea"> · 진행 중 ({t.asOf} 기준)</span> : ""}
+              {t.asOf ? (
+                <span className="text-korea"> · {isConcluded ? "대회 종료" : "진행 중"} ({t.asOf} 기준)</span>
+              ) : ""}
             </p>
           </div>
         </div>
