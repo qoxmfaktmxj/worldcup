@@ -192,4 +192,6 @@ export const KNOCKOUT_2026: KnockoutFixture[] = [
   // Semi-finals (7/14–7/15) — QF winners
   { stage: "semi-finals", kickoffUtc: "2026-07-14T19:00:00Z", home: "France", away: "Spain", homeScore: 0, awayScore: 2, venueId: "arlington" },
   { stage: "semi-finals", kickoffUtc: "2026-07-15T19:00:00Z", home: "England", away: "Argentina", homeScore: 1, awayScore: 2, venueId: "atlanta" },
+  // Final (7/19) — Spain 1-0 Argentina AET (Ferran Torres 106'), no shootout
+  { stage: "final", kickoffUtc: "2026-07-19T19:00:00Z", home: "Spain", away: "Argentina", homeScore: 1, awayScore: 0, venueId: "eastrutherford" },
 ];

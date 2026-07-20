@@ -28976,5 +28976,46 @@
     "bookings": [],
     "subs": [],
     "shootout": []
+  },
+  {
+    "id": "M-2026-K31",
+    "slug": "spain-vs-argentina",
+    "status": "finished",
+    "date": "2026-07-20",
+    "time": "",
+    "kickoffUtc": "2026-07-19T19:00:00Z",
+    "venueId": "eastrutherford",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "United States",
+    "group": "not applicable",
+    "stage": "final",
+    "groupStage": false,
+    "home": {
+      "id": "T-ESP",
+      "name": "Spain",
+      "code": "ESP",
+      "nameKo": "스페인"
+    },
+    "away": {
+      "id": "T-ARG",
+      "name": "Argentina",
+      "code": "ARG",
+      "nameKo": "아르헨티나"
+    },
+    "homeScore": 1,
+    "awayScore": 0,
+    "penaltyShootout": false,
+    "homePenalties": 0,
+    "awayPenalties": 0,
+    "result": "win",
+    "lineups": {
+      "home": [],
+      "away": []
+    },
+    "goals": [],
+    "bookings": [],
+    "subs": [],
+    "shootout": []
   }
 ]
