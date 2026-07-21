@@ -24,7 +24,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ yea
 
   return (
     <main className="mx-auto max-w-5xl p-6">
-      <Nav extra={tournamentExtra} />
+      <Nav year={y} extra={tournamentExtra} />
       <div className="flex flex-wrap items-end gap-4 mt-6">
         <div className="flex items-center gap-4">
           <img src={emblemLarge(y)} alt={`${t.name} 로고`} className="h-28 w-auto" />

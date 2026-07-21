@@ -168,52 +168,73 @@ export function KoreaTracker({ standings, matches, watchLinks }: Props) {
         </div>
       </section>
 
-      {/* 진출 시나리오 */}
+      {/* 진출 시나리오: 조별리그 진행 중일 때만 노출, 종료 후엔 최종 결과 표시 */}
       <section>
         <h2
           className="font-display text-xl mb-3"
           style={{ transform: 'skewX(-6deg)' }}
         >
-          진출 시나리오
+          {korRow && korRow.played < 3 ? '진출 시나리오' : '조별리그 결과'}
         </h2>
-        <div className="grid gap-3 sm:grid-cols-3">
-          {/* 승 */}
-          <div className="rounded-lg border border-green-500/30 bg-green-500/5 p-4">
-            <div className="text-xs font-medium uppercase tracking-wider text-green-400 mb-2">
-              승리
+        {korRow && korRow.played < 3 ? (
+          <div className="grid gap-3 sm:grid-cols-3">
+            {/* 승 */}
+            <div className="rounded-lg border border-green-500/30 bg-green-500/5 p-4">
+              <div className="text-xs font-medium uppercase tracking-wider text-green-400 mb-2">
+                승리
+              </div>
+              <div className="font-display text-2xl text-white mb-1">
+                승점 {scenarios.win.points}
+              </div>
+              <div className="text-xs text-muted leading-relaxed">
+                {scenarios.win.note}
+              </div>
             </div>
-            <div className="font-display text-2xl text-white mb-1">
-              승점 {scenarios.win.points}
+            {/* 무 */}
+            <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/5 p-4">
+              <div className="text-xs font-medium uppercase tracking-wider text-yellow-400 mb-2">
+                무승부
+              </div>
+              <div className="font-display text-2xl text-white mb-1">
+                승점 {scenarios.draw.points}
+              </div>
+              <div className="text-xs text-muted leading-relaxed">
+                {scenarios.draw.note}
+              </div>
             </div>
-            <div className="text-xs text-muted leading-relaxed">
-              {scenarios.win.note}
+            {/* 패 */}
+            <div className="rounded-lg border border-red-500/30 bg-red-500/5 p-4">
+              <div className="text-xs font-medium uppercase tracking-wider text-red-400 mb-2">
+                패배
+              </div>
+              <div className="font-display text-2xl text-white mb-1">
+                승점 {scenarios.loss.points}
+              </div>
+              <div className="text-xs text-muted leading-relaxed">
+                {scenarios.loss.note}
+              </div>
             </div>
           </div>
-          {/* 무 */}
-          <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/5 p-4">
-            <div className="text-xs font-medium uppercase tracking-wider text-yellow-400 mb-2">
-              무승부
-            </div>
-            <div className="font-display text-2xl text-white mb-1">
-              승점 {scenarios.draw.points}
-            </div>
-            <div className="text-xs text-muted leading-relaxed">
-              {scenarios.draw.note}
-            </div>
-          </div>
-          {/* 패 */}
-          <div className="rounded-lg border border-red-500/30 bg-red-500/5 p-4">
-            <div className="text-xs font-medium uppercase tracking-wider text-red-400 mb-2">
-              패배
-            </div>
-            <div className="font-display text-2xl text-white mb-1">
-              승점 {scenarios.loss.points}
+        ) : (
+          <div
+            className={`rounded-lg border p-4 ${
+              korRow?.advanced
+                ? 'border-korea/50 bg-korea/5'
+                : 'border-line bg-panel/60'
+            }`}
+          >
+            <div
+              className={`font-display text-2xl mb-1 ${
+                korRow?.advanced ? 'text-korea' : 'text-white'
+              }`}
+            >
+              {korRow?.advanced ? '16강 진출' : '조별리그 탈락'}
             </div>
             <div className="text-xs text-muted leading-relaxed">
-              {scenarios.loss.note}
+              {korGroup?.group} {korRow?.position}위 · 승점 {korRow?.points}
             </div>
           </div>
-        </div>
+        )}
       </section>
 
       {/* 중계 링크 */}
